@@ -17,10 +17,19 @@
 }
 
 @font-face {
-	font-family: "P22 Underground";
-	src: url(../assets/fonts/P22UndergroundLight.woff2) format("woff2"),
-			 url(../assets/fonts/P22UndergroundLight.otf) format("opentype");
+	font-family: "Gill Sans Nova";
+	src: url(../assets/fonts/GillSansNova-Light.woff2) format("woff2"),
+			 url(../assets/fonts/GillSansNova-Light.otf) format("opentype");
 	font-style: normal;
 	font-weight: 300;
+	font-feature-settings: "kern" 1, "onum" 1;
+}
+
+@font-face {
+	font-family: "Gill Sans Nova";
+	src: url(../assets/fonts/GillSansNova-Book.woff2) format("woff2"),
+			 url(../assets/fonts/GillSansNova-Book.otf) format("opentype");
+	font-style: normal;
+	font-weight: 400;
 	font-feature-settings: "kern" 1, "onum" 1;
 }
