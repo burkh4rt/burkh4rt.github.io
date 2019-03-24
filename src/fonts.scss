@@ -1,34 +1,26 @@
 @font-face {
 	font-family: "Garamond Premier Pro Caption";
-	src: url(../assets/fonts/GaramondPremrPro-Capt.otf);
+	src: url(../assets/fonts/GaramondPremrPro-Capt.woff2) format("woff2"),
+			 url(../assets/fonts/GaramondPremrPro-Capt.otf) format("opentype");
 	font-style: normal;
 	font-weight: 400;
+	font-feature-settings: "kern" 1, "onum" 1;
 }
 
 @font-face {
 	font-family: "Garamond Premier Pro Caption";
-	src: url(../assets/fonts/GaramondPremrPro-MedCapt.otf);
+	src: url(../assets/fonts/GaramondPremrPro-MedCapt.woff2) format("woff2"),
+			 url(../assets/fonts/GaramondPremrPro-MedCapt.otf) format("opentype");
 	font-style: normal;
 	font-weight: 500;
+	font-feature-settings: "kern" 1, "onum" 1;
 }
 
 @font-face {
 	font-family: "P22 Underground";
-	src: url(../assets/fonts/P22UndergroundLight.otf);
+	src: url(../assets/fonts/P22UndergroundLight.woff2) format("woff2"),
+			 url(../assets/fonts/P22UndergroundLight.otf) format("opentype");
 	font-style: normal;
 	font-weight: 300;
-}
-
-@font-face {
-	font-family: "P22 Underground";
-	src: url(../assets/fonts/P22UndergroundBook.otf);
-	font-style: normal;
-	font-weight: 400;
-}
-
-@font-face {
-	font-family: "P22 Underground";
-	src: url(../assets/fonts/P22UndergroundBook.otf);
-	font-style: normal;
-	font-weight: 500;
+	font-feature-settings: "kern" 1, "onum" 1;
 }
