@@ -91,12 +91,17 @@ a:visited {
 }
 
 .deck .content {
+    margin-top: -0.6rem;
     padding: 0 0.5rem 0 0.5rem;
     font-weight: normal;
 }
 
+.deck h3 {
+    margin-top: -0.6rem;
+}
+
 .deck .card {
-  margin: calc(0.7vw + 1rem) auto calc(0.7vw + 1rem) auto;
+  margin: calc(0.5vw + 0.8rem) auto calc(0.5vw + 0.8rem) auto;
   border-width : 0.1vw;
   border-style: solid;
   border-radius: 0.5rem;
@@ -109,9 +114,11 @@ a:visited {
 .deck .title {
   position: relative;
   left: 1rem;
-  top: -0.5rem;
+  top: -0.7rem;
   font-family: "Garamond Premier Pro Caption", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+  font-family: "Gill Sans Nova", "P22 Underground", "Futura", sans-serif;
   font-feature-settings: "smcp" 1;
+  letter-spacing: 0.0625em;
   margin:0;
   padding: 0 0.7vw 0 0.7vw;
   height: min-content;
@@ -146,7 +153,7 @@ a:visited {
 }
 
 ul {
-  margin-left: 1rem;
+  margin: -0.6rem 0 0 1rem;
 }
 
 li {
