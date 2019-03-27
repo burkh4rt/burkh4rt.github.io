@@ -6,6 +6,7 @@
 	font-weight: 400;
 	font-feature-settings: "kern" 1, "onum" 1;
 	unicode-range: U+00-FF, U+261E;
+	font-display: block;
 }
 
 @font-face {
@@ -16,6 +17,7 @@
 	font-weight: 500;
 	font-feature-settings: "kern" 1, "onum" 1;
 	unicode-range: U+00-FF, U+261E;
+	font-display: block;
 }
 
 @font-face {
@@ -26,6 +28,7 @@
 	font-weight: 300;
 	font-feature-settings: "kern" 1, "onum" 1;
 	unicode-range: U+00-FF;
+	font-display: block;
 }
 
 @font-face {
@@ -36,4 +39,5 @@
 	font-weight: 400;
 	font-feature-settings: "kern" 1, "onum" 1;
 	unicode-range: U+00-FF;
+	font-display: block;
 }
