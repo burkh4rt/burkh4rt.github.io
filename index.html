@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>@burkh4rt</title>
+  <meta name="author" content="Michael C. Burkhart">
+  <meta name="application-name" content="@burkh4rt"/>
+
   <link rel="stylesheet" href="dist/main.css" />
 
   <link rel="apple-touch-icon-precomposed" sizes="57x57" href="assets/ico/apple-touch-icon-57x57.png" />
@@ -20,7 +23,6 @@
   <link rel="icon" type="image/png" href="assets/ico/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="assets/ico/favicon-16x16.png" sizes="16x16" />
   <link rel="icon" type="image/png" href="assets/ico/favicon-128.png" sizes="128x128" />
-  <meta name="application-name" content="@burkh4rt"/>
   <meta name="msapplication-TileColor" content="#FFFFFF" />
   <meta name="msapplication-TileImage" content="assets/ico/mstile-144x144.png" />
   <meta name="msapplication-square70x70logo" content="assets/ico/mstile-70x70.png" />
@@ -46,6 +48,13 @@
     </div>
 
     <div class="card" id="profile_img">
+      <img srcset="assets/img-optimized/profile_img-lo.jpg 1034w,
+                   assets/img-optimized/profile_img-med.jpg 2067w,
+                   assets/img-optimized/profile_img-hi.jpg 3132w"
+     sizes="(max-width: 768px) 1034px,
+            (max-width: 1012px) 2067px,
+            3132px"
+     src="assets/img-optimized/profile_img-hi.jpg" alt="me">
     </div>
 
     <div class="card">
@@ -64,7 +73,7 @@
       <h4 class="title"> Links to Publications </h4>
       <ul class="content">
         <li> <a href="https://doi.org/10.1162/neco_a_01129" target="_blank">D. Brandman, M. Burkhart, J. Kelemen, B. Franco, M. Harrison, &amp; L. Hochberg. <i>Robust Closed-Loop Control of a Cursor in a Person with Tetraplegia using Gaussian Process Regression,</i> Neural Computation 11 (2018)</a> </li>
-        <li> <a href="https://doi.org/10.1016/j.enbuild.2014.01.048" target="_blank">D. Brandman, T. Hosman, J. Saab, M. Burkhart, B. Shanahan, J. Ciancibello, et al. <i>Rapid calibration of an intracortical brain computer interface for people with tetraplegia,</i> Journal of Neural Engineering 15 (2018)</a> </li>
+        <li> <a href="https://doi.org/10.1088/1741-2552/aa9ee7" target="_blank">D. Brandman, T. Hosman, J. Saab, M. Burkhart, B. Shanahan, J. Ciancibello, et al. <i>Rapid calibration of an intracortical brain computer interface for people with tetraplegia,</i> Journal of Neural Engineering 15 (2018)</a> </li>
         <li> <a href="https://doi.org/10.1016/j.enbuild.2014.01.048" target="_blank">M. Burkhart, Y. Heo, &amp; V. Zavala. <i>Measurement and verification of building systems under uncertain data: A Gaussian process modeling approach,</i> Energy and Buildings 75 (2014)</a> </li>
       </ul>
     </div>
