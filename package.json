@@ -3,6 +3,8 @@
   "devDependencies": {
     "@primer/css": "^12.2.1",
     "autoprefixer": "^9.5.0",
+    "clean-css": "^4.2.1",
+    "clean-css-cli": "^4.2.1",
     "imagemin-cli": "^4.0.1",
     "imagemin-mozjpeg": "^8.0.0",
     "node-sass": "^4.11.0",
@@ -12,9 +14,11 @@
   "scripts": {
     "autoprefixer": "postcss -u autoprefixer -r dist/*.css",
     "scss": "node-sass --output-style compressed --include-path ./node_modules/ --include-path ./src src/main.scss -o dist/",
-    "build:css": "run-s scss autoprefixer",
+    "cleancss": "cleancss -O1 'all:on;specialComments:0' -O2 'all:on' -o dist/main.css dist/main.css",
+    "build:css": "run-s scss autoprefixer cleancss",
     "build:img": "imagemin assets/img/*.svg --out-dir=dist/img/",
-    "build:jpg": "imagemin --plugin=mozjpeg assets/img/*.jpg --out-dir=dist/img/",
+    "build:jpg": "imagemin assets/img-optimized/* --out-dir=dist/img-optimized/",
+    "build:alt-jpg": "imagemin --plugin=mozjpeg assets/img/*.jpg --out-dir=dist/img/",
     "build": "run-s build:*",
     "clean": "rm -f dist/{css/*}"
   },

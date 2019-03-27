@@ -3,7 +3,6 @@
 @import "node_modules/@primer/css/utilities/index.scss";
 @import "node_modules/@primer/css/box/index.scss";
 
-@import "boilerplate.css";
 @import "gist.scss";
 @import "headers.scss";
 @import "fonts.scss";
@@ -35,7 +34,7 @@ a:visited {
   align-items: center;
   font-family: "Garamond Premier Pro Caption", Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
   background-color: $black;
-  background-image: url("../dist/img-optimized/pohutukawa-med.jpg");
+  background-image: url("../dist/img-optimized/pohutukawa-lo.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -134,7 +133,7 @@ a:visited {
   color: $white;
   font-family: "Garamond Premier Pro Caption", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
   background-color: $black;
-  background-image: url("../dist/img-optimized/pohutukawa-med.jpg");
+  background-image: url("../dist/img-optimized/pohutukawa-lo.jpg");
   background-position: center;
   background-size: cover;
   justify-content: center;
@@ -204,16 +203,22 @@ li {
     columns: 2;
   }
   .jumbotron {
-    background-image: url("../dist/img-optimized/pohutukawa-hi.jpg");
+    background-image: url("../dist/img-optimized/pohutukawa-med.jpg");
   }
   .footer {
-    background-image: url("../dist/img-optimized/pohutukawa-hi.jpg");
+    background-image: url("../dist/img-optimized/pohutukawa-med.jpg");
   }
 }
 
 @media (min-width: $width-lg) {
   .deck {
     columns: 3;
+  }
+  .jumbotron {
+    background-image: url("../dist/img-optimized/pohutukawa-hi.jpg");
+  }
+  .footer {
+    background-image: url("../dist/img-optimized/pohutukawa-hi.jpg");
   }
 }
 
