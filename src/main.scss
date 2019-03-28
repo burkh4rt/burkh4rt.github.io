@@ -3,6 +3,7 @@
 @import "node_modules/@primer/css/utilities/index.scss";
 @import "node_modules/@primer/css/box/index.scss";
 
+@import "boilerplate.scss";
 @import "gist.scss";
 @import "headers.scss";
 @import "fonts.scss";
@@ -113,7 +114,7 @@ a:visited {
 .deck .title {
   position: relative;
   left: 1rem;
-  top: -0.7rem;
+  top: -0.6rem;
   font-family: "Garamond Premier Pro Caption", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
   font-family: "Gill Sans Nova", "P22 Underground", "Futura", sans-serif;
   font-feature-settings: "smcp" 1;
