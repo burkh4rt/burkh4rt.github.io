@@ -1,0 +1,121 @@
+# set size to 16pt
+
+# preamble
+\documentclass[10pt]{article}
+\usepackage[usenames]{color} %used for font color
+\usepackage{amssymb} %maths
+\usepackage{amsmath} %maths
+\usepackage[utf8]{inputenc} %useful to type directly diacritic characters
+\usepackage[T1]{fontenc}
+
+\usepackage{amscd}
+\usepackage[MnSymbol]{mathspec}
+
+\setmainfont{GaramondPremrPro}[
+Path               = /Users/mburkhar/Library/Fonts/,
+Extension      = .otf,
+UprightFont    = *-Capt,
+BoldFont        = *-MedCapt,
+ItalicFont     = *-ItCapt,
+BoldItalicFont = *-MedItCapt,
+Kerning        = {On},
+RawFeature     = {+liga,+kern,+pnum},
+Mapping=tex-text]
+
+\setmathrm[
+Path               = /Users/mburkhar/Library/Fonts/,
+Extension      = .otf,
+RawFeature     = {+liga,+kern,+pnum}
+]{GaramondPremrPro-Capt}
+
+\setmathsfont(Digits,Latin,Greek)[
+Path               = /Users/mburkhar/Library/Fonts/,
+Extension      = .otf,
+RawFeature     = {+kern,+pnum}
+]{GaramondPremrPro-ItCapt}
+
+\usepackage{xcolor}
+\definecolor{red}{HTML}{ED1C24}
+\definecolor{brown}{HTML}{4E3629}
+\definecolor{gold}{HTML}{FFC72C}
+\definecolor{gray}{HTML}{98A4AE}
+\definecolor{skyblue}{HTML}{59CBE8}
+\definecolor{emerald}{HTML}{00B398}
+\definecolor{navy}{HTML}{003C71}
+\definecolor{green}{HTML}{046A38}
+
+# graphical_model
+\[
+\begin{CD}
+Z_1 @>>> \text{\raisebox{1.8pt}{\dots}} @>>> Z_{\textit{t\char"002D{}1}} @>>> Z_t \\
+@VVV @. @VVV @VVV \\
+X_1 @. @. X_{\textit{t\char"002D{}1}} @. X_t
+\end{CD}
+\]
+
+# chapman_kolmogorov
+\[
+{\textcolor{red}{p(z_t|x_{1:t})}}
+\propto
+\underbrace{{\textcolor{green}{p(x_t|z_t)}} \underbrace{\int {\textcolor{navy}{p(z_t|z_\textit{t\char"002D{}1})}}\; {\textcolor{red}{p(z_\textit{t\char"002D{}1}|x_{1:\textit{t\char"002D{}1}})}} \; dz_\textit{t\char"002D{}1}}_{\text{ \textcolor{navy}{state update}, gives }p(z_t|x_{1:\textit{t\char"002D{}1}})}}_{\text{ \textcolor{green}{measurement update}, gives }p(x_t,z_t|x_{1:\textit{t\char"002D{}1}})}
+\]
+
+# bayesian_graphical
+\[
+\begin{CD}
+Z_1 @>\textcolor{navy}{p(z_2|z_1)}>> \text{\raisebox{1.8pt}{\dots}} @>\textcolor{navy}{p(z_\textit{t\char"002D{}1}|z_\textit{t\char"002D{}2})}>> Z_{\textit{t\char"002D{}1}} @>\textcolor{navy}{p(z_t|z_\textit{t\char"002D{}1})}>> Z_t \\
+@VV\textcolor{green}{p(x_{1}|z_{1})}V @. @VV\textcolor{green}{p(x_\textit{t\char"002D{}1}|z_\textit{t\char"002D{}1})}V @VV\textcolor{green}{p(x_t|z_t)}V \\
+X_1 @. @. X_{\textit{t\char"002D{}1}} @. X_t
+\end{CD}
+\]
+
+# kalman_graphical
+\[
+\begin{CD}
+Z_{\textit{t\char"002D{}1}}|X_{1:\textit{t\char"002D{}1}} @>\textcolor{navy}{\eta_d(z_t;\,Az_\textit{t\char"002D{}1},\Gamma)}>> Z_t \\ @. @VV\textcolor{green}{\textcolor{green}{\eta_n(x_t;Hz_t,\Lambda)}}V \\
+@. X_t
+\end{CD}
+\]
+
+# dkf_graphical
+\[
+\begin{CD}
+Z_{\textit{t\char"002D{}1}}|X_{1:\textit{t\char"002D{}1}} @>\textcolor{navy}{\eta_d(z_t;\,Az_\textit{t\char"002D{}1},\Gamma)}>> Z_t \\ @. @VV\textcolor{green}{\approx\tfrac{\eta_d(z_t;\,f(x_t),Q(x_t))}{\eta_d(z_t;0,S)}}V \\
+@. X_t
+\end{CD}
+\]
+
+# nonstationarities
+
+# additional preamble
+\usepackage{tikz}
+\usetikzlibrary{bayesnet,matrix}
+\tikzset{>=latex}
+
+\usepackage{tikz-cd}
+\usetikzlibrary{cd,patterns,decorations.pathmorphing,decorations.pathreplacing}
+\tikzcdset{arrow style=math font}
+
+# may have to change margins for latexit
+\[
+\begin{tikzpicture}[commutative diagrams/every diagram]
+\matrix[matrix of math nodes, name=m, commutative diagrams/every cell, ampersand replacement=\&, column sep=1.6cm] {
+Z_1 \& Z_2 \& \cdots \& Z_{t-1}  \& Z_t \\
+X_1 \& X_2 \& \& X_{t-1} \& X_t \\ };
+  \path[commutative diagrams/.cd, every arrow, every label]
+    (m-1-1) edge (m-1-2)
+    		edge (m-2-1)
+    (m-1-2) edge (m-1-3)
+    		edge (m-2-2)
+    (m-1-3) edge (m-1-4)
+    (m-1-4) edge (m-1-5)
+    		edge[commutative diagrams/rightsquigarrow] (m-2-4)
+    (m-1-5) edge[commutative diagrams/rightsquigarrow] (m-2-5);
+    \draw [decorate,decoration={brace,mirror,amplitude=10pt}]
+(m-2-1.south west) -- (m-2-2.south east) node [midway,below=10pt,align=center]
+{labelled training data\\for \textcolor{green}{measurement model}};
+ \draw [decorate,decoration={brace,mirror,amplitude=10pt}]
+(m-2-4.south west) -- (m-2-5.south east) node [midway,below=10pt,align=center]
+{different relationship\\at prediction time};
+\end{tikzpicture}
+\]

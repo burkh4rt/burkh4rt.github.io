@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://burkh4rt.github.io/</loc>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://burkh4rt.github.io/assets/img-optimized/profile_img-xl.jpg</image:loc>
+      <image:title>me</image:title>
+      <image:geo_location>Saint Petersburg, Russia</image:geo_location>
+      <image:caption>me</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://burkh4rt.github.io/assets/eqns/graphical_model.svg</image:loc>
+      <image:title>Graphical Model for Filtering</image:title>
+      <image:caption>This graphical model depicts the relationship between the hidden states (Z's) and meaurements (X's).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://burkh4rt.github.io/assets/eqns/bayesian_graphical.svg</image:loc>
+      <image:title>Graphical Model with Equations</image:title>
+      <image:caption>This graphical model depicts the relationship between the hidden states (Z's) and meaurements (X's). The conditional probabilities are included to help describe the Bayesian approach to filtering.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://burkh4rt.github.io/assets/eqns/chapman_kolmogorov.svg</image:loc>
+      <image:title>Chapman-Kolmogorov Equation</image:title>
+      <image:caption>This recursion drives Bayesian inference for the filtering problem. It describes how we incorporate a new measurement to update our best estimate for the hidden state at a given time step.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://burkh4rt.github.io/assets/eqns/kalman_graphical.svg</image:loc>
+      <image:title>Kalman Graphical Model</image:title>
+      <image:caption>This graphic visualizes a single time step update for the Bayesian model on which the Kalman Filter is based.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://burkh4rt.github.io/assets/eqns/dkf_graphical.svg</image:loc>
+      <image:title>Discriminative Kalman Filter Graphical Model</image:title>
+      <image:caption>This graphic visualizes a single time step update for the Bayesian model on which the Discriminative Kalman Filter is based.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://burkh4rt.github.io/assets/eqns/nonstationarities.svg</image:loc>
+      <image:title>Graphical Model depicting a Nonstationarity</image:title>
+      <image:caption>This graphic visualizes a change in the statistical relationship between the hidden and observed variables after training but prior to inference.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://burkh4rt.github.io/assets/docs/cv19.pdf</loc>
+  </url>
+  <url>
+    <loc>https://burkh4rt.github.io/assets/docs/dkf-slides.pdf</loc>
+  </url>
+</urlset>

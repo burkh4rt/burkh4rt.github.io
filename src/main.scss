@@ -1,0 +1,314 @@
+@import "normalize.scss";
+@import "scaling.scss";
+@import "colors.scss";
+@import "gist-mod.scss";
+@import "instagram-mod.scss";
+@import "twitter.scss";
+@import "fonts.scss";
+
+$garamond-stack: "Garamond Premier Pro Caption", "Adobe Garamond Premier Pro",
+  Garamond, "Apple Garamond", "ITC Garamond Narrow", Baskerville,
+  "Baskerville Old Face", "Palatino Linotype", Palatino, "Hoefler Text",
+  "Times New Roman", Times, serif;
+$gill-sans-stack: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", Frutiger,
+  "Frutiger Linotype", Univers, Calibri, "P22 Underground", "Futura", Helvetica,
+  Arial, sans-serif;
+
+%pohutukawa-background {
+  font-family: $garamond-stack;
+  color: $white;
+  background-color: $black;
+  background-image: url("../dist/img-optimized/pohutukawa-sm.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+%flex-mid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+
+%flex-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+* {
+  margin: $spacer-00;
+  line-height: 1.3;
+}
+
+a {
+  color: rgb(0, 0, 255);
+  font-family: inherit;
+  text-decoration: none;
+
+  &:visited {
+    color: rgb(150, 0, 255);
+  }
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  li {
+    line-height: 1.2;
+    padding-left: 1em;
+    padding-bottom: 0.2em;
+    text-indent: -1em;
+    &::before {
+      content: "\2022";
+      padding-right: 5px;
+    }
+  }
+}
+
+header {
+  @extend %flex-center;
+  @extend %pohutukawa-background;
+  font-feature-settings: "smcp" 1;
+  padding: $spacer-5;
+
+  h1 {
+    font-weight: bold;
+    margin: 0 auto;
+    font-size: calc(7vw + 1.5rem);
+    line-height: 1em;
+  }
+
+  h3 {
+    font-weight: normal;
+    margin: 0 $spacer-1 0 auto;
+    font-size: calc(3vw + 0.5rem);
+    line-height: 1em;
+  }
+}
+
+#profile_img img {
+  width: 100%;
+  border-radius: inherit;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.deck {
+  align-items: center;
+  align-content: center;
+  font-family: $gill-sans-stack;
+  margin: 0 auto $spacer-6;
+  padding: 0 $spacer-5;
+  columns: 1;
+  column-gap: $spacer-6;
+  width: calc(100% - 2 * $spacer-6 - 2 * $spacer-5);
+  display: block;
+  overflow: hidden;
+
+  .content {
+    margin-top: (-$spacer-4);
+    padding: $spacer-1 $spacer-3 $spacer-2;
+    overflow: hidden;
+    align-items: center;
+    align-content: center;
+    /*
+    text-align: justify;
+    hyphens: manual;
+    */
+    * {
+      margin: 0;
+      font-weight: inherit;
+    }
+  }
+
+  .media-content {
+    @extend %flex-center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: inherit;
+  }
+
+  .card {
+    margin: $spacer-7 auto 0;
+    border-width: 0.05rem;
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-color: $black;
+    width: calc(100% - 0.1rem);
+    break-inside: avoid;
+    display: inline-block;
+    align-items: center;
+
+    * {
+      border-radius: inherit !important;
+    }
+
+    &:last-child {
+      margin-bottom: 0.05rem;
+    }
+  }
+
+  .title {
+    position: relative;
+    left: $spacer-5;
+    top: (-$spacer-4);
+    font-feature-settings: "smcp" 1;
+    letter-spacing: 0.0625em;
+    margin: 0;
+    padding: 0 $spacer-1;
+    height: min-content;
+    width: min-content;
+    white-space: nowrap;
+    background-color: $white;
+    line-height: 1rem;
+    font-weight: normal;
+    break-inside: avoid;
+  }
+}
+
+.math_elt {
+  font-family: $garamond-stack;
+  font-style: italic;
+  font-feature-settings: "kern" 1, "pnum" 1, "onum" 0;
+  line-height: 1em;
+  white-space-collapsing: collapse;
+  text-align: center;
+  margin: 0;
+  white-space: nowrap;
+  * {
+    margin: 0;
+    white-space: nowrap;
+  }
+}
+
+.eqn_svg {
+  @extend %flex-mid;
+  width: 100%;
+  img {
+    padding: $spacer-2 $spacer-1;
+    max-width: 100%;
+    flex-grow: 0;
+  }
+}
+
+.svg_icon {
+  color: inherit;
+  fill: currentColor;
+  height: 0.9em;
+  margin: 0;
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+.img_row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  padding: 0.5rem;
+  border-radius: 0 !important;
+  margin: 0;
+  margin-top: inherit;
+  a {
+    flex-shrink: 1;
+    img {
+      @extend %flex-mid;
+      width: auto;
+      height: 1.5rem;
+    }
+  }
+}
+
+footer {
+  @extend %flex-center;
+  @extend %pohutukawa-background;
+  flex-direction: row;
+  padding: $spacer-3 $spacer-5 $spacer-2;
+  justify-content: space-between;
+
+  #locale {
+    text-align: right;
+  }
+
+  a {
+    color: inherit;
+    font-weight: normal;
+    &:hover {
+      font-weight: bolder;
+      text-decoration: none;
+    }
+    &:visited {
+      color: $white;
+    }
+  }
+}
+
+@media all and (min-width: $width-sm) {
+  .deck {
+    max-width: $width-sm;
+  }
+  %pohutukawa-background {
+    background-image: url("../dist/img-optimized/pohutukawa-md.jpg");
+  }
+}
+
+@media all and (min-width: $width-md) {
+  .deck {
+    max-width: $width-xl;
+    columns: 2;
+  }
+  %pohutukawa-background {
+    background-image: url("../dist/img-optimized/pohutukawa-lg.jpg");
+  }
+}
+
+@media all and (min-width: $width-lg) {
+  .deck {
+    columns: 3;
+  }
+  %pohutukawa-background {
+    background-image: url("../dist/img-optimized/pohutukawa-xl.jpg");
+  }
+}
+
+@media all and (min-width: $width-xl) {
+  %pohutukawa-background {
+    background-image: url("../dist/img-optimized/pohutukawa-super.jpg");
+  }
+}
+
+@media print {
+  @import "print.scss";
+  .deck {
+    max-width: $width-xl;
+    columns: 2 !important;
+    .card {
+      border-width: 0.4pt;
+    }
+  }
+  @page {
+    margin: 1cm;
+  }
+
+  html {
+    font-size: 10pt;
+  }
+
+  #twitter,
+  #instagram,
+  #github-gist,
+  #find-me,
+  #cv {
+    display: none;
+  }
+
+  img {
+    image-resolution: from-image;
+  }
+}

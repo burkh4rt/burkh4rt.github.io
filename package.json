@@ -1,0 +1,39 @@
+{
+  "author": "M.C. Burkhart",
+  "description": "Michael's personal website",
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "clean-css": "^4.2.1",
+    "clean-css-cli": "^4.3.0",
+    "glob": "^7.1.4",
+    "html-minifier": "^4.0.0",
+    "imagemin-cli": "^4.0.1",
+    "imagemin-mozjpeg": "^8.0.0",
+    "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^6.1.2",
+    "prettier": "^1.17.1"
+  },
+  "engines": {
+    "node": "^6.9.0"
+  },
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/burkh4rt/burkh4rt.github.io.git"
+  },
+  "scripts": {
+    "autoprefixer": "postcss -u autoprefixer -r dist/*.css",
+    "scss": "node-sass --output-style compressed --include-path ./node_modules/ --include-path ./src src/main.scss -o dist/",
+    "cleancss": "cleancss -O1 'all:on;specialComments:0' -O2 'all:on' -o dist/main.css dist/main.css",
+    "build:css": "run-s scss autoprefixer cleancss",
+    "build:img": "imagemin 'assets/img/*.[^jpg]!' --out-dir=dist/img/",
+    "build:jpg": "imagemin --plugin=mozjpeg 'assets/img-optimized/*.jpg' --out-dir=dist/img-optimized/",
+    "build:html": "html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --use-short-doctype src/index.html -o index.html",
+    "build": "run-s build:* pretty",
+    "pretty:scss": "prettier --write 'src/**/*.scss'",
+    "pretty:html": "js-beautify --replace --type 'html' --file src/*.html",
+    "pretty": "run-s pretty:*"
+  }
+}
