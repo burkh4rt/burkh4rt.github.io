@@ -106,7 +106,7 @@ header {
   margin: 0 auto $spacer-6;
   padding: 0 $spacer-5;
   columns: 1;
-  column-gap: $spacer-7;
+  column-gap: $spacer-6;
   width: calc(100% - 2 * $spacer-6 - 2 * $spacer-5);
   display: block;
   overflow: hidden;
@@ -136,7 +136,7 @@ header {
   }
 
   .card {
-    margin: $spacer-8 auto 0;
+    margin: $spacer-7 auto 0;
     border-width: 0.05rem;
     border-style: solid;
     border-radius: 0.5rem;
@@ -271,6 +271,10 @@ footer {
 @media all and (min-width: $width-lg) {
   .deck {
     columns: 3;
+    column-gap: $spacer-7;
+  }
+  .card {
+    margin-top: $spacer-8;
   }
   %pohutukawa-background {
     background-image: url("../dist/img-optimized/pohutukawa-xl.jpg");
