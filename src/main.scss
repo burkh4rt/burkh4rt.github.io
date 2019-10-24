@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 @import "normalize.scss";
 @import "scaling.scss";
 @import "colors.scss";
@@ -22,6 +24,7 @@ $gill-sans-stack: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", Frutiger,
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  filter: grayscale(10%);
 }
 
 %flex-mid {
@@ -70,24 +73,39 @@ ul {
   }
 }
 
-header {
+#header {
   @extend %flex-center;
   @extend %pohutukawa-background;
   font-feature-settings: "smcp" 1;
-  padding: $spacer-5;
+  * {
+    margin: $spacer-000 auto;
+    height: min-content;
+    line-height: 1;
+  }
+  :nth-child(2) {
+    margin: $spacer-000 $spacer-000 0 auto;
+  }
+}
 
-  h1 {
-    font-weight: bold;
-    margin: 0 auto;
-    font-size: calc(7vw + 1.5rem);
-    line-height: 1em;
+#footer {
+  @extend %flex-center;
+  @extend %pohutukawa-background;
+  flex-direction: row;
+  justify-content: space-between;
+  display: inline #locale {
+    text-align: right;
   }
 
-  h3 {
+  a {
+    color: inherit;
     font-weight: normal;
-    margin: 0 $spacer-1 0 auto;
-    font-size: calc(3vw + 0.5rem);
-    line-height: 1em;
+    &:hover {
+      font-weight: bolder;
+      text-decoration: none;
+    }
+    &:visited {
+      color: $white;
+    }
   }
 }
 
@@ -109,7 +127,6 @@ header {
   column-gap: $spacer-7;
   width: calc(100% - 2 * $spacer-7 - 2 * $spacer-5);
   display: block;
-  overflow: hidden;
 
   .content {
     margin-top: (-$spacer-4);
@@ -221,30 +238,6 @@ header {
       @extend %flex-mid;
       width: auto;
       height: 1.5rem;
-    }
-  }
-}
-
-footer {
-  @extend %flex-center;
-  @extend %pohutukawa-background;
-  flex-direction: row;
-  padding: $spacer-3 $spacer-5 $spacer-2;
-  justify-content: space-between;
-
-  #locale {
-    text-align: right;
-  }
-
-  a {
-    color: inherit;
-    font-weight: normal;
-    &:hover {
-      font-weight: bolder;
-      text-decoration: none;
-    }
-    &:visited {
-      color: $white;
     }
   }
 }
