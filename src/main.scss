@@ -77,13 +77,17 @@ ul {
   @extend %flex-center;
   @extend %pohutukawa-background;
   font-feature-settings: "smcp" 1;
+  margin-top: 0;
   * {
-    margin: $spacer-000 auto;
+    margin: $spacer-00 $spacer-000 auto;
     height: min-content;
     line-height: 1;
   }
+  :nth-child(1) {
+    letter-spacing: 0.1em;
+  }
   :nth-child(2) {
-    margin: $spacer-000 $spacer-000 0 auto;
+    margin: $spacer-000 $spacer-3 $spacer-0 auto;
   }
 }
 
@@ -121,7 +125,7 @@ ul {
   align-items: center;
   align-content: center;
   font-family: $gill-sans-stack;
-  margin: 0 auto $spacer-6;
+  margin: $spacer-6 auto $spacer-6;
   padding: 0 $spacer-5;
   columns: 1;
   column-gap: $spacer-7;
@@ -256,9 +260,6 @@ ul {
     max-width: $width-xl;
     columns: 2;
   }
-  %pohutukawa-background {
-    background-image: url("../dist/img-optimized/pohutukawa-lg.jpg");
-  }
 }
 
 @media all and (min-width: $width-lg) {
@@ -269,14 +270,10 @@ ul {
   .card {
     margin-top: $spacer-8;
   }
-  %pohutukawa-background {
-    background-image: url("../dist/img-optimized/pohutukawa-xl.jpg");
-  }
-}
-
-@media all and (min-width: $width-xl) {
-  %pohutukawa-background {
-    background-image: url("../dist/img-optimized/pohutukawa-super.jpg");
+  #header {
+    :nth-child(1) {
+      letter-spacing: 0.05em;
+    }
   }
 }
 
