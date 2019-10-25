@@ -17,7 +17,6 @@ $gill-sans-stack: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", Frutiger,
   Arial, sans-serif;
 
 %pohutukawa-background {
-  font-family: $garamond-stack;
   color: $white;
   background-color: $black;
   background-image: url("../dist/img-optimized/pohutukawa-sm.jpg");
@@ -75,7 +74,7 @@ ul {
 
 #header {
   @extend %flex-center;
-  @extend %pohutukawa-background;
+  font-family: $garamond-stack;
   font-feature-settings: "smcp" 1;
   margin-top: 0;
   * {
@@ -90,7 +89,7 @@ ul {
 
 #footer {
   @extend %flex-center;
-  @extend %pohutukawa-background;
+  font-family: $garamond-stack;
   flex-direction: row;
   justify-content: space-between;
   display: inline #locale {
