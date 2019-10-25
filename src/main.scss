@@ -83,9 +83,6 @@ ul {
     height: min-content;
     line-height: 1;
   }
-  :nth-child(1) {
-    letter-spacing: 0.1em;
-  }
   :nth-child(2) {
     margin: $spacer-000 $spacer-3 $spacer-0 auto;
   }
@@ -253,12 +250,22 @@ ul {
   %pohutukawa-background {
     background-image: url("../dist/img-optimized/pohutukawa-md.jpg");
   }
+  #header {
+    :nth-child(1) {
+      letter-spacing: 0.03em;
+    }
+  }
 }
 
 @media all and (min-width: $width-md) {
   .deck {
     max-width: $width-xl;
     columns: 2;
+  }
+  #header {
+    :nth-child(1) {
+      letter-spacing: 0.05em;
+    }
   }
 }
 
@@ -269,11 +276,6 @@ ul {
   }
   .card {
     margin-top: $spacer-8;
-  }
-  #header {
-    :nth-child(1) {
-      letter-spacing: 0.05em;
-    }
   }
 }
 
