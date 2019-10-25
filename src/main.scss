@@ -103,9 +103,6 @@ ul {
       font-weight: bolder;
       text-decoration: none;
     }
-    &:visited {
-      color: $white;
-    }
   }
 }
 
@@ -285,6 +282,7 @@ ul {
     columns: 2 !important;
     .card {
       border-width: 0.4pt;
+      page-break-inside: avoid;
     }
   }
   @page {
