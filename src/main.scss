@@ -283,7 +283,7 @@ ul {
     columns: 2 !important;
     .card {
       border-width: 0.4pt;
-      page-break-inside: avoid;
+      page-break-inside: avoid !important;
     }
   }
   @page {
@@ -297,7 +297,8 @@ ul {
   #twitter,
   #github-gist,
   #find-me,
-  #cv {
+  #cv,
+  #instagram {
     display: none;
   }
 
