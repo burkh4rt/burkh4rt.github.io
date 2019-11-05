@@ -16,15 +16,15 @@ $gill-sans-stack: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", Frutiger,
   "Frutiger Linotype", Univers, Calibri, "P22 Underground", "Futura", Helvetica,
   Arial, sans-serif;
 
-%pohutukawa-background {
-  color: $white;
-  background-color: $black;
-  background-image: url("../dist/img-optimized/pohutukawa-sm.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  filter: grayscale(10%);
-}
+// %pohutukawa-background {
+//   color: $white;
+//   background-color: $black;
+//   background-image: url("../dist/img-optimized/pohutukawa-sm.jpg");
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   background-size: cover;
+//   filter: grayscale(10%);
+// }
 
 %flex-mid {
   display: flex;

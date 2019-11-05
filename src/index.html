@@ -188,10 +188,13 @@
     </div>
 
     <div class="card" id="profile_img" style="overflow:hidden !important;">
-        <img srcset="dist/img-optimized/profile_img-sm.jpg 568w,
-           dist/img-optimized/profile_img-md.jpg 768w,
-           dist/img-optimized/profile_img-lg.jpg 1002w,
-           dist/img-optimized/profile_img-xl.jpg 1670w" sizes="(max-width: 544px) 568px, (max-width: 768px) 768px, (max-width: 1012px) 1002px, 1670px" src="assets/img-optimized/profile_img-hi.jpg" alt="me">
+        <picture>
+            <source media="(max-width: 568px)" srcset="dist/img-optimized/profile_img-sm.jpg">
+            <source media="(max-width: 768px)" srcset="dist/img-optimized/profile_img-md.jpg">
+            <source media="(max-width: 1002px)" srcset="dist/img-optimized/profile_img-lg.jpg">
+            <source media="(max-width: 1670px)" srcset="dist/img-optimized/profile_img-xl.jpg">
+            <img src="assets/img-optimized/profile_img-hi.jpg" alt="me">
+        </picture>
     </div>
 
     <div class="card" id="about-me">
