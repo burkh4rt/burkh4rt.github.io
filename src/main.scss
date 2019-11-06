@@ -107,9 +107,9 @@ ul {
   }
 }
 
-#profile_img picture,
-img,
-source {
+#profile_img > picture,
+#profile_img > img,
+#profile_img > source {
   width: 100%;
   border-radius: inherit;
   margin: 0;
@@ -208,10 +208,12 @@ source {
 .eqn_svg {
   @extend %flex-mid;
   width: 100%;
+  margin: $spacer-1 0;
   img {
     padding: $spacer-2 $spacer-1;
     max-width: 100%;
     flex-grow: 0;
+    width: initial;
   }
 }
 
