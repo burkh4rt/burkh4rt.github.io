@@ -39,7 +39,7 @@
     "build:css": "run-s scss autoprefixer cleancss",
     "build:img": "imagemin 'assets/img/*.[^jpg]!' --out-dir=dist/img/",
     "build:jpg": "imagemin --plugin=mozjpeg 'assets/img-optimized/*.jpg' --out-dir=dist/img-optimized/",
-    "build:html": "html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --use-short-doctype src/index.html -o index.html",
+    "build:html": "html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --use-short-doctype --input-dir src/ --output-dir ./ --file-ext html",
     "pretty:scss": "prettier --write 'src/**/*.scss'",
     "pretty:html": "js-beautify --replace --type 'html' --file src/*.html",
     "build": "run-p build:*",

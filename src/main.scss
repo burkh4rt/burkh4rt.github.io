@@ -127,67 +127,76 @@ ul {
   column-gap: $spacer-7;
   width: calc(100% - 2 * $spacer-7 - 2 * $spacer-5);
   display: block;
+}
 
-  .content {
-    margin-top: (-$spacer-4);
-    padding: $spacer-1 $spacer-3 $spacer-2;
-    overflow: hidden;
-    align-items: center;
-    align-content: center;
-    /*
+.deck--thin {
+  @extend %flex-center;
+  margin: $spacer-7 auto $spacer-6;
+  padding: 0 $spacer-5;
+  width: calc(90% - 2 * $spacer-7 - 2 * $spacer-5);
+  max-width: $width-md;
+  display: block;
+}
+
+.content {
+  margin-top: (-$spacer-4);
+  padding: $spacer-1 $spacer-3 $spacer-2;
+  overflow: hidden;
+  align-items: center;
+  align-content: center;
+  /*
     text-align: justify;
     hyphens: manual;
     */
-    * {
-      margin: 0;
-      font-weight: inherit;
-    }
-  }
-
-  .media-content {
-    @extend %flex-center;
+  * {
     margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border-radius: inherit;
+    font-weight: inherit;
+  }
+}
+
+.media-content {
+  @extend %flex-center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-radius: inherit;
+}
+
+.card {
+  margin: $spacer-7 auto 0;
+  border-width: 0.05rem;
+  border-style: solid;
+  border-radius: 0.5rem;
+  border-color: $black;
+  width: calc(100% - 0.1rem);
+  break-inside: avoid;
+  display: inline-block;
+  align-items: center;
+
+  * {
+    border-radius: inherit !important;
   }
 
-  .card {
-    margin: $spacer-7 auto 0;
-    border-width: 0.05rem;
-    border-style: solid;
-    border-radius: 0.5rem;
-    border-color: $black;
-    width: calc(100% - 0.1rem);
-    break-inside: avoid;
-    display: inline-block;
-    align-items: center;
-
-    * {
-      border-radius: inherit !important;
-    }
-
-    &:last-child {
-      margin-bottom: 0.05rem;
-    }
+  &:last-child {
+    margin-bottom: 0.05rem;
   }
+}
 
-  .title {
-    position: relative;
-    left: $spacer-5;
-    top: (-$spacer-4);
-    font-feature-settings: "smcp" 1;
-    letter-spacing: 0.0625em;
-    margin: 0;
-    padding: 0 $spacer-1;
-    height: min-content;
-    width: min-content;
-    white-space: nowrap;
-    background-color: $white;
-    line-height: 1rem;
-    font-weight: normal;
-    break-inside: avoid;
-  }
+.title {
+  position: relative;
+  left: $spacer-5;
+  top: (-$spacer-4);
+  font-feature-settings: "smcp" 1;
+  letter-spacing: 0.0625em;
+  margin: 0;
+  padding: 0 $spacer-1;
+  height: min-content;
+  width: min-content;
+  white-space: nowrap;
+  background-color: $white;
+  line-height: 1rem;
+  font-weight: normal;
+  break-inside: avoid;
 }
 
 .math_elt {
