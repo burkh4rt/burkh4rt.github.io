@@ -1,9 +1,9 @@
 {
   "author": "Michael C. Burkhart",
-  "description": "Michael's personal website",
   "browserslist": [
-      "defaults"
+    "defaults"
   ],
+  "description": "Michael's personal website",
   "devDependencies": {
     "autoprefixer": "^9.7.1",
     "clean-css": "^4.2.1",
