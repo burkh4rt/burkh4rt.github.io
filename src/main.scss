@@ -83,6 +83,9 @@ ul {
     height: min-content;
     line-height: 1;
   }
+  :nth-child(1) {
+    margin-bottom: 0;
+  }
   :nth-child(2) {
     margin: 0 $spacer-3 $spacer-1 auto;
   }
