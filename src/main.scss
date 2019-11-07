@@ -79,12 +79,12 @@ ul {
   margin-top: 0;
   * {
     font-weight: normal;
-    margin: $spacer-00 $spacer-000 auto;
+    margin: $spacer-00 auto;
     height: min-content;
     line-height: 1;
   }
   :nth-child(2) {
-    margin: $spacer-000 $spacer-3 $spacer-0 auto;
+    margin: 0 $spacer-3 $spacer-1 auto;
   }
 }
 
