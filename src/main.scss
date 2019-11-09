@@ -26,6 +26,10 @@ $gill-sans-stack: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", Frutiger,
 //   filter: grayscale(10%);
 // }
 
+html {
+  font-family: $gill-sans-stack;
+}
+
 %flex-mid {
   display: flex;
   align-items: center;
@@ -96,10 +100,9 @@ ul {
   font-family: $garamond-stack;
   flex-direction: row;
   justify-content: space-between;
-  display: inline #locale {
+  #locale {
     text-align: right;
   }
-
   a {
     color: inherit;
     font-weight: normal;
@@ -107,6 +110,9 @@ ul {
       font-weight: bolder;
       text-decoration: none;
     }
+  }
+  & > * {
+    padding: $spacer-2;
   }
 }
 
@@ -123,11 +129,11 @@ ul {
 .deck {
   align-items: center;
   align-content: center;
-  font-family: $gill-sans-stack;
   margin: $spacer-6 auto $spacer-6;
   padding: 0 $spacer-5;
   columns: 1;
   column-gap: $spacer-7;
+  column-fill: balance-all;
   width: calc(100% - 2 * $spacer-7 - 2 * $spacer-5);
   display: block;
 }
@@ -242,7 +248,7 @@ ul {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-evenly;
-  padding: 0.5rem;
+  padding: $spacer-2;
   border-radius: 0 !important;
   margin: 0;
   a {
@@ -284,7 +290,6 @@ ul {
 @media all and (min-width: $width-lg) {
   .deck {
     columns: 3;
-    column-gap: $spacer-7;
   }
   .card {
     margin-top: $spacer-8;
@@ -306,7 +311,7 @@ ul {
   }
 
   html {
-    font-size: 10pt;
+    font-size: 11pt;
   }
 
   #twitter,
