@@ -16,6 +16,7 @@
 *.inc      text
 *.ini      text
 *.js       text
+*-embed.js text linguist-generated=true
 *.json     text
 *.jsx      text
 *.less     text

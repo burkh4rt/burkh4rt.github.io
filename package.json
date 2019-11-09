@@ -18,7 +18,8 @@
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^6.1.3",
     "prettier": "^1.18.2",
-    "serve": "^11.2.0"
+    "serve": "^11.2.0",
+    "terser": "^4.3.9"
   },
   "engines": {
     "node": ">= 12.13.0"
@@ -40,8 +41,10 @@
     "build:img": "imagemin 'assets/img/*.[^jpg]!' --out-dir=dist/img/",
     "build:jpg": "imagemin --plugin=mozjpeg 'assets/img-optimized/*.jpg' --out-dir=dist/img-optimized/",
     "build:html": "html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --use-short-doctype --input-dir src/ --output-dir ./ --file-ext html",
-    "pretty:scss": "prettier --write 'src/**/*.scss'",
+    "build:js": "terser src/*.js --compress --mangle -o dist/min.js",
     "pretty:html": "js-beautify --replace --type 'html' --file src/*.html",
+    "pretty:scss": "prettier --write 'src/**/*.scss'",
+    "pretty:js": "prettier --write 'src/**/*.js'",
     "build": "run-p build:*",
     "pretty": "run-p pretty:*",
     "make": "run-s build pretty"
