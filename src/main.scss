@@ -112,6 +112,7 @@ ul {
     }
   }
   & > * {
+    margin: 0;
     padding: $spacer-2;
   }
 }
@@ -148,8 +149,8 @@ ul {
 }
 
 .content {
-  margin-top: (-$spacer-4);
-  padding: $spacer-1 $spacer-3 $spacer-2;
+  margin: (-$spacer-4) 0 0;
+  padding: $spacer-1 $spacer-4 $spacer-3;
   overflow: hidden;
   align-items: center;
   align-content: center;
@@ -248,9 +249,9 @@ ul {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-evenly;
-  padding: $spacer-2;
+  padding: 0 $spacer-2 $spacer-3;
   border-radius: 0 !important;
-  margin: 0;
+  margin: -$spacer-1 0 0;
   a {
     flex-shrink: 1;
     img {
