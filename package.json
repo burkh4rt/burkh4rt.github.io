@@ -42,7 +42,7 @@
     "build:img": "imagemin 'assets/img/*.[^jpg]!' --out-dir=dist/img/",
     "build:jpg": "imagemin --plugin=mozjpeg --plugin.mozjpeg.progressive=true --plugin.mozjpeg.quality=100 'assets/img-optimized/*.jpg' --out-dir=dist/img-optimized/",
     "build:html": "html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --use-short-doctype --minify-css true --minify-js true --input-dir src/ --output-dir ./ --file-ext html",
-    "build:js": "terser src/*.js --compress --comments 'false' --mangle -o dist/min.js",
+    "build:js": "terser src/*.js --compress --comments false --mangle -o dist/min.js",
     "pretty:html": "js-beautify --replace --type 'html' --file src/*.html",
     "pretty:scss": "prettier --write 'src/**/*.scss'",
     "pretty:js": "prettier --write 'src/**/*.js'",
