@@ -264,9 +264,6 @@ ul {
   .deck {
     max-width: $width-sm;
   }
-  %pohutukawa-background {
-    background-image: url("../dist/img-optimized/pohutukawa-md.jpg");
-  }
   #header {
     :nth-child(1) {
       letter-spacing: 0.03em;
