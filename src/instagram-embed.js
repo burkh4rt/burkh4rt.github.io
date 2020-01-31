@@ -264,6 +264,7 @@
         S && B.setAttribute(v, S),
           B.setAttribute("frameBorder", "0"),
           B.setAttribute("height", "0"),
+          B.setAttribute("title", "instagram insert"),
           B.setAttribute(L, s.id),
           B.setAttribute("scrolling", "no"),
           B.setAttribute("style", s.style.cssText + ";" + k),
