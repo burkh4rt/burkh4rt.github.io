@@ -143,8 +143,7 @@
         d = d[e[g]] = {};
       d[e[e.length - 1]] = b;
       return c;
-    }; /*
- jQuery v1.9.1 (c) 2005, 2012 jQuery Foundation, Inc. jquery.org/license. */
+    };
   var Ma = /\[object (Boolean|Number|String|Function|Array|Date|RegExp)\]/,
     Na = function(a) {
       if (null == a) return String(a);
@@ -363,8 +362,7 @@
         void 0 === b[c] && (b[c] = Fb(rb[c], a));
         return b[c];
       };
-    }; /*
- Copyright (c) 2014 Derek Brans, MIT license https://github.com/krux/postscribe/blob/master/LICENSE. Portions derived from simplehtmlparser, which is licensed under the Apache License, Version 2.0 */
+    };
   var D = window,
     F = document,
     Sb = navigator,
