@@ -27,14 +27,12 @@
     </script>
 
     <!-- preloads -->
-    <link rel="preload" href="dist/main.css" as="style" />
-
-    <!--
-    <link rel="preload" href="/assets/fonts/GaramondPremrPro-Capt.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
-    <link rel="preload" href="/assets/fonts/GaramondPremrPro-ItCapt.otf" as="font" type="font/otf" crossorigin="anonymous" />
-    <link rel="preload" href="/assets/fonts/GillSansNova-Book.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
-    <link rel="preload" href="/assets/fonts/GillSansNova-BookItalic.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
-    -->
+    <link rel="preload" href="dist/main.css" as="style" type="text/css" />
+    <link rel="preload" href="assets/fonts/GaramondPremrPro-Capt.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="assets/fonts/GaramondPremrPro-ItCapt.otf" as="font" type="font/otf" crossorigin="anonymous" />
+    <link rel="preload" href="assets/fonts/GillSansNova-Book.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="assets/fonts/GillSansNova-BookItalic.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="dist/img-optimized/profile_img-lg.webp" as="image" type="image/webp" crossorigin="anonymous" />
 
     <!-- iconography -->
     <link rel="icon" type="image/svg+xml" href="assets/ico/m.svg" />
@@ -166,7 +164,7 @@
     <div class="card profile_img" style="overflow:hidden !important;">
         <picture>
             <source type="image/webp" srcset="dist/img-optimized/profile_img-lg.webp">
-                <img src="dist/img-optimized/profile_img-sm.jpg" alt="me">
+            <img src="dist/img-optimized/profile_img-sm.jpg" alt="me">
         </picture>
     </div>
 
@@ -309,4 +307,3 @@
 </body>
 
 </html>
-
