@@ -1,3 +1,4 @@
+![Node.js CI](https://github.com/burkh4rt/burkh4rt.github.io/workflows/Node.js%20CI/badge.svg)
 
 We use [sass](https://sass-lang.com), [autoprefixer](https://github.com/postcss/autoprefixer), and [npm](https://www.npmjs.com) build scripts.
 
