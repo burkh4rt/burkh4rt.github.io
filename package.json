@@ -47,9 +47,9 @@
     "build:jpg:webp": "imagemin --plugin=webp --plugin.webp.quality=100 --plugin.webp.method=6 'assets/img-optimized/*.jpg' --out-dir=dist/img-optimized/",
     "build:html": "html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --use-short-doctype --minify-css true --minify-js true --input-dir src/ --output-dir ./ --file-ext html",
     "xbuild:js": "terser src/*.js --compress --comments false --mangle -o dist/min.js",
-    "pretty:html": "js-beautify --replace --type 'html' --file src/*.html",
-    "pretty:scss": "prettier --write 'src/**/*.scss'",
-    "xpretty:js": "prettier --write 'src/**/*.js'",
+    "pretty:html": "prettier --print-width 110 --write src/*.html",
+    "pretty:scss": "prettier --print-width 110 --write 'src/**/*.scss'",
+    "xpretty:js": "prettier --print-width 110 --write 'src/**/*.js'",
     "build": "run-p build:**",
     "pretty": "run-p pretty:*",
     "make": "run-s build pretty"

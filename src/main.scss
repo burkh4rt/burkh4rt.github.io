@@ -8,13 +8,11 @@
 @import "twitter.scss";
 @import "fonts.scss";
 
-$garamond-stack: "Garamond Premier Pro Caption", "Adobe Garamond Premier Pro",
-  Garamond, "Apple Garamond", "ITC Garamond Narrow", Baskerville,
-  "Baskerville Old Face", "Palatino Linotype", Palatino, "Hoefler Text",
+$garamond-stack: "Garamond Premier Pro Caption", "Adobe Garamond Premier Pro", Garamond, "Apple Garamond",
+  "ITC Garamond Narrow", Baskerville, "Baskerville Old Face", "Palatino Linotype", Palatino, "Hoefler Text",
   "Times New Roman", Times, serif;
-$gill-sans-stack: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", Frutiger,
-  "Frutiger Linotype", Univers, Calibri, "P22 Underground", "Futura", Helvetica,
-  Arial, sans-serif;
+$gill-sans-stack: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", Frutiger, "Frutiger Linotype", Univers,
+  Calibri, "P22 Underground", "Futura", Helvetica, Arial, sans-serif;
 
 // %pohutukawa-background {
 //   color: $white;
