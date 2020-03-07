@@ -28,7 +28,7 @@ html {
   font-family: $gill-sans-stack;
 }
 
-%flex-mid {
+%flex-row {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,7 +36,7 @@ html {
   flex-wrap: nowrap;
 }
 
-%flex-center {
+%flex-col {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -75,7 +75,7 @@ ul {
 }
 
 #header {
-  @extend %flex-center;
+  @extend %flex-col;
   font-family: $garamond-stack;
   font-feature-settings: "smcp" 1;
   margin-top: 0;
@@ -94,7 +94,7 @@ ul {
 }
 
 #footer {
-  @extend %flex-center;
+  @extend %flex-col;
   font-family: $garamond-stack;
   flex-direction: row;
   justify-content: space-between;
@@ -136,7 +136,7 @@ ul {
 }
 
 .deck--thin {
-  @extend %flex-center;
+  @extend %flex-col;
   margin: $spacer-7 auto $spacer-6;
   padding: 0 $spacer-5;
   width: calc(90% - 2 * $spacer-7 - 2 * $spacer-5);
@@ -161,7 +161,7 @@ ul {
 }
 
 .media-content {
-  @extend %flex-center;
+  @extend %flex-col;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -221,7 +221,7 @@ ul {
 }
 
 .eqn_svg {
-  @extend %flex-mid;
+  @extend %flex-row;
   width: 100%;
   margin: $spacer-1 0;
   img {
@@ -251,7 +251,7 @@ ul {
   a {
     flex-shrink: 1;
     img {
-      @extend %flex-mid;
+      @extend %flex-row;
       width: auto;
       height: 1.5rem;
     }
@@ -320,3 +320,5 @@ ul {
     image-resolution: from-image;
   }
 }
+
+@import "cv.scss";

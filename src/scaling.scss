@@ -2,10 +2,10 @@ html {
   font-size: 16px;
 }
 
-$font-sizes: 4.209rem, 3.157rem, 2.369rem, 1.777rem, 1.333rem, 1rem, 0.75rem;
+$font-sizes: 4.209rem, 3.157rem, 2.369rem, 1.777rem, 1.333rem, 1rem, 0.75rem, 0.563rem, 0.422rem, 0.317rem;
 $spacer-sizes: 0.317, 0.422, 0.563, 0.75, 1;
 
-@for $i from 1 through 6 {
+@for $i from 1 through 10 {
   h#{$i} {
     font-size: nth($font-sizes, $i);
   }
