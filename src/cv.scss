@@ -34,8 +34,8 @@
 
 .cv_block {
   display: grid;
-  grid-template-columns: 3rem 2fr 5fr 1fr;
-  grid-gap: 1em;
+  grid-template-columns: 3rem 2fr 5fr minmax(4rem, auto);
+  grid-gap: 0.5em;
   align-items: start;
   justify-items: start;
   p {
@@ -56,22 +56,24 @@
   font-family: $gill-sans-stack;
   font-size: nth($font-sizes, 7);
   margin: 0;
-    line-height: 1;
+  line-height: 1;
 }
 .item {
   font-feature-settings: "smcp" 0;
   justify-self: start;
-    line-height: 1;
+  line-height: 1;
 }
 .years {
   justify-self: center;
-    line-height: 1;
+  line-height: 1;
 }
 .logo {
   justify-self: center;
   img {
     @extend %flex-col;
-    width:1.5rem;
+    width: 1.5rem;
+    max-height: 2rem;
+    border-radius: 0 !important;
   }
 }
 
