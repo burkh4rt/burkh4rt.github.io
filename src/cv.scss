@@ -45,7 +45,7 @@
     border-radius: 0;
   }
   max-width: 100%;
-  font-size: nth($font-sizes, 5);
+  font-size: nth($font-sizes, 6);
 }
 
 .name {
@@ -56,6 +56,7 @@
   font-family: $gill-sans-stack;
   font-size: nth($font-sizes, 7);
   margin: 0;
+  margin-left: $spacer-00;
   line-height: 1;
 }
 .item {
