@@ -16,9 +16,6 @@
     />
     <meta name="application-name" content="Michael Burkhart's personal site" />
 
-    <!-- scripts -->
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.0/lazysizes.min.js"></script>
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140252994-1"></script>
     <script>
@@ -166,7 +163,6 @@
         >&hairsp;. We visualize this process with the following graph:
         <div class="eqn_svg">
           <img
-            class="lazyload"
             src="dist/eqns/graphical_model.svg"
             alt="Graphical Model for Filtering"
             style="width: calc(257.51 / 319.35 * 95%)"
@@ -189,7 +185,6 @@
         as:
         <div class="eqn_svg">
           <img
-            class="lazyload"
             src="dist/eqns/bayesian_graphical.svg"
             alt="Graphical Model with Equations"
             style="width: calc(302.34 / 319.35 * 95%)"
@@ -235,7 +230,6 @@
         as the <span style="color:#ED1C24;">posterior</span>. The Chapman&ndash;Kolmogorov recursion
         <div class="eqn_svg">
           <img
-            class="lazyload"
             src="dist/eqns/chapman_kolmogorov.svg"
             alt="Chapman&ndash;Kolmogorov Equation"
             style="width: calc(319.35 / 319.35 * 95%)"
@@ -255,7 +249,6 @@
         <span style="color:#046A38;">measurement model</span> as linear, Gaussian.
         <div class="eqn_svg">
           <img
-            class="lazyload"
             src="dist/eqns/kalman_graphical.svg"
             alt="Kalman Graphical Model"
             style="width: calc(222.52 / 319.35 * 95%)"
@@ -282,7 +275,6 @@
         from data.
         <div class="eqn_svg">
           <img
-            class="lazyload"
             src="dist/eqns/dkf_graphical.svg"
             alt="Discriminative Kalman Filter Graphical Model"
             style="width: calc(259.88 / 319.35 * 95%)"
@@ -303,7 +295,7 @@
             <article class="content">
                 We call a process <i>nonstationary</i> if either the <span style="color:#003C71;">state</span> or <span style="color:#046A38;">measurement</span> models change over time.  Here, we focus specifically on a change in the <span style="color:#046A38;">measurement model</span> between learning it from supervised training data and applying it to make online inferences.
                 <div class="eqn_svg">
-                    <img class="lazyload" src="dist/eqns/nonstationarities.svg" alt="Graphical Model depicting a Nonstationarity">
+                    <img src="dist/eqns/nonstationarities.svg" alt="Graphical Model depicting a Nonstationarity">
                 </div>
             </article>
         </div>
@@ -377,7 +369,7 @@
     </div>
 
     <div class="card" id="instagram">
-      <div class="content media-content lazyload" style="margin: 0.3em 0">
+      <div class="content media-content" style="margin: 0.3em 0">
         <iframe
           src="https://www.instagram.com/p/B61J1qGlzDc/embed/"
           frameborder="0"
@@ -392,7 +384,7 @@
 
     <div class="card" id="twitter">
       <h6 class="title">Tweets</h6>
-      <div class="content media-content lazyload">
+      <div class="content media-content">
         <a
           class="twitter-timeline"
           data-chrome="noheader nofooter noborders"
@@ -408,19 +400,19 @@
       <h6 class="title">Find Me Online</h6>
       <div class="img_row content" style="padding-top:0; border-radius:0 !important;">
         <a href="https://www.linkedin.com/in/burkh4rt/" target="_blank" rel="noopener">
-          <img class="lazyload" src="dist/logos/linkedin-logo.svg" alt="LinkedIn" />
+          <img src="dist/logos/linkedin-logo.svg" alt="LinkedIn" />
         </a>
         <a href="https://github.com/burkh4rt/" target="_blank" rel="noopener">
-          <img class="lazyload" src="dist/logos/github-logo.svg" alt="GitHub" />
+          <img src="dist/logos/github-logo.svg" alt="GitHub" />
         </a>
         <a href="https://www.instagram.com/burkh4rt/" target="_blank" rel="noopener">
-          <img class="lazyload" src="dist/logos/instagram-logo.svg" alt="Instagram" />
+          <img src="dist/logos/instagram-logo.svg" alt="Instagram" />
         </a>
         <a href="https://twitter.com/burkh4rt" target="_blank" rel="noopener">
-          <img class="lazyload" src="dist/logos/twitter-logo.svg" alt="Twitter" />
+          <img src="dist/logos/twitter-logo.svg" alt="Twitter" />
         </a>
         <a href="https://orcid.org/0000-0002-2772-5840" target="_blank" rel="noopener">
-          <img class="lazyload" src="dist/logos/orcid-logo.svg" alt="ORCID" />
+          <img src="dist/logos/orcid-logo.svg" alt="ORCID" />
         </a>
       </div>
     </div>
@@ -445,7 +437,7 @@
     <script async src="https://platform.twitter.com/widgets.js"></script>
   </body>
 
-  <!-- linked data -->
+  <!--
   <script type="application/ld+json">
     {
       "@context": "http://schema.org/",
@@ -544,4 +536,5 @@
       ]
     }
   </script>
+  -->
 </html>
