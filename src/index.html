@@ -124,7 +124,7 @@
       </p>
     </div>
 
-    <div class="card profile_img" style="overflow:hidden !important;">
+    <div class="card profile_img" style="overflow: hidden !important;">
       <picture>
         <source type="image/webp" srcset="dist/img-optimized/profile_img-lg.webp" />
         <img src="dist/img-optimized/profile_img-sm.jpg" alt="me" />
@@ -165,7 +165,7 @@
           <img
             src="dist/eqns/graphical_model.svg"
             alt="Graphical Model for Filtering"
-            style="width: calc(257.51 / 319.35 * 95%)"
+            style="width: calc(257.51 / 319.35 * 95%);"
           />
         </div>
         <i>Filtering</i> is the process by which we use the observations
@@ -187,7 +187,7 @@
           <img
             src="dist/eqns/bayesian_graphical.svg"
             alt="Graphical Model with Equations"
-            style="width: calc(302.34 / 319.35 * 95%)"
+            style="width: calc(302.34 / 319.35 * 95%);"
           />
         </div>
         This model is variously known as a <i>dynamic state-space</i> or hidden Markov model. It provides a
@@ -198,22 +198,22 @@
         >. We start with <span class="math_elt">z<sub>1</sub></span> drawn from its marginal distribution
         <span class="math_elt">p(z<sub>1</sub>)</span>. We then generate an observation
         <span class="math_elt">x<sub>1</sub></span> using the distribution
-        <span class="math_elt" style="color:#046A38;">p(x<sub>1</sub>&vert;z<sub>1</sub>)</span>. At each
+        <span class="math_elt" style="color: #046a38;">p(x<sub>1</sub>&vert;z<sub>1</sub>)</span>. At each
         subsequent time step <span class="math_elt">t</span>, we draw
         <span class="math_elt">z<sub>t</sub></span> from the distribution
-        <span class="math_elt" style="color:#003C71;">p(z<sub>t</sub>&vert;z<sub>t-1</sub>)</span>
+        <span class="math_elt" style="color: #003c71;">p(z<sub>t</sub>&vert;z<sub>t-1</sub>)</span>
         and <span class="math_elt">x<sub>t</sub></span> from the distribution
-        <span class="math_elt" style="color:#046A38;">p(x<sub>t</sub>&vert;z<sub>t</sub>)</span>. These two
+        <span class="math_elt" style="color: #046a38;">p(x<sub>t</sub>&vert;z<sub>t</sub>)</span>. These two
         conditional distributions are very important and characterize the generative process up to the
         specification of <span class="math_elt">Z<sub>1</sub></span
         >. The first,
-        <span class="math_elt" style="color:#003C71;">p(z<sub>t</sub>&vert;z<sub>t-1</sub>)</span>, relates
+        <span class="math_elt" style="color: #003c71;">p(z<sub>t</sub>&vert;z<sub>t-1</sub>)</span>, relates
         the state at time <span class="math_elt">t</span> to the state at time
         <span class="math_elt">t-1</span> and is often called the
-        <span style="color:#003C71;">state or prediction model</span>. The second,
-        <span class="math_elt" style="color:#046A38;">p(x<sub>t</sub>&vert;z<sub>t</sub>)</span>, relates the
+        <span style="color: #003c71;">state or prediction model</span>. The second,
+        <span class="math_elt" style="color: #046a38;">p(x<sub>t</sub>&vert;z<sub>t</sub>)</span>, relates the
         current observation to the current state and is called the
-        <span style="color:#046A38;">measurement or observation model</span>.
+        <span style="color: #046a38;">measurement or observation model</span>.
       </article>
     </div>
 
@@ -226,16 +226,16 @@
         have been observed to be
         <span class="math_elt">x<sub>1</sub>&hairsp;,&mldr;,&hairsp;x<sub>t</sub></span
         >&hairsp;. We refer to this distribution
-        <span class="math_elt" style="color:#ED1C24;">p(z<sub>t</sub>&vert;x<sub>1&colon;t</sub>)</span>
-        as the <span style="color:#ED1C24;">posterior</span>. The Chapman&ndash;Kolmogorov recursion
+        <span class="math_elt" style="color: #ed1c24;">p(z<sub>t</sub>&vert;x<sub>1&colon;t</sub>)</span>
+        as the <span style="color: #ed1c24;">posterior</span>. The Chapman&ndash;Kolmogorov recursion
         <div class="eqn_svg">
           <img
             src="dist/eqns/chapman_kolmogorov.svg"
             alt="Chapman&ndash;Kolmogorov Equation"
-            style="width: calc(319.35 / 319.35 * 95%)"
+            style="width: calc(319.35 / 319.35 * 95%);"
           />
         </div>
-        relates the <span style="color:#ED1C24;">posterior</span> at time <span class="math_elt">t</span> to
+        relates the <span style="color: #ed1c24;">posterior</span> at time <span class="math_elt">t</span> to
         the one at time <span class="math_elt">t-1</span>. Bayesian filtering solves or approximates the above
         integral. Common approaches include Kalman filtering, variational methods, quadrature methods, and
         Monte Carlo-based particle filtering.
@@ -245,20 +245,20 @@
     <div class="card" id="kalman-filter">
       <h6 class="title">Kalman Filter</h6>
       <article class="content">
-        The <i>Kalman</i> filter specifies both the <span style="color:#003C71;">state model</span> and
-        <span style="color:#046A38;">measurement model</span> as linear, Gaussian.
+        The <i>Kalman</i> filter specifies both the <span style="color: #003c71;">state model</span> and
+        <span style="color: #046a38;">measurement model</span> as linear, Gaussian.
         <div class="eqn_svg">
           <img
             src="dist/eqns/kalman_graphical.svg"
             alt="Kalman Graphical Model"
-            style="width: calc(222.52 / 319.35 * 95%)"
+            style="width: calc(222.52 / 319.35 * 95%);"
           />
         </div>
         Here,
         <span class="math_elt">&eta;<sub>d</sub>(&middot;&hairsp;;&thinsp;&mu;&hairsp;,&Sigma;)</span>
         denotes the <span class="math_elt">d</span>-dimensional Gaussian density with mean
         <span class="math_elt">&mu;</span> and covariance <span class="math_elt" lang="el">&Sigma;</span>. In
-        this way, the <span style="color:#ED1C24;">posterior</span> is Gaussian and quickly computable. NASA
+        this way, the <span style="color: #ed1c24;">posterior</span> is Gaussian and quickly computable. NASA
         used a variant of this filter to orient the Apollo Lunar Module and land the first humans on the moon.
       </article>
     </div>
@@ -267,8 +267,8 @@
       <h6 class="title">Our Approach</h6>
       <article class="content">
         We apply Bayes' rule to the
-        <span style="color:#046A38;">measurement model</span> and make the Gaussian approximation
-        <span class="math_elt" style="color:#046A38;"
+        <span style="color: #046a38;">measurement model</span> and make the Gaussian approximation
+        <span class="math_elt" style="color: #046a38;"
           >p(z<sub>t</sub>&vert;x<sub>t</sub>)&hairsp;&asymp;&hairsp;&eta;<sub>d</sub>(z<sub>t</sub>&hairsp;;&thinsp;f(x<sub>t</sub>),&hairsp;Q(x<sub>t</sub>))</span
         >
         where the functions <span class="math_elt">f</span> and <span class="math_elt">Q</span> can be learned
@@ -277,7 +277,7 @@
           <img
             src="dist/eqns/dkf_graphical.svg"
             alt="Discriminative Kalman Filter Graphical Model"
-            style="width: calc(259.88 / 319.35 * 95%)"
+            style="width: calc(259.88 / 319.35 * 95%);"
           />
         </div>
         This approach allows a nonlinear relationship between the measurements and latent states while
@@ -369,7 +369,7 @@
     </div>
 
     <div class="card" id="instagram">
-      <div class="content media-content" style="margin: 0.3em 0">
+      <div class="content media-content" style="margin: 0.3em 0;">
         <iframe
           src="https://www.instagram.com/p/B61J1qGlzDc/embed/"
           frameborder="0"
@@ -388,7 +388,7 @@
         <a
           class="twitter-timeline"
           data-chrome="noheader nofooter noborders"
-          data-tweet-limit="1"
+          data-tweet-limit="2"
           data-lang="en"
           data-dnt="true"
           href="https://twitter.com/burkh4rt?ref_src=twsrc%5Etfw"
@@ -398,7 +398,7 @@
 
     <div class="card" id="find-me">
       <h6 class="title">Find Me Online</h6>
-      <div class="img_row content" style="padding-top:0; border-radius:0 !important;">
+      <div class="img_row content" style="padding-top: 0; border-radius: 0 !important;">
         <a href="https://www.linkedin.com/in/burkh4rt/" target="_blank" rel="noopener">
           <img src="dist/logos/linkedin-logo.svg" alt="LinkedIn" />
         </a>
