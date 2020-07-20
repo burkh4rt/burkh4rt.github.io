@@ -2,6 +2,20 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
 
+import Theme from "../components/component_theme.js"
+
+import GlobalReset from "../components/component_normalize.js"
+import Fonts from "../components/fonts.js"
+import PrintStyle from "../components/print.js"
+
+import {
+  DeckThin,
+  Card,
+  HeaderCard,
+  CardTitle,
+  CardContent,
+} from "../components/layouts.js"
+
 export default function Home({ data }) {
   return (
     <>
@@ -12,19 +26,26 @@ export default function Home({ data }) {
         <meta name="author" content="Michael C. Burkhart" />
       </Helmet>
 
-      <body class="deck--thin">
-        <header class="card" id="header">
-          <h2>Menagerie</h2>
-          <h5>Michael C. Burkhart</h5>
-        </header>
+      <body>
+        <GlobalReset />
+        <Fonts />
+        <Theme>
+          <DeckThin>
+            <HeaderCard>
+              <h2>Menagerie</h2>
+              <h5>Michael C. Burkhart</h5>
+            </HeaderCard>
 
-        <div class="card">
-          <h6 class="title">404</h6>
-          <article class="content">
-            You appear to be lost. This happens from time to time. Shall we head{" "}
-            <Link to="/">home</Link>?
-          </article>
-        </div>
+            <Card>
+              <CardTitle>404</CardTitle>
+              <CardContent>
+                You appear to be lost. This happens from time to time. Shall we
+                head <Link to="/">home</Link>?
+              </CardContent>
+            </Card>
+          </DeckThin>
+        </Theme>
+        <PrintStyle />
       </body>
     </>
   )

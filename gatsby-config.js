@@ -10,13 +10,6 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
-    {
-      resolve: "gatsby-plugin-sass",
-      options: {
-        useResolveUrlLoader: true,
-        includePaths: [],
-      },
-    },
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,
     {
