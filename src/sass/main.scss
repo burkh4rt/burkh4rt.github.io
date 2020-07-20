@@ -120,7 +120,7 @@ ul {
   columns: 1;
   column-gap: $spacer-7;
   column-fill: balance-all;
-  width: calc(100% - 2 * 1.777rem - 2 * 1rem);
+  width: calc(100% - 1rem);
   display: block;
 }
 
@@ -128,7 +128,7 @@ ul {
   @extend %flex-center;
   margin: $spacer-7 auto $spacer-6;
   padding: 0 $spacer-5;
-  width: calc(90% - 2 * 1.777rem - 2 * 1rem);
+  width: calc(90% - 1rem);
   max-width: $width-md;
   display: block;
 }
