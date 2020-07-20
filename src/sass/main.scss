@@ -13,16 +13,6 @@ $garamond-stack: "Garamond Premier Pro Caption", "Adobe Garamond Premier Pro", G
 $gill-sans-stack: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", Frutiger, "Frutiger Linotype", Univers,
   Calibri, "P22 Underground", "Futura", Helvetica, Arial, sans-serif;
 
-// %pohutukawa-background {
-//   color: $white;
-//   background-color: $black;
-//   background-image: url("../dist/img-optimized/pohutukawa-sm.jpg");
-//   background-repeat: no-repeat;
-//   background-position: center;
-//   background-size: cover;
-//   filter: grayscale(10%);
-// }
-
 html {
   font-family: $gill-sans-stack;
 }
@@ -149,10 +139,6 @@ ul {
   overflow: hidden;
   align-items: center;
   align-content: center;
-  /*
-    text-align: justify;
-    hyphens: manual;
-    */
   * {
     margin: 0;
     font-weight: inherit;
