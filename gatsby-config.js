@@ -45,11 +45,16 @@ module.exports = {
     },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
-    `gatsby-plugin-postcss`,
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
         id: "UA-140252994-1",
+      },
+    },
+    {
+      resolve: "gatsby-plugin-html-attributes",
+      options: {
+        lang: "en",
       },
     },
   ],
