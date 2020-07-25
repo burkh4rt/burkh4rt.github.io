@@ -6,7 +6,6 @@ import Img from "gatsby-image"
 import Msvg from "../images/m.svg"
 
 import Theme from "../components/component_theme.js"
-
 import GlobalReset from "../components/component_normalize.js"
 import Fonts from "../components/fonts.js"
 import PrintStyle from "../components/print.js"
@@ -145,7 +144,7 @@ export default function Home({ data }) {
                       "https://mathscinet.ams.org/mathscinet/MRAuthorID/1296691",
                       "https://publons.com/researcher/2926384/michael-c-burkhart",
                       "https://profiles.impactstory.org/u/0000-0002-2772-5840",
-                      "https://figshare.com/authors/Michael_Burkhart/6643982",
+                      "https://figshare.com/authors/Michael_C_Burkhart/6643982",
                       "https://www.mendeley.com/profiles/michael-burkhart2",
                       "https://dblp.org/pers/hd/b/Burkhart:Michael_C=",
                       "https://dl.acm.org/author_page.cfm?id=99659347035",
@@ -185,7 +184,7 @@ export default function Home({ data }) {
                     "sameAs": [
                       "https://doi.org/10.31237/osf.io/4j3fu",
                       "https://arxiv.org/abs/1807.06173",
-                      "https://repository.library.brown.edu/studio/item/bdr:919147/",
+                      "https://repository.library.brown.edu/studio/item/bdr:919147",
                       "https://www.zenodo.org/record/3686561"
                     ]
                   }
