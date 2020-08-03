@@ -16,7 +16,7 @@ import {
   CardContent,
 } from "../components/layouts.js"
 
-export default function Home({ data }) {
+export default function Home() {
   return (
     <>
       <Helmet>

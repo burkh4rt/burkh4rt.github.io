@@ -480,7 +480,7 @@ export default function Home({ data }) {
                     <a
                       href="https://doi.org/10.1162/neco_a_01275"
                       target="_blank"
-                      rel="noopener"
+                      rel="noopener noreferrer"
                     >
                       <span itemprop="author">
                         M. Burkhart, D. Brandman, B. Franco, L. Hochberg, & M.
@@ -507,7 +507,7 @@ export default function Home({ data }) {
                     <a
                       href="https://doi.org/10.26300/nhfp-xv22"
                       target="_blank"
-                      rel="noopener"
+                      rel="noopener noreferrer"
                     >
                       <span itemprop="author">M. Burkhart.</span> “
                       <span itemprop="name">
@@ -525,7 +525,7 @@ export default function Home({ data }) {
                     <a
                       href="https://doi.org/10.1162/neco_a_01129"
                       target="_blank"
-                      rel="noopener"
+                      rel="noopener noreferrer"
                     >
                       <span itemprop="author">
                         D. Brandman, M. Burkhart, J. Kelemen, B. Franco, M.
@@ -551,7 +551,7 @@ export default function Home({ data }) {
                     <a
                       href="https://doi.org/10.1088/1741-2552/aa9ee7"
                       target="_blank"
-                      rel="noopener"
+                      rel="noopener noreferrer"
                     >
                       <span itemprop="author">
                         D. Brandman, T. Hosman, J. Saab, M. Burkhart, B.
@@ -583,35 +583,35 @@ export default function Home({ data }) {
                 <a
                   href="https://www.linkedin.com/in/burkh4rt/"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                 >
                   <img src={LinkedInLogo} alt="LinkedIn" />
                 </a>
                 <a
                   href="https://github.com/burkh4rt/"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                 >
                   <img src={GithubLogo} alt="GitHub" />
                 </a>
                 <a
                   href="https://www.instagram.com/burkh4rt/"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                 >
                   <img src={InstagramLogo} alt="Instagram" />
                 </a>
                 <a
                   href="https://twitter.com/burkh4rt"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                 >
                   <img src={TwitterLogo} alt="Twitter" />
                 </a>
                 <a
                   href="https://orcid.org/0000-0002-2772-5840"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                 >
                   <img src={OrcIDLogo} alt="ORCID" />
                 </a>
@@ -620,13 +620,13 @@ export default function Home({ data }) {
 
             <FooterCard>
               <h5 id="cv">
-                <a href={CVpdf} target="_blank" rel="noopener">
+                <a href={CVpdf} target="_blank" rel="noopener noreferrer">
                   {" "}
                   C.V. ☜
                 </a>
               </h5>
               <p id="locale">
-                © Michael C. Burkhart, 2020.
+                © Michael C. Burkhart, {data.site.year}.
                 <br />
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -659,6 +659,10 @@ export const query = graphql`
           ...GatsbyImageSharpFluid_withWebp_tracedSVG
         }
       }
+    }
+    site {
+      date: buildTime(formatString: "DD/MM/YYYY")
+      year: buildTime(formatString: "YYYY")
     }
   }
 `
