@@ -14,6 +14,7 @@ import {
   Deck,
   Card,
   CardTitle,
+  CardFooter,
   CardContent,
   HeaderCard,
   MediaCard,
@@ -243,7 +244,7 @@ export default function Home({ data }) {
                 interact with their environments in real time using mental
                 imagery alone. See slides from my defense{" "}
                 <a
-                  href="assets/dkf-slides.pdf"
+                  href="static-assets/dkf-slides.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -578,6 +579,15 @@ export default function Home({ data }) {
                   </li>
                 </ul>
               </CardContent>
+              <CardFooter>
+                <a
+                  href="static-assets/discriminative_filtering.bib"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  .bib ☜
+                </a>
+              </CardFooter>
             </Card>
 
             <Card>
@@ -624,7 +634,7 @@ export default function Home({ data }) {
             <FooterCard>
               <h5 id="cv">
                 <a
-                  href="assets/cv19.pdf"
+                  href="static-assets/cv19.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

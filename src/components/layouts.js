@@ -177,6 +177,22 @@ export const CardTitle = styled.h6`
   break-inside: avoid;
 `
 
+export const CardFooter = styled.h6`
+  position: relative;
+  left: calc(100% - 5rem);
+  bottom: ${props => `-${props.theme.spaces.spacer1}`};
+  line-height: 1em;
+  margin: 0;
+  padding: ${props => `0 ${props.theme.spaces.spacer1}`};
+  height: min-content;
+  width: min-content;
+  white-space: nowrap;
+  background-color: ${props => props.theme.colors.white};
+  line-height: 1rem;
+  font-weight: normal;
+  break-inside: avoid;
+`
+
 export const CardContent = styled.article`
   margin: ${props => `-${props.theme.spaces.spacer4} 0 0`};
   padding: ${props =>
