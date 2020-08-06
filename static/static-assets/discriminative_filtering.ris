@@ -1,0 +1,110 @@
+TY  - JOUR
+TI  - The Discriminative Kalman Filter for Bayesian Filtering with Nonlinear and Nongaussian Observation Models
+AU  - Burkhart, Michael C.
+AU  - Brandman, David M.
+AU  - Franco, Brian
+AU  - Hochberg, Leigh R.
+AU  - Harrison, Matthew T.
+T2  - Neural Computation
+PB  - MIT Press
+AB  - The Kalman filter provides a simple and efficient algorithm to compute the posterior distribution for state-space models where both the latent state and measurement models are linear and gaussian. Extensions to the Kalman filter, including the extended and unscented Kalman filters, incorporate linearizations for models where the observation model [Formula: see text] is nonlinear. We argue that in many cases, a model for [Formula: see text] proves both easier to learn and more accurate for latent state estimation. Approximating p(state|observation) as gaussian leads to a new filtering algorithm, the discriminative Kalman filter (DKF), which can perform well even when p(observation|state) is highly nonlinear and/or nongaussian. The approximation, motivated by the Bernstein–von Mises theorem, improves as the dimensionality of the observations increases. The DKF has computational complexity similar to the Kalman filter, allowing it in some cases to perform much faster than particle filters with similar precision, while better accounting for nonlinear and nongaussian observation models than Kalman-based extensions. When the observation model must be learned from training data prior to filtering, off-the-shelf nonlinear and nonparametric regression techniques can provide a gaussian model for p(state|observation) that cleanly integrates with the DKF. As part of the BrainGate2 clinical trial, we successfully implemented gaussian process regression with the DKF framework in a brain-computer interface to provide real-time, closed-loop cursor control to a person with a complete spinal cord injury. In this letter, we explore the theory underlying the DKF, exhibit some illustrative examples, and outline potential extensions.
+DA  - 2020/05//
+PY  - 2020
+DO  - 10.1162/neco_a_01275
+VL  - 32
+IS  - 5
+SP  - 969
+EP  - 1017
+JF  - Neural Computation
+JO  - Neural Comput.
+LA  - en
+SN  - 0899-7667, 1530-888X
+UR  - https://www.mitpressjournals.org/doi/abs/10.1162/neco_a_01275
+Y2  - 2020/08/06/17:40:39
+ER  -
+
+TY  - THES
+TI  - A Discriminative Approach to Bayesian Filtering with Applications to Human Neural Decoding
+AU  - Burkhart, Michael C
+AB  - Given a stationary state-space model that relates a sequence of hidden states and corresponding measurements or observations, Bayesian filtering provides a principled statistical framework for inferring the posterior distribution of the current state given all measurements up to the present time. For example, the Apollo lunar module implemented a Kalman filter to infer its location from a sequence of earth-based radar measurements and land safely on the moon. To perform Bayesian filtering, we require a measurement model that describes the conditional distribution of each observation given state. The Kalman filter takes this measurement model to be linear, Gaussian. Here we show how a nonlinear, Gaussian approximation to the distribution of state given observation can be used in conjunction with Bayes’ rule to build a nonlinear, non-Gaussian measurement model. The resulting approach, called the Discriminative Kalman Filter (DKF), retains fast closed-form updates for the posterior. We argue there are many cases where the distribution of state given measurement is better-approximated as Gaussian, especially when the dimensionality of measurements far exceeds that of states and the Bernstein—von Mises theorem applies. Online neural decoding for brain-computer interfaces provides a motivating example, where filtering incorporates increasingly detailed measurements of neural activity to provide users control over external devices. Within the BrainGate2 clinical trial, the DKF successfully enabled three volunteers with quadriplegia to control an on-screen cursor in real-time using mental imagery alone. Participant “T9” used the DKF to type out messages on a tablet PC. Nonstationarities, or changes to the statistical relationship between states and measurements that occur after model training, pose a significant challenge to effective filtering. In brain-computer interfaces, one common type of nonstationarity results from wonkiness or dropout of a single neuron. We show how a robust measurement model can be used within the DKF framework to effectively ignore large changes in the behavior of a single neuron. At BrainGate2, a successful online human neural decoding experiment validated this approach against the commonly-used Kalman filter.
+CY  - Providence, Rhode Island, USA
+SP  - xxii, 112 p.
+M3  - Thesis (Ph. D.)
+PB  - Brown University
+UR  - https://repository.library.brown.edu/studio/item/bdr:919147/
+DO  - 10.26300/nhfp-xv22
+ER  -
+
+TY  - JOUR
+TI  - Robust Closed-Loop Control of a Cursor in a Person with Tetraplegia using Gaussian Process Regression
+AU  - Brandman, David M.
+AU  - Burkhart, Michael C.
+AU  - Kelemen, Jessica
+AU  - Franco, Brian
+AU  - Harrison, Matthew T.
+AU  - Hochberg, Leigh R.
+T2  - Neural Computation
+PB  - MIT Press
+AB  - Intracortical brain computer interfaces can enable individuals with paralysis to control external devices through voluntarily modulated brain activity. Decoding quality has been previously shown to degrade with signal nonstationarities—specifically, the changes in the statistics of the data between training and testing data sets. This includes changes to the neural tuning profiles and baseline shifts in firing rates of recorded neurons, as well as nonphysiological noise. While progress has been made toward providing long-term user control via decoder recalibration, relatively little work has been dedicated to making the decoding algorithm more resilient to signal nonstationarities. Here, we describe how principled kernel selection with gaussian process regression can be used within a Bayesian filtering framework to mitigate the effects of commonly encountered nonstationarities. Given a supervised training set of (neural features, intention to move in a direction)-pairs, we use gaussian process regression to predict the intention given the neural data. We apply kernel embedding for each neural feature with the standard radial basis function. The multiple kernels are then summed together across each neural dimension, which allows the kernel to effectively ignore large differences that occur only in a single feature. The summed kernel is used for real-time predictions of the posterior mean and variance under a gaussian process framework. The predictions are then filtered using the discriminative Kalman filter to produce an estimate of the neural intention given the history of neural data. We refer to the multiple kernel approach combined with the discriminative Kalman filter as the MK-DKF. We found that the MK-DKF decoder was more resilient to nonstationarities frequently encountered in-real world settings yet provided similar performance to the currently used Kalman decoder. These results demonstrate a method by which neural decoding can be made more resistant to nonstationarities.
+DA  - 2018/11//
+PY  - 2018
+DO  - 10.1162/neco_a_01129
+VL  - 30
+IS  - 11
+SP  - 2986
+EP  - 3008
+JF  - Neural Computation
+JO  - Neural Comput.
+LA  - en
+SN  - 0899-7667, 1530-888X
+UR  - https://www.mitpressjournals.org/doi/10.1162/neco_a_01129
+Y2  - 2020/08/06/17:42:34
+ER  -
+
+TY  - JOUR
+TI  - Rapid calibration of an intracortical brain–computer interface for people with tetraplegia
+AU  - Brandman, David M
+AU  - Hosman, Tommy
+AU  - Saab, Jad
+AU  - Burkhart, Michael C
+AU  - Shanahan, Benjamin E
+AU  - Ciancibello, John G
+AU  - Sarma, Anish A
+AU  - Milstein, Daniel J
+AU  - Vargas-Irwin, Carlos E
+AU  - Franco, Brian
+AU  - Kelemen, Jessica
+AU  - Blabe, Christine
+AU  - Murphy, Brian A
+AU  - Young, Daniel R
+AU  - Willett, Francis R
+AU  - Pandarinath, Chethan
+AU  - Stavisky, Sergey D
+AU  - Kirsch, Robert F
+AU  - Walter, Benjamin L
+AU  - Bolu Ajiboye, A
+AU  - Cash, Sydney S
+AU  - Eskandar, Emad N
+AU  - Miller, Jonathan P
+AU  - Sweet, Jennifer A
+AU  - Shenoy, Krishna V
+AU  - Henderson, Jaimie M
+AU  - Jarosiewicz, Beata
+AU  - Harrison, Matthew T
+AU  - Simeral, John D
+AU  - Hochberg, Leigh R
+JF  - Journal of Neural Engineering
+JO  - J. Neural Eng.
+DA  - 2018/04/01/
+PY  - 2018
+DO  - 10.1088/1741-2552/aa9ee7
+VL  - 15
+IS  - 2
+SP  - 026007
+J2  - J. Neural Eng.
+SN  - 1741-2560, 1741-2552
+UR  - https://iopscience.iop.org/article/10.1088/1741-2552/aa9ee7
+Y2  - 2020/08/06/17:43:01
+PB  - IOP Publishing
+AB - Brain–computer interfaces (BCIs) can enable individuals with tetraplegia to communicate and control external devices. Though much progress has been made in improving the speed and robustness of neural control provided by intracortical BCIs, little research has been devoted to minimizing the amount of time spent on decoder calibration. Approach. We investigated the amount of time users needed to calibrate decoders and achieve performance saturation using two markedly different decoding algorithms: the steady-state Kalman filter, and a novel technique using Gaussian process regression (GP-DKF). Main results. Three people with tetraplegia gained rapid closed-loop neural cursor control and peak, plateaued decoder performance within 3 min of initializing calibration. We also show that a BCI-naïve user (T5) was able to rapidly attain closed-loop neural cursor control with the GP-DKF using self-selected movement imagery on his first-ever day of closed-loop BCI use, acquiring a target 37 s after initiating calibration. Significance. These results demonstrate the potential for an intracortical BCI to be used immediately after deployment by people with paralysis, without the need for user learning or extensive system calibration.
+ER  -
