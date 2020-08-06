@@ -41,9 +41,6 @@ import LinkedInLogo from "../images/linkedin-logo.svg"
 import OrcIDLogo from "../images/orcid-logo.svg"
 import TwitterLogo from "../images/twitter-logo.svg"
 
-import DKFslides from "../pdfs/dkf-slides.pdf"
-import CVpdf from "../pdfs/cv19.pdf"
-
 export default function Home({ data }) {
   return (
     <>
@@ -245,7 +242,13 @@ export default function Home({ data }) {
                 to enable participants with quadriplegia to communicate and
                 interact with their environments in real time using mental
                 imagery alone. See slides from my defense{" "}
-                <a href={DKFslides}>here.</a>
+                <a
+                  href="assets/dkf-slides.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  here.
+                </a>
               </CardContent>
             </Card>
 
@@ -620,7 +623,11 @@ export default function Home({ data }) {
 
             <FooterCard>
               <h5 id="cv">
-                <a href={CVpdf} target="_blank" rel="noopener noreferrer">
+                <a
+                  href="assets/cv19.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   {" "}
                   C.V. ☜
                 </a>
