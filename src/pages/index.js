@@ -478,7 +478,7 @@ export default function Home({ data }) {
 
             <Card>
               <CardTitle>Relevant Publications</CardTitle>
-              <CardContent>
+              <CardContent style={{ paddingBottom: 0 }}>
                 <ul>
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
                     <a
@@ -580,11 +580,7 @@ export default function Home({ data }) {
                 </ul>
               </CardContent>
               <CardFooter>
-                <a
-                  href="static-assets/discriminative_filtering.bib"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="static-assets/discriminative_filtering.bib" download>
                   .bib ☜
                 </a>
               </CardFooter>
