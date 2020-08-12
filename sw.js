@@ -28,11 +28,11 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "0f4970b0c3ee380e158d2330a1808998"
+    "revision": "691b5d3cbb44b0f4ab0507a1a70ae0e4"
   },
   {
     "url": "404/index.html",
-    "revision": "d8a4b20b0d3bc73843170a8b148431c4"
+    "revision": "b1d2cc6cb6a7dd68b4251d88be23ca76"
   },
   {
     "url": "app-50c01a7c3501cba0a055.js"
@@ -61,6 +61,13 @@ self.__precacheManifest = [
   {
     "url": "app-6a191de17f943e123a28.js.map",
     "revision": "a092074fc0f64c8392de486b2f3d7e9c"
+  },
+  {
+    "url": "app-8b271bb034ad482ebebe.js"
+  },
+  {
+    "url": "app-8b271bb034ad482ebebe.js.map",
+    "revision": "f7d0c78a633c1d8bf7def244c9d7c44d"
   },
   {
     "url": "app-909098355c4d01566f01.js"
@@ -108,7 +115,7 @@ self.__precacheManifest = [
   },
   {
     "url": "chunk-map.json",
-    "revision": "8b340683083e136276f9a11159df6040"
+    "revision": "8fa04d507b5e6d712740767fb0737a96"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-0097d26fbd474b34ff9b.js"
@@ -174,11 +181,25 @@ self.__precacheManifest = [
     "revision": "2173e573b8ab3305a7c500dec8cbe197"
   },
   {
+    "url": "component---src-pages-cv-js-a8d5c025cd66742557af.js"
+  },
+  {
+    "url": "component---src-pages-cv-js-a8d5c025cd66742557af.js.map",
+    "revision": "135cce93316d630b84f569189339278e"
+  },
+  {
     "url": "component---src-pages-dkf-slides-js-5c1a603e1c4457673088.js"
   },
   {
     "url": "component---src-pages-dkf-slides-js-5c1a603e1c4457673088.js.map",
     "revision": "7641c28b832cba9bd0a3e497f54e5ff4"
+  },
+  {
+    "url": "component---src-pages-dkf-slides-js-6655e14d8a1d8af1119f.js"
+  },
+  {
+    "url": "component---src-pages-dkf-slides-js-6655e14d8a1d8af1119f.js.map",
+    "revision": "1c5106836a44a95e88eb80e76ab3d464"
   },
   {
     "url": "component---src-pages-dkf-slides-js-aaab26ebdfece56e8803.js"
@@ -301,11 +322,11 @@ self.__precacheManifest = [
   },
   {
     "url": "cv/index.html",
-    "revision": "0fe6bae290b7e96edca90955af59e577"
+    "revision": "213ff56a6a9f6915ebe46e13aa9c5cf3"
   },
   {
     "url": "dkf-slides/index.html",
-    "revision": "462b1dc50723f0460fd303f4f931a094"
+    "revision": "ffc7bdb59ec9cae92e09a49a21fd0bd1"
   },
   {
     "url": "e50e9c162871c1d91fba5ce567a5656e16dc6783-39ca6d358251d8e5be5e.js"
@@ -422,7 +443,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "3e14bda555a5ad12aeb3d5e500639eea"
+    "revision": "14349df78d9b3f38eec9243eda791910"
   },
   {
     "url": "manifest.webmanifest",
@@ -434,7 +455,7 @@ self.__precacheManifest = [
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "b4428214eac2cc67e5c70b8f1ff1d240"
+    "revision": "03c244537104779b466654bb9a422176"
   },
   {
     "url": "page-data/404.html/page-data.json",
@@ -446,7 +467,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "85357f16b16eb02645d0c289bdbc5836"
+    "revision": "c0df101235f6962c79242c21ff79936d"
   },
   {
     "url": "page-data/cv/page-data.json",
@@ -684,6 +705,13 @@ self.__precacheManifest = [
     "revision": "02b140c96881d077e4a13a60b4cf5029"
   },
   {
+    "url": "webpack-runtime-0f44027697e9e2eda7af.js"
+  },
+  {
+    "url": "webpack-runtime-0f44027697e9e2eda7af.js.map",
+    "revision": "5e72a6fc20e128dfa6f62ce53114bb8a"
+  },
+  {
     "url": "webpack-runtime-4d719aff8a0e8fff5643.js"
   },
   {
@@ -825,7 +853,7 @@ self.__precacheManifest = [
   },
   {
     "url": "webpack.stats.json",
-    "revision": "d73a2262f124f0aae34685516c991436"
+    "revision": "52424df809face3fb4a38c25624f8ac8"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -917,7 +945,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-909098355c4d01566f01.js`))) {
+  if (!resources || !(await caches.match(`/app-8b271bb034ad482ebebe.js`))) {
     return await fetch(event.request)
   }
 
