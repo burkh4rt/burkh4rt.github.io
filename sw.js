@@ -28,11 +28,11 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "ab680de3beacd1b9ca5778c2f2e94802"
+    "revision": "0f4970b0c3ee380e158d2330a1808998"
   },
   {
     "url": "404/index.html",
-    "revision": "231097ebdffa5efcd3f9ed60d3f18a55"
+    "revision": "d8a4b20b0d3bc73843170a8b148431c4"
   },
   {
     "url": "app-50c01a7c3501cba0a055.js"
@@ -63,6 +63,13 @@ self.__precacheManifest = [
     "revision": "a092074fc0f64c8392de486b2f3d7e9c"
   },
   {
+    "url": "app-909098355c4d01566f01.js"
+  },
+  {
+    "url": "app-909098355c4d01566f01.js.map",
+    "revision": "240db9b8dd65303fdf39f224cd7c46aa"
+  },
+  {
     "url": "app-f01ee04b6588f76b5cb5.js"
   },
   {
@@ -81,12 +88,34 @@ self.__precacheManifest = [
     "revision": "29860ebfa7f02ad3ee778a4709932f1b"
   },
   {
+    "url": "assets/discriminative_filtering.bib",
+    "revision": "1d45fc650f26bbb5306345e8d61d4d2f"
+  },
+  {
+    "url": "assets/discriminative_filtering.ris",
+    "revision": "d50eae1f55d0c73a79d99c25339e4ec5"
+  },
+  {
     "url": "assets/dkf-slides.pdf",
     "revision": "25656f4e6a998fc9bec7c3ab0293aa44"
   },
   {
+    "url": "bea29393d3331be6780edcfb6ed21f3d7300bdc3-4cabda7f921a5260041c.js"
+  },
+  {
+    "url": "bea29393d3331be6780edcfb6ed21f3d7300bdc3-4cabda7f921a5260041c.js.map",
+    "revision": "b6bbe6b8207d1ab1e96ea9ca72868677"
+  },
+  {
     "url": "chunk-map.json",
-    "revision": "a77a7bf39de14f84b1b477dd0d5fa6db"
+    "revision": "8b340683083e136276f9a11159df6040"
+  },
+  {
+    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-0097d26fbd474b34ff9b.js"
+  },
+  {
+    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-0097d26fbd474b34ff9b.js.map",
+    "revision": "8c22280df3ba39faa1795083a3f99402"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-7c31e2436cade51cbcda.js"
@@ -94,6 +123,13 @@ self.__precacheManifest = [
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-7c31e2436cade51cbcda.js.map",
     "revision": "73fab470230271ac23de3b660b41bd46"
+  },
+  {
+    "url": "component---src-pages-404-js-42cc0b9767b4c20ea13e.js"
+  },
+  {
+    "url": "component---src-pages-404-js-42cc0b9767b4c20ea13e.js.map",
+    "revision": "ba4b2b95b3e3c2b0b53bd1c6a2c335b2"
   },
   {
     "url": "component---src-pages-404-js-43b06df3611a964ec3cb.js"
@@ -122,6 +158,34 @@ self.__precacheManifest = [
   {
     "url": "component---src-pages-404-js-6c46ee427c39f3f39307.js.map",
     "revision": "130c1c4a3a56f287e5399334023f12c7"
+  },
+  {
+    "url": "component---src-pages-cv-js-219b721a9248fbefe691.js"
+  },
+  {
+    "url": "component---src-pages-cv-js-219b721a9248fbefe691.js.map",
+    "revision": "271d58e510aa96944b19ca26aeda4865"
+  },
+  {
+    "url": "component---src-pages-cv-js-4d4b741b37452119e0a8.js"
+  },
+  {
+    "url": "component---src-pages-cv-js-4d4b741b37452119e0a8.js.map",
+    "revision": "2173e573b8ab3305a7c500dec8cbe197"
+  },
+  {
+    "url": "component---src-pages-dkf-slides-js-5c1a603e1c4457673088.js"
+  },
+  {
+    "url": "component---src-pages-dkf-slides-js-5c1a603e1c4457673088.js.map",
+    "revision": "7641c28b832cba9bd0a3e497f54e5ff4"
+  },
+  {
+    "url": "component---src-pages-dkf-slides-js-aaab26ebdfece56e8803.js"
+  },
+  {
+    "url": "component---src-pages-dkf-slides-js-aaab26ebdfece56e8803.js.map",
+    "revision": "e1a7b6dcf4856c1e937b4d65744b1188"
   },
   {
     "url": "component---src-pages-index-js-0ab179c9bdedecb31ccc.js"
@@ -187,6 +251,13 @@ self.__precacheManifest = [
     "revision": "3819828d92a7ae14ecb13aedfa0751b0"
   },
   {
+    "url": "component---src-pages-index-js-b20243bc496c66053d18.js"
+  },
+  {
+    "url": "component---src-pages-index-js-b20243bc496c66053d18.js.map",
+    "revision": "46435e6727d688e9b166392e715abac9"
+  },
+  {
     "url": "component---src-pages-index-js-b840e3ff441b9b30116f.js"
   },
   {
@@ -208,6 +279,13 @@ self.__precacheManifest = [
     "revision": "f387cced56b39c29e65e2f02a4113886"
   },
   {
+    "url": "component---src-pages-index-js-e58397713560709ba852.js"
+  },
+  {
+    "url": "component---src-pages-index-js-e58397713560709ba852.js.map",
+    "revision": "9472613a3c2aac2306f977851daca414"
+  },
+  {
     "url": "component---src-pages-index-js-f351b8dee1374f3ea549.js"
   },
   {
@@ -220,6 +298,14 @@ self.__precacheManifest = [
   {
     "url": "component---src-pages-index-js-f75087022f3c576746c3.js.map",
     "revision": "727609ad8a9cc918c6d0b699aea346f0"
+  },
+  {
+    "url": "cv/index.html",
+    "revision": "0fe6bae290b7e96edca90955af59e577"
+  },
+  {
+    "url": "dkf-slides/index.html",
+    "revision": "462b1dc50723f0460fd303f4f931a094"
   },
   {
     "url": "e50e9c162871c1d91fba5ce567a5656e16dc6783-39ca6d358251d8e5be5e.js"
@@ -271,6 +357,13 @@ self.__precacheManifest = [
     "revision": "33add10b513f6bd88d77134eccfb7567"
   },
   {
+    "url": "e50e9c162871c1d91fba5ce567a5656e16dc6783-f552fd3c8e9474294087.js"
+  },
+  {
+    "url": "e50e9c162871c1d91fba5ce567a5656e16dc6783-f552fd3c8e9474294087.js.map",
+    "revision": "50a318b1b3b1e874599e919be29efb4d"
+  },
+  {
     "url": "favicon-32x32.png",
     "revision": "134312677f57ce87eaac69c26655df20"
   },
@@ -284,6 +377,13 @@ self.__precacheManifest = [
   {
     "url": "framework-a576ae5ab153fa4a7c27.js.map",
     "revision": "93827e9ae5e1ecfb372843b664b62144"
+  },
+  {
+    "url": "framework-b5b229d58c3c710d5429.js"
+  },
+  {
+    "url": "framework-b5b229d58c3c710d5429.js.map",
+    "revision": "912f19303fcb38625576731ce25e1b8f"
   },
   {
     "url": "icons/icon-144x144.png",
@@ -322,7 +422,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "a46b6d9617c470f966a3d57255cd50c0"
+    "revision": "3e14bda555a5ad12aeb3d5e500639eea"
   },
   {
     "url": "manifest.webmanifest",
@@ -334,7 +434,7 @@ self.__precacheManifest = [
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "45d6e19769a23245811c307b6dda1ec6"
+    "revision": "b4428214eac2cc67e5c70b8f1ff1d240"
   },
   {
     "url": "page-data/404.html/page-data.json",
@@ -346,11 +446,19 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "cfb1962633297ef2a75a6a8adbbb9798"
+    "revision": "85357f16b16eb02645d0c289bdbc5836"
+  },
+  {
+    "url": "page-data/cv/page-data.json",
+    "revision": "dc48e279ada810ccd7b9b9c9bd103101"
   },
   {
     "url": "page-data/dev-404-page/page-data.json",
-    "revision": "06161a94f1e57a13ae942e5d896a1ef2"
+    "revision": "6717416e7c1522f3788507ec57f28427"
+  },
+  {
+    "url": "page-data/dkf-slides/page-data.json",
+    "revision": "650aced586aac4b8d0ee5c92e9cc0af9"
   },
   {
     "url": "page-data/index/page-data.json",
@@ -368,20 +476,27 @@ self.__precacheManifest = [
     "revision": "0c0ba94d94d6521b2d1611a8e0ffd435"
   },
   {
+    "url": "polyfill-d10938940af3acfd070f.js"
+  },
+  {
+    "url": "polyfill-d10938940af3acfd070f.js.map",
+    "revision": "2cf92d1ad2bfd3210fe4aa7faf0d0a44"
+  },
+  {
     "url": "robots.txt",
     "revision": "0a9a1db2884048e2d407a6bb0926ae7b"
   },
   {
     "url": "sitemap-pages.xml",
-    "revision": "6e43b9d9ed8d3e1680578ef434a21a2e"
+    "revision": "48c66090eb1d892048099ed5b8849e4c"
   },
   {
     "url": "sitemap.xml",
-    "revision": "dcef3793af7b7e8d33ad17fb3e3327c0"
+    "revision": "80e186460a9a806863e7fa732ce8ef23"
   },
   {
     "url": "sitemap.xsl",
-    "revision": "84eed71bbf820506ceb395ae16c91e89"
+    "revision": "3093d344c3a605b0b1822edf04d1a840"
   },
   {
     "url": "static-assets/cv19.pdf",
@@ -499,6 +614,9 @@ self.__precacheManifest = [
     "url": "static/cv19-29860ebfa7f02ad3ee778a4709932f1b.pdf"
   },
   {
+    "url": "static/cv19-3068dd48929a60b9a9501ba7ecca26a3.pdf"
+  },
+  {
     "url": "static/d50eae1f55d0c73a79d99c25339e4ec5/discriminative_filtering.ris"
   },
   {
@@ -608,11 +726,25 @@ self.__precacheManifest = [
     "revision": "15e67d8f92d9bb815bad056981e900a8"
   },
   {
+    "url": "webpack-runtime-7faae51ef9728945c650.js"
+  },
+  {
+    "url": "webpack-runtime-7faae51ef9728945c650.js.map",
+    "revision": "ca45b63cfdda3c873db846209432c0ce"
+  },
+  {
     "url": "webpack-runtime-814db70509c57be34fce.js"
   },
   {
     "url": "webpack-runtime-814db70509c57be34fce.js.map",
     "revision": "e18366eeccb2cb2dfc2dc71e6faa12f9"
+  },
+  {
+    "url": "webpack-runtime-84dba38225910ef7506e.js"
+  },
+  {
+    "url": "webpack-runtime-84dba38225910ef7506e.js.map",
+    "revision": "61fc3b9fc6b6138dea0e9eee06d125fc"
   },
   {
     "url": "webpack-runtime-8dba38b07223746eabca.js"
@@ -685,8 +817,15 @@ self.__precacheManifest = [
     "revision": "c914d21f6a8046974d497c25bfc4dfbc"
   },
   {
+    "url": "webpack-runtime-f2dedbb23e9a92f0e2b3.js"
+  },
+  {
+    "url": "webpack-runtime-f2dedbb23e9a92f0e2b3.js.map",
+    "revision": "e83b37d0f14b467ee005711ac6baf326"
+  },
+  {
     "url": "webpack.stats.json",
-    "revision": "9ed3f05b60d4971b1fbcd97b0c197a4b"
+    "revision": "d73a2262f124f0aae34685516c991436"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -778,7 +917,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-682533d4e071480a2faf.js`))) {
+  if (!resources || !(await caches.match(`/app-909098355c4d01566f01.js`))) {
     return await fetch(event.request)
   }
 
