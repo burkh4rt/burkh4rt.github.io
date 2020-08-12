@@ -11,6 +11,11 @@ export default function Home() {
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Michael C. Burkhart" />
+        <meta name="description" content="Michael Burkhart's C.V." />
+        <meta
+          name="keywords"
+          content="Michael Burkhart,Michael C. Burkhart,Ph.D.,Brown University,Applied Mathematics,Statistics,Bayesian Filtering,neural decoding,Discriminative Kalman Filter,machine learning"
+        />
       </Helmet>
 
       <body>

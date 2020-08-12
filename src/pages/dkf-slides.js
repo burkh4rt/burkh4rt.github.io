@@ -11,6 +11,14 @@ export default function Home() {
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Michael C. Burkhart" />
+        <meta
+          name="description"
+          content="Slides from the Ph.D. defense of 'A Discriminative Approach to Bayesian Filtering with Applications to Human Neural Decoding' presented in the Division of Applied Mathematics at Brown University in Providence RI USA on 23 May 2018"
+        />
+        <meta
+          name="keywords"
+          content="Michael Burkhart,Michael C. Burkhart,Ph.D.,Brown University,Applied Mathematics,Statistics,Bayesian Filtering,neural decoding,Discriminative Kalman Filter,machine learning"
+        />
       </Helmet>
 
       <body>
