@@ -4,8 +4,10 @@
 
 module.exports = {
   siteMetadata: {
+    title: `Michael Burkhart's website`,
     siteUrl: `https://burkh4rt.github.io`,
     twitterUsername: `burkh4rt`,
+    description: `Michael Burkhart's homepage. Snippets from work and life, with links.`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -58,6 +60,11 @@ module.exports = {
         lang: "en",
       },
     },
-    `gatsby-plugin-advanced-sitemap`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `sitemap.xml`, // the default
+      },
+    },
   ],
 }

@@ -1,6 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Img from "gatsby-image"
 
 import Msvg from "../images/m.svg"
@@ -52,7 +52,7 @@ export default function Home({ data }) {
         <meta name="author" content="Michael C. Burkhart" />
         <meta
           name="description"
-          content="Michael Burkhart's home page. Snippets from work and life, with links."
+          content="Michael Burkhart's homepage. Snippets from work and life, with links."
         />
         <meta
           name="keywords"
@@ -65,7 +65,7 @@ export default function Home({ data }) {
         <meta property="og:url" content="https://burkh4rt.github.io" />
         <meta
           property="og:description"
-          content="Michael Burkhart's home page. Snippets from work and life, with links."
+          content="Michael Burkhart's homepage. Snippets from work and life, with links."
         />
         <meta property="og:locale" content="en_US" />
 
@@ -75,7 +75,7 @@ export default function Home({ data }) {
         <meta name="twitter:title" content="Michael Burkhart's website" />
         <meta
           name="twitter:description"
-          content="Michael Burkhart's home page. Snippets from work and life, with links."
+          content="Michael Burkhart's homepage. Snippets from work and life, with links."
         />
         <meta property="twitter:image" content={Msvg} />
         <meta name="twitter:dnt" content="on" />
@@ -243,13 +243,7 @@ export default function Home({ data }) {
                 to enable participants with quadriplegia to communicate and
                 interact with their environments in real time using mental
                 imagery alone. See slides from my defense{" "}
-                <a
-                  href="static-assets/dkf-slides.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  here.
-                </a>
+                <Link to="/dkf-slides">here</Link>.
               </CardContent>
             </Card>
 
@@ -629,14 +623,7 @@ export default function Home({ data }) {
 
             <FooterCard>
               <h5 id="cv">
-                <a
-                  href="static-assets/cv19.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  C.V. ☜
-                </a>
+                <Link to="/cv">C.V. ☜</Link>
               </h5>
               <p id="locale">
                 © Michael C. Burkhart, {data.site.year}.
