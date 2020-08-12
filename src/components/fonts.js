@@ -31,7 +31,7 @@ const Fonts = createGlobalStyle`
         font-style: normal;
         font-weight: 400;
         font-feature-settings: "kern" 1, "onum" 1;
-        unicode-range: U+000-5FF, U+261C; /* Latin glyphs */
+        /* unicode-range: U+000-5FF, U+261C;  Latin glyphs */
         font-display: block;
     }
     @font-face {
@@ -56,7 +56,7 @@ const Fonts = createGlobalStyle`
           font-style: normal;
           font-weight: 500;
           font-feature-settings: "kern" 1, "onum" 1;
-          unicode-range: U+000-5FF, U+261C; /* Latin glyphs */
+          /* unicode-range: U+000-5FF, U+261C;  Latin glyphs */
           font-display: block;
     }
     @font-face {
@@ -69,7 +69,7 @@ const Fonts = createGlobalStyle`
         font-style: normal;
         font-weight: 400;
         font-feature-settings: "kern" 1, "onum" 1;
-        unicode-range: U+000-5FF; /* Latin glyphs */
+        /* unicode-range: U+000-5FF;  Latin glyphs */
         font-display: block;
     }
     @font-face {
@@ -82,7 +82,7 @@ const Fonts = createGlobalStyle`
           font-style: italic;
           font-weight: 400;
           font-feature-settings: "kern" 1, "onum" 1;
-          unicode-range: U+000-5FF; /* Latin glyphs */
+          /* unicode-range: U+000-5FF;  Latin glyphs */
           font-display: block;
     }
 `

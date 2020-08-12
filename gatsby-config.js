@@ -43,7 +43,6 @@ module.exports = {
         },
       },
     },
-    `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
     {
       resolve: `gatsby-plugin-google-gtag`,
@@ -59,5 +58,6 @@ module.exports = {
         lang: "en",
       },
     },
+    `gatsby-plugin-advanced-sitemap`,
   ],
 }
