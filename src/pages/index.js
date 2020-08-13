@@ -1,9 +1,11 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import Img from "gatsby-image"
 
 import Msvg from "../images/m.svg"
+import CVpdf from "../docs/cv19.pdf"
+import DKFslides from "../docs/dkf-slides.pdf"
 
 import Theme from "../components/component_theme.js"
 import GlobalReset from "../components/component_normalize.js"
@@ -243,7 +245,9 @@ export default function Home({ data }) {
                 to enable participants with quadriplegia to communicate and
                 interact with their environments in real time using mental
                 imagery alone. See slides from my defense{" "}
-                <Link to="/dkf-slides">here</Link>.
+                <a href={DKFslides} target="_blank" rel="noopener noreferrer">
+                  here.
+                </a>
               </CardContent>
             </Card>
 
@@ -623,7 +627,10 @@ export default function Home({ data }) {
 
             <FooterCard>
               <h5 id="cv">
-                <Link to="/cv">C.V. ☜</Link>
+                <a href={CVpdf} target="_blank" rel="noopener noreferrer">
+                  {" "}
+                  C.V. ☜
+                </a>
               </h5>
               <p id="locale">
                 © Michael C. Burkhart, {data.site.year}.
