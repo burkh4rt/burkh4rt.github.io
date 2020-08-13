@@ -22,11 +22,11 @@ export default function Home() {
       </Helmet>
 
       <body>
-        <embed
+        <object
           style={{ position: "absolute", top: "0", left: "0", margin: "0" }}
           width="100%"
           height="100%"
-          src={DKFslides}
+          data={DKFslides}
           type="application/pdf"
         />
       </body>
