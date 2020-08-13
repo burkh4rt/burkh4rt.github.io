@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 
-import Msvg from "../images/m.svg"
+import Msvg from "../logos/m.svg"
 import CVpdf from "../docs/cv19.pdf"
 import DKFslides from "../docs/dkf-slides.pdf"
 
@@ -38,11 +38,11 @@ import DKFGraphicalEqn from "../eqns/dkf_graphical.svg"
 import GraphicalModelEqn from "../eqns/graphical_model.svg"
 import KalmanGraphicalEqn from "../eqns/kalman_graphical.svg"
 
-import GithubLogo from "../images/github-logo.svg"
-import InstagramLogo from "../images/instagram-logo.svg"
-import LinkedInLogo from "../images/linkedin-logo.svg"
-import OrcIDLogo from "../images/orcid-logo.svg"
-import TwitterLogo from "../images/twitter-logo.svg"
+import GithubLogo from "../logos/github-logo.svg"
+import InstagramLogo from "../logos/instagram-logo.svg"
+import LinkedInLogo from "../logos/linkedin-logo.svg"
+import OrcIDLogo from "../logos/orcid-logo.svg"
+import TwitterLogo from "../logos/twitter-logo.svg"
 
 export default function Home({ data }) {
   return (

@@ -28,7 +28,7 @@ module.exports = {
         description: `Snippets from work and life, with links`,
         lang: `en`,
         start_url: `/`,
-        icon: `src/images/m.svg`,
+        icon: `src/logos/m.svg`,
         icon_options: {
           purpose: `maskable`,
         },
