@@ -4,7 +4,7 @@ import { graphql } from "gatsby"
 import Img from "gatsby-image"
 
 import Msvg from "../logos/m.svg"
-import CVpdf from "../docs/cv19.pdf"
+import CVpdf from "../docs/cv20.pdf"
 import DKFslides from "../docs/dkf-slides.pdf"
 
 import Theme from "../components/component_theme.js"
