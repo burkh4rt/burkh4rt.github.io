@@ -7,10 +7,10 @@ import Msvg from "../logos/m.svg"
 import CVpdf from "../docs/cv20.pdf"
 import DKFslides from "../docs/dkf-slides.pdf"
 
-import Theme from "../components/component_theme.js"
-import GlobalReset from "../components/component_normalize.js"
-import Fonts from "../components/fonts.js"
-import PrintStyle from "../components/print.js"
+import Theme from "../components/component_theme"
+import GlobalReset from "../components/component_normalize"
+import Fonts from "../components/fonts"
+import PrintStyle from "../components/print"
 
 import {
   Deck,
@@ -30,7 +30,7 @@ import {
   TextNavy,
   TextRed,
   EqnSVG,
-} from "../components/layouts.js"
+} from "../components/layouts"
 
 import BayesianGraphicalEqn from "../eqns/bayesian_graphical.svg"
 import ChapmanKolmogorovEqn from "../eqns/chapman_kolmogorov.svg"

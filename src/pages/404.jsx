@@ -2,11 +2,11 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
 
-import Theme from "../components/component_theme.js"
+import Theme from "../components/component_theme"
 
-import GlobalReset from "../components/component_normalize.js"
-import Fonts from "../components/fonts.js"
-import PrintStyle from "../components/print.js"
+import GlobalReset from "../components/component_normalize"
+import Fonts from "../components/fonts"
+import PrintStyle from "../components/print"
 
 import {
   DeckThin,
@@ -14,7 +14,7 @@ import {
   HeaderCard,
   CardTitle,
   CardContent,
-} from "../components/layouts.js"
+} from "../components/layouts"
 
 export default function Home() {
   return (
