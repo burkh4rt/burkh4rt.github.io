@@ -54,7 +54,7 @@ export const Deck = styled.div`
   }
 
   h1 {
-    font-size: 4.209rem;
+    font-size: 1.333rem;
   }
 
   h2 {
@@ -224,7 +224,7 @@ export const HeaderCard = styled(Card)`
   :nth-child(1) {
     margin-bottom: 0;
   }
-  h5 {
+  h1 {
     margin: ${props =>
       `0 ${props.theme.spaces.spacer3} ${props.theme.spaces.spacer1} auto`};
   }

@@ -33,7 +33,7 @@ export default function Home() {
           <DeckThin>
             <HeaderCard>
               <h2>Menagerie</h2>
-              <h5>Michael C. Burkhart</h5>
+              <h1>Michael C. Burkhart</h1>
             </HeaderCard>
 
             <Card>
