@@ -41,6 +41,7 @@ import KalmanGraphicalEqn from "../eqns/kalman_graphical.svg"
 import GithubLogo from "../logos/github-logo.svg"
 import InstagramLogo from "../logos/instagram-logo.svg"
 import LinkedInLogo from "../logos/linkedin-logo.svg"
+import GoogleScholarLogo from "../logos/google-scholar.svg"
 import OrcIDLogo from "../logos/orcid-logo.svg"
 import TwitterLogo from "../logos/twitter-logo.svg"
 
@@ -614,6 +615,13 @@ export default function Home({ data }) {
                   rel="noopener noreferrer"
                 >
                   <img src={TwitterLogo} alt="Twitter" />
+                </a>
+                <a
+                  href="https://scholar.google.com/citations?user=OcFnA0UAAAAJ"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={GoogleScholarLogo} alt="Google Scholar" />
                 </a>
                 <a
                   href="https://orcid.org/0000-0002-2772-5840"

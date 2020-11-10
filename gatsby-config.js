@@ -42,7 +42,6 @@ module.exports = {
       options: {
         workboxConfig: {
           globPatterns: ["**/*"],
-          globIgnores: ["dkf-slides.pdf"],
         },
       },
     },
