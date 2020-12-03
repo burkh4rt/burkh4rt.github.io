@@ -151,6 +151,7 @@ export default function Home({ data }) {
                       "https://dl.acm.org/author_page.cfm?id=99659347035",
                       "https://www.scienceopen.com/user/burkh4rt",
                       "https://scholar.google.com/citations?user=OcFnA0UAAAAJ",
+                      "https://academic.microsoft.com/profile/2h96610h-gih7-410e-9ji6-1e70f55i7hgj/burkh4rt/"
                       "https://academictree.org/math/peopleinfo.php?pid=784634",
                       "https://www.semanticscholar.org/author/Michael-C.-Burkhart/48820417",
                       "https://osf.io/9qvh7",
