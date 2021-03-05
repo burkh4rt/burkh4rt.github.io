@@ -1,12 +1,9 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { graphql } from "gatsby"
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 import Msvg from "../logos/m.svg"
-import CVpdf from "../docs/cv20.pdf"
-import DKFslides from "../docs/dkf-slides.pdf"
-
 import Theme from "../components/component_theme"
 import GlobalReset from "../components/component_normalize"
 import Fonts from "../components/fonts"
@@ -85,90 +82,21 @@ export default function Home({ data }) {
         <link rel="me" href="https://twitter.com/burkh4rt" />
 
         <link rel="canonical" href="https://burkh4rt.github.io" />
-        <meta
-          name="google-site-verification"
-          content="RBomW7izIX8odL5WjXJS01CR5JonJ1lcE3EsTAbVDPk"
-        />
-        <meta name="yandex-verification" content="fe20013480c99cd5" />
 
         <script type="application/ld+json">
           {`
-              {
-                "@context": "http://schema.org/",
-                "@graph": [
-                  {
-                    "@type": "Person",
-                    "name": "Michael C. Burkhart",
-                    "alumniOf": {
-                      "@type": "CollegeOrUniversity",
-                      "name": "Brown University",
-                      "department": "Division of Applied Mathematics",
-                      "foundingDate": "1764",
-                      "foundingLocation": {
-                        "@type": "Place",
-                        "address": {
-                          "addressLocality": "Providence",
-                          "addressRegion": "RI",
-                          "addressCountry": "US"
-                        }
-                      },
-                      "legalName": "Brown University in Providence in the State of Rhode Island and Providence Plantations",
-                      "leiCode": "9M13ULPHBPDR83N6CB89",
-                      "sameAs": "https://www.brown.edu"
-                    },
-                    "birthPlace": {
-                      "@type": "Place",
-                      "address": {
-                        "addressLocality": "Cincinnati",
-                        "addressRegion": "OH",
-                        "addressCountry": "US"
-                      }
-                    },
-                    "familyName": "Burkhart",
-                    "givenName": "Michael",
-                    "honorificPrefix": "Dr.",
-                    "honorificSuffix": "Ph.D.",
-                    "nationality": "US",
-                    "sameAs": [
-                      "https://burkh4rt.github.io",
-                      "https://www.linkedin.com/in/burkh4rt",
-                      "https://github.com/burkh4rt",
-                      "https://www.instagram.com/burkh4rt",
-                      "https://twitter.com/burkh4rt",
-                      "https://www.facebook.com/burkh4rt",
-                      "https://www.behance.net/burkh4rt",
-                      "https://burkh4rt.tumblr.com",
-                      "https://en.gravatar.com/burkh4rt",
-                      "https://orcid.org/0000-0002-2772-5840",
-                      "https://www.genealogy.math.ndsu.nodak.edu/id.php?id=246430",
-                      "https://www.scopus.com/authid/detail.uri?authorId=56094628500",
-                      "https://mathscinet.ams.org/mathscinet/MRAuthorID/1296691",
-                      "https://publons.com/researcher/2926384/michael-c-burkhart",
-                      "https://profiles.impactstory.org/u/0000-0002-2772-5840",
-                      "https://figshare.com/authors/Michael_C_Burkhart/6643982",
-                      "https://www.mendeley.com/profiles/michael-burkhart2",
-                      "https://dblp.org/pers/hd/b/Burkhart:Michael_C=",
-                      "https://dl.acm.org/author_page.cfm?id=99659347035",
-                      "https://www.scienceopen.com/user/burkh4rt",
-                      "https://scholar.google.com/citations?user=OcFnA0UAAAAJ",
-                      "https://academic.microsoft.com/profile/2h96610h-gih7-410e-9ji6-1e70f55i7hgj/burkh4rt/"
-                      "https://academictree.org/math/peopleinfo.php?pid=784634",
-                      "https://www.semanticscholar.org/author/Michael-C.-Burkhart/48820417",
-                      "https://osf.io/9qvh7",
-                      "https://www.wikidata.org/wiki/Q60057814",
-                      "https://europepmc.org/authors/0000-0002-2772-5840"
-                    ]
-                  },
-                  {
-                    "@type": "Thesis",
-                    "author": {
-                      "@type": "Person",
-                      "name": "Michael C. Burkhart",
-                      "sameAs": "https://burkh4rt.github.io"
-                    },
-                    "copyrightYear": "2019",
-                    "inSupportOf": "Applied Mathematics",
-                    "locationCreated": {
+            {
+              "@context": "http://schema.org/",
+              "@graph": [
+                {
+                  "@type": "Person",
+                  "name": "Michael C. Burkhart",
+                  "alumniOf": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Brown University",
+                    "department": "Division of Applied Mathematics",
+                    "foundingDate": "1764",
+                    "foundingLocation": {
                       "@type": "Place",
                       "address": {
                         "addressLocality": "Providence",
@@ -176,23 +104,89 @@ export default function Home({ data }) {
                         "addressCountry": "US"
                       }
                     },
-                    "name": "A Discriminative Approach to Bayesian Filtering with Applications to Human Neural Decoding",
-                    "sourceOrganization": {
-                      "@type": "CollegeOrUniversity",
-                      "name": "Brown University",
-                      "sameAs": "https://www.brown.edu"
-                    },
-                    "url": "https://doi.org/10.26300/nhfp-xv22",
-                    "sameAs": [
-                      "https://doi.org/10.31237/osf.io/4j3fu",
-                      "https://arxiv.org/abs/1807.06173",
-                      "https://repository.library.brown.edu/studio/item/bdr:919147",
-                      "https://www.zenodo.org/record/3686561"
-                    ]
-                  }
-                ]
-              }
-            `}
+                    "legalName": "Brown University in Providence in the State of Rhode Island and Providence Plantations",
+                    "leiCode": "9M13ULPHBPDR83N6CB89",
+                    "sameAs": "https://www.brown.edu"
+                  },
+                  "birthPlace": {
+                    "@type": "Place",
+                    "address": {
+                      "addressLocality": "Cincinnati",
+                      "addressRegion": "OH",
+                      "addressCountry": "US"
+                    }
+                  },
+                  "familyName": "Burkhart",
+                  "givenName": "Michael",
+                  "honorificPrefix": "Dr.",
+                  "honorificSuffix": "Ph.D.",
+                  "nationality": "US",
+                  "sameAs": [
+                    "https://burkh4rt.github.io",
+                    "https://www.linkedin.com/in/burkh4rt",
+                    "https://github.com/burkh4rt",
+                    "https://www.instagram.com/burkh4rt",
+                    "https://twitter.com/burkh4rt",
+                    "https://www.facebook.com/burkh4rt",
+                    "https://www.behance.net/burkh4rt",
+                    "https://burkh4rt.tumblr.com",
+                    "https://en.gravatar.com/burkh4rt",
+                    "https://orcid.org/0000-0002-2772-5840",
+                    "https://www.genealogy.math.ndsu.nodak.edu/id.php?id=246430",
+                    "https://www.scopus.com/authid/detail.uri?authorId=56094628500",
+                    "https://mathscinet.ams.org/mathscinet/MRAuthorID/1296691",
+                    "https://publons.com/researcher/2926384/michael-c-burkhart",
+                    "https://profiles.impactstory.org/u/0000-0002-2772-5840",
+                    "https://figshare.com/authors/Michael_C_Burkhart/6643982",
+                    "https://www.mendeley.com/profiles/michael-burkhart2",
+                    "https://dblp.uni-trier.de/pid/223/5859.html",
+                    "https://dl.acm.org/author_page.cfm?id=99659347035",
+                    "https://www.scienceopen.com/user/burkh4rt",
+                    "https://scholar.google.com/citations?user=OcFnA0UAAAAJ",
+                    "https://academic.microsoft.com/profile/2h96610h-gih7-410e-9ji6-1e70f55i7hgj/burkh4rt/",
+                    "https://academictree.org/math/peopleinfo.php?pid=784634",
+                    "https://www.semanticscholar.org/author/Michael-C.-Burkhart/48820417",
+                    "https://osf.io/9qvh7",
+                    "https://www.wikidata.org/wiki/Q60057814",
+                    "https://europepmc.org/authors/0000-0002-2772-5840",
+                    "https://www.lens.org/lens/profile/326252578",
+                    "https://zbmath.org/authors/?q=ai%3Aburkhart.michael-c"
+                  ]
+                },
+                {
+                  "@type": "Thesis",
+                  "author": {
+                    "@type": "Person",
+                    "name": "Michael C. Burkhart",
+                    "sameAs": "https://burkh4rt.github.io"
+                  },
+                  "copyrightYear": "2019",
+                  "inSupportOf": "Applied Mathematics",
+                  "locationCreated": {
+                    "@type": "Place",
+                    "address": {
+                      "addressLocality": "Providence",
+                      "addressRegion": "RI",
+                      "addressCountry": "US"
+                    }
+                  },
+                  "name": "A Discriminative Approach to Bayesian Filtering with Applications to Human Neural Decoding",
+                  "sourceOrganization": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Brown University",
+                    "sameAs": "https://www.brown.edu"
+                  },
+                  "url": "https://doi.org/10.26300/nhfp-xv22",
+                  "sameAs": [
+                    "https://doi.org/10.31237/osf.io/4j3fu",
+                    "https://arxiv.org/abs/1807.06173",
+                    "https://repository.library.brown.edu/studio/item/bdr:919147",
+                    "https://www.zenodo.org/record/3686561"
+                  ]
+                }
+              ]
+            }
+          `}
         </script>
       </Helmet>
 
@@ -212,8 +206,8 @@ export default function Home({ data }) {
             </Card>
 
             <MediaCard>
-              <Img
-                fluid={data.file.childImageSharp.fluid}
+              <GatsbyImage
+                image={data.file.childImageSharp.gatsbyImageData}
                 alt="Michael C. Burkhart"
               />
             </MediaCard>
@@ -247,7 +241,11 @@ export default function Home({ data }) {
                 to enable participants with quadriplegia to communicate and
                 interact with their environments in real time using mental
                 imagery alone. See slides from my defense{" "}
-                <a href={DKFslides} target="_blank" rel="noopener noreferrer">
+                <a
+                  href="/dkf-slides.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   here.
                 </a>
               </CardContent>
@@ -274,7 +272,7 @@ export default function Home({ data }) {
                 <MathElt>
                   Z<sub>i</sub>
                 </MathElt>
-                 . We visualize this process with the following graph:
+                . We visualize this process with the following graph:
                 <EqnSVG>
                   <img
                     src={GraphicalModelEqn}
@@ -290,7 +288,7 @@ export default function Home({ data }) {
                 <MathElt>
                   Z<sub>t</sub>
                 </MathElt>
-                 .
+                .
               </CardContent>
             </Card>
 
@@ -394,7 +392,7 @@ export default function Home({ data }) {
                 <MathElt>
                   x<sub>1</sub> ,…, x<sub>t</sub>
                 </MathElt>
-                 . We refer to this distribution{" "}
+                . We refer to this distribution{" "}
                 <MathEltRed>
                   p(z<sub>t</sub>|x<sub>1:t</sub>)
                 </MathEltRed>{" "}
@@ -472,7 +470,7 @@ export default function Home({ data }) {
                 <MathElt>
                   Z<sub>t</sub>
                 </MathElt>
-                 , as is often the case with neural decoding.
+                , as is often the case with neural decoding.
               </CardContent>
             </Card>
 
@@ -580,7 +578,7 @@ export default function Home({ data }) {
                 </ul>
               </CardContent>
               <CardFooter>
-                <a href="static-assets/discriminative_filtering.bib" download>
+                <a href="/discriminative_filtering.bib" download>
                   .bib ☜
                 </a>
               </CardFooter>
@@ -636,7 +634,7 @@ export default function Home({ data }) {
 
             <FooterCard>
               <h5 id="cv">
-                <a href={CVpdf} target="_blank" rel="noopener noreferrer">
+                <a href="/cv20.pdf" target="_blank" rel="noopener noreferrer">
                   {" "}
                   C.V. ☜
                 </a>
@@ -671,9 +669,12 @@ export const query = graphql`
   query MyQuery {
     file(relativePath: { eq: "profile_img.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 500, quality: 75) {
-          ...GatsbyImageSharpFluid_withWebp_tracedSVG
-        }
+        gatsbyImageData(
+          width: 700
+          quality: 85
+          placeholder: TRACED_SVG
+          layout: CONSTRAINED
+        )
       }
     }
     site {

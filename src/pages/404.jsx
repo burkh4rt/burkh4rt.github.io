@@ -3,7 +3,6 @@ import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
 
 import Theme from "../components/component_theme"
-
 import GlobalReset from "../components/component_normalize"
 import Fonts from "../components/fonts"
 import PrintStyle from "../components/print"

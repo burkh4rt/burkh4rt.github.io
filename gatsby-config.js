@@ -47,14 +47,6 @@ module.exports = {
     },
     `gatsby-plugin-robots-txt`,
     {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        trackingIds: [
-          "UA-140252994-1", // Google Analytics / GA
-        ],
-      },
-    },
-    {
       resolve: "gatsby-plugin-html-attributes",
       options: {
         lang: "en",

@@ -104,7 +104,7 @@ export const DeckThin = styled.div`
   }
 
   h1 {
-    font-size: 4.209rem;
+    font-size: 1.333rem;
   }
 
   h2 {
@@ -154,16 +154,18 @@ export const Card = styled.div`
 export const MediaCard = styled(Card)`
   width: 100%;
   padding: 0;
-  display: block;
+  display: block !important;
   * {
+    display: block !important;
     margin: 0;
   }
 `
 
 export const CardTitle = styled.h6`
   position: relative;
+  font-family: ${props => props.theme.fontstacks.garamondStack};
   left: ${props => props.theme.spaces.spacer5};
-  top: ${props => `-${props.theme.spaces.spacer4}`};
+  top: ${props => `-0.63em`};
   font-feature-settings: "smcp" 1;
   letter-spacing: 0.0625em;
   margin: 0;
@@ -228,6 +230,7 @@ export const HeaderCard = styled(Card)`
     margin: ${props =>
       `0 ${props.theme.spaces.spacer3} ${props.theme.spaces.spacer1} auto`};
   }
+  border: none;
 `
 
 export const FooterCard = styled(Card)`
