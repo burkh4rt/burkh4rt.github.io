@@ -38,18 +38,18 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-offline",
+      resolve: `gatsby-plugin-offline`,
       options: {
         workboxConfig: {
-          globPatterns: ["**/*"],
+          globPatterns: [`**/*`],
         },
       },
     },
     `gatsby-plugin-robots-txt`,
     {
-      resolve: "gatsby-plugin-html-attributes",
+      resolve: `gatsby-plugin-html-attributes`,
       options: {
-        lang: "en",
+        lang: `en`,
       },
     },
     {

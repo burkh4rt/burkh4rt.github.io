@@ -154,10 +154,9 @@ export const Card = styled.div`
 export const MediaCard = styled(Card)`
   width: 100%;
   padding: 0;
-  display: block !important;
-  * {
-    display: block !important;
+  .gatsby-image-wrapper-constrained {
     margin: 0;
+    display: block !important;
   }
 `
 
@@ -167,7 +166,6 @@ export const CardTitle = styled.h6`
   left: ${props => props.theme.spaces.spacer5};
   top: ${props => `-0.63em`};
   font-feature-settings: "smcp" 1;
-  letter-spacing: 0.0625em;
   margin: 0;
   padding: ${props => `0 ${props.theme.spaces.spacer1}`};
   height: min-content;

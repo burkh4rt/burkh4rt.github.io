@@ -150,7 +150,9 @@ export default function Home({ data }) {
                     "https://www.wikidata.org/wiki/Q60057814",
                     "https://europepmc.org/authors/0000-0002-2772-5840",
                     "https://www.lens.org/lens/profile/326252578",
-                    "https://zbmath.org/authors/?q=ai%3Aburkhart.michael-c"
+                    "https://zbmath.org/authors/?q=ai%3Aburkhart.michael-c",
+                    "https://g.co/kgs/XiBzFy",
+                    "https://g.co/kgs/XWzWSt",
                   ]
                 },
                 {
@@ -181,7 +183,9 @@ export default function Home({ data }) {
                     "https://doi.org/10.31237/osf.io/4j3fu",
                     "https://arxiv.org/abs/1807.06173",
                     "https://repository.library.brown.edu/studio/item/bdr:919147",
-                    "https://www.zenodo.org/record/3686561"
+                    "https://www.zenodo.org/record/3686561",
+                    "https://hal.archives-ouvertes.fr/tel-03037117/",
+                    "https://search.proquest.com/openview/5225fc3dc50c59e4a077addf02928a08"
                   ]
                 }
               ]
@@ -670,10 +674,13 @@ export const query = graphql`
     file(relativePath: { eq: "profile_img.jpg" }) {
       childImageSharp {
         gatsbyImageData(
+          aspectRatio: 1
           width: 700
           quality: 85
-          placeholder: TRACED_SVG
+          placeholder: BLURRED
           layout: CONSTRAINED
+          formats: [AUTO, WEBP, AVIF]
+          transformOptions: { fit: INSIDE, cropFocus: ATTENTION }
         )
       }
     }
