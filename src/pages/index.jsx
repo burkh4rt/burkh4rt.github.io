@@ -152,7 +152,6 @@ export default function Home({ data }) {
                     "https://www.lens.org/lens/profile/326252578",
                     "https://zbmath.org/authors/?q=ai%3Aburkhart.michael-c",
                     "https://g.co/kgs/XiBzFy",
-                    "https://g.co/kgs/XWzWSt",
                   ]
                 },
                 {
@@ -244,14 +243,7 @@ export default function Home({ data }) {
                 </span>{" "}
                 to enable participants with quadriplegia to communicate and
                 interact with their environments in real time using mental
-                imagery alone. See slides from my defense{" "}
-                <a
-                  href="/dkf-slides.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  here.
-                </a>
+                imagery alone.
               </CardContent>
             </Card>
 

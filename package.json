@@ -17,15 +17,15 @@
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
-    "gatsby": "^3.0.4",
+    "gatsby": "^3.2.1",
     "gatsby-plugin-html-attributes": "^1.0.5",
-    "gatsby-plugin-image": "^1.0.1",
+    "gatsby-plugin-image": "^1.2.1",
     "gatsby-plugin-robots-txt": "^1.5.5",
-    "gatsby-plugin-sharp": "^3.0.1",
-    "gatsby-plugin-sitemap": "^3.0.0",
-    "gatsby-transformer-sharp": "^3.0.0",
+    "gatsby-plugin-sharp": "^3.2.1",
+    "gatsby-plugin-sitemap": "^3.2.0",
+    "gatsby-transformer-sharp": "^3.2.0",
     "gh-pages": "^3.1.0",
-    "npm": "^7.6.3",
+    "npm": "^7.9.0",
     "prettier": "^2.2.1",
     "resolve-url-loader": "^3.1.2"
   },
