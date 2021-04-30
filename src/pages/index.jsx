@@ -23,6 +23,7 @@ import {
   MathEltGreen,
   MathEltNavy,
   MathEltRed,
+  MathLine,
   TextGreen,
   TextNavy,
   TextRed,
@@ -273,7 +274,7 @@ export default function Home({ data }) {
                   <img
                     src={GraphicalModelEqn}
                     alt="Graphical Model for Filtering"
-                    style={{ width: `calc(257.51 / 319.35 * 95%)` }}
+                    style={{ height: `calc(51em/10)` }}
                   />
                 </EqnSVG>
                 <i>Filtering</i> is the process by which we use the observations{" "}
@@ -305,7 +306,7 @@ export default function Home({ data }) {
                   <img
                     src={BayesianGraphicalEqn}
                     alt="Graphical Model with Equations"
-                    style={{ width: `calc(302.34 / 319.35 * 95%)` }}
+                    style={{ height: `calc(86.19em/15)` }}
                   />
                 </EqnSVG>
                 This model is variously known as a <i>dynamic state-space</i> or
@@ -364,7 +365,7 @@ export default function Home({ data }) {
                 time <MathElt>t-1</MathElt> and is often called the{" "}
                 <TextNavy>state or prediction model</TextNavy>. The second,{" "}
                 <MathEltGreen>
-                  p(x<sub>t</sub>|z<sub>t</sub>)
+                  p(x<sub>t</sub>|z<sub>t</sub> )
                 </MathEltGreen>
                 , relates the current observation to the current state and is
                 called the{" "}
@@ -392,13 +393,13 @@ export default function Home({ data }) {
                 <MathEltRed>
                   p(z<sub>t</sub>|x<sub>1:t</sub>)
                 </MathEltRed>{" "}
-                as the <TextRed>posterior</TextRed>. The Chapman–Kolmogorov
-                recursion
+                as the <TextRed>predictive posterior</TextRed>, or simply the{" "}
+                <TextRed>posterior</TextRed>. The Chapman–Kolmogorov recursion
                 <EqnSVG>
                   <img
                     src={ChapmanKolmogorovEqn}
                     alt="Chapman–Kolmogorov Equation"
-                    style={{ width: `calc(319.35 / 319.35 * 95%)` }}
+                    style={{ height: `calc(84.81em/15)` }}
                   />
                 </EqnSVG>
                 relates the <TextRed>posterior</TextRed> at time{" "}
@@ -419,7 +420,7 @@ export default function Home({ data }) {
                   <img
                     src={KalmanGraphicalEqn}
                     alt="Kalman Graphical Model"
-                    style={{ width: `calc(222.52 / 319.35 * 95%)` }}
+                    style={{ height: `calc(87.19em/15)` }}
                   />
                 </EqnSVG>
                 Here,{" "}
@@ -442,9 +443,9 @@ export default function Home({ data }) {
                 <TextGreen>measurement model</TextGreen> and make the Gaussian
                 approximation{" "}
                 <MathEltGreen>
-                  p(z<sub>t</sub>|x<sub>t</sub>) ≈ η
+                  p(z<sub>t</sub>|x<sub>t</sub> ) ≈ η
                   <sub>d</sub>(z<sub>t</sub> ; f(x<sub>t</sub>
-                  ), Q(x<sub>t</sub>))
+                   ), Q(x<sub>t</sub> ))
                 </MathEltGreen>{" "}
                 where the functions <MathElt>f</MathElt> and{" "}
                 <MathElt>Q</MathElt> can be learned from data.
@@ -452,13 +453,12 @@ export default function Home({ data }) {
                   <img
                     src={DKFGraphicalEqn}
                     alt="Discriminative Kalman Filter Graphical Model"
-                    style={{ width: `calc(259.88 / 319.35 * 95%)` }}
+                    style={{ height: `calc(87.19em/15)` }}
                   />
                 </EqnSVG>
-                This approach allows a nonlinear relationship between the
-                measurements and latent states while retaining the fast
-                closed-form updates for the posterior. It works particularly
-                well when the{" "}
+                This approach allows for a nonlinear relationship between the
+                measurements and latent states and has been found to perform
+                particularly well when the{" "}
                 <MathElt>
                   X<sub>t</sub>
                 </MathElt>{" "}
@@ -467,6 +467,89 @@ export default function Home({ data }) {
                   Z<sub>t</sub>
                 </MathElt>
                 , as is often the case with neural decoding.
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardTitle>Discriminative Kalman Filter</CardTitle>
+              <CardContent>
+                The <i>Discriminative Kalman Filter</i> adopts the Kalman{" "}
+                <TextNavy>state model</TextNavy>
+                {", "}
+                <MathEltNavy>
+                  p(z<sub>t</sub>|z<sub>t-1</sub>) = η<sub>d</sub>(z<sub>t</sub>
+                   ; Az<sub>t-1</sub>, Γ)
+                </MathEltNavy>
+                {", "}
+                with initialization{" "}
+                <MathEltNavy>
+                  p(z<sub>0</sub>) = η<sub>d</sub>(z<sub>0</sub>; 0, S)
+                </MathEltNavy>{" "}
+                where <MathElt>S</MathElt> satisfies <MathElt>S=ASA'+Γ</MathElt>{" "}
+                (so that the latent process is stationary) and uses the{" "}
+                <TextGreen>measurement model</TextGreen> introduced above. Given
+                these specifications, it follows that we may recursively
+                approximate the <TextRed>posterior</TextRed> as Gaussian.
+                Namely, if
+                <MathLine>
+                  <MathEltRed>
+                    p(z<sub>t-1</sub>|x<sub>1:t-1</sub>) ≈ η<sub>d</sub>(z
+                    <sub>t-1</sub> ; μ<sub>t-1</sub>, Σ<sub>t-1</sub>),
+                  </MathEltRed>
+                </MathLine>
+                then given a new observation{" "}
+                <MathElt>
+                  X<sub>t</sub>=x<sub>t</sub>
+                </MathElt>
+                , we have that
+                <MathLine>
+                  <MathEltRed>
+                    p(z<sub>t</sub>|x<sub>1:t</sub> ) ≈ η<sub>d</sub>(z
+                    <sub>t</sub> ; μ<sub>t</sub> , Σ<sub>t</sub> )
+                  </MathEltRed>
+                </MathLine>
+                where
+                <MathLine>
+                  <MathElt>
+                    M<sub>t</sub> = AΣ<sub>t-1</sub>A' + Γ,
+                  </MathElt>
+                </MathLine>
+                <MathLine>
+                  <MathElt>
+                    Σ<sub>t</sub> = (M<sub>t</sub>
+                    <sup>-1</sup> + Q(x<sub>t</sub> )<sup>-1</sup> - S
+                    <sup>-1</sup>)<sup>-1</sup>,
+                  </MathElt>
+                </MathLine>
+                <MathLine>
+                  <MathElt>
+                    μ<sub>t</sub> = Σ<sub>t</sub>(M<sub>t</sub>
+                    <sup>-1</sup>Aμ<sub>t-1</sub> + Q(x<sub>t</sub> )
+                    <sup>-1</sup>f(x<sub>t</sub>)).
+                  </MathElt>
+                </MathLine>
+                This approximation is functionally exact when{" "}
+                <MathElt>
+                  Q(x<sub>t</sub> )<sup>-1</sup> - S<sup> -1</sup>
+                </MathElt>{" "}
+                is positive-definite; otherwise we let
+                <MathLine>
+                  <MathElt>
+                    Σ<sub>t</sub> = (M<sub>t</sub>
+                    <sup>-1</sup> + Q(x<sub>t</sub> )<sup>-1</sup>)<sup>-1</sup>
+                    .
+                  </MathElt>
+                </MathLine>
+                In this way, the Discriminative Kalman Filter maintains fast,
+                closed-form while allowing for a nonlinear relationship between
+                the latent states and observations. When supervised training
+                data is available, off-the-shelf nonlinear/nonparameteric
+                regression tools can readily be used to learn the
+                discriminatively-specified observation model. In related work,
+                we also demonstrated how this framework can be leveraged to
+                ameliorate non-stationarities, or changes to the relationship
+                between the latent states and observations, and increase the
+                robustness of estimates.
               </CardContent>
             </Card>
 
@@ -669,7 +752,7 @@ export const query = graphql`
           aspectRatio: 1
           width: 700
           quality: 85
-          placeholder: BLURRED
+          placeholder: TRACED_SVG
           layout: CONSTRAINED
           formats: [AUTO, WEBP, AVIF]
           transformOptions: { fit: INSIDE, cropFocus: ATTENTION }

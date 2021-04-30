@@ -284,6 +284,14 @@ export const MathEltRed = styled(MathElt)`
   color: ${props => props.theme.colors.red};
 `
 
+export const MathLine = styled.div`
+  display: flex;
+  justify-content: center;
+  margin: 0.2em;
+  margin-top: 0.25em;
+  margin-bottom: 0.1em;
+`
+
 export const TextGreen = styled.span`
   color: ${props => props.theme.colors.green};
 `
