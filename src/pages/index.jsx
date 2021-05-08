@@ -242,7 +242,7 @@ export default function Home({ data }) {
                   <a href="https://www.braingate.org">BrainGate</a> Clinical
                   Trial
                 </span>{" "}
-                to enable participants with quadriplegia to communicate and
+                that enables participants with quadriplegia to communicate and
                 interact with their environments in real time using mental
                 imagery alone.
               </CardContent>
@@ -393,7 +393,7 @@ export default function Home({ data }) {
                 <MathEltRed>
                   p(z<sub>t</sub>|x<sub>1:t</sub>)
                 </MathEltRed>{" "}
-                as the <TextRed>predictive posterior</TextRed>, or simply the{" "}
+                as the <TextRed>posterior distribution</TextRed>, or simply the{" "}
                 <TextRed>posterior</TextRed>. The Chapman–Kolmogorov recursion
                 <EqnSVG>
                   <img
@@ -541,15 +541,15 @@ export default function Home({ data }) {
                   </MathElt>
                 </MathLine>
                 In this way, the Discriminative Kalman Filter maintains fast,
-                closed-form while allowing for a nonlinear relationship between
-                the latent states and observations. When supervised training
-                data is available, off-the-shelf nonlinear/nonparameteric
-                regression tools can readily be used to learn the
-                discriminatively-specified observation model. In related work,
-                we also demonstrated how this framework can be leveraged to
-                ameliorate non-stationarities, or changes to the relationship
-                between the latent states and observations, and increase the
-                robustness of estimates.
+                closed-form updates while allowing for a nonlinear relationship
+                between the latent states and observations. When supervised
+                training data is available, off-the-shelf
+                nonlinear/nonparameteric regression tools can readily be used to
+                learn the discriminatively-specified observation model. In
+                related work, we demonstrate how this framework can also be
+                leveraged to ameliorate non-stationarities, or changes to the
+                relationship between the latent states and observations, and
+                increase the robustness of estimates.
               </CardContent>
             </Card>
 
@@ -721,18 +721,6 @@ export default function Home({ data }) {
               <p id="locale">
                 © Michael C. Burkhart, {data.site.year}.
                 <br />
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="svg_icon"
-                  width="12"
-                  height="16"
-                  viewBox="0 0 12 16"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M6 0C2.69 0 0 2.5 0 5.5 0 10.02 6 16 6 16s6-5.98 6-10.5C12 2.5 9.31 0 6 0zm0 14.55C4.14 12.52 1 8.44 1 5.5 1 3.02 3.25 1 6 1c1.34 0 2.61.48 3.56 1.36.92.86 1.44 1.97 1.44 3.14 0 2.94-3.14 7.02-5 9.05zM8 5.5c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"
-                  />
-                </svg>{" "}
                 San José, California
               </p>
             </FooterCard>
@@ -745,7 +733,7 @@ export default function Home({ data }) {
 }
 
 export const query = graphql`
-  query MyQuery {
+  query {
     file(relativePath: { eq: "profile_img.jpg" }) {
       childImageSharp {
         gatsbyImageData(
