@@ -152,7 +152,7 @@ export default function Home({ data }) {
                     "https://europepmc.org/authors/0000-0002-2772-5840",
                     "https://www.lens.org/lens/profile/326252578",
                     "https://zbmath.org/authors/?q=ai%3Aburkhart.michael-c",
-                    "https://g.co/kgs/XiBzFy",
+                    "https://g.co/kgs/XiBzFy"
                   ]
                 },
                 {
