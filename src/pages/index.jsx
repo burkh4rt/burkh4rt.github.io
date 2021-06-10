@@ -47,7 +47,7 @@ export default function Home({ data }) {
   return (
     <>
       <Helmet>
-        <title>Michael Burkhart's website</title>
+        <title>Michael C. Burkhart's website</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Michael C. Burkhart" />
@@ -200,7 +200,6 @@ export default function Home({ data }) {
         <Theme>
           <Deck>
             <HeaderCard>
-              <h2>Menagerie</h2>
               <h1>Michael C. Burkhart</h1>
             </HeaderCard>
 
@@ -236,8 +235,9 @@ export default function Home({ data }) {
                 derived a novel approach to{" "}
                 <span itemprop="knowsAbout">Bayesian filtering</span>, the
                 Discriminative Kalman Filter, motivated by and developed with my
-                advisor M. Harrison and collaborator D. Brandman. We validated
-                and successfully implemented this filter as part of the{" "}
+                advisor M. Harrison and collaborators D. Brandman and L.
+                Hochberg. We validated and successfully implemented this filter
+                as part of the{" "}
                 <span itemprop="affiliation">
                   <a href="https://www.braingate.org">BrainGate</a> Clinical
                   Trial
@@ -436,7 +436,7 @@ export default function Home({ data }) {
               </CardContent>
             </Card>
 
-            <Card>
+            <Card style={{ breakBefore: `column` }}>
               <CardTitle>Our Approach</CardTitle>
               <CardContent>
                 We apply Bayes' rule to the{" "}

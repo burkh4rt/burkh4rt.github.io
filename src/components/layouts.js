@@ -54,7 +54,7 @@ export const Deck = styled.div`
   }
 
   h1 {
-    font-size: 1.333rem;
+    font-size: 1.777rem;
   }
 
   h2 {
@@ -104,7 +104,7 @@ export const DeckThin = styled.div`
   }
 
   h1 {
-    font-size: 1.333rem;
+    font-size: 2.369rem;
   }
 
   h2 {
@@ -199,7 +199,9 @@ export const CardContent = styled.article`
     `${props.theme.spaces.spacer1} ${props.theme.spaces.spacer4} ${props.theme.spaces.spacer3}`};
   overflow: hidden;
   align-items: center;
-  align-content: center;
+  /* align-content: center;
+  text-align: justify; */
+  text-justify: inter-word;
   * {
     margin: 0;
     font-weight: inherit;
@@ -223,10 +225,6 @@ export const HeaderCard = styled(Card)`
   }
   :nth-child(1) {
     margin-bottom: 0;
-  }
-  h1 {
-    margin: ${props =>
-      `0 ${props.theme.spaces.spacer3} ${props.theme.spaces.spacer1} auto`};
   }
   border: none;
 `
