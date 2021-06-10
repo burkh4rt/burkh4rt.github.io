@@ -31,7 +31,6 @@ export default function Home() {
         <Theme>
           <DeckThin>
             <HeaderCard>
-              <h2>Menagerie</h2>
               <h1>Michael C. Burkhart</h1>
             </HeaderCard>
 

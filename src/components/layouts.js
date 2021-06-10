@@ -78,54 +78,10 @@ export const Deck = styled.div`
   }
 `
 
-export const DeckThin = styled.div`
-  align-items: center;
-  align-content: center;
-  margin: ${props =>
-    `${props.theme.spaces.spacer5} auto ${props.theme.spaces.spacer5}`};
+export const DeckThin = styled(Deck)`
   padding: ${props => `0 ${props.theme.spaces.spacer5}`};
   columns: 1;
-  column-gap: ${props => props.theme.spaces.spacer7};
-  column-fill: balance-all;
-  display: block;
-  font-family: ${props => props.theme.fontstacks.gillSansStack};
-  line-height: 1.3;
   max-width: ${props => props.theme.breakpoints.widthSm};
-  line-height: 1.3;
-  font-size: 16pt;
-  a {
-    color: ${props => props.theme.colors.navy};
-    font-family: inherit;
-    text-decoration: none;
-
-    &:visited {
-      color: ${props => props.theme.colors.green};
-    }
-  }
-
-  h1 {
-    font-size: 2.369rem;
-  }
-
-  h2 {
-    font-size: 3.157rem;
-  }
-
-  h3 {
-    font-size: 2.369rem;
-  }
-
-  h4 {
-    font-size: 1.777rem;
-  }
-
-  h5 {
-    font-size: 1.333rem;
-  }
-
-  h6 {
-    font-size: 1rem;
-  }
 `
 
 export const Card = styled.div`
