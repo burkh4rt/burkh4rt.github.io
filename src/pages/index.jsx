@@ -152,7 +152,9 @@ export default function Home({ data }) {
                     "https://europepmc.org/authors/0000-0002-2772-5840",
                     "https://www.lens.org/lens/profile/326252578",
                     "https://zbmath.org/authors/?q=ai%3Aburkhart.michael-c",
-                    "https://g.co/kgs/XiBzFy"
+                    "https://g.co/kgs/XiBzFy",
+                    "https://g.co/kgs/pyguK7",
+                    "https://isni.org/isni/0000000502720308"
                   ]
                 },
                 {
@@ -218,7 +220,7 @@ export default function Home({ data }) {
             <Card>
               <CardTitle>About Me</CardTitle>
               <CardContent>
-                I'm a recently-graduated{" "}
+                I'm a recently graduated{" "}
                 <span itemprop="honorificSuffix">Ph.D.</span> from{" "}
                 <span
                   itemprop="alumniOf"
@@ -404,7 +406,7 @@ export default function Home({ data }) {
                 </EqnSVG>
                 relates the <TextRed>posterior</TextRed> at time{" "}
                 <MathElt>t</MathElt> to the one at time <MathElt>t-1</MathElt>.
-                Bayesian filtering solves or approximates the above integral.
+                Bayesian filtering solves or approximates the above recursion.
                 Common approaches include Kalman filtering, variational methods,
                 quadrature methods, and Monte Carlo-based particle filtering.
               </CardContent>
@@ -545,7 +547,7 @@ export default function Home({ data }) {
                 between the latent states and observations. When supervised
                 training data is available, off-the-shelf
                 nonlinear/nonparameteric regression tools can readily be used to
-                learn the discriminatively-specified observation model. In
+                learn the discriminatively specified observation model. In
                 related work, we demonstrate how this framework can also be
                 leveraged to ameliorate non-stationarities, or changes to the
                 relationship between the latent states and observations, and
