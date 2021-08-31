@@ -154,7 +154,9 @@ export default function Home({ data }) {
                     "https://zbmath.org/authors/?q=ai%3Aburkhart.michael-c",
                     "https://g.co/kgs/XiBzFy",
                     "https://g.co/kgs/pyguK7",
-                    "https://isni.org/isni/0000000502720308"
+                    "https://isni.org/isni/0000000502720308",
+                    "https://viaf.org/viaf/439162664218455000792",
+                    "https://app.dimensions.ai/details/entities/publication/author/ur.010351326437.47"
                   ]
                 },
                 {
