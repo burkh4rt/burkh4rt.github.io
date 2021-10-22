@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://burkh4rt.github.io/sitemap/sitemap-index.xml
-Host: https://burkh4rt.github.io
