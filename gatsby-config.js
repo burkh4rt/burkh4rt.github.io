@@ -54,13 +54,6 @@ module.exports = {
         },
       },
     },
-    `gatsby-plugin-robots-txt`,
-    {
-      resolve: `gatsby-plugin-html-attributes`,
-      options: {
-        lang: `en`,
-      },
-    },
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {

@@ -156,7 +156,10 @@ export default function Home({ data }) {
                     "https://g.co/kgs/pyguK7",
                     "https://isni.org/isni/0000000502720308",
                     "https://viaf.org/viaf/439162664218455000792",
-                    "https://app.dimensions.ai/details/entities/publication/author/ur.010351326437.47"
+                    "https://app.dimensions.ai/details/entities/publication/author/ur.010351326437.47",
+                    "https://www.c2d3.cam.ac.uk/directory/16451/michael-burkhart",
+                    "https://www.neuroscience.cam.ac.uk/directory/profile.php?burkh4rt",
+                    "https://www.psychol.cam.ac.uk/staff/dr-michael-craig-burkhart"
                   ]
                 },
                 {
@@ -220,10 +223,29 @@ export default function Home({ data }) {
             </MediaCard>
 
             <Card>
+              <CardTitle>Update</CardTitle>
+              <CardContent>
+                I recently joined Professor Kourtzi's{" "}
+                <span itemprop="affiliation">
+                  <a href="https://www.abg.psychol.cam.ac.uk">
+                    Adaptive Brain Lab
+                  </a>
+                </span>{" "}
+                at the University of Cambridge as a research associate. I will
+                be working to develop machine learning-based approaches for the
+                early diagnosis of neurodegenerative disease, specifically
+                Alzheimer's, as part of the{" "}
+                <span itemprop="affiliation">
+                  <a href="https://edon-initiative.org/">EDoN initiative</a>
+                </span>
+                .
+              </CardContent>
+            </Card>
+
+            <Card>
               <CardTitle>About Me</CardTitle>
               <CardContent>
-                I'm a recently graduated{" "}
-                <span itemprop="honorificSuffix">Ph.D.</span> from{" "}
+                I graduated <span itemprop="honorificSuffix">Ph.D.</span> from{" "}
                 <span
                   itemprop="alumniOf"
                   itemscope
@@ -725,7 +747,7 @@ export default function Home({ data }) {
               <p id="locale">
                 © Michael C. Burkhart, {data.site.year}.
                 <br />
-                San José, California
+                Cambridge, UK
               </p>
             </FooterCard>
           </Deck>
