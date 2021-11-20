@@ -153,13 +153,13 @@ export default function Home({ data }) {
                     "https://www.lens.org/lens/profile/326252578",
                     "https://zbmath.org/authors/?q=ai%3Aburkhart.michael-c",
                     "https://g.co/kgs/XiBzFy",
-                    "https://g.co/kgs/pyguK7",
                     "https://isni.org/isni/0000000502720308",
                     "https://viaf.org/viaf/439162664218455000792",
                     "https://app.dimensions.ai/details/entities/publication/author/ur.010351326437.47",
                     "https://www.c2d3.cam.ac.uk/directory/16451/michael-burkhart",
                     "https://www.neuroscience.cam.ac.uk/directory/profile.php?burkh4rt",
-                    "https://www.psychol.cam.ac.uk/staff/dr-michael-craig-burkhart"
+                    "https://www.psychol.cam.ac.uk/staff/dr-michael-craig-burkhart",
+                    "https://www.abg.psychol.cam.ac.uk/staff/dr-michael-burkhart"
                   ]
                 },
                 {
