@@ -745,7 +745,7 @@ export default function Home({ data }) {
                 </a>
               </h5>
               <p id="locale">
-                © Michael C. Burkhart, {data.site.year}.
+                © Michael C. Burkhart, {data.site.year}
                 <br />
                 Cambridge, UK
               </p>
@@ -774,7 +774,6 @@ export const query = graphql`
       }
     }
     site {
-      date: buildTime(formatString: "DD/MM/YYYY")
       year: buildTime(formatString: "YYYY")
     }
   }
