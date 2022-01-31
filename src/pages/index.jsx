@@ -129,7 +129,6 @@ export default function Home({ data }) {
                     "https://www.instagram.com/burkh4rt",
                     "https://twitter.com/burkh4rt",
                     "https://www.facebook.com/burkh4rt",
-                    "https://www.behance.net/burkh4rt",
                     "https://burkh4rt.tumblr.com",
                     "https://en.gravatar.com/burkh4rt",
                     "https://orcid.org/0000-0002-2772-5840",
@@ -139,12 +138,10 @@ export default function Home({ data }) {
                     "https://publons.com/researcher/2926384/michael-c-burkhart",
                     "https://profiles.impactstory.org/u/0000-0002-2772-5840",
                     "https://figshare.com/authors/Michael_C_Burkhart/6643982",
-                    "https://www.mendeley.com/profiles/michael-burkhart2",
                     "https://dblp.uni-trier.de/pid/223/5859.html",
-                    "https://dl.acm.org/author_page.cfm?id=99659347035",
+                    "https://dl.acm.org/profile/99659347035",
                     "https://www.scienceopen.com/user/burkh4rt",
                     "https://scholar.google.com/citations?user=OcFnA0UAAAAJ",
-                    "https://academic.microsoft.com/profile/2h96610h-gih7-410e-9ji6-1e70f55i7hgj/burkh4rt/",
                     "https://academictree.org/math/peopleinfo.php?pid=784634",
                     "https://www.semanticscholar.org/author/Michael-C.-Burkhart/48820417",
                     "https://osf.io/9qvh7",
@@ -245,13 +242,15 @@ export default function Home({ data }) {
             <Card>
               <CardTitle>About Me</CardTitle>
               <CardContent>
-                I graduated <span itemprop="honorificSuffix">Ph.D.</span> from{" "}
+                I earned my <span itemprop="honorificSuffix">Ph.D.</span> in
+                2019 from{" "}
                 <span
                   itemprop="alumniOf"
                   itemscope
                   itemtype="http://schema.org/CollegeOrUniversity"
                 >
-                  <span itemprop="name">Brown University</span>'s{" "}
+                  <span itemprop="name">Brown University</span>
+                  's{" "}
                   <span itemprop="department">
                     Division of Applied Mathematics
                   </span>
@@ -279,13 +278,15 @@ export default function Home({ data }) {
               <CardContent>
                 Suppose there is some underlying process{" "}
                 <MathElt>
-                  Z<sub>1:t</sub>=Z<sub>1</sub>,…,Z<sub>t</sub>
+                  Z<sub>1:t</sub>=Z<sub>1</sub>,…,Z
+                  <sub>t</sub>
                 </MathElt>{" "}
                 about which we are very interested, but that we cannot observe.
                 Instead, we are sequentially presented with observations or
                 measurements{" "}
                 <MathElt>
-                  X<sub>1:t</sub>=X<sub>1</sub>,…,X<sub>t</sub>
+                  X<sub>1:t</sub>=X<sub>1</sub>,…,X
+                  <sub>t</sub>
                 </MathElt>{" "}
                 where each{" "}
                 <MathElt>
@@ -509,7 +510,8 @@ export default function Home({ data }) {
                 {", "}
                 with initialization{" "}
                 <MathEltNavy>
-                  p(z<sub>0</sub>) = η<sub>d</sub>(z<sub>0</sub>; 0, S)
+                  p(z<sub>0</sub>) = η<sub>d</sub>(z
+                  <sub>0</sub>; 0, S)
                 </MathEltNavy>{" "}
                 where <MathElt>S</MathElt> satisfies <MathElt>S=ASA'+Γ</MathElt>{" "}
                 (so that the latent process is stationary) and uses the{" "}
@@ -520,7 +522,8 @@ export default function Home({ data }) {
                 <MathLine>
                   <MathEltRed>
                     p(z<sub>t-1</sub>|x<sub>1:t-1</sub>) ≈ η<sub>d</sub>(z
-                    <sub>t-1</sub> ; μ<sub>t-1</sub>, Σ<sub>t-1</sub>),
+                    <sub>t-1</sub> ; μ<sub>t-1</sub>, Σ
+                    <sub>t-1</sub>),
                   </MathEltRed>
                 </MathLine>
                 then given a new observation{" "}
@@ -531,7 +534,8 @@ export default function Home({ data }) {
                 <MathLine>
                   <MathEltRed>
                     p(z<sub>t</sub>|x<sub>1:t</sub> ) ≈ η<sub>d</sub>(z
-                    <sub>t</sub> ; μ<sub>t</sub> , Σ<sub>t</sub> )
+                    <sub>t</sub> ; μ<sub>t</sub> , Σ
+                    <sub>t</sub> )
                   </MathEltRed>
                 </MathLine>
                 where
@@ -543,14 +547,16 @@ export default function Home({ data }) {
                 <MathLine>
                   <MathElt>
                     Σ<sub>t</sub> = (M<sub>t</sub>
-                    <sup>-1</sup> + Q(x<sub>t</sub> )<sup>-1</sup> - S
-                    <sup>-1</sup>)<sup>-1</sup>,
+                    <sup>-1</sup> + Q(x<sub>t</sub> )
+                    <sup>-1</sup> - S<sup>-1</sup>)<sup>-1</sup>,
                   </MathElt>
                 </MathLine>
                 <MathLine>
                   <MathElt>
-                    μ<sub>t</sub> = Σ<sub>t</sub>(M<sub>t</sub>
-                    <sup>-1</sup>Aμ<sub>t-1</sub> + Q(x<sub>t</sub> )
+                    μ<sub>t</sub> = Σ<sub>t</sub>(M
+                    <sub>t</sub>
+                    <sup>-1</sup>Aμ<sub>t-1</sub> + Q(x
+                    <sub>t</sub> )
                     <sup>-1</sup>f(x<sub>t</sub>)).
                   </MathElt>
                 </MathLine>
@@ -562,8 +568,8 @@ export default function Home({ data }) {
                 <MathLine>
                   <MathElt>
                     Σ<sub>t</sub> = (M<sub>t</sub>
-                    <sup>-1</sup> + Q(x<sub>t</sub> )<sup>-1</sup>)<sup>-1</sup>
-                    .
+                    <sup>-1</sup> + Q(x<sub>t</sub> )
+                    <sup>-1</sup>)<sup>-1</sup>.
                   </MathElt>
                 </MathLine>
                 In this way, the Discriminative Kalman Filter maintains fast,

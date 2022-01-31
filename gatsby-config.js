@@ -57,7 +57,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
-        output: `sitemap.xml`, // the default
+        output: `sitemap.xml`,
       },
     },
   ],
