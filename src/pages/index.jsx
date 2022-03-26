@@ -156,7 +156,8 @@ export default function Home({ data }) {
                     "https://www.c2d3.cam.ac.uk/directory/16451/michael-burkhart",
                     "https://www.neuroscience.cam.ac.uk/directory/profile.php?burkh4rt",
                     "https://www.psychol.cam.ac.uk/staff/dr-michael-craig-burkhart",
-                    "https://www.abg.psychol.cam.ac.uk/staff/dr-michael-burkhart"
+                    "https://www.abg.psychol.cam.ac.uk/staff/dr-michael-burkhart",
+                    "https://mcb93.user.srcf.net"
                   ]
                 },
                 {

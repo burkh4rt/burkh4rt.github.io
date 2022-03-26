@@ -118,9 +118,10 @@ export const MediaCard = styled(Card)`
 
 export const CardTitle = styled.h6`
   position: relative;
-  font-family: ${props => props.theme.fontstacks.garamondStack};
+  font-family: ${props => props.theme.fontstacks.gillSansStack};
   left: ${props => props.theme.spaces.spacer5};
-  top: ${props => `-0.63em`};
+  top: -0.75em;
+  letter-spacing: 0.05rem;
   font-feature-settings: "smcp" 1;
   margin: 0;
   padding: ${props => `0 ${props.theme.spaces.spacer1}`};

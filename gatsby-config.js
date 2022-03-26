@@ -42,7 +42,7 @@ module.exports = {
           purpose: `maskable`,
         },
         background_color: `#fff`,
-        theme_color: `#046a38`,
+        theme_color: `#85b09a`,
         display: `standalone`,
       },
     },
