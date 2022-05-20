@@ -5,6 +5,7 @@
 To use:
 
 ```
+yarn set version stable
 yarn
 yarn run build
 yarn run deploy
