@@ -5,14 +5,14 @@
 To use:
 
 ```
-yarn set version stable
-yarn
-yarn run build
-yarn run deploy
+npm install
+npm run build
+npm run deploy
 ```
 
 Update:
 
 ```
-yarn up
+npm outdated
+npm update
 ```

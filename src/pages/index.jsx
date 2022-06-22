@@ -223,16 +223,18 @@ export default function Home({ data }) {
             <Card>
               <CardTitle>Update</CardTitle>
               <CardContent>
-                I recently joined Professor Kourtzi's{" "}
+                I recently joined the{" "}
                 <span itemprop="affiliation">
                   <a href="https://www.abg.psychol.cam.ac.uk">
                     Adaptive Brain Lab
                   </a>
                 </span>{" "}
-                at the University of Cambridge as a research associate. I will
-                be working to develop machine learning-based approaches for the
-                early diagnosis of neurodegenerative disease, specifically
-                Alzheimer's, as part of the{" "}
+                at the{" "}
+                <span itemprop="affiliation">University of Cambridge</span> as a
+                research associate. I will be working to develop machine
+                learning-based approaches for the early diagnosis of
+                neurodegenerative disease, specifically Alzheimer's, as part of
+                the{" "}
                 <span itemprop="affiliation">
                   <a href="https://edon-initiative.org/">EDoN initiative</a>
                 </span>
@@ -590,6 +592,30 @@ export default function Home({ data }) {
               <CardTitle>Relevant Publications</CardTitle>
               <CardContent style={{ paddingBottom: 0 }}>
                 <ul>
+                  <li itemscope itemtype="http://schema.org/ScholarlyArticle">
+                    <a
+                      href="https://doi.org/10.1007/s11590-022-01895-5"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span itemprop="author">M. Burkhart.</span>{" "}
+                      <i>
+                        <span itemprop="name">
+                          Discriminative Bayesian filtering lends momentum to
+                          the stochastic Newton method for minimizing log-convex
+                          functions
+                        </span>
+                        .{" "}
+                      </i>
+                      <span
+                        itemprop="isPartOf"
+                        itemtype="http://schema.org/Periodical"
+                      >
+                        Optimization Letters
+                      </span>{" "}
+                      (<span itemprop="copyrightYear">2022</span>)
+                    </a>
+                  </li>
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
                     <a
                       href="https://doi.org/10.1162/neco_a_01275"
