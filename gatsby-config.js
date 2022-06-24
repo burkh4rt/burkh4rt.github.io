@@ -44,15 +44,11 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#85b09a`,
         display: `standalone`,
+        cache_busting_mode: `none`,
       },
     },
     {
       resolve: `gatsby-plugin-offline`,
-      options: {
-        workboxConfig: {
-          globPatterns: [`**/*`],
-        },
-      },
     },
     {
       resolve: `gatsby-plugin-sitemap`,
