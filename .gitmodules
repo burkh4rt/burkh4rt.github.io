@@ -1,0 +1,3 @@
+[submodule "static/pubs"]
+	path = static/pubs
+	url = git@github.com:burkh4rt/pubs.git

@@ -1,6 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 
 import Msvg from "../logos/m.svg"
@@ -59,7 +59,6 @@ export default function Home({ data }) {
           name="keywords"
           content="Michael Burkhart,Michael C. Burkhart,Ph.D.,Brown University,Applied Mathematics,Statistics,Bayesian Filtering,neural decoding,Discriminative Kalman Filter"
         />
-
         <meta property="og:title" content="Michael Burkhart's website" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content={Msvg} />
@@ -69,7 +68,6 @@ export default function Home({ data }) {
           content="Michael Burkhart's homepage. Snippets from work and life, with links."
         />
         <meta property="og:locale" content="en_US" />
-
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="burkh4rt" />
         <meta name="twitter:creator" content="burkh4rt" />
@@ -81,7 +79,6 @@ export default function Home({ data }) {
         <meta property="twitter:image" content={Msvg} />
         <meta name="twitter:dnt" content="on" />
         <link rel="me" href="https://twitter.com/burkh4rt" />
-
         <link rel="canonical" href="https://burkh4rt.github.io" />
 
         <script type="application/ld+json">
@@ -92,23 +89,6 @@ export default function Home({ data }) {
                 {
                   "@type": "Person",
                   "name": "Michael C. Burkhart",
-                  "alumniOf": {
-                    "@type": "CollegeOrUniversity",
-                    "name": "Brown University",
-                    "department": "Division of Applied Mathematics",
-                    "foundingDate": "1764",
-                    "foundingLocation": {
-                      "@type": "Place",
-                      "address": {
-                        "addressLocality": "Providence",
-                        "addressRegion": "RI",
-                        "addressCountry": "US"
-                      }
-                    },
-                    "legalName": "Brown University in Providence in the State of Rhode Island and Providence Plantations",
-                    "leiCode": "9M13ULPHBPDR83N6CB89",
-                    "sameAs": "https://www.brown.edu"
-                  },
                   "birthPlace": {
                     "@type": "Place",
                     "address": {
@@ -190,7 +170,8 @@ export default function Home({ data }) {
                     "https://repository.library.brown.edu/studio/item/bdr:919147",
                     "https://www.zenodo.org/record/3686561",
                     "https://hal.archives-ouvertes.fr/tel-03037117/",
-                    "https://search.proquest.com/openview/5225fc3dc50c59e4a077addf02928a08"
+                    "https://search.proquest.com/openview/5225fc3dc50c59e4a077addf02928a08",
+                    "https://mathscinet.ams.org/mathscinet-getitem?mr=4158190"
                   ]
                 }
               ]
@@ -210,7 +191,7 @@ export default function Home({ data }) {
 
             <Card>
               <CardTitle>Hello</CardTitle>
-              <CardContent>… and welcome to my website.</CardContent>
+              <CardContent>&mldr; and welcome to my website.</CardContent>
             </Card>
 
             <MediaCard>
@@ -614,6 +595,13 @@ export default function Home({ data }) {
                         Optimization Letters
                       </span>{" "}
                       (<span itemprop="copyrightYear">2022</span>)
+                    </a>{" "}
+                    <a
+                      href="/pubs/Burkhart-2022-Optim-Lett.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
                     </a>
                   </li>
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
@@ -623,8 +611,8 @@ export default function Home({ data }) {
                       rel="noopener noreferrer"
                     >
                       <span itemprop="author">
-                        M. Burkhart, D. Brandman, B. Franco, L. Hochberg, & M.
-                        Harrison.
+                        M. Burkhart, D. Brandman, B. Franco, L. Hochberg, &amp;
+                        M. Harrison.
                       </span>{" "}
                       <i>
                         <span itemprop="name">
@@ -641,6 +629,20 @@ export default function Home({ data }) {
                         Neural Computation 32
                       </span>{" "}
                       (<span itemprop="copyrightYear">2020</span>)
+                    </a>{" "}
+                    <a
+                      href="/pubs/Burkhart-et-al-2020-Neural-Comput.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
+                    </a>{" "}
+                    <a
+                      href="https://mathscinet.ams.org/mathscinet-getitem?mr=4101168"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [MR4101168]
                     </a>
                   </li>
                   <li itemscope itemtype="http://schema.org/Thesis">
@@ -659,6 +661,20 @@ export default function Home({ data }) {
                         Brown University
                       </span>{" "}
                       (<span itemprop="copyrightYear">2019</span>)
+                    </a>{" "}
+                    <a
+                      href="/pubs/Burkhart-2019.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
+                    </a>{" "}
+                    <a
+                      href="https://mathscinet.ams.org/mathscinet-getitem?mr=4158190"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [MR4158190]
                     </a>
                   </li>
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
@@ -669,7 +685,7 @@ export default function Home({ data }) {
                     >
                       <span itemprop="author">
                         D. Brandman, M. Burkhart, J. Kelemen, B. Franco, M.
-                        Harrison, & L. Hochberg.
+                        Harrison, &amp; L. Hochberg.
                       </span>{" "}
                       <i>
                         <span itemprop="name">
@@ -685,6 +701,20 @@ export default function Home({ data }) {
                         Neural Computation 30
                       </span>{" "}
                       (<span itemprop="copyrightYear">2018</span>)
+                    </a>{" "}
+                    <a
+                      href="/pubs/Brandman-et-al-2018-Neural-Comput.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
+                    </a>{" "}
+                    <a
+                      href="https://mathscinet.ams.org/mathscinet-getitem?mr=3873814"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [MR3873814]
                     </a>
                   </li>
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
@@ -711,14 +741,19 @@ export default function Home({ data }) {
                         Journal of Neural Engineering 15
                       </span>{" "}
                       (<span itemprop="copyrightYear">2018</span>)
+                    </a>{" "}
+                    <a
+                      href="/pubs/Brandman-et-al-2018-J-Neural-Eng.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
                     </a>
                   </li>
                 </ul>
               </CardContent>
               <CardFooter>
-                <a href="/discriminative_filtering.bib" download>
-                  .bib ☜
-                </a>
+                <Link to="/pubs">more ☜</Link>
               </CardFooter>
             </Card>
 

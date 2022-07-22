@@ -28,7 +28,6 @@
     "resolve-url-loader": "^5.0.0",
     "sharp": "^0.30.4"
   },
-  "license": "UNLICENSED",
   "name": "@burkh4rt/burkh4rt.github.io",
   "repository": {
     "type": "git",
@@ -42,6 +41,5 @@
     "clean": "gatsby clean",
     "deploy": "gh-pages -d public -b master"
   },
-  "version": "2.0.3",
-  "packageManager": "yarn@3.2.1"
+  "version": "2.0.3"
 }
