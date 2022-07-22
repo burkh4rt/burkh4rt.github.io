@@ -191,7 +191,7 @@ export default function Home({ data }) {
 
             <Card>
               <CardTitle>Hello</CardTitle>
-              <CardContent>&mldr; and welcome to my website.</CardContent>
+              <CardContent>… and welcome to my website.</CardContent>
             </Card>
 
             <MediaCard>
