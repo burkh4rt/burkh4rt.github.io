@@ -1,4 +1,20 @@
 TY  - JOUR
+TI  - Discriminative Bayesian filtering lends momentum to the stochastic Newton method for minimizing log-convex functions
+AU  - Burkhart, M. C.
+T2  - Optimization Letters
+PB  - Springer Nature
+AB  - To minimize the average of a set of log-convex functions, the stochastic Newton method iteratively updates its estimate using subsampled versions of the full objective’s gradient and Hessian. We contextualize this optimization problem as sequential Bayesian inference on a latent state-space model with a discriminatively-specified observation process. Applying Bayesian filtering then yields a novel optimization algorithm that considers the entire history of gradients and Hessians when forming an update. We establish matrix-based conditions under which the effect of older observations diminishes over time, in a manner analogous to Polyak’s heavy ball momentum. We illustrate various aspects of our approach with an example and review other relevant innovations for the stochastic Newton method.
+DA  - 2022/06/22
+PY  - 2022
+DO  - 10.1007/s11590-022-01895-5
+JF  - Optimization Letters
+JO  - Optim. Lett.
+SN  - 1862-4480
+UR - https://doi.org/10.1007/s11590-022-01895-5
+ID  - Bur22
+ER  - 
+
+TY  - JOUR
 TI  - The Discriminative Kalman Filter for Bayesian Filtering with Nonlinear and Nongaussian Observation Models
 AU  - Burkhart, Michael C.
 AU  - Brandman, David M.
@@ -20,7 +36,6 @@ JO  - Neural Comput.
 LA  - en
 SN  - 0899-7667, 1530-888X
 UR  - https://www.mitpressjournals.org/doi/abs/10.1162/neco_a_01275
-Y2  - 2020/08/06/17:40:39
 ER  -
 
 TY  - THES
@@ -58,7 +73,6 @@ JO  - Neural Comput.
 LA  - en
 SN  - 0899-7667, 1530-888X
 UR  - https://www.mitpressjournals.org/doi/10.1162/neco_a_01129
-Y2  - 2020/08/06/17:42:34
 ER  -
 
 TY  - JOUR
@@ -104,7 +118,7 @@ SP  - 026007
 J2  - J. Neural Eng.
 SN  - 1741-2560, 1741-2552
 UR  - https://iopscience.iop.org/article/10.1088/1741-2552/aa9ee7
-Y2  - 2020/08/06/17:43:01
 PB  - IOP Publishing
 AB - Brain–computer interfaces (BCIs) can enable individuals with tetraplegia to communicate and control external devices. Though much progress has been made in improving the speed and robustness of neural control provided by intracortical BCIs, little research has been devoted to minimizing the amount of time spent on decoder calibration. Approach. We investigated the amount of time users needed to calibrate decoders and achieve performance saturation using two markedly different decoding algorithms: the steady-state Kalman filter, and a novel technique using Gaussian process regression (GP-DKF). Main results. Three people with tetraplegia gained rapid closed-loop neural cursor control and peak, plateaued decoder performance within 3 min of initializing calibration. We also show that a BCI-naïve user (T5) was able to rapidly attain closed-loop neural cursor control with the GP-DKF using self-selected movement imagery on his first-ever day of closed-loop BCI use, acquiring a target 37 s after initiating calibration. Significance. These results demonstrate the potential for an intracortical BCI to be used immediately after deployment by people with paralysis, without the need for user learning or extensive system calibration.
+ID  - Bra18a
 ER  -
