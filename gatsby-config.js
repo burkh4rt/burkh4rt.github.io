@@ -44,7 +44,6 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#85b09a`,
         display: `standalone`,
-        cache_busting_mode: `none`,
       },
     },
     {
@@ -52,9 +51,6 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-sitemap`,
-      options: {
-        output: `sitemap.xml`,
-      },
     },
   ],
 }

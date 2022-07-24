@@ -89,14 +89,6 @@ export default function Home({ data }) {
                 {
                   "@type": "Person",
                   "name": "Michael C. Burkhart",
-                  "birthPlace": {
-                    "@type": "Place",
-                    "address": {
-                      "addressLocality": "Cincinnati",
-                      "addressRegion": "OH",
-                      "addressCountry": "US"
-                    }
-                  },
                   "familyName": "Burkhart",
                   "givenName": "Michael",
                   "honorificPrefix": "Dr.",

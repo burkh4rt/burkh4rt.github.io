@@ -32,11 +32,12 @@ export default function Home() {
         <Theme>
           <DeckThin>
             <HeaderCard>
-              <h1>Selected Publications</h1>
+              <h1>Publications</h1>
             </HeaderCard>
 
             <Card>
-              <CardContent style={{ paddingTop: "1rem" }}>
+              <CardTitle>Journal Articles</CardTitle>
+              <CardContent>
                 <ul>
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
                     <a
@@ -67,74 +68,6 @@ export default function Home() {
                       rel="noopener noreferrer"
                     >
                       [pdf]
-                    </a>
-                  </li>
-                  <li itemscope itemtype="http://schema.org/ScholarlyArticle">
-                    <a
-                      href="https://doi.org/10.1007/978-3-031-08754-7_1"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <span itemprop="author">M. Burkhart &amp; G. Ruiz.</span>{" "}
-                      <i>
-                        <span itemprop="name">
-                          Neuroevolutionary Feature Representations for Causal
-                          Inference
-                        </span>
-                        .{" "}
-                      </i>
-                      <span
-                        itemprop="isPartOf"
-                        itemtype="http://schema.org/Periodical"
-                      >
-                        Computational Science &ndash; ICCS{" "}
-                        <span itemprop="copyrightYear">2022</span>
-                      </span>
-                    </a>{" "}
-                    <a
-                      href="/pubs/Burkhart-Ruiz-2022-Comput-Sci.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      [pdf]
-                    </a>
-                  </li>
-                  <li itemscope itemtype="http://schema.org/ScholarlyArticle">
-                    <a
-                      href="https://doi.org/10.1007/978-3-030-77964-1_22"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <span itemprop="author">M. Burkhart.</span>{" "}
-                      <i>
-                        <span itemprop="name">
-                          Discriminative Bayesian Filtering for the
-                          Semi-supervised Augmentation of Sequential Observation
-                          Data
-                        </span>
-                        .{" "}
-                      </i>
-                      <span
-                        itemprop="isPartOf"
-                        itemtype="http://schema.org/Periodical"
-                      >
-                        Computational Science &ndash; ICCS{" "}
-                        <span itemprop="copyrightYear">2021</span>
-                      </span>
-                    </a>{" "}
-                    <a
-                      href="/pubs/Burkhart-2021-Comput-Sci.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      [pdf]
-                    </a>{" "}
-                    <a
-                      href="https://mathscinet.ams.org/mathscinet-getitem?mr=4371656"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      [MR4371656]
                     </a>
                   </li>
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
@@ -176,114 +109,6 @@ export default function Home() {
                       rel="noopener noreferrer"
                     >
                       [MR4101168]
-                    </a>
-                  </li>
-                  <li itemscope itemtype="http://schema.org/ScholarlyArticle">
-                    <a
-                      href="https://doi.org/10.1007/978-3-030-50420-5_22"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <span itemprop="author">M. Burkhart &amp; K. Shan.</span>{" "}
-                      <i>
-                        <span itemprop="name">
-                          Deep Low-Density Separation for Semi-supervised
-                          Classification
-                        </span>
-                        .{" "}
-                      </i>
-                      <span
-                        itemprop="isPartOf"
-                        itemtype="http://schema.org/Periodical"
-                      >
-                        Computational Science &ndash; ICCS{" "}
-                        <span itemprop="copyrightYear">2020</span>
-                      </span>
-                    </a>{" "}
-                    <a
-                      href="/pubs/Burkhart-Shan-2020-Comput-Sci.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      [pdf]
-                    </a>{" "}
-                    <a
-                      href="https://mathscinet.ams.org/mathscinet-getitem?mr=4152505"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      [MR4152505]
-                    </a>
-                  </li>
-                  <li itemscope itemtype="http://schema.org/ScholarlyArticle">
-                    <a
-                      href="https://doi.org/10.1007/978-3-030-22741-8_43"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <span itemprop="author">
-                        M. Burkhart &amp; K. Modarresi.
-                      </span>{" "}
-                      <i>
-                        <span itemprop="name">
-                          Adaptive Objective Functions and Distance Metrics for
-                          Recommendation Systems
-                        </span>
-                        .{" "}
-                      </i>
-                      <span
-                        itemprop="isPartOf"
-                        itemtype="http://schema.org/Periodical"
-                      >
-                        Computational Science &ndash; ICCS{" "}
-                        <span itemprop="copyrightYear">2019</span>
-                      </span>
-                    </a>{" "}
-                    <a
-                      href="/pubs/Burkhart-Modarresi-2019-Comput-Sci.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      [pdf]
-                    </a>{" "}
-                    <a
-                      href="https://mathscinet.ams.org/mathscinet-getitem?mr=3975427"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      [MR3975427]
-                    </a>
-                  </li>
-                  <li itemscope itemtype="http://schema.org/Thesis">
-                    <a
-                      href="https://doi.org/10.26300/nhfp-xv22"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <span itemprop="author">M. Burkhart.</span> “
-                      <span itemprop="name">
-                        A Discriminative Approach to Bayesian Filtering with
-                        Applications to Human Neural Decoding
-                      </span>
-                      .” Ph.D. Dissertation,{" "}
-                      <span itemprop="sourceOrganization">
-                        Brown University
-                      </span>{" "}
-                      (<span itemprop="copyrightYear">2019</span>)
-                    </a>{" "}
-                    <a
-                      href="/pubs/Burkhart-2019.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      [pdf]
-                    </a>{" "}
-                    <a
-                      href="https://mathscinet.ams.org/mathscinet-getitem?mr=4158190"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      [MR4158190]
                     </a>
                   </li>
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
@@ -396,6 +221,198 @@ export default function Home() {
             </Card>
 
             <Card>
+              <CardTitle>Conference Proceedings</CardTitle>
+              <CardContent>
+                <ul>
+                  <li itemscope itemtype="http://schema.org/ScholarlyArticle">
+                    <a
+                      href="https://doi.org/10.1007/978-3-031-08754-7_1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span itemprop="author">M. Burkhart &amp; G. Ruiz.</span>{" "}
+                      <i>
+                        <span itemprop="name">
+                          Neuroevolutionary Feature Representations for Causal
+                          Inference
+                        </span>
+                        .{" "}
+                      </i>
+                      <span
+                        itemprop="isPartOf"
+                        itemtype="http://schema.org/Periodical"
+                      >
+                        Computational Science &ndash; ICCS{" "}
+                        <span itemprop="copyrightYear">2022</span>
+                      </span>
+                    </a>{" "}
+                    <a
+                      href="/pubs/Burkhart-Ruiz-2022-Comput-Sci.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
+                    </a>
+                  </li>
+                  <li itemscope itemtype="http://schema.org/ScholarlyArticle">
+                    <a
+                      href="https://doi.org/10.1007/978-3-030-77964-1_22"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span itemprop="author">M. Burkhart.</span>{" "}
+                      <i>
+                        <span itemprop="name">
+                          Discriminative Bayesian Filtering for the
+                          Semi-supervised Augmentation of Sequential Observation
+                          Data
+                        </span>
+                        .{" "}
+                      </i>
+                      <span
+                        itemprop="isPartOf"
+                        itemtype="http://schema.org/Periodical"
+                      >
+                        Computational Science &ndash; ICCS{" "}
+                        <span itemprop="copyrightYear">2021</span>
+                      </span>
+                    </a>{" "}
+                    <a
+                      href="/pubs/Burkhart-2021-Comput-Sci.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
+                    </a>{" "}
+                    <a
+                      href="https://mathscinet.ams.org/mathscinet-getitem?mr=4371656"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [MR4371656]
+                    </a>
+                  </li>
+                  <li itemscope itemtype="http://schema.org/ScholarlyArticle">
+                    <a
+                      href="https://doi.org/10.1007/978-3-030-50420-5_22"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span itemprop="author">M. Burkhart &amp; K. Shan.</span>{" "}
+                      <i>
+                        <span itemprop="name">
+                          Deep Low-Density Separation for Semi-supervised
+                          Classification
+                        </span>
+                        .{" "}
+                      </i>
+                      <span
+                        itemprop="isPartOf"
+                        itemtype="http://schema.org/Periodical"
+                      >
+                        Computational Science &ndash; ICCS{" "}
+                        <span itemprop="copyrightYear">2020</span>
+                      </span>
+                    </a>{" "}
+                    <a
+                      href="/pubs/Burkhart-Shan-2020-Comput-Sci.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
+                    </a>{" "}
+                    <a
+                      href="https://mathscinet.ams.org/mathscinet-getitem?mr=4152505"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [MR4152505]
+                    </a>
+                  </li>
+                  <li itemscope itemtype="http://schema.org/ScholarlyArticle">
+                    <a
+                      href="https://doi.org/10.1007/978-3-030-22741-8_43"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span itemprop="author">
+                        M. Burkhart &amp; K. Modarresi.
+                      </span>{" "}
+                      <i>
+                        <span itemprop="name">
+                          Adaptive Objective Functions and Distance Metrics for
+                          Recommendation Systems
+                        </span>
+                        .{" "}
+                      </i>
+                      <span
+                        itemprop="isPartOf"
+                        itemtype="http://schema.org/Periodical"
+                      >
+                        Computational Science &ndash; ICCS{" "}
+                        <span itemprop="copyrightYear">2019</span>
+                      </span>
+                    </a>{" "}
+                    <a
+                      href="/pubs/Burkhart-Modarresi-2019-Comput-Sci.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
+                    </a>{" "}
+                    <a
+                      href="https://mathscinet.ams.org/mathscinet-getitem?mr=3975427"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [MR3975427]
+                    </a>
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardTitle>Dissertation</CardTitle>
+              <CardContent>
+                <ul>
+                  <li itemscope itemtype="http://schema.org/Thesis">
+                    <a
+                      href="https://doi.org/10.26300/nhfp-xv22"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span itemprop="author">M. Burkhart.</span> “
+                      <span itemprop="name">
+                        A Discriminative Approach to Bayesian Filtering with
+                        Applications to Human Neural Decoding
+                      </span>
+                      .” Ph.D. Dissertation,{" "}
+                      <span itemprop="sourceOrganization">
+                        Division of Applied Mathematics, Brown University
+                      </span>{" "}
+                      (<span itemprop="copyrightYear">2019</span>)
+                    </a>{" "}
+                    <a
+                      href="/pubs/Burkhart-2019.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
+                    </a>{" "}
+                    <a
+                      href="https://mathscinet.ams.org/mathscinet-getitem?mr=4158190"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [MR4158190]
+                    </a>
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card>
               <CardTitle>Patents Pending</CardTitle>
               <CardContent style={{ paddingBottom: 0 }}>
                 <ul>
@@ -407,7 +424,8 @@ export default function Home() {
                     >
                       M. Burkhart &amp; K. Shan. User Classification from Data
                       via Deep Segmentation for Semi-supervised Learning. U.S.
-                      Patent Application #16/681,239.
+                      Patent Application #16/681,239. Filed 2019. Published as
+                      US&thinsp;2021/0142152&thinsp;A1
                     </a>{" "}
                     <a
                       href="/pubs/Burkhart-Shan-US20210142152A1.pdf"
@@ -425,7 +443,8 @@ export default function Home() {
                     >
                       M. Burkhart &amp; K. Modarresi. Digital Experience
                       Enhancement using an Ensemble Deep Learning Model. U.S.
-                      Patent Application #16/375,627.
+                      Patent Application #16/375,627. Filed 2019. Published as
+                      US&thinsp;2020/0320382&thinsp;A1
                     </a>{" "}
                     <a
                       href="/pubs/Burkhart-Modarresi-US20200320382A1.pdf"
