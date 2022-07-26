@@ -424,9 +424,9 @@ export default function Home() {
                     >
                       M. Burkhart &amp; K. Shan. User Classification from Data
                       via Deep Segmentation for Semi-supervised Learning. U.S.
-                      Patent Application #16/681,239. Filed 2019. Published as
-                      US&thinsp;2021/0142152&thinsp;A1
+                      Patent Application #16/681,239.
                     </a>{" "}
+                    Filed 2019. Published as US&thinsp;2021/0142152&thinsp;A1{" "}
                     <a
                       href="/pubs/Burkhart-Shan-US20210142152A1.pdf"
                       target="_blank"
@@ -443,9 +443,9 @@ export default function Home() {
                     >
                       M. Burkhart &amp; K. Modarresi. Digital Experience
                       Enhancement using an Ensemble Deep Learning Model. U.S.
-                      Patent Application #16/375,627. Filed 2019. Published as
-                      US&thinsp;2020/0320382&thinsp;A1
+                      Patent Application #16/375,627.
                     </a>{" "}
+                    Filed 2019. Published as US&thinsp;2020/0320382&thinsp;A1{" "}
                     <a
                       href="/pubs/Burkhart-Modarresi-US20200320382A1.pdf"
                       target="_blank"

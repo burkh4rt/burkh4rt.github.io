@@ -1,0 +1,5 @@
+# https://www.robotstxt.org
+
+# allow unrestricted crawling 
+User-agent: *
+Disallow:

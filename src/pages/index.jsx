@@ -80,6 +80,10 @@ export default function Home({ data }) {
         <meta name="twitter:dnt" content="on" />
         <link rel="me" href="https://twitter.com/burkh4rt" />
         <link rel="canonical" href="https://burkh4rt.github.io" />
+        <meta
+          name="google-site-verification"
+          content="RBomW7izIX8odL5WjXJS01CR5JonJ1lcE3EsTAbVDPk"
+        />
 
         <script type="application/ld+json">
           {`
@@ -118,6 +122,7 @@ export default function Home({ data }) {
                     "https://www.semanticscholar.org/author/Michael-C.-Burkhart/48820417",
                     "https://osf.io/9qvh7",
                     "https://www.wikidata.org/wiki/Q60057814",
+                    "https://scholia.toolforge.org/author/Q60057814",
                     "https://europepmc.org/authors/0000-0002-2772-5840",
                     "https://www.lens.org/lens/profile/326252578",
                     "https://zbmath.org/authors/?q=ai%3Aburkhart.michael-c",
