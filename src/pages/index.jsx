@@ -571,28 +571,27 @@ export default function Home({ data }) {
               <CardContent style={{ paddingBottom: 0 }}>
                 <ul>
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
+                    <span itemprop="author">M. Burkhart.</span>{" "}
                     <a
                       href="https://doi.org/10.1007/s11590-022-01895-5"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <span itemprop="author">M. Burkhart.</span>{" "}
                       <i>
                         <span itemprop="name">
                           Discriminative Bayesian filtering lends momentum to
                           the stochastic Newton method for minimizing log-convex
-                          functions
+                          functions.
                         </span>
-                        .{" "}
                       </i>
-                      <span
-                        itemprop="isPartOf"
-                        itemtype="http://schema.org/Periodical"
-                      >
-                        Optimization Letters
-                      </span>{" "}
-                      (<span itemprop="copyrightYear">2022</span>)
                     </a>{" "}
+                    <span
+                      itemprop="isPartOf"
+                      itemtype="http://schema.org/Periodical"
+                    >
+                      Optimization Letters
+                    </span>{" "}
+                    (<span itemprop="copyrightYear">2022</span>){" "}
                     <a
                       href="/pubs/Burkhart-2022-Optim-Lett.pdf"
                       target="_blank"
@@ -602,31 +601,30 @@ export default function Home({ data }) {
                     </a>
                   </li>
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
+                    <span itemprop="author">
+                      M. Burkhart, D. Brandman, B. Franco, L. Hochberg, &amp; M.
+                      Harrison.
+                    </span>{" "}
                     <a
                       href="https://doi.org/10.1162/neco_a_01275"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <span itemprop="author">
-                        M. Burkhart, D. Brandman, B. Franco, L. Hochberg, &amp;
-                        M. Harrison.
-                      </span>{" "}
                       <i>
                         <span itemprop="name">
                           The Discriminative Kalman Filter for Bayesian
                           Filtering with Nonlinear and Nongaussian Observation
-                          Models
+                          Models.
                         </span>
-                        .{" "}
                       </i>
-                      <span
-                        itemprop="isPartOf"
-                        itemtype="http://schema.org/Periodical"
-                      >
-                        Neural Computation 32
-                      </span>{" "}
-                      (<span itemprop="copyrightYear">2020</span>)
                     </a>{" "}
+                    <span
+                      itemprop="isPartOf"
+                      itemtype="http://schema.org/Periodical"
+                    >
+                      Neural Computation 32
+                    </span>{" "}
+                    (<span itemprop="copyrightYear">2020</span>){" "}
                     <a
                       href="/pubs/Burkhart-et-al-2020-Neural-Comput.pdf"
                       target="_blank"
@@ -643,22 +641,22 @@ export default function Home({ data }) {
                     </a>
                   </li>
                   <li itemscope itemtype="http://schema.org/Thesis">
+                    <span itemprop="author">M. Burkhart.</span>
                     <a
                       href="https://doi.org/10.26300/nhfp-xv22"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <span itemprop="author">M. Burkhart.</span> “
+                      “
                       <span itemprop="name">
                         A Discriminative Approach to Bayesian Filtering with
                         Applications to Human Neural Decoding
                       </span>
-                      .” Ph.D. Dissertation,{" "}
-                      <span itemprop="sourceOrganization">
-                        Brown University
-                      </span>{" "}
-                      (<span itemprop="copyrightYear">2019</span>)
+                      .”
                     </a>{" "}
+                    Ph.D. Dissertation,{" "}
+                    <span itemprop="sourceOrganization">Brown University</span>{" "}
+                    (<span itemprop="copyrightYear">2019</span>){" "}
                     <a
                       href="/pubs/Burkhart-2019.pdf"
                       target="_blank"
@@ -675,30 +673,29 @@ export default function Home({ data }) {
                     </a>
                   </li>
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
+                    <span itemprop="author">
+                      D. Brandman, M. Burkhart, J. Kelemen, B. Franco, M.
+                      Harrison, &amp; L. Hochberg.
+                    </span>{" "}
                     <a
                       href="https://doi.org/10.1162/neco_a_01129"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <span itemprop="author">
-                        D. Brandman, M. Burkhart, J. Kelemen, B. Franco, M.
-                        Harrison, &amp; L. Hochberg.
-                      </span>{" "}
                       <i>
                         <span itemprop="name">
                           Robust Closed-Loop Control of a Cursor in a Person
-                          with Tetraplegia using Gaussian Process Regression
+                          with Tetraplegia using Gaussian Process Regression.
                         </span>
-                        .{" "}
                       </i>
-                      <span
-                        itemprop="isPartOf"
-                        itemtype="http://schema.org/Periodical"
-                      >
-                        Neural Computation 30
-                      </span>{" "}
-                      (<span itemprop="copyrightYear">2018</span>)
                     </a>{" "}
+                    <span
+                      itemprop="isPartOf"
+                      itemtype="http://schema.org/Periodical"
+                    >
+                      Neural Computation 30
+                    </span>{" "}
+                    (<span itemprop="copyrightYear">2018</span>){" "}
                     <a
                       href="/pubs/Brandman-et-al-2018-Neural-Comput.pdf"
                       target="_blank"
@@ -715,30 +712,29 @@ export default function Home({ data }) {
                     </a>
                   </li>
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
+                    <span itemprop="author">
+                      D. Brandman, T. Hosman, J. Saab, M. Burkhart, B. Shanahan,
+                      J. Ciancibello, et al.
+                    </span>{" "}
                     <a
                       href="https://doi.org/10.1088/1741-2552/aa9ee7"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <span itemprop="author">
-                        D. Brandman, T. Hosman, J. Saab, M. Burkhart, B.
-                        Shanahan, J. Ciancibello, et al.
-                      </span>{" "}
                       <i>
                         <span itemprop="name">
                           Rapid calibration of an intracortical brain computer
-                          interface for people with tetraplegia
+                          interface for people with tetraplegia.
                         </span>
-                        .{" "}
                       </i>
-                      <span
-                        itemprop="isPartOf"
-                        itemtype="http://schema.org/Periodical"
-                      >
-                        Journal of Neural Engineering 15
-                      </span>{" "}
-                      (<span itemprop="copyrightYear">2018</span>)
                     </a>{" "}
+                    <span
+                      itemprop="isPartOf"
+                      itemtype="http://schema.org/Periodical"
+                    >
+                      Journal of Neural Engineering 15
+                    </span>{" "}
+                    (<span itemprop="copyrightYear">2018</span>){" "}
                     <a
                       href="/pubs/Brandman-et-al-2018-J-Neural-Eng.pdf"
                       target="_blank"

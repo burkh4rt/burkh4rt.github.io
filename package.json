@@ -21,7 +21,6 @@
     "gatsby-plugin-html-attributes": "^1.0.5",
     "gatsby-plugin-image": "^2.4.0",
     "gatsby-plugin-sharp": "^4.4.0",
-    "gatsby-plugin-sitemap": "^5.4.0",
     "gatsby-transformer-sharp": "^4.4.0",
     "gh-pages": "^4.0.0",
     "prettier": "^2.5.1",
@@ -37,6 +36,8 @@
     "build": "npm run format && gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "prettier": "npm run format",
+    "pretty": "npm run format",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "deploy": "gh-pages -d public -b master"

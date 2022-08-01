@@ -259,6 +259,12 @@ export const TextRed = styled.span`
   color: ${props => props.theme.colors.red};
 `
 
+/*
+export const SC = styled.span`
+  font-feature-settings: 'smcp';
+`
+*/
+
 export const EqnSVG = styled.div`
   display: flex;
   align-items: center;
