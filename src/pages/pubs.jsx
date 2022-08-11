@@ -24,6 +24,7 @@ export default function Home() {
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Michael C. Burkhart" />
+        <link rel="canonical" href="https://burkh4rt.github.io/pubs/" />
       </Helmet>
 
       <body>
@@ -172,13 +173,6 @@ export default function Home() {
                       Journal of Neural Engineering 15
                     </span>{" "}
                     (<span itemprop="copyrightYear">2018</span>){" "}
-                    <a
-                      href="/pubs/Brandman-et-al-2018-J-Neural-Eng.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      [pdf]
-                    </a>
                   </li>
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
                     <span itemprop="author">
@@ -203,13 +197,6 @@ export default function Home() {
                       Energy and Buildings 75
                     </span>{" "}
                     (<span itemprop="copyrightYear">2014</span>){" "}
-                    <a
-                      href="/pubs/Burkhart-et-al-2014-Energy-Build.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      [pdf]
-                    </a>
                   </li>
                 </ul>
               </CardContent>
@@ -240,13 +227,6 @@ export default function Home() {
                       Computational Science &ndash; ICCS{" "}
                       <span itemprop="copyrightYear">2022</span>
                     </span>{" "}
-                    <a
-                      href="/pubs/Burkhart-Ruiz-2022-Comput-Sci.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      [pdf]
-                    </a>
                   </li>
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
                     <span itemprop="author">M. Burkhart.</span>{" "}
@@ -270,13 +250,6 @@ export default function Home() {
                       Computational Science &ndash; ICCS{" "}
                       <span itemprop="copyrightYear">2021</span>
                     </span>{" "}
-                    <a
-                      href="/pubs/Burkhart-2021-Comput-Sci.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      [pdf]
-                    </a>{" "}
                     <a
                       href="https://mathscinet.ams.org/mathscinet-getitem?mr=4371656"
                       target="_blank"
@@ -306,13 +279,6 @@ export default function Home() {
                       Computational Science &ndash; ICCS{" "}
                       <span itemprop="copyrightYear">2020</span>
                     </span>{" "}
-                    <a
-                      href="/pubs/Burkhart-Shan-2020-Comput-Sci.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      [pdf]
-                    </a>{" "}
                     <a
                       href="https://mathscinet.ams.org/mathscinet-getitem?mr=4152505"
                       target="_blank"
@@ -344,13 +310,6 @@ export default function Home() {
                       Computational Science &ndash; ICCS{" "}
                       <span itemprop="copyrightYear">2019</span>
                     </span>{" "}
-                    <a
-                      href="/pubs/Burkhart-Modarresi-2019-Comput-Sci.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      [pdf]
-                    </a>{" "}
                     <a
                       href="https://mathscinet.ams.org/mathscinet-getitem?mr=3975427"
                       target="_blank"
