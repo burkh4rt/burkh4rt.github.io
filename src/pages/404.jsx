@@ -1,5 +1,4 @@
 import React from "react"
-import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
 
 import Theme from "../components/component_theme"
@@ -15,16 +14,18 @@ import {
   CardContent,
 } from "../components/layouts"
 
+export const Head = () => (
+  <>
+    <title>Michael's 404</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Michael C. Burkhart" />
+  </>
+)
+
 export default function Home() {
   return (
     <>
-      <Helmet>
-        <title>Michael's 404</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="author" content="Michael C. Burkhart" />
-      </Helmet>
-
       <body>
         <GlobalReset />
         <Fonts />

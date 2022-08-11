@@ -1,5 +1,4 @@
 import React from "react"
-import { Helmet } from "react-helmet"
 import { graphql, Link } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 
@@ -43,140 +42,142 @@ import GoogleScholarLogo from "../logos/google-scholar.svg"
 import OrcIDLogo from "../logos/orcid-logo.svg"
 import TwitterLogo from "../logos/twitter-logo.svg"
 
+export const Head = () => (
+  <>
+    <title>Michael C. Burkhart's website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Michael C. Burkhart" />
+    <meta
+      name="description"
+      content="Michael Burkhart's homepage. Snippets from work and life, with links."
+    />
+    <meta
+      name="keywords"
+      content="Michael Burkhart,Michael C. Burkhart,Ph.D.,Brown University,Applied Mathematics,Statistics,Bayesian Filtering,neural decoding,Discriminative Kalman Filter"
+    />
+    <meta property="og:title" content="Michael Burkhart's website" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content={Msvg} />
+    <meta property="og:url" content="https://burkh4rt.github.io" />
+    <meta
+      property="og:description"
+      content="Michael Burkhart's homepage. Snippets from work and life, with links."
+    />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="burkh4rt" />
+    <meta name="twitter:creator" content="burkh4rt" />
+    <meta name="twitter:title" content="Michael Burkhart's website" />
+    <meta
+      name="twitter:description"
+      content="Michael Burkhart's homepage. Snippets from work and life, with links."
+    />
+    <meta property="twitter:image" content={Msvg} />
+    <meta name="twitter:dnt" content="on" />
+    <link rel="me" href="https://twitter.com/burkh4rt" />
+    <link rel="canonical" href="https://burkh4rt.github.io" />
+    <meta
+      name="google-site-verification"
+      content="RBomW7izIX8odL5WjXJS01CR5JonJ1lcE3EsTAbVDPk"
+    />
+
+    <script type="application/ld+json">
+      {`
+        {
+          "@context": "http://schema.org/",
+          "@graph": [
+            {
+              "@type": "Person",
+              "name": "Michael C. Burkhart",
+              "familyName": "Burkhart",
+              "givenName": "Michael",
+              "honorificPrefix": "Dr.",
+              "honorificSuffix": "Ph.D.",
+              "nationality": "US",
+              "sameAs": [
+                "https://burkh4rt.github.io",
+                "https://www.linkedin.com/in/burkh4rt",
+                "https://github.com/burkh4rt",
+                "https://www.instagram.com/burkh4rt",
+                "https://twitter.com/burkh4rt",
+                "https://www.facebook.com/burkh4rt",
+                "https://burkh4rt.tumblr.com",
+                "https://en.gravatar.com/burkh4rt",
+                "https://orcid.org/0000-0002-2772-5840",
+                "https://www.genealogy.math.ndsu.nodak.edu/id.php?id=246430",
+                "https://www.scopus.com/authid/detail.uri?authorId=56094628500",
+                "https://mathscinet.ams.org/mathscinet/MRAuthorID/1296691",
+                "https://publons.com/researcher/2926384/michael-c-burkhart",
+                "https://profiles.impactstory.org/u/0000-0002-2772-5840",
+                "https://figshare.com/authors/Michael_C_Burkhart/6643982",
+                "https://dblp.uni-trier.de/pid/223/5859.html",
+                "https://dl.acm.org/profile/99659347035",
+                "https://www.scienceopen.com/user/burkh4rt",
+                "https://scholar.google.com/citations?user=OcFnA0UAAAAJ",
+                "https://academictree.org/math/peopleinfo.php?pid=784634",
+                "https://www.semanticscholar.org/author/Michael-C.-Burkhart/48820417",
+                "https://osf.io/9qvh7",
+                "https://www.wikidata.org/wiki/Q60057814",
+                "https://scholia.toolforge.org/author/Q60057814",
+                "https://europepmc.org/authors/0000-0002-2772-5840",
+                "https://www.lens.org/lens/profile/326252578",
+                "https://zbmath.org/authors/?q=ai%3Aburkhart.michael-c",
+                "https://g.co/kgs/XiBzFy",
+                "https://isni.org/isni/0000000502720308",
+                "https://viaf.org/viaf/439162664218455000792",
+                "https://app.dimensions.ai/details/entities/publication/author/ur.010351326437.47",
+                "https://www.c2d3.cam.ac.uk/directory/16451/michael-burkhart",
+                "https://www.neuroscience.cam.ac.uk/directory/profile.php?burkh4rt",
+                "https://www.psychol.cam.ac.uk/staff/dr-michael-craig-burkhart",
+                "https://www.abg.psychol.cam.ac.uk/staff/dr-michael-burkhart",
+                "https://mcb93.user.srcf.net"
+              ]
+            },
+            {
+              "@type": "Thesis",
+              "author": {
+                "@type": "Person",
+                "name": "Michael C. Burkhart",
+                "sameAs": "https://burkh4rt.github.io"
+              },
+              "copyrightYear": "2019",
+              "inSupportOf": "Applied Mathematics",
+              "locationCreated": {
+                "@type": "Place",
+                "address": {
+                  "addressLocality": "Providence",
+                  "addressRegion": "RI",
+                  "addressCountry": "US"
+                }
+              },
+              "name": "A Discriminative Approach to Bayesian Filtering with Applications to Human Neural Decoding",
+              "sourceOrganization": {
+                "@type": "CollegeOrUniversity",
+                "name": "Brown University",
+                "sameAs": "https://www.brown.edu"
+              },
+              "url": "https://doi.org/10.26300/nhfp-xv22",
+              "sameAs": [
+                "https://doi.org/10.31237/osf.io/4j3fu",
+                "https://arxiv.org/abs/1807.06173",
+                "https://repository.library.brown.edu/studio/item/bdr:919147",
+                "https://www.zenodo.org/record/3686561",
+                "https://hal.archives-ouvertes.fr/tel-03037117/",
+                "https://search.proquest.com/openview/5225fc3dc50c59e4a077addf02928a08",
+                "https://mathscinet.ams.org/mathscinet-getitem?mr=4158190"
+              ]
+            }
+          ]
+        }
+      `}
+    </script>
+  </>
+)
+
 export default function Home({ data }) {
   return (
     <>
-      <Helmet>
-        <title>Michael C. Burkhart's website</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="author" content="Michael C. Burkhart" />
-        <meta
-          name="description"
-          content="Michael Burkhart's homepage. Snippets from work and life, with links."
-        />
-        <meta
-          name="keywords"
-          content="Michael Burkhart,Michael C. Burkhart,Ph.D.,Brown University,Applied Mathematics,Statistics,Bayesian Filtering,neural decoding,Discriminative Kalman Filter"
-        />
-        <meta property="og:title" content="Michael Burkhart's website" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content={Msvg} />
-        <meta property="og:url" content="https://burkh4rt.github.io" />
-        <meta
-          property="og:description"
-          content="Michael Burkhart's homepage. Snippets from work and life, with links."
-        />
-        <meta property="og:locale" content="en_US" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="burkh4rt" />
-        <meta name="twitter:creator" content="burkh4rt" />
-        <meta name="twitter:title" content="Michael Burkhart's website" />
-        <meta
-          name="twitter:description"
-          content="Michael Burkhart's homepage. Snippets from work and life, with links."
-        />
-        <meta property="twitter:image" content={Msvg} />
-        <meta name="twitter:dnt" content="on" />
-        <link rel="me" href="https://twitter.com/burkh4rt" />
-        <link rel="canonical" href="https://burkh4rt.github.io" />
-        <meta
-          name="google-site-verification"
-          content="RBomW7izIX8odL5WjXJS01CR5JonJ1lcE3EsTAbVDPk"
-        />
-
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "http://schema.org/",
-              "@graph": [
-                {
-                  "@type": "Person",
-                  "name": "Michael C. Burkhart",
-                  "familyName": "Burkhart",
-                  "givenName": "Michael",
-                  "honorificPrefix": "Dr.",
-                  "honorificSuffix": "Ph.D.",
-                  "nationality": "US",
-                  "sameAs": [
-                    "https://burkh4rt.github.io",
-                    "https://www.linkedin.com/in/burkh4rt",
-                    "https://github.com/burkh4rt",
-                    "https://www.instagram.com/burkh4rt",
-                    "https://twitter.com/burkh4rt",
-                    "https://www.facebook.com/burkh4rt",
-                    "https://burkh4rt.tumblr.com",
-                    "https://en.gravatar.com/burkh4rt",
-                    "https://orcid.org/0000-0002-2772-5840",
-                    "https://www.genealogy.math.ndsu.nodak.edu/id.php?id=246430",
-                    "https://www.scopus.com/authid/detail.uri?authorId=56094628500",
-                    "https://mathscinet.ams.org/mathscinet/MRAuthorID/1296691",
-                    "https://publons.com/researcher/2926384/michael-c-burkhart",
-                    "https://profiles.impactstory.org/u/0000-0002-2772-5840",
-                    "https://figshare.com/authors/Michael_C_Burkhart/6643982",
-                    "https://dblp.uni-trier.de/pid/223/5859.html",
-                    "https://dl.acm.org/profile/99659347035",
-                    "https://www.scienceopen.com/user/burkh4rt",
-                    "https://scholar.google.com/citations?user=OcFnA0UAAAAJ",
-                    "https://academictree.org/math/peopleinfo.php?pid=784634",
-                    "https://www.semanticscholar.org/author/Michael-C.-Burkhart/48820417",
-                    "https://osf.io/9qvh7",
-                    "https://www.wikidata.org/wiki/Q60057814",
-                    "https://scholia.toolforge.org/author/Q60057814",
-                    "https://europepmc.org/authors/0000-0002-2772-5840",
-                    "https://www.lens.org/lens/profile/326252578",
-                    "https://zbmath.org/authors/?q=ai%3Aburkhart.michael-c",
-                    "https://g.co/kgs/XiBzFy",
-                    "https://isni.org/isni/0000000502720308",
-                    "https://viaf.org/viaf/439162664218455000792",
-                    "https://app.dimensions.ai/details/entities/publication/author/ur.010351326437.47",
-                    "https://www.c2d3.cam.ac.uk/directory/16451/michael-burkhart",
-                    "https://www.neuroscience.cam.ac.uk/directory/profile.php?burkh4rt",
-                    "https://www.psychol.cam.ac.uk/staff/dr-michael-craig-burkhart",
-                    "https://www.abg.psychol.cam.ac.uk/staff/dr-michael-burkhart",
-                    "https://mcb93.user.srcf.net"
-                  ]
-                },
-                {
-                  "@type": "Thesis",
-                  "author": {
-                    "@type": "Person",
-                    "name": "Michael C. Burkhart",
-                    "sameAs": "https://burkh4rt.github.io"
-                  },
-                  "copyrightYear": "2019",
-                  "inSupportOf": "Applied Mathematics",
-                  "locationCreated": {
-                    "@type": "Place",
-                    "address": {
-                      "addressLocality": "Providence",
-                      "addressRegion": "RI",
-                      "addressCountry": "US"
-                    }
-                  },
-                  "name": "A Discriminative Approach to Bayesian Filtering with Applications to Human Neural Decoding",
-                  "sourceOrganization": {
-                    "@type": "CollegeOrUniversity",
-                    "name": "Brown University",
-                    "sameAs": "https://www.brown.edu"
-                  },
-                  "url": "https://doi.org/10.26300/nhfp-xv22",
-                  "sameAs": [
-                    "https://doi.org/10.31237/osf.io/4j3fu",
-                    "https://arxiv.org/abs/1807.06173",
-                    "https://repository.library.brown.edu/studio/item/bdr:919147",
-                    "https://www.zenodo.org/record/3686561",
-                    "https://hal.archives-ouvertes.fr/tel-03037117/",
-                    "https://search.proquest.com/openview/5225fc3dc50c59e4a077addf02928a08",
-                    "https://mathscinet.ams.org/mathscinet-getitem?mr=4158190"
-                  ]
-                }
-              ]
-            }
-          `}
-        </script>
-      </Helmet>
-
       <body>
         <GlobalReset />
         <Fonts />

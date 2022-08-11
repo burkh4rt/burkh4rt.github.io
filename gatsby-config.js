@@ -10,7 +10,6 @@ module.exports = {
     description: `Michael Burkhart's homepage. Snippets from work and life, with links.`,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-styled-components`,
