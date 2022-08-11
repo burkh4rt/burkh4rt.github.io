@@ -6,7 +6,7 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://burkh4rt.github.io/</loc>
+  <loc>https://burkh4rt.github.io</loc>
 </url>
 <url>
   <loc>https://burkh4rt.github.io/pubs/</loc>
@@ -31,27 +31,6 @@
 </url>
 <url>
   <loc>https://burkh4rt.github.io/pubs/Brandman-et-al-2018-Neural-Comput.pdf</loc>
-</url>
-<url>
-  <loc>https://burkh4rt.github.io/pubs/Brandman-et-al-2018-J-Neural-Eng.pdf</loc>
-</url>
-<url>
-  <loc>https://burkh4rt.github.io/pubs/Burkhart-Ruiz-2022-Comput-Sci.pdf</loc>
-</url>
-<url>
-  <loc>https://burkh4rt.github.io/pubs/Burkhart-2021-Comput-Sci.pdf</loc>
-</url>
-<url>
-  <loc>https://burkh4rt.github.io/pubs/Burkhart-Shan-2020-Comput-Sci.pdf</loc>
-</url>
-<url>
-  <loc>https://burkh4rt.github.io/pubs/Burkhart-Modarresi-2019-Comput-Sci.pdf</loc>
-</url>
-<url>
-  <loc>https://burkh4rt.github.io/pubs/Burkhart-et-al-2014-Energy-Build.pdf</loc>
-</url>
-<url>
-  <loc>https://burkh4rt.github.io/pubs/Burkhart-Shan-US20210142152A1.pdf</loc>
 </url>
 <url>
   <loc>https://burkh4rt.github.io/pubs/Burkhart-Modarresi-US20200320382A1.pdf</loc>
