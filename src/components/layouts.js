@@ -54,7 +54,7 @@ export const Deck = styled.div`
   }
 
   h1 {
-    font-size: 1.777rem;
+    font-size: 2.369rem;
   }
 
   h2 {
@@ -121,7 +121,7 @@ export const CardTitle = styled.h6`
   font-family: ${props => props.theme.fontstacks.gillSansStack};
   left: ${props => props.theme.spaces.spacer5};
   top: -0.75em;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.075rem;
   font-feature-settings: "smcp" 1;
   margin: 0;
   padding: ${props => `0 ${props.theme.spaces.spacer1}`};
@@ -172,7 +172,6 @@ export const HeaderCard = styled(Card)`
   align-items: center;
   align-content: center;
   font-family: ${props => props.theme.fontstacks.garamondStack};
-  font-feature-settings: "smcp" 1;
   margin-top: 0;
   * {
     font-weight: normal;

@@ -23,7 +23,7 @@
     "gh-pages": "^4.0.0",
     "prettier": "^2.5.1",
     "resolve-url-loader": "^5.0.0",
-    "sharp": "^0.30.4"
+    "sharp": "^0.31.0"
   },
   "name": "@burkh4rt/burkh4rt.github.io",
   "repository": {

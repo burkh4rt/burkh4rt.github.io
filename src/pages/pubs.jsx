@@ -372,7 +372,7 @@ export default function Home() {
                   <li>
                     M. Burkhart &amp; K. Shan.{" "}
                     <a
-                      href="https://patents.google.com/patent/US20210142152A1"
+                      href="https://patents.google.com/patent/US11455518B2"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -383,6 +383,14 @@ export default function Home() {
                     as US&thinsp;2021/0142152&thinsp;A1{" "}
                     <a
                       href="/pubs/Burkhart-Shan-US20210142152A1.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
+                    </a>{" "}
+                    Granted 2022 as US&thinsp;11,455,518&thinsp;B2{" "}
+                    <a
+                      href="/pubs/Burkhart-Shan-US11455518B2.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
