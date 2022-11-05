@@ -76,6 +76,7 @@ export const Head = () => (
     <meta property="twitter:image" content={Msvg} />
     <meta name="twitter:dnt" content="on" />
     <link rel="me" href="https://twitter.com/burkh4rt" />
+    <link rel="me" href="https://mathstodon.xyz/@burkh4rt" />
     <link rel="canonical" href="https://burkh4rt.github.io" />
     <meta
       name="google-site-verification"
@@ -101,6 +102,7 @@ export const Head = () => (
                 "https://github.com/burkh4rt",
                 "https://www.instagram.com/burkh4rt",
                 "https://twitter.com/burkh4rt",
+                "https://mathstodon.xyz/@burkh4rt",
                 "https://www.facebook.com/burkh4rt",
                 "https://burkh4rt.tumblr.com",
                 "https://en.gravatar.com/burkh4rt",
