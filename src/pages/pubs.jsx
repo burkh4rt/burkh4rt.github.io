@@ -44,6 +44,36 @@ export default function Home() {
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
                     <span itemprop="author">M. Burkhart.</span>{" "}
                     <a
+                      href="https://doi.org/10.1017/S0013091522000499"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i>
+                        <span itemprop="name">
+                          Conjugacy conditions for supersoluble complements of
+                          an abelian base and a fixed point result for
+                          non-coprime actions.
+                        </span>
+                      </i>
+                    </a>{" "}
+                    <span
+                      itemprop="isPartOf"
+                      itemtype="http://schema.org/Periodical"
+                    >
+                      Proceedings of the Edinburgh Mathematical Society
+                    </span>{" "}
+                    (<span itemprop="copyrightYear">2022</span>){" "}
+                    <a
+                      href="/pubs/Burkhart-2022-Proc-Edinburgh-Math-Soc.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
+                    </a>
+                  </li>
+                  <li itemscope itemtype="http://schema.org/ScholarlyArticle">
+                    <span itemprop="author">M. Burkhart.</span>{" "}
+                    <a
                       href="https://doi.org/10.1007/s11590-022-01895-5"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -153,7 +183,8 @@ export default function Home() {
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
                     <span itemprop="author">
                       D. Brandman, T. Hosman, J. Saab, M. Burkhart, B. Shanahan,
-                      J. Ciancibello, et al.
+                      J. Ciancibello, &hellip;, M. Harrison, J. Simeral, &amp;
+                      L. Hochberg.
                     </span>{" "}
                     <a
                       href="https://doi.org/10.1088/1741-2552/aa9ee7"

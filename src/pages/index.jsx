@@ -796,7 +796,7 @@ export default function Home({ data }) {
 
             <FooterCard>
               <h5 id="cv">
-                <a href="/cv21.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
                   {" "}
                   C.V. ☜
                 </a>

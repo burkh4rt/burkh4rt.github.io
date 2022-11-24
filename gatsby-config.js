@@ -46,6 +46,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://burkh4rt.github.io`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-offline`,
     },
   ],
