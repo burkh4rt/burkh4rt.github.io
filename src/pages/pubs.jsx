@@ -60,7 +60,7 @@ export default function Home() {
                       itemprop="isPartOf"
                       itemtype="http://schema.org/Periodical"
                     >
-                      Proceedings of the Edinburgh Mathematical Society
+                      Proceedings of the Edinburgh Mathematical Society 65
                     </span>{" "}
                     (<span itemprop="copyrightYear">2022</span>){" "}
                     <a

@@ -38,7 +38,7 @@ module.exports = {
         start_url: `/`,
         icon: `src/logos/m.svg`,
         icon_options: {
-          purpose: `maskable`,
+          purpose: `any maskable`,
         },
         background_color: `#fff`,
         theme_color: `#85b09a`,
