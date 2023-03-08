@@ -592,11 +592,11 @@ export default function Home({ data }) {
                       itemprop="isPartOf"
                       itemtype="http://schema.org/Periodical"
                     >
-                      Optimization Letters
+                      Optimization Letters 17
                     </span>{" "}
-                    (<span itemprop="copyrightYear">2022</span>){" "}
+                    (<span itemprop="copyrightYear">2023</span>){" "}
                     <a
-                      href="/pubs/Burkhart-2022-Optim-Lett.pdf"
+                      href="/pubs/Burkhart-2023-Optim-Lett.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

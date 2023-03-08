@@ -44,6 +44,36 @@ export default function Home() {
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
                     <span itemprop="author">M. Burkhart.</span>{" "}
                     <a
+                      href="https://doi.org/10.1007/s11590-022-01895-5"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i>
+                        <span itemprop="name">
+                          Discriminative Bayesian filtering lends momentum to
+                          the stochastic Newton method for minimizing log-convex
+                          functions.
+                        </span>
+                      </i>
+                    </a>{" "}
+                    <span
+                      itemprop="isPartOf"
+                      itemtype="http://schema.org/Periodical"
+                    >
+                      Optimization Letters 17
+                    </span>{" "}
+                    (<span itemprop="copyrightYear">2023</span>){" "}
+                    <a
+                      href="/pubs/Burkhart-2023-Optim-Lett.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
+                    </a>
+                  </li>
+                  <li itemscope itemtype="http://schema.org/ScholarlyArticle">
+                    <span itemprop="author">M. Burkhart.</span>{" "}
+                    <a
                       href="https://doi.org/10.1017/S0013091522000499"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -69,36 +99,13 @@ export default function Home() {
                       rel="noopener noreferrer"
                     >
                       [pdf]
-                    </a>
-                  </li>
-                  <li itemscope itemtype="http://schema.org/ScholarlyArticle">
-                    <span itemprop="author">M. Burkhart.</span>{" "}
-                    <a
-                      href="https://doi.org/10.1007/s11590-022-01895-5"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i>
-                        <span itemprop="name">
-                          Discriminative Bayesian filtering lends momentum to
-                          the stochastic Newton method for minimizing log-convex
-                          functions.
-                        </span>
-                      </i>
                     </a>{" "}
-                    <span
-                      itemprop="isPartOf"
-                      itemtype="http://schema.org/Periodical"
-                    >
-                      Optimization Letters
-                    </span>{" "}
-                    (<span itemprop="copyrightYear">2022</span>){" "}
                     <a
-                      href="/pubs/Burkhart-2022-Optim-Lett.pdf"
+                      href="https://mathscinet.ams.org/mathscinet-getitem?mr=4542651"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      [pdf]
+                      [MR4542651]
                     </a>
                   </li>
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
