@@ -601,6 +601,13 @@ export default function Home({ data }) {
                       rel="noopener noreferrer"
                     >
                       [pdf]
+                    </a>{" "}
+                    <a
+                      href="https://mathscinet.ams.org/mathscinet-getitem?mr=4557438"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [MR4557438]
                     </a>
                   </li>
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
