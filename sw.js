@@ -33,11 +33,11 @@ self.__precacheManifest = [
     "url": "framework-4a7bd731fcae4e0a2b99.js"
   },
   {
-    "url": "app-8aea91544ec9228c50c1.js"
+    "url": "app-e231143463ea6a94bf52.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "9727968b10cabae56a7e3290869cb153"
+    "revision": "038286f975c47bc73c6c8f0f144c0140"
   },
   {
     "url": "static/GaramondPremrPro-ItCapt-f846ed00049feafa9f6004da9235cc0c.otf"
@@ -166,7 +166,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-8aea91544ec9228c50c1.js`))) {
+  if (!resources || !(await caches.match(`/app-e231143463ea6a94bf52.js`))) {
     return await fetch(event.request)
   }
 
