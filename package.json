@@ -6,6 +6,7 @@
   "description": "Michael's personal website",
   "dependencies": {
     "gatsby-plugin-canonical-urls": "^5.0.0",
+    "gatsby-plugin-google-tagmanager": "^5.9.0",
     "gatsby-plugin-manifest": "^5.0.0",
     "gatsby-plugin-offline": "^6.0.0",
     "gatsby-plugin-styled-components": "^6.0.0",
@@ -21,10 +22,10 @@
     "gatsby-plugin-image": "^3.0.0",
     "gatsby-plugin-sharp": "^5.0.0",
     "gatsby-transformer-sharp": "^5.0.0",
-    "gh-pages": "^4.0.0",
+    "gh-pages": "^5.0.0",
     "prettier": "^2.7.1",
     "resolve-url-loader": "^5.0.0",
-    "sharp": "^0.31.1"
+    "sharp": "^0.32.1"
   },
   "name": "@burkh4rt/burkh4rt.github.io",
   "repository": {

@@ -830,7 +830,7 @@ export const query = graphql`
           aspectRatio: 1
           width: 700
           quality: 85
-          placeholder: TRACED_SVG
+          placeholder: BLURRED
           layout: CONSTRAINED
           formats: [AUTO, WEBP, AVIF]
           transformOptions: { fit: INSIDE, cropFocus: ATTENTION }
