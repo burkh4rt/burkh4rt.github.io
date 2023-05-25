@@ -42,6 +42,35 @@ export default function Home() {
               <CardContent>
                 <ul>
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
+                    <span itemprop="author">M. Burkhart &amp; G. Ruiz.</span>{" "}
+                    <a
+                      href="https://doi.org/10.1016/j.jocs.2023.102054"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i>
+                        <span itemprop="name">
+                          Neuroevolutionary representations for learning
+                          heterogeneous treatment effects.
+                        </span>
+                      </i>
+                    </a>{" "}
+                    <span
+                      itemprop="isPartOf"
+                      itemtype="http://schema.org/Periodical"
+                    >
+                      Journal of Computational Science 71
+                    </span>{" "}
+                    (<span itemprop="copyrightYear">2023</span>){" "}
+                    <a
+                      href="/pubs/Burkhart-Ruiz-2023-J-Comput-Sci.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
+                    </a>
+                  </li>
+                  <li itemscope itemtype="http://schema.org/ScholarlyArticle">
                     <span itemprop="author">M. Burkhart.</span>{" "}
                     <a
                       href="https://doi.org/10.1007/s11590-022-01895-5"
