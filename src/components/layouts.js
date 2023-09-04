@@ -214,7 +214,10 @@ export const FooterCard = styled(Card)`
 export const MathElt = styled.span`
   font-family: ${props => props.theme.fontstacks.garamondStack};
   font-style: italic;
-  font-feature-settings: "kern" 1, "pnum" 1, "onum" 0;
+  font-feature-settings:
+    "kern" 1,
+    "pnum" 1,
+    "onum" 0;
   line-height: 1em;
   white-space-collapsing: collapse;
   text-align: center;
