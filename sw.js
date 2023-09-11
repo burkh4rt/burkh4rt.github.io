@@ -37,7 +37,7 @@ self.__precacheManifest = [
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "0ad06fce118b6c3270970697ac38f39f"
+    "revision": "d314979b6c7827c71e060d91008a9110"
   },
   {
     "url": "static/GaramondPremrPro-ItCapt-f846ed00049feafa9f6004da9235cc0c.otf"
