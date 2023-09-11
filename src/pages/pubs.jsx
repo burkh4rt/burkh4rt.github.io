@@ -130,7 +130,7 @@ export default function Home() {
                     </span>{" "}
                     (<span itemprop="copyrightYear">2022</span>){" "}
                     <a
-                      href="/pubs/Burkhart-2022-Proc-Edinburgh-Math-Soc.pdf"
+                      href="/pubs/Burkhart-2022-Proc-Edinb-Math-Soc.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -391,6 +391,144 @@ export default function Home() {
                       rel="noopener noreferrer"
                     >
                       [MR3975427]
+                    </a>
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardTitle>Preprints</CardTitle>
+              <CardContent>
+                <ul>
+                  <li itemscope itemtype="http://schema.org/ScholarlyArticle">
+                    <span itemprop="author">M. Burkhart.</span>{" "}
+                    <a
+                      href="https://doi.org/10.1017/prm.2023.96"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i>
+                        <span itemprop="name">
+                          Fixed point conditions for non-coprime actions.
+                        </span>
+                      </i>
+                    </a>{" "}
+                    <span
+                      itemprop="isPartOf"
+                      itemtype="http://schema.org/Periodical"
+                    >
+                      Proceedings of the Royal Society of Edinburgh Section A:
+                      Mathematics
+                    </span>{" "}
+                    (to appear){" "}
+                    <a
+                      href="/pubs/Burkhart-2023-Proc-Roy-Soc-Edinb-Sect-A-Math.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
+                    </a>
+                  </li>
+                  <li itemscope itemtype="http://schema.org/ScholarlyArticle">
+                    <span itemprop="author">
+                      M. Abroshan, M. Burkhart, O. Giles, S. Greenbury, Z.
+                      Kourtzi, J. Roberts, M. van der Schaar, J. Steyn, A.
+                      Wilson, &amp; M. Yong.
+                    </span>{" "}
+                    <a
+                      href="https://doi.org/10.48550/arXiv.2303.01513"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i>
+                        <span itemprop="name">
+                          Safe AI for health and beyond &ndash; Monitoring to
+                          transform a health service.
+                        </span>
+                      </i>
+                    </a>{" "}
+                    <a
+                      href="https://arxiv.org/abs/2303.01513"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [arXiv:2303.01513]
+                    </a>{" "}
+                    <a
+                      href="/pubs/Abroshan-et-al-2023-arXiv.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
+                    </a>
+                  </li>
+                  <li itemscope itemtype="http://schema.org/ScholarlyArticle">
+                    <span itemprop="author">
+                      R. Li, E. Harshfield, S. Bell, M. Burkhart, A. Tuladhar,
+                      S. Hilal, D. J Tozer, F. Chappell, S. Makin, J. Lo, J.
+                      Wardlaw, F.-E. de Leeuw, C. Chen, Z. Kourtzi, &amp; H.
+                      Markus.
+                    </span>{" "}
+                    <a
+                      href="https://doi.org/10.1016/j.cccb.2023.100179"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i>
+                        <span itemprop="name">
+                          Predicting incident dementia in cerebral small vessel
+                          disease: comparison of machine learning and
+                          traditional statistical models.
+                        </span>
+                      </i>
+                    </a>{" "}
+                    <span
+                      itemprop="isPartOf"
+                      itemtype="http://schema.org/Periodical"
+                    >
+                      Cerebral Circulation &ndash; Cognition and Behavior
+                    </span>{" "}
+                    (to appear){" "}
+                    <a
+                      href="/pubs/Li-et-al-2023-Cereb-Circ-Cogn-Behav.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
+                    </a>
+                  </li>
+                  <li itemscope itemtype="http://schema.org/ScholarlyArticle">
+                    <span itemprop="author">
+                      R. Borchert, T. Azevedo, A. Badhwar, J. Bernal, M. Betts,
+                      R. Bruffaerts, M. Burkhart, I. Dewachter, &amp;, D.
+                      Llewellyn, M. Veldsman, & T. Rittman.
+                    </span>{" "}
+                    <a
+                      href="https://doi.org/10.1002/alz.13412"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i>
+                        <span itemprop="name">
+                          Artificial intelligence for diagnostic and prognostic
+                          neuroimaging in dementia: A systematic review.
+                        </span>
+                      </i>
+                    </a>{" "}
+                    <span
+                      itemprop="isPartOf"
+                      itemtype="http://schema.org/Periodical"
+                    >
+                      Alzheimer's &amp; Dementia
+                    </span>{" "}
+                    (to appear){" "}
+                    <a
+                      href="/pubs/Borchert-et-al-2023-Alzheimers-Dement.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
                     </a>
                   </li>
                 </ul>
