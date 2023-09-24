@@ -466,7 +466,7 @@ export default function Home() {
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
                     <span itemprop="author">
                       R. Li, E. Harshfield, S. Bell, M. Burkhart, A. Tuladhar,
-                      S. Hilal, D. J Tozer, F. Chappell, S. Makin, J. Lo, J.
+                      S. Hilal, D. Tozer, F. Chappell, S. Makin, J. Lo, J.
                       Wardlaw, F.-E. de Leeuw, C. Chen, Z. Kourtzi, &amp; H.
                       Markus.
                     </span>{" "}
@@ -501,8 +501,8 @@ export default function Home() {
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
                     <span itemprop="author">
                       R. Borchert, T. Azevedo, A. Badhwar, J. Bernal, M. Betts,
-                      R. Bruffaerts, M. Burkhart, I. Dewachter, &amp;, D.
-                      Llewellyn, M. Veldsman, & T. Rittman.
+                      R. Bruffaerts, M. Burkhart, I. Dewachter, &hellip;, D.
+                      Llewellyn, M. Veldsman, &amp; T. Rittman.
                     </span>{" "}
                     <a
                       href="https://doi.org/10.1002/alz.13412"
