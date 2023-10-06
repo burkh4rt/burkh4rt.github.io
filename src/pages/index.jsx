@@ -54,7 +54,7 @@ export const Head = () => (
     />
     <meta
       name="keywords"
-      content="Michael Burkhart,Michael C. Burkhart,Ph.D.,Brown University,Applied Mathematics,Statistics,Bayesian Filtering,neural decoding,Discriminative Kalman Filter"
+      content="Michael Burkhart, Michael C. Burkhart, Ph.D., Brown University, Applied Mathematics, Bayesian Filtering, neural decoding, Discriminative Kalman Filter, University of Cambridge"
     />
     <meta property="og:title" content="Michael Burkhart's website" />
     <meta property="og:type" content="website" />
@@ -102,10 +102,11 @@ export const Head = () => (
                 "https://github.com/burkh4rt",
                 "https://www.instagram.com/burkh4rt",
                 "https://twitter.com/burkh4rt",
+                "https://x.com/burkh4rt",
                 "https://mathstodon.xyz/@burkh4rt",
                 "https://www.facebook.com/burkh4rt",
                 "https://burkh4rt.tumblr.com",
-                "https://en.gravatar.com/burkh4rt",
+                "https://gravatar.com/burkh4rt",
                 "https://orcid.org/0000-0002-2772-5840",
                 "https://www.genealogy.math.ndsu.nodak.edu/id.php?id=246430",
                 "https://www.scopus.com/authid/detail.uri?authorId=56094628500",
@@ -130,10 +131,14 @@ export const Head = () => (
                 "https://viaf.org/viaf/439162664218455000792",
                 "https://app.dimensions.ai/details/entities/publication/author/ur.010351326437.47",
                 "https://www.c2d3.cam.ac.uk/directory/16451/michael-burkhart",
-                "https://www.neuroscience.cam.ac.uk/directory/profile.php?burkh4rt",
-                "https://www.psychol.cam.ac.uk/staff/dr-michael-craig-burkhart",
+                "https://neuroscience.cam.ac.uk/member/burkh4rt/",
                 "https://www.abg.psychol.cam.ac.uk/staff/dr-michael-burkhart",
-                "https://mcb93.user.srcf.net"
+                "https://mcb93.user.srcf.net",
+                "https://arxiv.org/a/burkhart_m_2.html",
+                "https://www.last.fm/user/burkh4rt",
+                "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=5871438",
+                "https://aminer.cn/profile/62e47ef4d9f204418d68e981",
+                "https://vsco.co/burkh4rt"
               ]
             },
             {
@@ -202,28 +207,6 @@ export default function Home({ data }) {
             </MediaCard>
 
             <Card>
-              <CardTitle>Update</CardTitle>
-              <CardContent>
-                I recently joined the{" "}
-                <span itemprop="affiliation">
-                  <a href="https://www.abg.psychol.cam.ac.uk">
-                    Adaptive Brain Lab
-                  </a>
-                </span>{" "}
-                at the{" "}
-                <span itemprop="affiliation">University of Cambridge</span> as a
-                research associate. I will be working to develop machine
-                learning-based approaches for the early diagnosis of
-                neurodegenerative disease, specifically Alzheimer's, as part of
-                the{" "}
-                <span itemprop="affiliation">
-                  <a href="https://edon-initiative.org/">EDoN initiative</a>
-                </span>
-                .
-              </CardContent>
-            </Card>
-
-            <Card>
               <CardTitle>About Me</CardTitle>
               <CardContent>
                 I earned my <span itemprop="honorificSuffix">Ph.D.</span> in
@@ -253,7 +236,11 @@ export default function Home({ data }) {
                 </span>{" "}
                 that enables participants with quadriplegia to communicate and
                 interact with their environments in real time using mental
-                imagery alone.
+                imagery alone. <br />I then spent three years working as a
+                machine learning scientist at Adobe in California. In 2021, I
+                joined Cambridge University as a research associate to develop
+                machine learning-based approaches for the early diagnosis of
+                neurodegenerative disease.
               </CardContent>
             </Card>
 
@@ -596,18 +583,18 @@ export default function Home({ data }) {
                     </span>{" "}
                     (<span itemprop="copyrightYear">2023</span>){" "}
                     <a
-                      href="/pubs/Burkhart-2023-Optim-Lett.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      [pdf]
-                    </a>{" "}
-                    <a
                       href="https://mathscinet.ams.org/mathscinet-getitem?mr=4557438"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       [MR4557438]
+                    </a>{" "}
+                    <a
+                      href="/pubs/Burkhart-2023-Optim-Lett.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
                     </a>
                   </li>
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
@@ -622,9 +609,9 @@ export default function Home({ data }) {
                     >
                       <i>
                         <span itemprop="name">
-                          The Discriminative Kalman Filter for Bayesian
-                          Filtering with Nonlinear and Nongaussian Observation
-                          Models.
+                          The discriminative Kalman filter for Bayesian
+                          filtering with nonlinear and nongaussian observation
+                          models.
                         </span>
                       </i>
                     </a>{" "}
@@ -636,18 +623,18 @@ export default function Home({ data }) {
                     </span>{" "}
                     (<span itemprop="copyrightYear">2020</span>){" "}
                     <a
-                      href="/pubs/Burkhart-et-al-2020-Neural-Comput.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      [pdf]
-                    </a>{" "}
-                    <a
                       href="https://mathscinet.ams.org/mathscinet-getitem?mr=4101168"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       [MR4101168]
+                    </a>{" "}
+                    <a
+                      href="/pubs/Burkhart-et-al-2020-Neural-Comput.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
                     </a>
                   </li>
                   <li itemscope itemtype="http://schema.org/Thesis">
@@ -668,18 +655,18 @@ export default function Home({ data }) {
                     <span itemprop="sourceOrganization">Brown University</span>{" "}
                     (<span itemprop="copyrightYear">2019</span>){" "}
                     <a
-                      href="/pubs/Burkhart-2019.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      [pdf]
-                    </a>{" "}
-                    <a
                       href="https://mathscinet.ams.org/mathscinet-getitem?mr=4158190"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       [MR4158190]
+                    </a>{" "}
+                    <a
+                      href="/pubs/Burkhart-2019.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
                     </a>
                   </li>
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
@@ -694,8 +681,8 @@ export default function Home({ data }) {
                     >
                       <i>
                         <span itemprop="name">
-                          Robust Closed-Loop Control of a Cursor in a Person
-                          with Tetraplegia using Gaussian Process Regression.
+                          Robust closed-loop control of a cursor in a person
+                          with tetraplegia using Gaussian process regression.
                         </span>
                       </i>
                     </a>{" "}
@@ -707,18 +694,18 @@ export default function Home({ data }) {
                     </span>{" "}
                     (<span itemprop="copyrightYear">2018</span>){" "}
                     <a
-                      href="/pubs/Brandman-et-al-2018-Neural-Comput.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      [pdf]
-                    </a>{" "}
-                    <a
                       href="https://mathscinet.ams.org/mathscinet-getitem?mr=3873814"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       [MR3873814]
+                    </a>{" "}
+                    <a
+                      href="/pubs/Brandman-et-al-2018-Neural-Comput.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
                     </a>
                   </li>
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
@@ -808,11 +795,7 @@ export default function Home({ data }) {
                   C.V. ☜
                 </a>
               </h5>
-              <p id="locale">
-                © Michael C. Burkhart, {data.site.year}
-                <br />
-                Cambridge, UK
-              </p>
+              <p id="locale">© Michael C. Burkhart, {data.site.year}</p>
             </FooterCard>
           </Deck>
         </Theme>

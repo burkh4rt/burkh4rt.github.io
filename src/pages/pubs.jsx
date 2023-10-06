@@ -93,18 +93,18 @@ export default function Home() {
                     </span>{" "}
                     (<span itemprop="copyrightYear">2023</span>){" "}
                     <a
-                      href="/pubs/Burkhart-2023-Optim-Lett.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      [pdf]
-                    </a>{" "}
-                    <a
                       href="https://mathscinet.ams.org/mathscinet-getitem?mr=4557438"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       [MR4557438]
+                    </a>{" "}
+                    <a
+                      href="/pubs/Burkhart-2023-Optim-Lett.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
                     </a>
                   </li>
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
@@ -130,18 +130,18 @@ export default function Home() {
                     </span>{" "}
                     (<span itemprop="copyrightYear">2022</span>){" "}
                     <a
-                      href="/pubs/Burkhart-2022-Proc-Edinb-Math-Soc.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      [pdf]
-                    </a>{" "}
-                    <a
                       href="https://mathscinet.ams.org/mathscinet-getitem?mr=4542651"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       [MR4542651]
+                    </a>{" "}
+                    <a
+                      href="/pubs/Burkhart-2022-Proc-Edinb-Math-Soc.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
                     </a>
                   </li>
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
@@ -156,9 +156,9 @@ export default function Home() {
                     >
                       <i>
                         <span itemprop="name">
-                          The Discriminative Kalman Filter for Bayesian
-                          Filtering with Nonlinear and Nongaussian Observation
-                          Models.
+                          The discriminative Kalman filter for Bayesian
+                          filtering with nonlinear and nongaussian observation
+                          models.
                         </span>
                       </i>
                     </a>{" "}
@@ -170,18 +170,18 @@ export default function Home() {
                     </span>{" "}
                     (<span itemprop="copyrightYear">2020</span>){" "}
                     <a
-                      href="/pubs/Burkhart-et-al-2020-Neural-Comput.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      [pdf]
-                    </a>{" "}
-                    <a
                       href="https://mathscinet.ams.org/mathscinet-getitem?mr=4101168"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       [MR4101168]
+                    </a>{" "}
+                    <a
+                      href="/pubs/Burkhart-et-al-2020-Neural-Comput.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
                     </a>
                   </li>
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
@@ -196,8 +196,8 @@ export default function Home() {
                     >
                       <i>
                         <span itemprop="name">
-                          Robust Closed-Loop Control of a Cursor in a Person
-                          with Tetraplegia using Gaussian Process Regression.
+                          Robust closed-loop control of a cursor in a person
+                          with tetraplegia using Gaussian process regression.
                         </span>
                       </i>
                     </a>{" "}
@@ -209,18 +209,18 @@ export default function Home() {
                     </span>{" "}
                     (<span itemprop="copyrightYear">2018</span>){" "}
                     <a
-                      href="/pubs/Brandman-et-al-2018-Neural-Comput.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      [pdf]
-                    </a>{" "}
-                    <a
                       href="https://mathscinet.ams.org/mathscinet-getitem?mr=3873814"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       [MR3873814]
+                    </a>{" "}
+                    <a
+                      href="/pubs/Brandman-et-al-2018-Neural-Comput.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
                     </a>
                   </li>
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
@@ -290,8 +290,8 @@ export default function Home() {
                     >
                       <i>
                         <span itemprop="name">
-                          Neuroevolutionary Feature Representations for Causal
-                          Inference.
+                          Neuroevolutionary feature representations for causal
+                          inference.
                         </span>
                       </i>
                     </a>{" "}
@@ -302,6 +302,13 @@ export default function Home() {
                       Computational Science &ndash; ICCS{" "}
                       <span itemprop="copyrightYear">2022</span>
                     </span>{" "}
+                    <a
+                      href="/pubs/Burkhart-Ruiz-2022-Comput-Sci.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
+                    </a>
                   </li>
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
                     <span itemprop="author">M. Burkhart.</span>{" "}
@@ -312,9 +319,9 @@ export default function Home() {
                     >
                       <i>
                         <span itemprop="name">
-                          Discriminative Bayesian Filtering for the
-                          Semi-supervised Augmentation of Sequential Observation
-                          Data.
+                          Discriminative Bayesian filtering for the
+                          semi-supervised augmentation of sequential observation
+                          data.
                         </span>
                       </i>
                     </a>{" "}
@@ -331,6 +338,13 @@ export default function Home() {
                       rel="noopener noreferrer"
                     >
                       [MR4371656]
+                    </a>{" "}
+                    <a
+                      href="/pubs/Burkhart-2021-Comput-Sci.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
                     </a>
                   </li>
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
@@ -342,8 +356,8 @@ export default function Home() {
                     >
                       <i>
                         <span itemprop="name">
-                          Deep Low-Density Separation for Semi-supervised
-                          Classification.
+                          Deep low-density separation for semi-supervised
+                          classification.
                         </span>
                       </i>
                     </a>{" "}
@@ -360,6 +374,13 @@ export default function Home() {
                       rel="noopener noreferrer"
                     >
                       [MR4152505]
+                    </a>{" "}
+                    <a
+                      href="/pubs/Burkhart-Shan-2020-Comput-Sci.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
                     </a>
                   </li>
                   <li itemscope itemtype="http://schema.org/ScholarlyArticle">
@@ -373,8 +394,8 @@ export default function Home() {
                     >
                       <i>
                         <span itemprop="name">
-                          Adaptive Objective Functions and Distance Metrics for
-                          Recommendation Systems.
+                          Adaptive objective functions and distance metrics for
+                          recommendation systems.
                         </span>
                       </i>
                     </a>{" "}
@@ -391,6 +412,13 @@ export default function Home() {
                       rel="noopener noreferrer"
                     >
                       [MR3975427]
+                    </a>{" "}
+                    <a
+                      href="/pubs/Burkhart-Modarresi-2019-Comput-Sci.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
                     </a>
                   </li>
                 </ul>
@@ -443,7 +471,7 @@ export default function Home() {
                     >
                       <i>
                         <span itemprop="name">
-                          Safe AI for health and beyond &ndash; Monitoring to
+                          Safe AI for health and beyond &ndash; monitoring to
                           transform a health service.
                         </span>
                       </i>
@@ -512,7 +540,7 @@ export default function Home() {
                       <i>
                         <span itemprop="name">
                           Artificial intelligence for diagnostic and prognostic
-                          neuroimaging in dementia: A systematic review.
+                          neuroimaging in dementia: a systematic review.
                         </span>
                       </i>
                     </a>{" "}
@@ -557,6 +585,13 @@ export default function Home() {
                     <span itemprop="sourceOrganization">
                       Brown University, Division of Applied Mathematics
                     </span>{" "}
+                    <a
+                      href="https://mathscinet.ams.org/mathscinet-getitem?mr=4158190"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [MR4158190]
+                    </a>{" "}
                     (<span itemprop="copyrightYear">2019</span>){" "}
                     <a
                       href="/pubs/Burkhart-2019.pdf"
@@ -564,13 +599,6 @@ export default function Home() {
                       rel="noopener noreferrer"
                     >
                       [pdf]
-                    </a>{" "}
-                    <a
-                      href="https://mathscinet.ams.org/mathscinet-getitem?mr=4158190"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      [MR4158190]
                     </a>
                   </li>
                 </ul>
@@ -588,8 +616,8 @@ export default function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      User Classification from Data via Deep Segmentation for
-                      Semi-supervised Learning.
+                      User classification from data via deep segmentation for
+                      semi-supervised learning.
                     </a>{" "}
                     U.S. Patent Application #16/681,239. Filed 2019. Published
                     as US&thinsp;2021/0142152&thinsp;A1{" "}
@@ -616,8 +644,8 @@ export default function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Digital Experience Enhancement using an Ensemble Deep
-                      Learning Model.
+                      Digital experience enhancement using an ensemble deep
+                      learning model.
                     </a>{" "}
                     U.S. Patent Application #16/375,627. Filed 2019. Published
                     as US&thinsp;2020/0320382&thinsp;A1{" "}

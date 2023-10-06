@@ -1,10 +1,10 @@
 {
-    "build": {
-      "image": "node:lts",
-      "command": "npm install && npm run build",
-      "publicDir": "public",
-      "environment": {
-        "GATSBY_TELEMETRY_DISABLED": 1
-      }
+  "build": {
+    "image": "node:lts",
+    "command": "npm install && npm run build",
+    "publicDir": "public",
+    "environment": {
+      "GATSBY_TELEMETRY_DISABLED": 1
     }
-   }
+  }
+}
