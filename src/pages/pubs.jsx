@@ -655,6 +655,14 @@ export default function Home() {
                       rel="noopener noreferrer"
                     >
                       [pdf]
+                    </a>{" "}
+                    Granted 2023 as US&thinsp;11,816,562&thinsp;B2{" "}
+                    <a
+                      href="/pubs/Burkhart-Modarresi-US11816562B2.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
                     </a>
                   </li>
                 </ul>

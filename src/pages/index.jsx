@@ -133,12 +133,24 @@ export const Head = () => (
                 "https://www.c2d3.cam.ac.uk/directory/16451/michael-burkhart",
                 "https://neuroscience.cam.ac.uk/member/burkh4rt/",
                 "https://www.abg.psychol.cam.ac.uk/staff/dr-michael-burkhart",
+                "https://gitlab.developers.cam.ac.uk/mcb93",
                 "https://mcb93.user.srcf.net",
                 "https://arxiv.org/a/burkhart_m_2.html",
                 "https://www.last.fm/user/burkh4rt",
                 "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=5871438",
                 "https://aminer.cn/profile/62e47ef4d9f204418d68e981",
-                "https://vsco.co/burkh4rt"
+                "https://vsco.co/burkh4rt",
+                "https://500px.com/p/burkh4rt",
+                "https://rivyl-6aaaa-aaaaf-qaapq-cai.raw.ic0.app/0xe15a51c1e45df29fcfb928fc488616196757ca21",
+                "https://oneblock.page/burkh4rt",
+                "https://math.stackexchange.com/users/104086/burkh4rt",
+                "https://stackoverflow.com/users/8345382/burkh4rt",
+                "https://www.hackerrank.com/profile/burkh4rt",
+                "https://linktr.ee/burkh4rt",
+                "https://pypi.org/user/burkh4rt/",
+                "https://hub.docker.com/u/burkh4rt",
+                "https://astral.ninja/npub1skcf4dpqkqvceked9ejxxtf7a55fz2y3vt6kdaefqdhay9p4xuusg5mgkj",
+                "https://snort.social/nprofile1qqsgtvy6ksstqxvvmvkjuerr95lw62y39zgk9atx7u5sxm7jzs6nwwgxqmrs5"
               ]
             },
             {
