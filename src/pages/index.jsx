@@ -150,7 +150,10 @@ export const Head = () => (
                 "https://pypi.org/user/burkh4rt/",
                 "https://hub.docker.com/u/burkh4rt",
                 "https://astral.ninja/npub1skcf4dpqkqvceked9ejxxtf7a55fz2y3vt6kdaefqdhay9p4xuusg5mgkj",
-                "https://snort.social/nprofile1qqsgtvy6ksstqxvvmvkjuerr95lw62y39zgk9atx7u5sxm7jzs6nwwgxqmrs5"
+                "https://snort.social/nprofile1qqsgtvy6ksstqxvvmvkjuerr95lw62y39zgk9atx7u5sxm7jzs6nwwgxqmrs5",
+                "https://app.codesignal.com/profile/burkh4rt/",
+                "https://imgur.com/user/burkh4rt",
+                "https://bsky.app/profile/burkh4rt.bsky.social"
               ]
             },
             {

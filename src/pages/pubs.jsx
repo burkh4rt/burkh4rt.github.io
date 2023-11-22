@@ -585,6 +585,7 @@ export default function Home() {
                     <span itemprop="sourceOrganization">
                       Brown University, Division of Applied Mathematics
                     </span>{" "}
+                    (<span itemprop="copyrightYear">2019</span>){" "}
                     <a
                       href="https://mathscinet.ams.org/mathscinet-getitem?mr=4158190"
                       target="_blank"
@@ -592,7 +593,6 @@ export default function Home() {
                     >
                       [MR4158190]
                     </a>{" "}
-                    (<span itemprop="copyrightYear">2019</span>){" "}
                     <a
                       href="/pubs/Burkhart-2019.pdf"
                       target="_blank"
@@ -640,7 +640,7 @@ export default function Home() {
                   <li>
                     M. Burkhart &amp; K. Modarresi.{" "}
                     <a
-                      href="https://patents.google.com/patent/US20200320382A1"
+                      href="https://patents.google.com/patent/US11816562B2"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
