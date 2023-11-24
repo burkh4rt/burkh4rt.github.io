@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-24a3c8f3569a627f2a5d.js"
+    "url": "webpack-runtime-ac78cb7ccf608815b65a.js"
   },
   {
     "url": "framework-4a7bd731fcae4e0a2b99.js"
@@ -37,7 +37,7 @@ self.__precacheManifest = [
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "b7c70939125b8e577a434693c20960e9"
+    "revision": "03182b074e3da7afeb2bf5f6a27ac7e5"
   },
   {
     "url": "static/GaramondPremrPro-ItCapt-f846ed00049feafa9f6004da9235cc0c.otf"
