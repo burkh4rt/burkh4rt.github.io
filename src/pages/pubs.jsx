@@ -610,6 +610,25 @@ export default function Home() {
               <CardContent style={{ paddingBottom: 0 }}>
                 <ul>
                   <li>
+                    M. Burkhart &amp; G. Ruiz.{" "}
+                    <a
+                      href="https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20230376776"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Causal inference via neuroevolutionary selection.
+                    </a>{" "}
+                    U.S. Patent Application #17/748,891. Filed 2022. Published
+                    as US&thinsp;2023/0376776&thinsp;A1{" "}
+                    <a
+                      href="/pubs/Burkhart-Ruiz-US20230376776A1.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
+                    </a>
+                  </li>
+                  <li>
                     M. Burkhart &amp; K. Shan.{" "}
                     <a
                       href="https://patents.google.com/patent/US11455518B2"

@@ -153,7 +153,9 @@ export const Head = () => (
                 "https://snort.social/nprofile1qqsgtvy6ksstqxvvmvkjuerr95lw62y39zgk9atx7u5sxm7jzs6nwwgxqmrs5",
                 "https://app.codesignal.com/profile/burkh4rt/",
                 "https://imgur.com/user/burkh4rt",
-                "https://bsky.app/profile/burkh4rt.bsky.social"
+                "https://bsky.app/profile/burkh4rt.bsky.social",
+                "https://archive.org/details/@burkh4rt?tab=web-archive",
+                "https://www.behance.net/burkh4rt"
               ]
             },
             {
