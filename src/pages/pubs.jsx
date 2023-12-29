@@ -612,7 +612,7 @@ export default function Home() {
                   <li>
                     M. Burkhart &amp; G. Ruiz.{" "}
                     <a
-                      href="https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20230376776"
+                      href="https://patents.google.com/patent/US20230376776A1"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

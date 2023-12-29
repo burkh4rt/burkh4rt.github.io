@@ -5,28 +5,28 @@
   ],
   "description": "Michael's personal website",
   "dependencies": {
-    "gatsby-plugin-canonical-urls": "^5.12.0",
-    "gatsby-plugin-manifest": "^5.12.3",
-    "gatsby-plugin-offline": "^6.12.3",
-    "gatsby-plugin-styled-components": "^6.12.0",
-    "gatsby-source-filesystem": "^5.12.1",
-    "npm-check-updates": "^16.14.11",
+    "gatsby-plugin-canonical-urls": "^5.13.0",
+    "gatsby-plugin-manifest": "^5.13.0",
+    "gatsby-plugin-offline": "^6.13.0",
+    "gatsby-plugin-styled-components": "^6.13.0",
+    "gatsby-source-filesystem": "^5.13.0",
+    "npm-check-updates": "^16.14.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "styled-components": "^6.1.1"
+    "styled-components": "^6.1.6"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^2.1.4",
-    "gatsby": "^5.12.11",
+    "gatsby": "^5.13.1",
     "gatsby-plugin-html-attributes": "^1.0.5",
-    "gatsby-plugin-image": "^3.12.3",
-    "gatsby-plugin-sharp": "^5.12.3",
-    "gatsby-transformer-sharp": "^5.12.3",
-    "gh-pages": "^6.1.0",
-    "prettier": "^3.1.0",
+    "gatsby-plugin-image": "^3.13.0",
+    "gatsby-plugin-sharp": "^5.13.0",
+    "gatsby-transformer-sharp": "^5.13.0",
+    "gh-pages": "^6.1.1",
+    "prettier": "^3.1.1",
     "resolve-url-loader": "^5.0.0",
-    "sharp": "^0.32.6",
-    "svgo": "^3.0.4"
+    "sharp": "^0.33.1",
+    "svgo": "^3.1.0"
   },
   "name": "@burkh4rt/burkh4rt.github.io",
   "repository": {
