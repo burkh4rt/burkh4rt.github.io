@@ -1,7 +1,5 @@
-import { createGlobalStyle } from "styled-components"
+/* cf. HTML5 Boilerplate v7.1.0 */
 
-const PrintStyle = createGlobalStyle`
-// cf. HTML5 Boilerplate v7.1.0
 @media print {
   *,
   *:before,
@@ -62,6 +60,4 @@ const PrintStyle = createGlobalStyle`
   img {
     image-resolution: from-image;
   }
-`
-
-export default PrintStyle
+}

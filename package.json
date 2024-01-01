@@ -8,15 +8,12 @@
     "gatsby-plugin-canonical-urls": "^5.13.0",
     "gatsby-plugin-manifest": "^5.13.0",
     "gatsby-plugin-offline": "^6.13.0",
-    "gatsby-plugin-styled-components": "^6.13.0",
     "gatsby-source-filesystem": "^5.13.0",
     "npm-check-updates": "^16.14.12",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "styled-components": "^6.1.6"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "babel-plugin-styled-components": "^2.1.4",
     "gatsby": "^5.13.1",
     "gatsby-plugin-html-attributes": "^1.0.5",
     "gatsby-plugin-image": "^3.13.0",
@@ -36,7 +33,7 @@
   "scripts": {
     "build": "npm run format && gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
     "prettier": "npm run format",
     "pretty": "npm run format",
     "serve": "gatsby serve",

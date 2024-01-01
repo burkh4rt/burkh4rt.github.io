@@ -1,8 +1,5 @@
-import React from "react"
-import { createGlobalStyle } from "styled-components"
+/* cf. normalize.css v8.0.1 */
 
-const GlobalReset = createGlobalStyle`
-// cf. normalize.css v8.0.1
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -83,10 +80,8 @@ input {
   overflow: visible;
 }
 
-
 button,
 select {
-
   text-transform: none;
 }
 
@@ -94,6 +89,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
+  appearance: button;
   -webkit-appearance: button;
 }
 
@@ -148,7 +144,3 @@ template {
 [hidden] {
   display: none;
 }
-
-`
-
-export default GlobalReset

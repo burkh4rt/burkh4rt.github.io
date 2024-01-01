@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Garamond Premier Pro Caption";
+  src:
+    url("../fonts/GaramondPremrPro-Capt.woff2") format("woff2"),
+    url("../fonts/GaramondPremrPro-Capt.woff") format("woff"),
+    url("../fonts/GaramondPremrPro-Capt.otf") format("opentype")
+      url("https://use.typekit.net/af/624e8d/00000000000000003b9ade2b/27/l")
+      format("woff2"),
+    url("https://use.typekit.net/af/624e8d/00000000000000003b9ade2b/27/d")
+      format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-feature-settings:
+    "kern" 1,
+    "onum" 1;
+  /* unicode-range: U+000-5FF, U+261C;  Latin glyphs */
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Garamond Premier Pro Caption";
+  src:
+    url("../fonts/GaramondPremrPro-ItCapt.otf") format("opentype"),
+    url("../fonts/GaramondPremrPro-ItCapt.woff2") format("woff2"),
+    url("../fonts/GaramondPremrPro-ItCapt.woff") format("woff"),
+    url("https://use.typekit.net/af/149dc4/00000000000000003b9ade2a/27/l")
+      format("woff2"),
+    url("https://use.typekit.net/af/149dc4/00000000000000003b9ade2a/27/d")
+      format("woff");
+  font-style: italic;
+  font-weight: 400;
+  font-feature-settings:
+    "kern" 1,
+    "onum" 1;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Garamond Premier Pro Caption";
+  src:
+    url("../fonts/GaramondPremrPro-MedCapt.otf") format("woff2"),
+    url("../fonts/GaramondPremrPro-MedCapt.woff") format("woff"),
+    url("../fonts/GaramondPremrPro-MedCapt.otf") format("opentype"),
+    url("https://use.typekit.net/af/ea8559/00000000000000003b9ade2d/27/l")
+      format("woff2"),
+    url("https://use.typekit.net/af/ea8559/00000000000000003b9ade2d/27/d")
+      format("woff");
+  font-style: normal;
+  font-weight: 500;
+  font-feature-settings:
+    "kern" 1,
+    "onum" 1;
+  /* unicode-range: U+000-5FF, U+261C;  Latin glyphs */
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Gill Sans Nova";
+  src:
+    url("../fonts/GillSansNova-Book.woff2") format("woff2"),
+    url("../fonts/GillSansNova-Book.woff") format("woff"),
+    url("../fonts/GillSansNova-Book.otf") format("opentype"),
+    url("https://use.typekit.net/af/078c93/00000000000000003b9b1f81/27/l")
+      format("woff2"),
+    url("https://use.typekit.net/af/078c93/00000000000000003b9b1f81/27/d")
+      format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-feature-settings:
+    "kern" 1,
+    "onum" 1;
+  /* unicode-range: U+000-5FF;  Latin glyphs */
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Gill Sans Nova";
+  src:
+    url("../fonts/GillSansNova-BookItalic.woff2") format("woff2"),
+    url("../fonts/GillSansNova-BookItalic.woff") format("woff"),
+    url("../fonts/GillSansNova-BookItalic.otf") format("opentype"),
+    url("https://use.typekit.net/af/7c22c1/00000000000000003b9b1f82/27/l")
+      format("woff2"),
+    url("https://use.typekit.net/af/7c22c1/00000000000000003b9b1f82/27/d")
+      format("woff");
+  font-style: italic;
+  font-weight: 400;
+  font-feature-settings:
+    "kern" 1,
+    "onum" 1;
+  /* unicode-range: U+000-5FF;  Latin glyphs */
+  font-display: block;
+}
