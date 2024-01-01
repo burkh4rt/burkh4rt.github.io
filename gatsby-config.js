@@ -54,13 +54,5 @@ module.exports = {
     {
       resolve: `gatsby-plugin-offline`,
     },
-    // {
-    //   resolve: "gatsby-plugin-google-tagmanager",
-    //   options: {
-    //     id: "G-P9BKGH7JBF",
-    //     includeInDevelopment: false,
-    //     enableWebVitalsTracking: true,
-    //   },
-    // },
   ],
 }

@@ -9,10 +9,3 @@ npm install
 npm run build
 npm run deploy
 ```
-
-Update:
-
-```
-npm outdated
-npm update
-```

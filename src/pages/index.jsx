@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql, Link, Script } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 
 import Msvg from "../logos/m.svg"
@@ -84,7 +84,7 @@ export const Head = () => (
       content="RBomW7izIX8odL5WjXJS01CR5JonJ1lcE3EsTAbVDPk"
     />
 
-    <script type="application/ld+json">
+    <Script type="application/ld+json">
       {`
         {
           "@context": "http://schema.org/",
@@ -196,7 +196,7 @@ export const Head = () => (
           ]
         }
       `}
-    </script>
+    </Script>
   </>
 )
 
@@ -211,11 +211,6 @@ export default function Home({ data }) {
             <HeaderCard>
               <h1>Michael C. Burkhart</h1>
             </HeaderCard>
-
-            <Card>
-              <CardTitle>Hello</CardTitle>
-              <CardContent>… and welcome to my website.</CardContent>
-            </Card>
 
             <MediaCard>
               <GatsbyImage
@@ -254,11 +249,13 @@ export default function Home({ data }) {
                 </span>{" "}
                 that enables participants with quadriplegia to communicate and
                 interact with their environments in real time using mental
-                imagery alone. <br />I then spent three years working as a
-                machine learning scientist at Adobe in California. In 2021, I
-                joined Cambridge University as a research associate to develop
-                machine learning-based approaches for the early diagnosis of
-                neurodegenerative disease.
+                imagery alone.
+              </CardContent>
+              <CardContent style={{ marginTop: `-0.25em` }}>
+                I then spent three years working as a machine learning scientist
+                at Adobe in California. In 2021, I joined Cambridge University
+                as a research associate to develop machine learning-based
+                approaches for the early diagnosis of neurodegenerative disease.
               </CardContent>
             </Card>
 
@@ -813,7 +810,10 @@ export default function Home({ data }) {
                   C.V. ☜
                 </a>
               </h5>
-              <p id="locale">© Michael C. Burkhart, {data.site.year}</p>
+              <p id="locale">
+                © Michael C. Burkhart, {data.site.year} <br />
+                Plainfield, Indiana
+              </p>
             </FooterCard>
           </Deck>
         </Theme>

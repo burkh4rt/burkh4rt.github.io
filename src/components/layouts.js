@@ -86,7 +86,7 @@ export const DeckThin = styled(Deck)`
 
 export const Card = styled.div`
   margin: ${props => `${props.theme.spaces.spacer7} auto 0`};
-  border-width: 0.05rem;
+  border-width: 0.07rem;
   width: calc(100% - 0.1rem);
   border-style: solid;
   border-radius: 0.5rem;
@@ -110,21 +110,23 @@ export const Card = styled.div`
 export const MediaCard = styled(Card)`
   width: 100%;
   padding: 0;
+  // border-radius: 50%;
   .gatsby-image-wrapper-constrained {
     margin: 0;
     display: block !important;
   }
 `
 
-export const CardTitle = styled.h6`
+export const CardTitle = styled.h5`
+  font-family: ${props => props.theme.fontstacks.garamondStack};
   position: relative;
-  font-family: ${props => props.theme.fontstacks.gillSansStack};
   left: ${props => props.theme.spaces.spacer5};
-  top: -0.75em;
-  letter-spacing: 0.075rem;
-  font-feature-settings: "smcp" 1;
+  top: -0.5em;
+  // letter-spacing: 0.075rem;
+  // font-family: ${props => props.theme.fontstacks.gillSansStack};
+  // font-feature-settings: "smcp" 1;
   margin: 0;
-  padding: ${props => `0 ${props.theme.spaces.spacer1}`};
+  padding: ${props => `0 ${props.theme.spaces.spacer2}`};
   height: min-content;
   width: min-content;
   white-space: nowrap;
@@ -134,12 +136,14 @@ export const CardTitle = styled.h6`
   break-inside: avoid;
 `
 
-export const CardFooter = styled.h6`
+export const CardFooter = styled.h5`
+  font-family: ${props => props.theme.fontstacks.garamondStack};
   position: relative;
-  left: calc(100% - 5rem);
+  right: ${props => props.theme.spaces.spacer5};
   bottom: ${props => `-${props.theme.spaces.spacer1}`};
   line-height: 1em;
   margin: 0;
+  margin-left: auto;
   padding: ${props => `0 ${props.theme.spaces.spacer1}`};
   height: min-content;
   width: min-content;
@@ -289,7 +293,7 @@ export const ImgRow = styled.div`
   flex-wrap: nowrap;
   justify-content: space-evenly;
   padding: ${props =>
-    `0 ${props.theme.spaces.spacer2} ${props.theme.spaces.spacer3}`};
+    `${props.theme.spaces.spacer1} ${props.theme.spaces.spacer2} ${props.theme.spaces.spacer3}`};
   border-radius: 0 !important;
   margin: ${props => `-${props.theme.spaces.spacer1} 0 0`};
   a {

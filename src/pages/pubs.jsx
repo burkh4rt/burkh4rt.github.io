@@ -17,6 +17,7 @@ import {
 
 export const Head = () => (
   <>
+    <html lang="en" />
     <title>publications</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -606,7 +607,7 @@ export default function Home() {
             </Card>
 
             <Card>
-              <CardTitle>Patents Pending</CardTitle>
+              <CardTitle>Patents &amp; Pending</CardTitle>
               <CardContent style={{ paddingBottom: 0 }}>
                 <ul>
                   <li>

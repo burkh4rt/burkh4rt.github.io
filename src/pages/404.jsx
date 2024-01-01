@@ -16,6 +16,7 @@ import {
 
 export const Head = () => (
   <>
+    <html lang="en" />
     <title>Michael's 404</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -32,7 +33,7 @@ export default function Home() {
         <Theme>
           <DeckThin>
             <HeaderCard>
-              <h1>Michael C. Burkhart</h1>
+              <h1>Michael's 404</h1>
             </HeaderCard>
 
             <Card>
