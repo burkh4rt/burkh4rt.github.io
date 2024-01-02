@@ -45,5 +45,5 @@
     "update": "npx npm-check-updates -u",
     "svgo": "svgo -f src/logos && svgo -f src/eqns"
   },
-  "version": "2.0.3"
+  "version": "2.1.0"
 }

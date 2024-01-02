@@ -747,6 +747,13 @@ export default function Home({ data }) {
                       Journal of Neural Engineering 15
                     </span>{" "}
                     (<span itemprop="copyrightYear">2018</span>){" "}
+                    <a
+                      href="/pubs/Brandman-et-al-2018-J-Neural-Eng.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [pdf]
+                    </a>
                   </li>
                 </ul>
               </CardContent>
