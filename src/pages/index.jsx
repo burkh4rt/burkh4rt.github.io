@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, Link, Script } from "gatsby"
+import { graphql, Link } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 
 import Msvg from "../logos/m.svg"
@@ -84,20 +84,30 @@ export const Head = () => (
       content="RBomW7izIX8odL5WjXJS01CR5JonJ1lcE3EsTAbVDPk"
     />
 
-    <Script type="application/ld+json">
+    <script type="application/ld+json">
       {`
         {
-          "@context": "http://schema.org/",
-          "@graph": [
-            {
-              "@type": "Person",
-              "name": "Michael C. Burkhart",
-              "familyName": "Burkhart",
-              "givenName": "Michael",
-              "honorificPrefix": "Dr.",
-              "honorificSuffix": "Ph.D.",
-              "nationality": "US",
-              "sameAs": [
+          "@context": "https://schema.org",
+          "@type": "ProfilePage",
+          "dateCreated": "2019-05-19T17:52:51-07:00",
+          "dateModified": "2024-01-10T11:34:00-05:00",
+          "mainEntity": {
+            "@type": "Person",
+            "name": "Michael C. Burkhart",
+            "familyName": "Burkhart",
+            "givenName": "Michael",
+            "honorificPrefix": "Dr.",
+            "honorificSuffix": "Ph.D.",
+            "nationality": "US",
+            "birthPlace": {
+                "@type": "Place",
+                "address": {
+                  "addressLocality": "Cincinnati",
+                  "addressRegion": "Ohio",
+                  "addressCountry": "US"
+                }
+            },
+            "sameAs": [
                 "https://burkh4rt.github.io",
                 "https://www.linkedin.com/in/burkh4rt",
                 "https://github.com/burkh4rt",
@@ -133,8 +143,8 @@ export const Head = () => (
                 "https://app.dimensions.ai/details/entities/publication/author/ur.010351326437.47",
                 "https://www.c2d3.cam.ac.uk/directory/16451/michael-burkhart",
                 "https://neuroscience.cam.ac.uk/member/burkh4rt/",
-                "https://www.abg.psychol.cam.ac.uk/staff/dr-michael-burkhart",
                 "https://gitlab.developers.cam.ac.uk/mcb93",
+                "https://gitlab.com/burkh4rt",
                 "https://mcb93.user.srcf.net",
                 "https://arxiv.org/a/burkhart_m_2.html",
                 "https://www.last.fm/user/burkh4rt",
@@ -156,47 +166,32 @@ export const Head = () => (
                 "https://imgur.com/user/burkh4rt",
                 "https://bsky.app/profile/burkh4rt.bsky.social",
                 "https://archive.org/details/@burkh4rt?tab=web-archive",
-                "https://www.behance.net/burkh4rt"
-              ]
-            },
-            {
-              "@type": "Thesis",
-              "author": {
-                "@type": "Person",
-                "name": "Michael C. Burkhart",
-                "sameAs": "https://burkh4rt.github.io"
-              },
-              "copyrightYear": "2019",
-              "inSupportOf": "Applied Mathematics",
-              "locationCreated": {
-                "@type": "Place",
-                "address": {
-                  "addressLocality": "Providence",
-                  "addressRegion": "RI",
-                  "addressCountry": "US"
+                "https://www.behance.net/burkh4rt",
+                "https://www.researchgate.net/profile/Michael-Burkhart-2",
+                "https://deepai.org/profile/michael-c-burkhart"
+            ],
+            "image": "https://commons.wikimedia.org/wiki/File:Michael_C._Burkhart.jpg",
+            "alumniOf": [
+                {
+                  "@type": "CollegeOrUniversity",
+                  "name": "Purdue University",
+                  "sameAs": "https://www.purdue.edu"
+                },
+                {
+                  "@type": "CollegeOrUniversity",
+                  "name": "Rutgers University",
+                  "sameAs": "https://www.rutgers.edu"
+                },
+                {
+                  "@type": "CollegeOrUniversity",
+                  "name": "Brown University",
+                  "sameAs": "https://www.brown.edu"
                 }
-              },
-              "name": "A Discriminative Approach to Bayesian Filtering with Applications to Human Neural Decoding",
-              "sourceOrganization": {
-                "@type": "CollegeOrUniversity",
-                "name": "Brown University",
-                "sameAs": "https://www.brown.edu"
-              },
-              "url": "https://doi.org/10.26300/nhfp-xv22",
-              "sameAs": [
-                "https://doi.org/10.31237/osf.io/4j3fu",
-                "https://arxiv.org/abs/1807.06173",
-                "https://repository.library.brown.edu/studio/item/bdr:919147",
-                "https://www.zenodo.org/record/3686561",
-                "https://hal.archives-ouvertes.fr/tel-03037117/",
-                "https://search.proquest.com/openview/5225fc3dc50c59e4a077addf02928a08",
-                "https://mathscinet.ams.org/mathscinet-getitem?mr=4158190"
-              ]
-            }
-          ]
+            ]
+          }
         }
       `}
-    </Script>
+    </script>
   </>
 )
 
