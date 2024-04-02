@@ -108,9 +108,11 @@ export const Card = styled.div`
 `
 
 export const MediaCard = styled(Card)`
+  margin-top: ${props => `0 ${props.theme.spaces.spacer00}`};
   width: 100%;
+  max-width: 300px;
   padding: 0;
-  // border-radius: 50%;
+  border-radius: 50%;
   .gatsby-image-wrapper-constrained {
     margin: 0;
     display: block !important;
@@ -171,10 +173,10 @@ export const CardContent = styled.article`
 `
 
 export const HeaderCard = styled(Card)`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // align-content: center;
   font-family: ${props => props.theme.fontstacks.garamondStack};
   margin-top: 0;
   * {
