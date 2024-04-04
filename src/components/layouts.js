@@ -9,9 +9,8 @@ export const Deck = styled.div`
   margin: ${props =>
     `${props.theme.spaces.spacer5} auto ${props.theme.spaces.spacer5}`};
   padding: ${props => `0 ${props.theme.spaces.spacer5}`};
-  columns: 1;
-  column-gap: ${props => props.theme.spaces.spacer7};
-  column-fill: balance-all;
+  column-gap: ${props => props.theme.spaces.spacer8};
+  column-fill: balance;
   display: block;
 
   font-family: ${props => props.theme.fontstacks.gillSansStack};
@@ -23,12 +22,9 @@ export const Deck = styled.div`
   }
 
   @media all and (min-width: ${props => props.theme.breakpoints.widthMd}) {
+    padding: ${props => `0 ${props.theme.spaces.spacer8}`};
     max-width: ${props => props.theme.breakpoints.widthXl};
     columns: 2;
-  }
-
-  @media all and (min-width: ${props => props.theme.breakpoints.widthLg}) {
-    columns: 3;
   }
 
   ul {
@@ -108,7 +104,7 @@ export const Card = styled.div`
 `
 
 export const MediaCard = styled(Card)`
-  margin-top: ${props => `0 ${props.theme.spaces.spacer00}`};
+  margin-top: ${props => props.theme.spaces.spacer2};
   width: 100%;
   max-width: 300px;
   padding: 0;
@@ -309,5 +305,12 @@ export const ImgRow = styled.div`
       width: auto;
       height: 1.5rem;
     }
+    font-size: 1.2rem;
+  }
+`
+
+export const Col = styled.div`
+  @media all and (min-width: ${props => props.theme.breakpoints.widthMd}) {
+    padding-left: 10%;
   }
 `

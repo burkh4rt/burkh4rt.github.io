@@ -7,7 +7,7 @@ import Fonts from "../components/fonts"
 import PrintStyle from "../components/print"
 
 import {
-  DeckThin,
+  Deck,
   Card,
   HeaderCard,
   CardContent,
@@ -33,7 +33,7 @@ export default function Home() {
         <GlobalReset />
         <Fonts />
         <Theme>
-          <DeckThin>
+          <Deck>
             <HeaderCard>
               <h1>Publications</h1>
             </HeaderCard>
@@ -705,7 +705,7 @@ export default function Home() {
                 <Link to="/">home ☜</Link>
               </CardFooter>
             </Card>
-          </DeckThin>
+          </Deck>
         </Theme>
         <PrintStyle />
       </body>
