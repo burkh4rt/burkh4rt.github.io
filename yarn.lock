@@ -1623,6 +1623,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@burkh4rt/burkh4rt.github.io@workspace:."
   dependencies:
+    "@github/prettier-config": "npm:^0.0.6"
     "@primer/octicons-react": "npm:^19.9.0"
     "@primer/react": "npm:^36.12.0"
     "@primer/react-brand": "npm:^0.32.0"
@@ -1785,6 +1786,13 @@ __metadata:
   version: 1.5.3
   resolution: "@github/paste-markdown@npm:1.5.3"
   checksum: 10c0/a26d2beb699fb3916552985d37529d88672f50e7153b180c1dc3333edd1a4856a3415883d5ff29b39cfb9149fe7b2ca776e0e73815fe0a63353c889b4edbe918
+  languageName: node
+  linkType: hard
+
+"@github/prettier-config@npm:^0.0.6":
+  version: 0.0.6
+  resolution: "@github/prettier-config@npm:0.0.6"
+  checksum: 10c0/2c76f7d708e8f3e5651d0c20379500bea931193d66c1d7257c76e04a251decc1b45d46bb05a48d0a18aa242efa663e7876fbf387d3392f3ffe4409777e938900
   languageName: node
   linkType: hard
 

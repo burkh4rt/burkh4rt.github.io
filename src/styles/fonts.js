@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components"
+import {createGlobalStyle} from 'styled-components'
 
 // import GaramondPremrProCaptWoff2 from "../fonts/GaramondPremrPro-Capt.woff2"
 // import GaramondPremrProCaptWoff from "../fonts/GaramondPremrPro-Capt.woff"
@@ -12,13 +12,13 @@ import { createGlobalStyle } from "styled-components"
 // import GaramondPremrProMedCaptWoff from "../fonts/GaramondPremrPro-MedCapt.woff"
 // import GaramondPremrProMedCaptOtf from "../fonts/GaramondPremrPro-MedCapt.otf"
 
-import GillSansNovaBookWoff2 from "../fonts/GillSansNova-Book.woff2"
-import GillSansNovaBookWoff from "../fonts/GillSansNova-Book.woff"
-import GillSansNovaBookOtf from "../fonts/GillSansNova-Book.otf"
+import GillSansNovaBookWoff2 from '../fonts/GillSansNova-Book.woff2'
+import GillSansNovaBookWoff from '../fonts/GillSansNova-Book.woff'
+import GillSansNovaBookOtf from '../fonts/GillSansNova-Book.otf'
 
-import GillSansNovaBookItWoff2 from "../fonts/GillSansNova-BookItalic.woff2"
-import GillSansNovaBookItWoff from "../fonts/GillSansNova-BookItalic.woff"
-import GillSansNovaBookItOtf from "../fonts/GillSansNova-BookItalic.otf"
+import GillSansNovaBookItWoff2 from '../fonts/GillSansNova-BookItalic.woff2'
+import GillSansNovaBookItWoff from '../fonts/GillSansNova-BookItalic.woff'
+import GillSansNovaBookItOtf from '../fonts/GillSansNova-BookItalic.otf'
 
 const Fonts = createGlobalStyle`
     @font-face {

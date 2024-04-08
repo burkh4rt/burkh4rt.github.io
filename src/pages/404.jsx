@@ -1,20 +1,11 @@
-import React from "react"
+import React from 'react'
 
-import {
-  Breadcrumbs,
-  Link,
-  Octicon,
-  Pagehead,
-  Text,
-  ThemeProvider,
-  BaseStyles,
-  SplitPageLayout,
-} from "@primer/react"
+import {Breadcrumbs, Link, Octicon, Pagehead, Text, ThemeProvider, BaseStyles, SplitPageLayout} from '@primer/react'
 
-import { LocationIcon } from "@primer/octicons-react"
+import {LocationIcon} from '@primer/octicons-react'
 
-import Fonts from "../styles/fonts"
-import { customTheme } from "../styles/theme"
+import Fonts from '../styles/fonts'
+import {customTheme} from '../styles/theme'
 
 export const Head = () => (
   <>
@@ -32,11 +23,7 @@ export default function Home() {
     <>
       <body>
         <Fonts />
-        <ThemeProvider
-          theme={customTheme}
-          dayScheme="light"
-          nightScheme="dark_dimmed"
-        >
+        <ThemeProvider theme={customTheme} dayScheme="light" nightScheme="dark_dimmed">
           <BaseStyles>
             <SplitPageLayout>
               <SplitPageLayout.Header>
@@ -51,19 +38,13 @@ export default function Home() {
               <SplitPageLayout.Content>
                 <Pagehead as="h3">Michael's 404</Pagehead>
                 <Text>
-                  You appear to be lost. This happens from time to time. Shall
-                  we head <Link href="/">home</Link>?
+                  You appear to be lost. This happens from time to time. Shall we head <Link href="/">home</Link>?
                 </Text>
               </SplitPageLayout.Content>
 
               <SplitPageLayout.Footer padding="condensed">
-                <Text
-                  as="p"
-                  align="end"
-                  style={{ padding: 0, margin: 0, textAlign: `right` }}
-                >
-                  <Octicon icon={LocationIcon} /> Plainfield, Indiana &copy;
-                  2024
+                <Text as="p" align="end" style={{padding: 0, margin: 0, textAlign: `right`}}>
+                  <Octicon icon={LocationIcon} /> Plainfield, Indiana &copy; 2024
                 </Text>
               </SplitPageLayout.Footer>
             </SplitPageLayout>
