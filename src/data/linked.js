@@ -95,7 +95,9 @@ export default function LinkedData() {
                   "https://www.researchgate.net/profile/Michael-Burkhart-2",
                   "https://deepai.org/profile/michael-c-burkhart",
                   "https://ebird.org/profile/NDYwNzg1MA",
-                  "https://golden.com/wiki/Michael_Craig_Burkhart-R3EBJGX"
+                  "https://golden.com/wiki/Michael_Craig_Burkhart-R3EBJGX",
+                  "https://manifold.markets/burkh4rt",
+                  "https://www.metaculus.com/accounts/profile/172761/"
               ],
               "image": "https://commons.wikimedia.org/wiki/File:Michael_C._Burkhart.jpg",
               "alumniOf": [

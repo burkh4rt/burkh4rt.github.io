@@ -6,7 +6,9 @@ To use:
 
 ```sh
 yarn
+yarn up
 yarn develop
 yarn build
+yarn serve
 yarn deploy
 ```

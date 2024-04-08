@@ -23,7 +23,7 @@ export default function Home() {
     <>
       <body>
         <Fonts />
-        <ThemeProvider theme={customTheme} dayScheme="light" nightScheme="dark_dimmed">
+        <ThemeProvider theme={customTheme}>
           <BaseStyles>
             <SplitPageLayout>
               <SplitPageLayout.Header>

@@ -34,7 +34,7 @@ export default function Home() {
     <>
       <body>
         <Fonts />
-        <ThemeProvider theme={customTheme} dayScheme="light" nightScheme="dark_dimmed">
+        <ThemeProvider theme={customTheme}>
           <BaseStyles>
             <SplitPageLayout>
               <SplitPageLayout.Header>
@@ -117,6 +117,9 @@ export default function Home() {
                   </Link>
                   <Link href="https://burkh4rt.tumblr.com" target="_blank" style={{whiteSpace: `nowrap`}}>
                     Tumblr <LinkExternalIcon />
+                  </Link>
+                  <Link href="https://500px.com/p/burkh4rt" target="_blank" style={{whiteSpace: `nowrap`}}>
+                    500px <LinkExternalIcon />
                   </Link>
                   <Link href="https://www.instagram.com/burkh4rt/" target="_blank" style={{whiteSpace: `nowrap`}}>
                     Instagram <LinkExternalIcon />
