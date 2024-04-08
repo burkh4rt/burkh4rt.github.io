@@ -5,7 +5,6 @@ import {
   Link,
   Octicon,
   Pagehead,
-  Text,
   Timeline,
   Heading,
   SubNav,
@@ -14,13 +13,13 @@ import {
   SplitPageLayout,
 } from '@primer/react'
 
-import {MortarBoardIcon, GitCommitIcon, LocationIcon, LinkExternalIcon} from '@primer/octicons-react'
-
-import {customTheme} from '../styles/theme'
-import LinkedData from '../data/linked'
+import {MortarBoardIcon, GitCommitIcon, LinkExternalIcon} from '@primer/octicons-react'
 
 import Msvg from '../logos/m.svg'
-import Fonts from '../styles/fonts'
+import LinkedData from '../data/linked'
+import {Fonts} from '../styles/fonts'
+import {customTheme} from '../styles/theme'
+import Footer from '../components/footer'
 
 import GithubLogo from '../logos/github-logo.svg'
 import INaturalistLogo from '../logos/inaturalist-logo.svg'
@@ -89,7 +88,9 @@ export default function Home() {
                   />
                   <Box height={10} />
 
-                  <Heading as="h1">Michael C. Burkhart</Heading>
+                  <Heading as="h1" sx={{fontWeight: `lighter`}}>
+                    Michael C. Burkhart
+                  </Heading>
                   <Box height={10} />
 
                   <SubNav aria-label="Main">
@@ -115,7 +116,7 @@ export default function Home() {
               </SplitPageLayout.Pane>
 
               <SplitPageLayout.Content divider="none" style={{paddingTop: 0}}>
-                <Pagehead as="h3" style={{paddingTop: 0}}>
+                <Pagehead as="h3" style={{paddingTop: 0, fontWeight: `lighter`}}>
                   About Me
                 </Pagehead>
 
@@ -133,7 +134,8 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        dissertation <LinkExternalIcon />
+                        dissertation&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>{' '}
                       (
                       <Link
@@ -143,7 +145,8 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        presentation <LinkExternalIcon />
+                        presentation&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                       ), I derived a novel approach to Bayesian filtering, the Discriminative Kalman Filter, motivated
                       by and developed with my advisor M. Harrison and collaborators D. Brandman and L. Hochberg. We
@@ -170,7 +173,8 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        paper <LinkExternalIcon />
+                        paper&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                       ,{' '}
                       <Link
@@ -180,7 +184,8 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        patent <LinkExternalIcon />
+                        patent&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                       ) and causal inference (
                       <Link
@@ -190,7 +195,8 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        paper <LinkExternalIcon />
+                        paper&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                       ,{' '}
                       <Link
@@ -200,7 +206,8 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        patent pending <LinkExternalIcon />
+                        patent pending&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                       ,{' '}
                       <Link
@@ -210,7 +217,8 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        presentation <LinkExternalIcon />
+                        presentation&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                       ).
                     </Timeline.Body>
@@ -229,7 +237,8 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        abstract <LinkExternalIcon />
+                        abstract&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                       ,{' '}
                       <Link
@@ -239,7 +248,8 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        presentation <LinkExternalIcon />
+                        presentation&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                       ). I also investigated how sequential inference can be applied to optimization (
                       <Link
@@ -249,7 +259,8 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        paper <LinkExternalIcon />
+                        paper&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                       ) and conditions for non-coprime actions in abstract groups to have fixed points (
                       <Link
@@ -259,13 +270,15 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        paper <LinkExternalIcon />
+                        paper&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                       ).
                     </Timeline.Body>
                   </Timeline.Item>
                 </Timeline>
 
+                <Box height={10} />
                 <SubNav
                   aria-label="Main"
                   style={{
@@ -286,13 +299,10 @@ export default function Home() {
                     </SubNav.Link>
                   </SubNav.Links>
                 </SubNav>
+                <Box height={10} />
               </SplitPageLayout.Content>
 
-              <SplitPageLayout.Footer padding="condensed">
-                <Text as="p" align="end" style={{padding: 0, margin: 0, textAlign: `right`}}>
-                  <Octicon icon={LocationIcon} /> Plainfield, Indiana &copy; 2024
-                </Text>
-              </SplitPageLayout.Footer>
+              <Footer />
             </SplitPageLayout>
           </BaseStyles>
         </ThemeProvider>

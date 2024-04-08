@@ -1,22 +1,12 @@
 import React from 'react'
 
-import {
-  Box,
-  Breadcrumbs,
-  Link,
-  Octicon,
-  Pagehead,
-  Text,
-  SubNav,
-  ThemeProvider,
-  BaseStyles,
-  SplitPageLayout,
-} from '@primer/react'
+import {Box, Breadcrumbs, Link, Pagehead, SubNav, ThemeProvider, BaseStyles, SplitPageLayout} from '@primer/react'
 
-import {LinkExternalIcon, LocationIcon} from '@primer/octicons-react'
+import {LinkExternalIcon} from '@primer/octicons-react'
 
+import {Fonts} from '../styles/fonts'
 import {customTheme} from '../styles/theme'
-import Fonts from '../styles/fonts'
+import Footer from '../components/footer'
 
 export const Head = () => (
   <>
@@ -47,7 +37,9 @@ export default function Home() {
               </SplitPageLayout.Header>
 
               <SplitPageLayout.Content>
-                <Pagehead as="h3">Online Presence</Pagehead>
+                <Pagehead as="h3" id="find-me-online" sx={{fontWeight: `lighter`}}>
+                  Online Presence
+                </Pagehead>
 
                 <Box
                   style={{
@@ -62,44 +54,52 @@ export default function Home() {
                   }}
                 >
                   <Link href="https://www.linkedin.com/in/burkh4rt/" target="_blank" style={{whiteSpace: `nowrap`}}>
-                    LinkedIn <LinkExternalIcon />
+                    LinkedIn&thinsp;
+                    <LinkExternalIcon verticalAlign="middle" />
                   </Link>
                   <Link href="https://github.com/burkh4rt/" target="_blank" style={{whiteSpace: `nowrap`}}>
-                    Github <LinkExternalIcon />
+                    Github&thinsp;
+                    <LinkExternalIcon verticalAlign="middle" />
                   </Link>
                   <Link
                     href="https://scholar.google.com/citations?user=OcFnA0UAAAAJ"
                     target="_blank"
                     style={{whiteSpace: `nowrap`}}
                   >
-                    Google Scholar <LinkExternalIcon />
+                    Google Scholar&thinsp;
+                    <LinkExternalIcon verticalAlign="middle" />
                   </Link>
                   <Link href="https://orcid.org/0000-0002-2772-5840" target="_blank" style={{whiteSpace: `nowrap`}}>
-                    OrcID <LinkExternalIcon />
+                    OrcID&thinsp;
+                    <LinkExternalIcon verticalAlign="middle" />
                   </Link>
                   <Link
                     href="https://mathscinet.ams.org/mathscinet/MRAuthorID/1296691"
                     target="_blank"
                     style={{whiteSpace: `nowrap`}}
                   >
-                    MathSciNet <LinkExternalIcon />
+                    MathSciNet&thinsp;
+                    <LinkExternalIcon verticalAlign="middle" />
                   </Link>
                   <Link
                     href="https://zbmath.org/authors/burkhart.michael-c"
                     target="_blank"
                     style={{whiteSpace: `nowrap`}}
                   >
-                    zbMath <LinkExternalIcon />
+                    zbMath&thinsp;
+                    <LinkExternalIcon verticalAlign="middle" />
                   </Link>
                   <Link
                     href="https://www.genealogy.math.ndsu.nodak.edu/id.php?id=246430"
                     target="_blank"
                     style={{whiteSpace: `nowrap`}}
                   >
-                    MGP <LinkExternalIcon />
+                    MGP&thinsp;
+                    <LinkExternalIcon verticalAlign="middle" />
                   </Link>
                   <Link href="https://arxiv.org/a/burkhart_m_2.html" target="_blank" style={{whiteSpace: `nowrap`}}>
-                    arXiv <LinkExternalIcon />
+                    arXiv&thinsp;
+                    <LinkExternalIcon verticalAlign="middle" />
                   </Link>
 
                   <Link
@@ -107,33 +107,41 @@ export default function Home() {
                     target="_blank"
                     style={{whiteSpace: `nowrap`}}
                   >
-                    iNaturalist <LinkExternalIcon />
+                    iNaturalist&thinsp;
+                    <LinkExternalIcon verticalAlign="middle" />
                   </Link>
                   <Link href="https://ebird.org/profile/NDYwNzg1MA/" target="_blank" style={{whiteSpace: `nowrap`}}>
-                    eBird <LinkExternalIcon />
+                    eBird&thinsp;
+                    <LinkExternalIcon verticalAlign="middle" />
                   </Link>
                   <Link href="https://twitter.com/burkh4rt" target="_blank" style={{whiteSpace: `nowrap`}}>
-                    X (Twitter) <LinkExternalIcon />
+                    X (Twitter)&thinsp;
+                    <LinkExternalIcon verticalAlign="middle" />
                   </Link>
                   <Link href="https://burkh4rt.tumblr.com" target="_blank" style={{whiteSpace: `nowrap`}}>
-                    Tumblr <LinkExternalIcon />
+                    Tumblr&thinsp;
+                    <LinkExternalIcon verticalAlign="middle" />
                   </Link>
                   <Link href="https://500px.com/p/burkh4rt" target="_blank" style={{whiteSpace: `nowrap`}}>
-                    500px <LinkExternalIcon />
+                    500px&thinsp;
+                    <LinkExternalIcon verticalAlign="middle" />
                   </Link>
                   <Link href="https://www.instagram.com/burkh4rt/" target="_blank" style={{whiteSpace: `nowrap`}}>
-                    Instagram <LinkExternalIcon />
+                    Instagram&thinsp;
+                    <LinkExternalIcon verticalAlign="middle" />
                   </Link>
                   <Link
                     href="https://www.instagram.com/felixity_the_cat/"
                     target="_blank"
                     style={{whiteSpace: `nowrap`}}
                   >
-                    Felixity <LinkExternalIcon />
+                    Felixity&thinsp;
+                    <LinkExternalIcon verticalAlign="middle" />
                   </Link>
                 </Box>
                 <Box height={10} />
 
+                <Box height={10} />
                 <SubNav aria-label="Main" style={{flexDirection: `row`, justifyContent: `flex-end`}}>
                   <SubNav.Links>
                     <SubNav.Link href="/" rel="noopener noreferrer">
@@ -141,13 +149,10 @@ export default function Home() {
                     </SubNav.Link>
                   </SubNav.Links>
                 </SubNav>
+                <Box height={10} />
               </SplitPageLayout.Content>
 
-              <SplitPageLayout.Footer padding="condensed">
-                <Text as="p" align="end" style={{padding: 0, margin: 0, textAlign: `right`}}>
-                  <Octicon icon={LocationIcon} /> Plainfield, Indiana &copy; 2024
-                </Text>
-              </SplitPageLayout.Footer>
+              <Footer />
             </SplitPageLayout>
           </BaseStyles>
         </ThemeProvider>

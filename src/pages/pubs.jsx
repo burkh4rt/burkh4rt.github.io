@@ -1,21 +1,12 @@
 import React from 'react'
 
-import {
-  Breadcrumbs,
-  Link,
-  Octicon,
-  Pagehead,
-  Text,
-  SubNav,
-  ThemeProvider,
-  BaseStyles,
-  SplitPageLayout,
-} from '@primer/react'
+import {Box, Breadcrumbs, Link, Pagehead, Text, SubNav, ThemeProvider, BaseStyles, SplitPageLayout} from '@primer/react'
 
-import {LinkExternalIcon, LocationIcon} from '@primer/octicons-react'
+import {LinkExternalIcon} from '@primer/octicons-react'
 
+import {Fonts} from '../styles/fonts'
 import {customTheme} from '../styles/theme'
-import Fonts from '../styles/fonts'
+import Footer from '../components/footer'
 
 export const Head = () => (
   <>
@@ -59,7 +50,9 @@ export default function Home() {
                   },
                 }}
               >
-                <Pagehead as="h3">Journal Articles</Pagehead>
+                <Pagehead as="h3" id="articles" sx={{fontWeight: `lighter`}}>
+                  Journal Articles
+                </Pagehead>
 
                 <Text>
                   <ul>
@@ -73,7 +66,7 @@ export default function Home() {
                       >
                         Neuroevolutionary representations for learning heterogeneous treatment effects.
                       </Link>{' '}
-                      Journal of Computational Science 71 (2023){' '}
+                      Journal of Computational Science 71 (2023)&ensp;
                       <Link
                         href="/pubs/Burkhart-Ruiz-2023-J-Comput-Sci.pdf"
                         target="_blank"
@@ -81,7 +74,8 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        pdf <LinkExternalIcon />
+                        pdf&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                     </li>
 
@@ -96,7 +90,7 @@ export default function Home() {
                         Discriminative Bayesian filtering lends momentum to the stochastic Newton method for minimizing
                         log-convex functions.
                       </Link>{' '}
-                      Optimization Letters 17 (2023){' '}
+                      Optimization Letters 17 (2023)&ensp;
                       <Link
                         href="https://mathscinet.ams.org/mathscinet-getitem?mr=4557438"
                         target="_blank"
@@ -104,9 +98,10 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        MR4557438&nbsp;
-                        <LinkExternalIcon />
-                      </Link>{' '}
+                        MR4557438&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
+                      </Link>
+                      &ensp;
                       <Link
                         href="/pubs/Burkhart-2023-Optim-Lett.pdf"
                         target="_blank"
@@ -114,7 +109,8 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        pdf <LinkExternalIcon />
+                        pdf&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                     </li>
 
@@ -129,7 +125,7 @@ export default function Home() {
                         Conjugacy conditions for supersoluble complements of an abelian base and a fixed point result
                         for non-coprime actions.
                       </Link>{' '}
-                      Proceedings of the Edinburgh Mathematical Society 65 (2022){' '}
+                      Proceedings of the Edinburgh Mathematical Society 65 (2022)&ensp;
                       <Link
                         href="https://mathscinet.ams.org/mathscinet-getitem?mr=4542651"
                         target="_blank"
@@ -137,9 +133,10 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        MR4542651&nbsp;
-                        <LinkExternalIcon />
-                      </Link>{' '}
+                        MR4542651&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
+                      </Link>
+                      &ensp;
                       <Link
                         href="/pubs/Burkhart-2022-Proc-Edinb-Math-Soc.pdf"
                         target="_blank"
@@ -147,7 +144,8 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        pdf <LinkExternalIcon />
+                        pdf&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                     </li>
 
@@ -162,7 +160,7 @@ export default function Home() {
                         The discriminative Kalman filter for Bayesian filtering with nonlinear and nongaussian
                         observation models.
                       </Link>{' '}
-                      Neural Computation 32 (2020){' '}
+                      Neural Computation 32 (2020)&ensp;
                       <Link
                         href="https://mathscinet.ams.org/mathscinet-getitem?mr=4101168"
                         target="_blank"
@@ -170,9 +168,10 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        MR4101168&nbsp;
-                        <LinkExternalIcon />
-                      </Link>{' '}
+                        MR4101168&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
+                      </Link>
+                      &ensp;
                       <Link
                         href="/pubs/Burkhart-et-al-2020-Neural-Comput.pdf"
                         target="_blank"
@@ -180,7 +179,8 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        pdf <LinkExternalIcon />
+                        pdf&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                     </li>
 
@@ -195,7 +195,7 @@ export default function Home() {
                         Robust closed-loop control of a cursor in a person with tetraplegia using Gaussian process
                         regression.
                       </Link>{' '}
-                      Neural Computation 30 (2018){' '}
+                      Neural Computation 30 (2018)&ensp;
                       <Link
                         href="https://mathscinet.ams.org/mathscinet-getitem?mr=3873814"
                         target="_blank"
@@ -203,9 +203,10 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        MR3873814&nbsp;
-                        <LinkExternalIcon />
-                      </Link>{' '}
+                        MR3873814&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
+                      </Link>
+                      &ensp;
                       <Link
                         href="/pubs/Brandman-et-al-2018-Neural-Comput.pdf"
                         target="_blank"
@@ -213,7 +214,8 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        pdf <LinkExternalIcon />
+                        pdf&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                     </li>
 
@@ -228,7 +230,7 @@ export default function Home() {
                       >
                         Rapid calibration of an intracortical brain computer interface for people with tetraplegia.
                       </Link>{' '}
-                      Journal of Neural Engineering 15 (2018){' '}
+                      Journal of Neural Engineering 15 (2018)&ensp;
                       <Link
                         href="/pubs/Brandman-et-al-2018-J-Neural-Eng.pdf"
                         target="_blank"
@@ -236,7 +238,8 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        pdf <LinkExternalIcon />
+                        pdf&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                     </li>
 
@@ -251,7 +254,7 @@ export default function Home() {
                         Measurement and verification of building systems under uncertain data: A Gaussian process
                         modeling approach.
                       </Link>{' '}
-                      Energy and Buildings 75 (2014){' '}
+                      Energy and Buildings 75 (2014)&ensp;
                       <Link
                         href="/pubs/Burkhart-et-al-2014-Energy-Build.pdf"
                         target="_blank"
@@ -259,13 +262,16 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        pdf <LinkExternalIcon />
+                        pdf&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                     </li>
                   </ul>
                 </Text>
 
-                <Pagehead as="h3">Conference Proceedings</Pagehead>
+                <Pagehead as="h3" id="proceedings" sx={{fontWeight: `lighter`}}>
+                  Conference Proceedings
+                </Pagehead>
                 <Text>
                   <ul>
                     <li>
@@ -278,7 +284,7 @@ export default function Home() {
                       >
                         Neuroevolutionary feature representations for causal inference.
                       </Link>{' '}
-                      Computational Science &ndash; ICCS 2022{' '}
+                      Computational Science &ndash; ICCS 2022&ensp;
                       <Link
                         href="/pubs/Burkhart-Ruiz-2022-Comput-Sci.pdf"
                         target="_blank"
@@ -286,7 +292,8 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        pdf <LinkExternalIcon />
+                        pdf&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                     </li>
 
@@ -301,7 +308,7 @@ export default function Home() {
                         Discriminative Bayesian filtering for the semi-supervised augmentation of sequential observation
                         data.
                       </Link>{' '}
-                      Computational Science &ndash; ICCS 2021{' '}
+                      Computational Science &ndash; ICCS 2021&ensp;
                       <Link
                         href="https://mathscinet.ams.org/mathscinet-getitem?mr=4371656"
                         target="_blank"
@@ -309,8 +316,10 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        MR4371656 <LinkExternalIcon />
-                      </Link>{' '}
+                        MR4371656&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
+                      </Link>
+                      &ensp;
                       <Link
                         href="/pubs/Burkhart-2021-Comput-Sci.pdf"
                         target="_blank"
@@ -318,7 +327,8 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        pdf <LinkExternalIcon />
+                        pdf&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                     </li>
 
@@ -332,7 +342,7 @@ export default function Home() {
                       >
                         Deep low-density separation for semi-supervised classification.
                       </Link>{' '}
-                      Computational Science &ndash; ICCS 2020{' '}
+                      Computational Science &ndash; ICCS 2020&ensp;
                       <Link
                         href="https://mathscinet.ams.org/mathscinet-getitem?mr=4152505"
                         target="_blank"
@@ -340,8 +350,10 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        MR4152505 <LinkExternalIcon />
-                      </Link>{' '}
+                        MR4152505&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
+                      </Link>
+                      &ensp;
                       <Link
                         href="/pubs/Burkhart-Shan-2020-Comput-Sci.pdf"
                         target="_blank"
@@ -349,7 +361,8 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        pdf <LinkExternalIcon />
+                        pdf&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                     </li>
 
@@ -363,7 +376,7 @@ export default function Home() {
                       >
                         Determining Adaptive Loss Functions and Algorithms for Predictive Models.
                       </Link>{' '}
-                      Computational Science &ndash; ICCS 2019{' '}
+                      Computational Science &ndash; ICCS 2019&ensp;
                       <Link
                         href="/pubs/Burkhart-Modarresi-2019-Comput-Sci-2.pdf"
                         target="_blank"
@@ -371,7 +384,8 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        pdf <LinkExternalIcon />
+                        pdf&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                     </li>
 
@@ -385,7 +399,7 @@ export default function Home() {
                       >
                         Adaptive objective functions and distance metrics for recommendation systems.
                       </Link>{' '}
-                      Computational Science &ndash; ICCS 2019{' '}
+                      Computational Science &ndash; ICCS 2019&ensp;
                       <Link
                         href="https://mathscinet.ams.org/mathscinet-getitem?mr=3975427"
                         target="_blank"
@@ -393,8 +407,10 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        MR3975427 <LinkExternalIcon />
-                      </Link>{' '}
+                        MR3975427&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
+                      </Link>
+                      &ensp;
                       <Link
                         href="/pubs/Burkhart-Modarresi-2019-Comput-Sci.pdf"
                         target="_blank"
@@ -402,12 +418,16 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        pdf <LinkExternalIcon />
+                        pdf&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                     </li>
                   </ul>
                 </Text>
-                <Pagehead as="h3">Preprints</Pagehead>
+
+                <Pagehead as="h3" id="preprints" sx={{fontWeight: `lighter`}}>
+                  Preprints
+                </Pagehead>
                 <Text>
                   <ul>
                     <li>
@@ -420,7 +440,7 @@ export default function Home() {
                       >
                         Fixed point conditions for non-coprime actions.
                       </Link>{' '}
-                      Proceedings of the Royal Society of Edinburgh Section A: Mathematics (to appear){' '}
+                      Proceedings of the Royal Society of Edinburgh Section A: Mathematics (to appear)&ensp;
                       <Link
                         href="/pubs/Burkhart-2023-Proc-Roy-Soc-Edinb-Sect-A-Math.pdf"
                         target="_blank"
@@ -428,7 +448,8 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        pdf <LinkExternalIcon />
+                        pdf&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                     </li>
 
@@ -443,7 +464,7 @@ export default function Home() {
                       >
                         Safe AI for health and beyond &ndash; monitoring to transform a health service.
                       </Link>{' '}
-                      arXiv:2303.01513{' '}
+                      arXiv:2303.01513&ensp;
                       <Link
                         href="/pubs/Abroshan-et-al-2023-arXiv.pdf"
                         target="_blank"
@@ -451,7 +472,8 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        pdf <LinkExternalIcon />
+                        pdf&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                     </li>
 
@@ -467,7 +489,7 @@ export default function Home() {
                         Predicting incident dementia in cerebral small vessel disease: comparison of machine learning
                         and traditional statistical models.
                       </Link>{' '}
-                      Cerebral Circulation &ndash; Cognition and Behavior{' '}
+                      Cerebral Circulation &ndash; Cognition and Behavior&ensp;
                       <Link
                         href="/pubs/Li-et-al-2023-Cereb-Circ-Cogn-Behav.pdf"
                         target="_blank"
@@ -475,7 +497,8 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        pdf <LinkExternalIcon />
+                        pdf&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                     </li>
 
@@ -491,7 +514,7 @@ export default function Home() {
                         Artificial intelligence for diagnostic and prognostic neuroimaging in dementia: a systematic
                         review.
                       </Link>{' '}
-                      Alzheimer's &amp; Dementia{' '}
+                      Alzheimer's &amp; Dementia&ensp;
                       <Link
                         href="/pubs/Borchert-et-al-2023-Alzheimers-Dement.pdf"
                         target="_blank"
@@ -499,13 +522,16 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        pdf <LinkExternalIcon />
+                        pdf&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                     </li>
                   </ul>
                 </Text>
 
-                <Pagehead as="h3">Dissertation</Pagehead>
+                <Pagehead as="h3" id="dissertation" sx={{fontWeight: `lighter`}}>
+                  Dissertation
+                </Pagehead>
                 <Text>
                   <ul>
                     <li>
@@ -518,7 +544,7 @@ export default function Home() {
                       >
                         “A Discriminative Approach to Bayesian Filtering with Applications to Human Neural Decoding.”
                       </Link>{' '}
-                      Ph.D. Dissertation, Brown University, Division of Applied Mathematics (2019){' '}
+                      Ph.D. Dissertation, Brown University, Division of Applied Mathematics (2019)&ensp;
                       <Link
                         href="https://mathscinet.ams.org/mathscinet-getitem?mr=4158190"
                         target="_blank"
@@ -526,9 +552,10 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        MR4158190&nbsp;
-                        <LinkExternalIcon />
-                      </Link>{' '}
+                        MR4158190&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
+                      </Link>
+                      &ensp;
                       <Link
                         href="/pubs/Burkhart-2019.pdf"
                         target="_blank"
@@ -536,12 +563,15 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        pdf <LinkExternalIcon />
+                        pdf&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                     </li>
                   </ul>
 
-                  <Pagehead as="h3">Patents &amp; Pending</Pagehead>
+                  <Pagehead as="h3" id="patents" sx={{fontWeight: `lighter`}}>
+                    Patents &amp; Pending
+                  </Pagehead>
                   <ul>
                     <li>
                       M. Burkhart &amp; G. Ruiz.{' '}
@@ -553,7 +583,8 @@ export default function Home() {
                       >
                         Causal inference via neuroevolutionary selection.
                       </Link>{' '}
-                      U.S. Patent Application #17/748,891. Filed 2022. Published as US&thinsp;2023/0376776&thinsp;A1{' '}
+                      U.S. Patent Application #17/748,891. Filed 2022. Published as
+                      US&thinsp;2023/0376776&thinsp;A1&ensp;
                       <Link
                         href="/pubs/Burkhart-Ruiz-US20230376776A1.pdf"
                         target="_blank"
@@ -561,7 +592,8 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        pdf <LinkExternalIcon />
+                        pdf&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                     </li>
 
@@ -575,7 +607,8 @@ export default function Home() {
                       >
                         User classification from data via deep segmentation for semi-supervised learning.
                       </Link>{' '}
-                      U.S. Patent Application #16/681,239. Filed 2019. Published as US&thinsp;2021/0142152&thinsp;A1{' '}
+                      U.S. Patent Application #16/681,239. Filed 2019. Published as
+                      US&thinsp;2021/0142152&thinsp;A1&ensp;
                       <Link
                         href="/pubs/Burkhart-Shan-US20210142152A1.pdf"
                         target="_blank"
@@ -583,9 +616,10 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        pdf <LinkExternalIcon />
-                      </Link>{' '}
-                      Granted 2022 as US&thinsp;11,455,518&thinsp;B2{' '}
+                        pdf&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
+                      </Link>
+                      &ensp; Granted 2022 as US&thinsp;11,455,518&thinsp;B2&ensp;
                       <Link
                         href="/pubs/Burkhart-Shan-US11455518B2.pdf"
                         target="_blank"
@@ -593,7 +627,8 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        pdf <LinkExternalIcon />
+                        pdf&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                     </li>
 
@@ -607,7 +642,8 @@ export default function Home() {
                       >
                         Digital experience enhancement using an ensemble deep learning model.
                       </Link>{' '}
-                      U.S. Patent Application #16/375,627. Filed 2019. Published as US&thinsp;2020/0320382&thinsp;A1{' '}
+                      U.S. Patent Application #16/375,627. Filed 2019. Published as
+                      US&thinsp;2020/0320382&thinsp;A1&ensp;
                       <Link
                         href="/pubs/Burkhart-Modarresi-US20200320382A1.pdf"
                         target="_blank"
@@ -615,9 +651,10 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        pdf <LinkExternalIcon />
-                      </Link>{' '}
-                      Granted 2023 as US&thinsp;11,816,562&thinsp;B2{' '}
+                        pdf&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
+                      </Link>
+                      &ensp; Granted 2023 as US&thinsp;11,816,562&thinsp;B2&ensp;
                       <Link
                         href="/pubs/Burkhart-Modarresi-US11816562B2.pdf"
                         target="_blank"
@@ -625,12 +662,14 @@ export default function Home() {
                         inline={true}
                         style={{whiteSpace: `nowrap`}}
                       >
-                        pdf <LinkExternalIcon />
+                        pdf&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                     </li>
                   </ul>
                 </Text>
 
+                <Box height={10} />
                 <SubNav aria-label="Main" style={{flexDirection: `row`, justifyContent: `flex-end`}}>
                   <SubNav.Links>
                     <SubNav.Link href="/" rel="noopener noreferrer">
@@ -638,13 +677,10 @@ export default function Home() {
                     </SubNav.Link>
                   </SubNav.Links>
                 </SubNav>
+                <Box height={10} />
               </SplitPageLayout.Content>
 
-              <SplitPageLayout.Footer padding="condensed">
-                <Text as="p" align="end" style={{padding: 0, margin: 0, textAlign: `right`}}>
-                  <Octicon icon={LocationIcon} /> Plainfield, Indiana &copy; 2024
-                </Text>
-              </SplitPageLayout.Footer>
+              <Footer />
             </SplitPageLayout>
           </BaseStyles>
         </ThemeProvider>

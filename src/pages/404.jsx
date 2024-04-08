@@ -1,11 +1,10 @@
 import React from 'react'
 
-import {Breadcrumbs, Link, Octicon, Pagehead, Text, ThemeProvider, BaseStyles, SplitPageLayout} from '@primer/react'
+import {Breadcrumbs, Link, Pagehead, Text, ThemeProvider, BaseStyles, SplitPageLayout} from '@primer/react'
 
-import {LocationIcon} from '@primer/octicons-react'
-
-import Fonts from '../styles/fonts'
+import {Fonts} from '../styles/fonts'
 import {customTheme} from '../styles/theme'
+import Footer from '../components/footer'
 
 export const Head = () => (
   <>
@@ -42,11 +41,7 @@ export default function Home() {
                 </Text>
               </SplitPageLayout.Content>
 
-              <SplitPageLayout.Footer padding="condensed">
-                <Text as="p" align="end" style={{padding: 0, margin: 0, textAlign: `right`}}>
-                  <Octicon icon={LocationIcon} /> Plainfield, Indiana &copy; 2024
-                </Text>
-              </SplitPageLayout.Footer>
+              <Footer />
             </SplitPageLayout>
           </BaseStyles>
         </ThemeProvider>
