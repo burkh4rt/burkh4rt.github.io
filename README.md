@@ -4,8 +4,8 @@
 
 To use:
 
-```
-npm install
-npm run build
-npm run deploy
+```sh
+yarn
+yarn build
+yarn deploy
 ```

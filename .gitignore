@@ -1,6 +1,6 @@
-
 # Idiosyncratic
 public/
+.pnp.*
 
 # Logs
 logs
