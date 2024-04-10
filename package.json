@@ -8,11 +8,14 @@
     "@primer/octicons-react": "^19.9.0",
     "@primer/react": "^36.12.0",
     "@primer/react-brand": "^0.32.0",
+    "@svgr/webpack": "^8.1.0",
     "deepmerge": "^4.3.1",
     "gatsby-plugin-canonical-urls": "^5.13.1",
+    "gatsby-plugin-google-gtag": "^5.13.1",
     "gatsby-plugin-manifest": "^5.13.1",
     "gatsby-plugin-offline": "^6.13.1",
     "gatsby-plugin-styled-components": "^6.13.1",
+    "gatsby-plugin-svgr": "^3.0.0-beta.0",
     "gatsby-source-filesystem": "^5.13.1",
     "npm-check-updates": "^16.14.18",
     "react": "^18.2.0",
@@ -50,7 +53,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "deploy": "gh-pages -d public -b master",
-    "svgo": "svgo -f src/logos && svgo -f src/eqns"
+    "svgo": "svgo -f src/logos"
   },
   "version": "3.0.0"
 }

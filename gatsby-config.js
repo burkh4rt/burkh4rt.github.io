@@ -14,6 +14,20 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,
+    'gatsby-plugin-svgr',
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ['G-P9BKGH7JBF'],
+      },
+      gtagConfig: {
+        anonymize_ip: true,
+        cookie_expires: 0,
+      },
+      // pluginConfig: {
+      //   respectDNT: true,
+      // },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -40,7 +54,7 @@ module.exports = {
         icon_options: {
           purpose: `any maskable`,
         },
-        background_color: `#fff`,
+        background_color: `#85b09a`,
         theme_color: `#85b09a`,
         display: `standalone`,
       },

@@ -20,32 +20,36 @@ export const Head = () => (
 export default function Home() {
   return (
     <>
-      <body>
-        <Fonts />
-        <ThemeProvider theme={customTheme}>
-          <BaseStyles>
-            <SplitPageLayout>
-              <SplitPageLayout.Header>
-                <Breadcrumbs>
-                  <Breadcrumbs.Item href="/">home</Breadcrumbs.Item>
-                  <Breadcrumbs.Item href="#" selected>
-                    404
-                  </Breadcrumbs.Item>
-                </Breadcrumbs>
-              </SplitPageLayout.Header>
+      <Fonts />
+      <ThemeProvider
+        theme={customTheme}
+        colorMode="auto"
+        dayScheme="light"
+        nightScheme="dark_dimmed"
+        preventSSRMismatch
+      >
+        <BaseStyles>
+          <SplitPageLayout sx={{bg: 'canvas.default', minHeight: `100vh`}}>
+            <SplitPageLayout.Header>
+              <Breadcrumbs>
+                <Breadcrumbs.Item href="/">home</Breadcrumbs.Item>
+                <Breadcrumbs.Item href="#" selected>
+                  404
+                </Breadcrumbs.Item>
+              </Breadcrumbs>
+            </SplitPageLayout.Header>
 
-              <SplitPageLayout.Content>
-                <Pagehead as="h3">Michael's 404</Pagehead>
-                <Text>
-                  You appear to be lost. This happens from time to time. Shall we head <Link href="/">home</Link>?
-                </Text>
-              </SplitPageLayout.Content>
+            <SplitPageLayout.Content>
+              <Pagehead as="h3">Michael's 404</Pagehead>
+              <Text>
+                You appear to be lost. This happens from time to time. Shall we head <Link href="/">home</Link>?
+              </Text>
+            </SplitPageLayout.Content>
 
-              <Footer />
-            </SplitPageLayout>
-          </BaseStyles>
-        </ThemeProvider>
-      </body>
+            <Footer />
+          </SplitPageLayout>
+        </BaseStyles>
+      </ThemeProvider>
     </>
   )
 }
