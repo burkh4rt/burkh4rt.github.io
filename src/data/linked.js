@@ -8,7 +8,6 @@ export default function LinkedData() {
             "@context": "https://schema.org",
             "@type": "ProfilePage",
             "dateCreated": "2019-05-19T17:52:51-07:00",
-            "dateModified": "2024-04-04T11:52:00-05:00",
             "mainEntity": {
               "@type": "Person",
               "name": "Michael C. Burkhart",

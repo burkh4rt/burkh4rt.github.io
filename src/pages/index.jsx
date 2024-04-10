@@ -35,11 +35,6 @@ export const Head = () => (
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Michael C. Burkhart" />
     <meta name="description" content="Michael Burkhart's homepage. Snippets from work and life, with links." />
-    <meta
-      name="keywords"
-      content="Michael Burkhart, Michael C. Burkhart, Ph.D., Brown University, Applied Mathematics, \
-      Bayesian filtering, neural decoding, discriminative Kalman filter, University of Cambridge"
-    />
     <meta property="og:title" content="Michael Burkhart's website" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content={Msvg} />
@@ -120,7 +115,7 @@ export default function Home() {
                   About Me
                 </Pagehead>
 
-                <Timeline style={{maxWidth: `calc(max(75%,500px))`}}>
+                <Timeline as="section" className="anim-fade-in" style={{maxWidth: `calc(max(75%,500px))`}}>
                   <Timeline.Item>
                     <Timeline.Badge>
                       <Octicon icon={MortarBoardIcon} />
@@ -189,7 +184,7 @@ export default function Home() {
                       </Link>
                       ) and causal inference (
                       <Link
-                        href="https://doi.org/10.1007/978-3-031-08754-7_1"
+                        href="https://doi.org/10.1016/j.jocs.2023.102054"
                         target="_blank"
                         rel="noopener noreferrer"
                         inline={true}
