@@ -17,7 +17,7 @@ export default function Footer() {
   return (
     <SplitPageLayout.Footer padding="condensed">
       <Text as="p" align="end" style={{padding: 0, margin: 0, textAlign: `right`}}>
-        <Octicon icon={LocationIcon} /> Plainfield, Indiana &copy; {data.site.year}
+        <Octicon icon={LocationIcon} verticalAlign="middle" /> Plainfield, Indiana &copy; {data.site.year}
       </Text>
     </SplitPageLayout.Footer>
   )

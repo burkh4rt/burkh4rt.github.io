@@ -20,11 +20,11 @@ import {Fonts} from '../styles/fonts'
 import {customTheme} from '../styles/theme'
 import Footer from '../components/footer'
 
-import {ReactComponent as GithubLogo} from '../logos/github-logo.svg'
-import {ReactComponent as INaturalistLogo} from '../logos/inaturalist-logo.svg'
 import {ReactComponent as LinkedInLogo} from '../logos/linkedin-logo.svg'
+import {ReactComponent as GithubLogo} from '../logos/github-logo.svg'
 import {ReactComponent as GoogleScholarLogo} from '../logos/google-scholar.svg'
 import {ReactComponent as OrcIDLogo} from '../logos/orcid-logo.svg'
+import {ReactComponent as INaturalistLogo} from '../logos/inaturalist-logo.svg'
 
 export const Head = () => (
   <>
@@ -95,29 +95,19 @@ export default function Home() {
                 <SubNav aria-label="Main">
                   <SubNav.Links>
                     <SubNav.Link href="https://www.linkedin.com/in/burkh4rt/" target="_blank">
-                      <picture style={{height: `20px`}}>
-                        <LinkedInLogo style={{height: `100%`}} />
-                      </picture>
+                      <LinkedInLogo style={{height: `20px`}} />
                     </SubNav.Link>
                     <SubNav.Link href="https://github.com/burkh4rt/" target="_blank">
-                      <picture style={{height: `20px`}}>
-                        <GithubLogo style={{height: `100%`}} />
-                      </picture>
+                      <GithubLogo style={{height: `20px`}} />
                     </SubNav.Link>
                     <SubNav.Link href="https://scholar.google.com/citations?user=OcFnA0UAAAAJ" target="_blank">
-                      <picture style={{height: `20px`}}>
-                        <GoogleScholarLogo style={{height: `100%`}} />
-                      </picture>
+                      <GoogleScholarLogo style={{height: `20px`}} />
                     </SubNav.Link>
                     <SubNav.Link href="https://orcid.org/0000-0002-2772-5840" target="_blank">
-                      <picture style={{height: `20px`}}>
-                        <OrcIDLogo style={{height: `100%`}} />
-                      </picture>
+                      <OrcIDLogo style={{height: `20px`}} />
                     </SubNav.Link>
                     <SubNav.Link href="https://www.inaturalist.org/people/burkh4rt" target="_blank">
-                      <picture style={{height: `20px`}}>
-                        <INaturalistLogo style={{height: `100%`}} />
-                      </picture>
+                      <INaturalistLogo style={{height: `20px`}} />
                     </SubNav.Link>
                   </SubNav.Links>
                 </SubNav>

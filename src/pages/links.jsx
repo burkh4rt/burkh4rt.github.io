@@ -8,6 +8,19 @@ import {Fonts} from '../styles/fonts'
 import {customTheme} from '../styles/theme'
 import Footer from '../components/footer'
 
+import {ReactComponent as LinkedInLogo} from '../logos/linkedin-logo.svg'
+import {ReactComponent as GithubLogo} from '../logos/github-logo.svg'
+import {ReactComponent as GoogleScholarLogo} from '../logos/google-scholar.svg'
+import {ReactComponent as OrcIDLogo} from '../logos/orcid-logo.svg'
+
+import {ReactComponent as AMSLogo} from '../logos/ams-logo.svg'
+
+import {ReactComponent as ArXivLogo} from '../logos/arxiv-logo.svg'
+import {ReactComponent as TwitterLogo} from '../logos/twitter-logo.svg'
+import {ReactComponent as InstagramLogo} from '../logos/instagram-logo.svg'
+import {ReactComponent as INaturalistLogo} from '../logos/inaturalist-logo.svg'
+import {ReactComponent as ZBMathLogo} from '../logos/zbmath-logo.svg'
+
 export const Head = () => (
   <>
     <html lang="en" />
@@ -59,11 +72,13 @@ export default function Home() {
                 }}
               >
                 <Link href="https://www.linkedin.com/in/burkh4rt/" target="_blank" style={{whiteSpace: `nowrap`}}>
-                  LinkedIn&thinsp;
+                  <LinkedInLogo style={{height: `0.75em`}} verticalAlign="middle" />
+                  &thinsp;LinkedIn&thinsp;
                   <LinkExternalIcon verticalAlign="middle" />
                 </Link>
                 <Link href="https://github.com/burkh4rt/" target="_blank" style={{whiteSpace: `nowrap`}}>
-                  Github&thinsp;
+                  <GithubLogo style={{height: `0.75em`}} verticalAlign="middle" />
+                  &thinsp;Github&thinsp;
                   <LinkExternalIcon verticalAlign="middle" />
                 </Link>
                 <Link
@@ -71,11 +86,13 @@ export default function Home() {
                   target="_blank"
                   style={{whiteSpace: `nowrap`}}
                 >
-                  Google Scholar&thinsp;
+                  <GoogleScholarLogo style={{height: `0.75em`}} verticalAlign="middle" />
+                  &thinsp;Google Scholar&thinsp;
                   <LinkExternalIcon verticalAlign="middle" />
                 </Link>
                 <Link href="https://orcid.org/0000-0002-2772-5840" target="_blank" style={{whiteSpace: `nowrap`}}>
-                  OrcID&thinsp;
+                  <OrcIDLogo style={{height: `0.75em`}} verticalAlign="middle" />
+                  &thinsp;OrcID&thinsp;
                   <LinkExternalIcon verticalAlign="middle" />
                 </Link>
                 <Link
@@ -83,7 +100,8 @@ export default function Home() {
                   target="_blank"
                   style={{whiteSpace: `nowrap`}}
                 >
-                  MathSciNet&thinsp;
+                  <AMSLogo style={{height: `0.75em`}} verticalAlign="middle" />
+                  &thinsp;MathSciNet&thinsp;
                   <LinkExternalIcon verticalAlign="middle" />
                 </Link>
                 <Link
@@ -91,7 +109,8 @@ export default function Home() {
                   target="_blank"
                   style={{whiteSpace: `nowrap`}}
                 >
-                  zbMath&thinsp;
+                  <ZBMathLogo style={{height: `0.75em`}} verticalAlign="middle" />
+                  &thinsp;zbMath&thinsp;
                   <LinkExternalIcon verticalAlign="middle" />
                 </Link>
                 <Link
@@ -103,12 +122,14 @@ export default function Home() {
                   <LinkExternalIcon verticalAlign="middle" />
                 </Link>
                 <Link href="https://arxiv.org/a/burkhart_m_2.html" target="_blank" style={{whiteSpace: `nowrap`}}>
-                  arXiv&thinsp;
+                  <ArXivLogo style={{height: `0.75em`}} verticalAlign="middle" />
+                  &thinsp;arXiv&thinsp;
                   <LinkExternalIcon verticalAlign="middle" />
                 </Link>
 
                 <Link href="https://www.inaturalist.org/people/burkh4rt" target="_blank" style={{whiteSpace: `nowrap`}}>
-                  iNaturalist&thinsp;
+                  <INaturalistLogo style={{height: `0.75em`}} verticalAlign="middle" />
+                  &thinsp;iNaturalist&thinsp;
                   <LinkExternalIcon verticalAlign="middle" />
                 </Link>
                 <Link href="https://ebird.org/profile/NDYwNzg1MA/" target="_blank" style={{whiteSpace: `nowrap`}}>
@@ -116,11 +137,12 @@ export default function Home() {
                   <LinkExternalIcon verticalAlign="middle" />
                 </Link>
                 <Link href="https://twitter.com/burkh4rt" target="_blank" style={{whiteSpace: `nowrap`}}>
-                  X (Twitter)&thinsp;
+                  <TwitterLogo style={{height: `0.75em`}} verticalAlign="middle" />
+                  &thinsp;X (Twitter)&thinsp;
                   <LinkExternalIcon verticalAlign="middle" />
                 </Link>
                 <Link href="https://burkh4rt.tumblr.com" target="_blank" style={{whiteSpace: `nowrap`}}>
-                  Tumblr&thinsp;
+                  tumblr&thinsp;
                   <LinkExternalIcon verticalAlign="middle" />
                 </Link>
                 <Link href="https://500px.com/p/burkh4rt" target="_blank" style={{whiteSpace: `nowrap`}}>
@@ -128,7 +150,8 @@ export default function Home() {
                   <LinkExternalIcon verticalAlign="middle" />
                 </Link>
                 <Link href="https://www.instagram.com/burkh4rt/" target="_blank" style={{whiteSpace: `nowrap`}}>
-                  Instagram&thinsp;
+                  <InstagramLogo style={{height: `0.75em`}} verticalAlign="middle" />
+                  &thinsp;Instagram&thinsp;
                   <LinkExternalIcon verticalAlign="middle" />
                 </Link>
                 <Link href="https://www.instagram.com/felixity_the_cat/" target="_blank" style={{whiteSpace: `nowrap`}}>
