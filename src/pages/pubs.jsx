@@ -85,7 +85,7 @@ export default function Home() {
                   </li>
 
                   <li>
-                    M. Burkhart{' '}
+                    M. Burkhart.{' '}
                     <Link
                       href="https://doi.org/10.1007/s11590-022-01895-5"
                       target="_blank"
@@ -120,7 +120,7 @@ export default function Home() {
                   </li>
 
                   <li>
-                    M. Burkhart{' '}
+                    M. Burkhart.{' '}
                     <Link
                       href="https://doi.org/10.1017/S0013091522000499"
                       target="_blank"

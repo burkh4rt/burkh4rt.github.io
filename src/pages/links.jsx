@@ -12,19 +12,17 @@ import {ReactComponent as LinkedInLogo} from '../logos/linkedin-logo.svg'
 import {ReactComponent as GithubLogo} from '../logos/github-logo.svg'
 import {ReactComponent as GoogleScholarLogo} from '../logos/google-scholar.svg'
 import {ReactComponent as OrcIDLogo} from '../logos/orcid-logo.svg'
-
 import {ReactComponent as AMSLogo} from '../logos/ams-logo.svg'
-
-import {ReactComponent as ArXivLogo} from '../logos/arxiv-logo.svg'
-import {ReactComponent as TwitterLogo} from '../logos/twitter-logo.svg'
-import {ReactComponent as InstagramLogo} from '../logos/instagram-logo.svg'
-import {ReactComponent as INaturalistLogo} from '../logos/inaturalist-logo.svg'
 import {ReactComponent as ZBMathLogo} from '../logos/zbmath-logo.svg'
+import {ReactComponent as ArXivLogo} from '../logos/arxiv-logo.svg'
+import {ReactComponent as INaturalistLogo} from '../logos/inaturalist-logo.svg'
+import {ReactComponent as XLogo} from '../logos/x-logo.svg'
+import {ReactComponent as InstagramLogo} from '../logos/instagram-logo.svg'
 
 export const Head = () => (
   <>
     <html lang="en" />
-    <title>publications</title>
+    <title>links</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Michael C. Burkhart" />
@@ -137,8 +135,8 @@ export default function Home() {
                   <LinkExternalIcon verticalAlign="middle" />
                 </Link>
                 <Link href="https://twitter.com/burkh4rt" target="_blank" style={{whiteSpace: `nowrap`}}>
-                  <TwitterLogo style={{height: `0.75em`}} verticalAlign="middle" />
-                  &thinsp;X (Twitter)&thinsp;
+                  <XLogo style={{height: `0.75em`}} verticalAlign="middle" />
+                  &thinsp;née twitter&thinsp;
                   <LinkExternalIcon verticalAlign="middle" />
                 </Link>
                 <Link href="https://burkh4rt.tumblr.com" target="_blank" style={{whiteSpace: `nowrap`}}>
