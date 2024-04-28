@@ -87,7 +87,7 @@ export default function Home() {
                 />
                 <Box height={10} />
 
-                <Heading as="h1" sx={{fontWeight: `lighter`}}>
+                <Heading as="h1" sx={{fontWeight: `normal`}}>
                   Michael C. Burkhart
                 </Heading>
                 <Box height={10} />
@@ -115,7 +115,7 @@ export default function Home() {
             </SplitPageLayout.Pane>
 
             <SplitPageLayout.Content divider="none" style={{paddingTop: 0}}>
-              <Pagehead as="h3" style={{paddingTop: 0, fontWeight: `lighter`}}>
+              <Pagehead as="h3" style={{paddingTop: 0, fontWeight: `normal`}}>
                 About Me
               </Pagehead>
 

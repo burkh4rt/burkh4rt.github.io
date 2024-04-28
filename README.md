@@ -6,7 +6,8 @@ To use:
 
 ```sh
 yarn
-yarn up
+yarn up -R
+yarn yarn-upgrade-all
 yarn develop
 yarn build
 yarn serve

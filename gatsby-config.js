@@ -21,12 +21,8 @@ module.exports = {
         trackingIds: ['G-P9BKGH7JBF'],
       },
       gtagConfig: {
-        // anonymize_ip: true,
         cookie_expires: 0,
       },
-      // pluginConfig: {
-      //   respectDNT: true,
-      // },
     },
     {
       resolve: `gatsby-source-filesystem`,

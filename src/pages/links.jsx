@@ -53,7 +53,7 @@ export default function Home() {
             </SplitPageLayout.Header>
 
             <SplitPageLayout.Content>
-              <Pagehead as="h3" id="find-me-online" sx={{fontWeight: `lighter`}}>
+              <Pagehead as="h3" id="find-me-online" sx={{fontWeight: `normal`}}>
                 Online Presence
               </Pagehead>
 

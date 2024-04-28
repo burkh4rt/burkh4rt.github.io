@@ -48,15 +48,15 @@ export default function Home() {
                   marginLeft: 0,
                 },
                 li: {
-                  paddingLeft: `1em`,
-                  textIndent: `-1em`,
-                  paddingBottom: `0.5em`,
+                  paddingLeft: `2em`,
+                  textIndent: `-2em`,
+                  paddingBottom: `0.75em`,
                   maxWidth: `calc(max(75%,500px))`,
                 },
               }}
             >
-              <Pagehead as="h3" id="articles" sx={{fontWeight: `lighter`}}>
-                Journal Articles
+              <Pagehead as="h3" id="papers" sx={{fontWeight: `normal`}}>
+                Papers
               </Pagehead>
 
               <Text>
@@ -120,6 +120,56 @@ export default function Home() {
                   </li>
 
                   <li>
+                    R. Li, E. Harshfield, S. Bell, M. Burkhart, A. Tuladhar, S. Hilal, D. Tozer, F. Chappell, S. Makin,
+                    J. Lo, J. Wardlaw, F.-E. de Leeuw, C. Chen, Z. Kourtzi, &amp; H. Markus.{' '}
+                    <Link
+                      href="https://doi.org/10.1016/j.cccb.2023.100179"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                    >
+                      Predicting incident dementia in cerebral small vessel disease: comparison of machine learning and
+                      traditional statistical models.
+                    </Link>{' '}
+                    Cerebral Circulation &ndash; Cognition and Behavior 5 (2023) &ensp;
+                    <Link
+                      href="/pubs/Li-et-al-2023-Cereb-Circ-Cogn-Behav.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                      style={{whiteSpace: `nowrap`}}
+                    >
+                      pdf&thinsp;
+                      <LinkExternalIcon verticalAlign="middle" />
+                    </Link>
+                  </li>
+
+                  <li>
+                    R. Borchert, T. Azevedo, A. Badhwar, J. Bernal, M. Betts, R. Bruffaerts, M. Burkhart, I. Dewachter,
+                    &hellip;, D. Llewellyn, M. Veldsman, &amp; T. Rittman.{' '}
+                    <Link
+                      href="https://doi.org/10.1002/alz.13412"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                    >
+                      Artificial intelligence for diagnostic and prognostic neuroimaging in dementia: a systematic
+                      review.
+                    </Link>{' '}
+                    Alzheimer's &amp; Dementia 19 (2023)&ensp;
+                    <Link
+                      href="/pubs/Borchert-et-al-2023-Alzheimers-Dement.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                      style={{whiteSpace: `nowrap`}}
+                    >
+                      pdf&thinsp;
+                      <LinkExternalIcon verticalAlign="middle" />
+                    </Link>
+                  </li>
+
+                  <li>
                     M. Burkhart.{' '}
                     <Link
                       href="https://doi.org/10.1017/S0013091522000499"
@@ -155,6 +205,98 @@ export default function Home() {
                   </li>
 
                   <li>
+                    M. Burkhart &amp; G. Ruiz.{' '}
+                    <Link
+                      href="https://doi.org/10.1007/978-3-031-08754-7_1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                    >
+                      Neuroevolutionary feature representations for causal inference.
+                    </Link>{' '}
+                    Computational Science &ndash; ICCS 2022&ensp;
+                    <Link
+                      href="/pubs/Burkhart-Ruiz-2022-Comput-Sci.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                      style={{whiteSpace: `nowrap`}}
+                    >
+                      pdf&thinsp;
+                      <LinkExternalIcon verticalAlign="middle" />
+                    </Link>
+                  </li>
+
+                  <li>
+                    M. Burkhart.{' '}
+                    <Link
+                      href="https://doi.org/10.1007/978-3-030-77964-1_22"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                    >
+                      Discriminative Bayesian filtering for the semi-supervised augmentation of sequential observation
+                      data.
+                    </Link>{' '}
+                    Computational Science &ndash; ICCS 2021&ensp;
+                    <Link
+                      href="https://mathscinet.ams.org/mathscinet-getitem?mr=4371656"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                      style={{whiteSpace: `nowrap`}}
+                    >
+                      MR4371656&thinsp;
+                      <LinkExternalIcon verticalAlign="middle" />
+                    </Link>
+                    &ensp;
+                    <Link
+                      href="/pubs/Burkhart-2021-Comput-Sci.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                      style={{whiteSpace: `nowrap`}}
+                    >
+                      pdf&thinsp;
+                      <LinkExternalIcon verticalAlign="middle" />
+                    </Link>
+                  </li>
+
+                  <li>
+                    M. Burkhart &amp; K. Shan.{' '}
+                    <Link
+                      href="https://doi.org/10.1007/978-3-030-50420-5_22"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                    >
+                      Deep low-density separation for semi-supervised classification.
+                    </Link>{' '}
+                    Computational Science &ndash; ICCS 2020&ensp;
+                    <Link
+                      href="https://mathscinet.ams.org/mathscinet-getitem?mr=4152505"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                      style={{whiteSpace: `nowrap`}}
+                    >
+                      MR4152505&thinsp;
+                      <LinkExternalIcon verticalAlign="middle" />
+                    </Link>
+                    &ensp;
+                    <Link
+                      href="/pubs/Burkhart-Shan-2020-Comput-Sci.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                      style={{whiteSpace: `nowrap`}}
+                    >
+                      pdf&thinsp;
+                      <LinkExternalIcon verticalAlign="middle" />
+                    </Link>
+                  </li>
+
+                  <li>
                     M. Burkhart, D. Brandman, B. Franco, L. Hochberg, &amp; M. Harrison.{' '}
                     <Link
                       href="https://doi.org/10.1162/neco_a_01275"
@@ -179,6 +321,63 @@ export default function Home() {
                     &ensp;
                     <Link
                       href="/pubs/Burkhart-et-al-2020-Neural-Comput.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                      style={{whiteSpace: `nowrap`}}
+                    >
+                      pdf&thinsp;
+                      <LinkExternalIcon verticalAlign="middle" />
+                    </Link>
+                  </li>
+
+                  <li>
+                    M. Burkhart &amp; K. Modarresi.{' '}
+                    <Link
+                      href="https://doi.org/10.1007/978-3-030-22741-8_42"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                    >
+                      Determining adaptive loss functions and algorithms for predictive models.
+                    </Link>{' '}
+                    Computational Science &ndash; ICCS 2019&ensp;
+                    <Link
+                      href="/pubs/Burkhart-Modarresi-2019-Comput-Sci-2.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                      style={{whiteSpace: `nowrap`}}
+                    >
+                      pdf&thinsp;
+                      <LinkExternalIcon verticalAlign="middle" />
+                    </Link>
+                  </li>
+
+                  <li>
+                    M. Burkhart &amp; K. Modarresi.{' '}
+                    <Link
+                      href="https://doi.org/10.1007/978-3-030-22741-8_43"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                    >
+                      Adaptive objective functions and distance metrics for recommendation systems.
+                    </Link>{' '}
+                    Computational Science &ndash; ICCS 2019&ensp;
+                    <Link
+                      href="https://mathscinet.ams.org/mathscinet-getitem?mr=3975427"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                      style={{whiteSpace: `nowrap`}}
+                    >
+                      MR3975427&thinsp;
+                      <LinkExternalIcon verticalAlign="middle" />
+                    </Link>
+                    &ensp;
+                    <Link
+                      href="/pubs/Burkhart-Modarresi-2019-Comput-Sci.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                       inline={true}
@@ -274,163 +473,7 @@ export default function Home() {
                 </ul>
               </Text>
 
-              <Pagehead as="h3" id="proceedings" sx={{fontWeight: `lighter`}}>
-                Conference Proceedings
-              </Pagehead>
-              <Text>
-                <ul>
-                  <li>
-                    M. Burkhart &amp; G. Ruiz.{' '}
-                    <Link
-                      href="https://doi.org/10.1007/978-3-031-08754-7_1"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      inline={true}
-                    >
-                      Neuroevolutionary feature representations for causal inference.
-                    </Link>{' '}
-                    Computational Science &ndash; ICCS 2022&ensp;
-                    <Link
-                      href="/pubs/Burkhart-Ruiz-2022-Comput-Sci.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      inline={true}
-                      style={{whiteSpace: `nowrap`}}
-                    >
-                      pdf&thinsp;
-                      <LinkExternalIcon verticalAlign="middle" />
-                    </Link>
-                  </li>
-
-                  <li>
-                    M. Burkhart.{' '}
-                    <Link
-                      href="https://doi.org/10.1007/978-3-030-77964-1_22"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      inline={true}
-                    >
-                      Discriminative Bayesian filtering for the semi-supervised augmentation of sequential observation
-                      data.
-                    </Link>{' '}
-                    Computational Science &ndash; ICCS 2021&ensp;
-                    <Link
-                      href="https://mathscinet.ams.org/mathscinet-getitem?mr=4371656"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      inline={true}
-                      style={{whiteSpace: `nowrap`}}
-                    >
-                      MR4371656&thinsp;
-                      <LinkExternalIcon verticalAlign="middle" />
-                    </Link>
-                    &ensp;
-                    <Link
-                      href="/pubs/Burkhart-2021-Comput-Sci.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      inline={true}
-                      style={{whiteSpace: `nowrap`}}
-                    >
-                      pdf&thinsp;
-                      <LinkExternalIcon verticalAlign="middle" />
-                    </Link>
-                  </li>
-
-                  <li>
-                    M. Burkhart &amp; K. Shan.{' '}
-                    <Link
-                      href="https://doi.org/10.1007/978-3-030-50420-5_22"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      inline={true}
-                    >
-                      Deep low-density separation for semi-supervised classification.
-                    </Link>{' '}
-                    Computational Science &ndash; ICCS 2020&ensp;
-                    <Link
-                      href="https://mathscinet.ams.org/mathscinet-getitem?mr=4152505"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      inline={true}
-                      style={{whiteSpace: `nowrap`}}
-                    >
-                      MR4152505&thinsp;
-                      <LinkExternalIcon verticalAlign="middle" />
-                    </Link>
-                    &ensp;
-                    <Link
-                      href="/pubs/Burkhart-Shan-2020-Comput-Sci.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      inline={true}
-                      style={{whiteSpace: `nowrap`}}
-                    >
-                      pdf&thinsp;
-                      <LinkExternalIcon verticalAlign="middle" />
-                    </Link>
-                  </li>
-
-                  <li>
-                    M. Burkhart &amp; K. Modarresi.{' '}
-                    <Link
-                      href="https://doi.org/10.1007/978-3-030-22741-8_42"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      inline={true}
-                    >
-                      Determining Adaptive Loss Functions and Algorithms for Predictive Models.
-                    </Link>{' '}
-                    Computational Science &ndash; ICCS 2019&ensp;
-                    <Link
-                      href="/pubs/Burkhart-Modarresi-2019-Comput-Sci-2.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      inline={true}
-                      style={{whiteSpace: `nowrap`}}
-                    >
-                      pdf&thinsp;
-                      <LinkExternalIcon verticalAlign="middle" />
-                    </Link>
-                  </li>
-
-                  <li>
-                    M. Burkhart &amp; K. Modarresi.{' '}
-                    <Link
-                      href="https://doi.org/10.1007/978-3-030-22741-8_43"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      inline={true}
-                    >
-                      Adaptive objective functions and distance metrics for recommendation systems.
-                    </Link>{' '}
-                    Computational Science &ndash; ICCS 2019&ensp;
-                    <Link
-                      href="https://mathscinet.ams.org/mathscinet-getitem?mr=3975427"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      inline={true}
-                      style={{whiteSpace: `nowrap`}}
-                    >
-                      MR3975427&thinsp;
-                      <LinkExternalIcon verticalAlign="middle" />
-                    </Link>
-                    &ensp;
-                    <Link
-                      href="/pubs/Burkhart-Modarresi-2019-Comput-Sci.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      inline={true}
-                      style={{whiteSpace: `nowrap`}}
-                    >
-                      pdf&thinsp;
-                      <LinkExternalIcon verticalAlign="middle" />
-                    </Link>
-                  </li>
-                </ul>
-              </Text>
-
-              <Pagehead as="h3" id="preprints" sx={{fontWeight: `lighter`}}>
+              <Pagehead as="h3" id="preprints" sx={{fontWeight: `normal`}}>
                 Preprints
               </Pagehead>
               <Text>
@@ -481,60 +524,10 @@ export default function Home() {
                       <LinkExternalIcon verticalAlign="middle" />
                     </Link>
                   </li>
-
-                  <li>
-                    R. Li, E. Harshfield, S. Bell, M. Burkhart, A. Tuladhar, S. Hilal, D. Tozer, F. Chappell, S. Makin,
-                    J. Lo, J. Wardlaw, F.-E. de Leeuw, C. Chen, Z. Kourtzi, &amp; H. Markus.{' '}
-                    <Link
-                      href="https://doi.org/10.1016/j.cccb.2023.100179"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      inline={true}
-                    >
-                      Predicting incident dementia in cerebral small vessel disease: comparison of machine learning and
-                      traditional statistical models.
-                    </Link>{' '}
-                    Cerebral Circulation &ndash; Cognition and Behavior&ensp;
-                    <Link
-                      href="/pubs/Li-et-al-2023-Cereb-Circ-Cogn-Behav.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      inline={true}
-                      style={{whiteSpace: `nowrap`}}
-                    >
-                      pdf&thinsp;
-                      <LinkExternalIcon verticalAlign="middle" />
-                    </Link>
-                  </li>
-
-                  <li>
-                    R. Borchert, T. Azevedo, A. Badhwar, J. Bernal, M. Betts, R. Bruffaerts, M. Burkhart, I. Dewachter,
-                    &hellip;, D. Llewellyn, M. Veldsman, &amp; T. Rittman.{' '}
-                    <Link
-                      href="https://doi.org/10.1002/alz.13412"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      inline={true}
-                    >
-                      Artificial intelligence for diagnostic and prognostic neuroimaging in dementia: a systematic
-                      review.
-                    </Link>{' '}
-                    Alzheimer's &amp; Dementia&ensp;
-                    <Link
-                      href="/pubs/Borchert-et-al-2023-Alzheimers-Dement.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      inline={true}
-                      style={{whiteSpace: `nowrap`}}
-                    >
-                      pdf&thinsp;
-                      <LinkExternalIcon verticalAlign="middle" />
-                    </Link>
-                  </li>
                 </ul>
               </Text>
 
-              <Pagehead as="h3" id="dissertation" sx={{fontWeight: `lighter`}}>
+              <Pagehead as="h3" id="dissertation" sx={{fontWeight: `normal`}}>
                 Dissertation
               </Pagehead>
               <Text>
@@ -574,7 +567,7 @@ export default function Home() {
                   </li>
                 </ul>
 
-                <Pagehead as="h3" id="patents" sx={{fontWeight: `lighter`}}>
+                <Pagehead as="h3" id="patents" sx={{fontWeight: `normal`}}>
                   Patents &amp; Pending
                 </Pagehead>
                 <ul>

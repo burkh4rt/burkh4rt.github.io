@@ -18,7 +18,7 @@ export const Fonts = createGlobalStyle`
              url("https://use.typekit.net/af/078c93/00000000000000003b9b1f81/27/d") format("woff");
         font-style: normal;
         font-weight: 400;
-        font-feature-settings: "kern" 1, "onum" 1;
+        font-feature-settings: "calt" 1, "kern" 1, "liga" 1, "onum" 1, "salt" 1;
         /* unicode-range: U+000-5FF;  Latin glyphs */
         font-display: block;
     }
@@ -31,7 +31,7 @@ export const Fonts = createGlobalStyle`
                url("https://use.typekit.net/af/7c22c1/00000000000000003b9b1f82/27/d") format("woff");
           font-style: italic;
           font-weight: 400;
-          font-feature-settings: "kern" 1, "onum" 1;
+          font-feature-settings: "calt" 1, "kern" 1, "liga" 1, "onum" 1, "salt" 1;
           /* unicode-range: U+000-5FF;  Latin glyphs */
           font-display: block;
     }
