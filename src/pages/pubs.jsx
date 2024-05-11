@@ -62,6 +62,30 @@ export default function Home() {
               <Text>
                 <ul>
                   <li>
+                    M. Burkhart, L. Lee, D. Vaghari, A. Toh, E. Chong, C. Chen, P. Tiňo, &amp; Z. Kourtzi.{' '}
+                    <Link
+                      href="https://doi.org/10.1038/s41598-024-60914-w"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                    >
+                      Unsupervised multimodal modeling of cognitive and brain health trajectories for early dementia
+                      prediction.
+                    </Link>{' '}
+                    Scientific Reports 14 (2024)&ensp;
+                    <Link
+                      href="/pubs/Burkhart-et-al-2024-Sci-Rep.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                      style={{whiteSpace: `nowrap`}}
+                    >
+                      pdf&thinsp;
+                      <LinkExternalIcon verticalAlign="middle" />
+                    </Link>
+                  </li>
+
+                  <li>
                     M. Burkhart &amp; G. Ruiz.{' '}
                     <Link
                       href="https://doi.org/10.1016/j.jocs.2023.102054"
