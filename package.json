@@ -6,8 +6,8 @@
   "description": "Michael's personal website",
   "dependencies": {
     "@primer/octicons-react": "^19.9.0",
-    "@primer/react": "^36.17.0",
-    "@primer/react-brand": "^0.33.0",
+    "@primer/react": "^36.19.0",
+    "@primer/react-brand": "^0.34.0",
     "@svgr/webpack": "^8.1.0",
     "deepmerge": "^4.3.1",
     "gatsby-plugin-canonical-urls": "^5.13.1",
@@ -25,7 +25,7 @@
   "devDependencies": {
     "@github/prettier-config": "^0.0.6",
     "babel-plugin-styled-components": "^2.1.4",
-    "gatsby": "^5.13.4",
+    "gatsby": "^5.13.5",
     "gatsby-plugin-html-attributes": "^1.0.5",
     "gatsby-plugin-image": "^3.13.1",
     "gatsby-plugin-sharp": "^5.13.1",
@@ -33,7 +33,7 @@
     "gh-pages": "^6.1.1",
     "prettier": "^3.2.5",
     "resolve-url-loader": "^5.0.0",
-    "sharp": "^0.33.3",
+    "sharp": "^0.33.4",
     "svgo": "^3.3.2",
     "yarn-upgrade-all": "^0.7.2"
   },

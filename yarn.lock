@@ -1636,12 +1636,12 @@ __metadata:
   dependencies:
     "@github/prettier-config": "npm:^0.0.6"
     "@primer/octicons-react": "npm:^19.9.0"
-    "@primer/react": "npm:^36.17.0"
-    "@primer/react-brand": "npm:^0.33.0"
+    "@primer/react": "npm:^36.19.0"
+    "@primer/react-brand": "npm:^0.34.0"
     "@svgr/webpack": "npm:^8.1.0"
     babel-plugin-styled-components: "npm:^2.1.4"
     deepmerge: "npm:^4.3.1"
-    gatsby: "npm:^5.13.4"
+    gatsby: "npm:^5.13.5"
     gatsby-plugin-canonical-urls: "npm:^5.13.1"
     gatsby-plugin-google-gtag: "npm:^5.13.1"
     gatsby-plugin-html-attributes: "npm:^1.0.5"
@@ -1659,7 +1659,7 @@ __metadata:
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
     resolve-url-loader: "npm:^5.0.0"
-    sharp: "npm:^0.33.3"
+    sharp: "npm:^0.33.4"
     styled-components: "npm:^6.1.11"
     svgo: "npm:^3.3.2"
     yarn-upgrade-all: "npm:^0.7.2"
@@ -1673,12 +1673,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emnapi/runtime@npm:^1.1.0":
-  version: 1.1.1
-  resolution: "@emnapi/runtime@npm:1.1.1"
+"@emnapi/runtime@npm:^1.1.1":
+  version: 1.2.0
+  resolution: "@emnapi/runtime@npm:1.2.0"
   dependencies:
     tslib: "npm:^2.4.0"
-  checksum: 10c0/c11ee57abf0ec643e64ccdace4b4fcc0b0c7b1117a191f969e84ae3669841aa90d2c17fa35b73f5a66fc0c843c8caca7bf11187faaeaa526bcfb7dbfb9b85de9
+  checksum: 10c0/7005ff8b67724c9e61b6cd79a3decbdb2ce25d24abd4d3d187472f200ee6e573329c30264335125fb136bd813aa9cf9f4f7c9391d04b07dd1e63ce0a3427be57
   languageName: node
   linkType: hard
 
@@ -1818,10 +1818,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@github/tab-container-element@npm:4.5.0":
-  version: 4.5.0
-  resolution: "@github/tab-container-element@npm:4.5.0"
-  checksum: 10c0/0428b39f794867a4938f3f381d00af2eba76d4320c1219e6aaf47137a88ec893e9c36d37fe33ea5428f8717939e769ab25ad74b2a2480ca27037ea308c14c186
+"@github/tab-container-element@npm:^4.8.0":
+  version: 4.8.0
+  resolution: "@github/tab-container-element@npm:4.8.0"
+  checksum: 10c0/5df7e691fdf70cc700a51e3c7d676bc064a59d5dcc5d9b2ff16901b4300c1515600f7afe6dc700060376ff2422abcc0ad1cc988bb148a9e164108a02922c3a4e
   languageName: node
   linkType: hard
 
@@ -2149,9 +2149,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@img/sharp-darwin-arm64@npm:0.33.3":
-  version: 0.33.3
-  resolution: "@img/sharp-darwin-arm64@npm:0.33.3"
+"@img/sharp-darwin-arm64@npm:0.33.4":
+  version: 0.33.4
+  resolution: "@img/sharp-darwin-arm64@npm:0.33.4"
   dependencies:
     "@img/sharp-libvips-darwin-arm64": "npm:1.0.2"
   dependenciesMeta:
@@ -2161,9 +2161,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@img/sharp-darwin-x64@npm:0.33.3":
-  version: 0.33.3
-  resolution: "@img/sharp-darwin-x64@npm:0.33.3"
+"@img/sharp-darwin-x64@npm:0.33.4":
+  version: 0.33.4
+  resolution: "@img/sharp-darwin-x64@npm:0.33.4"
   dependencies:
     "@img/sharp-libvips-darwin-x64": "npm:1.0.2"
   dependenciesMeta:
@@ -2229,9 +2229,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@img/sharp-linux-arm64@npm:0.33.3":
-  version: 0.33.3
-  resolution: "@img/sharp-linux-arm64@npm:0.33.3"
+"@img/sharp-linux-arm64@npm:0.33.4":
+  version: 0.33.4
+  resolution: "@img/sharp-linux-arm64@npm:0.33.4"
   dependencies:
     "@img/sharp-libvips-linux-arm64": "npm:1.0.2"
   dependenciesMeta:
@@ -2241,9 +2241,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@img/sharp-linux-arm@npm:0.33.3":
-  version: 0.33.3
-  resolution: "@img/sharp-linux-arm@npm:0.33.3"
+"@img/sharp-linux-arm@npm:0.33.4":
+  version: 0.33.4
+  resolution: "@img/sharp-linux-arm@npm:0.33.4"
   dependencies:
     "@img/sharp-libvips-linux-arm": "npm:1.0.2"
   dependenciesMeta:
@@ -2253,9 +2253,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@img/sharp-linux-s390x@npm:0.33.3":
-  version: 0.33.3
-  resolution: "@img/sharp-linux-s390x@npm:0.33.3"
+"@img/sharp-linux-s390x@npm:0.33.4":
+  version: 0.33.4
+  resolution: "@img/sharp-linux-s390x@npm:0.33.4"
   dependencies:
     "@img/sharp-libvips-linux-s390x": "npm:1.0.2"
   dependenciesMeta:
@@ -2265,9 +2265,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@img/sharp-linux-x64@npm:0.33.3":
-  version: 0.33.3
-  resolution: "@img/sharp-linux-x64@npm:0.33.3"
+"@img/sharp-linux-x64@npm:0.33.4":
+  version: 0.33.4
+  resolution: "@img/sharp-linux-x64@npm:0.33.4"
   dependencies:
     "@img/sharp-libvips-linux-x64": "npm:1.0.2"
   dependenciesMeta:
@@ -2277,9 +2277,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@img/sharp-linuxmusl-arm64@npm:0.33.3":
-  version: 0.33.3
-  resolution: "@img/sharp-linuxmusl-arm64@npm:0.33.3"
+"@img/sharp-linuxmusl-arm64@npm:0.33.4":
+  version: 0.33.4
+  resolution: "@img/sharp-linuxmusl-arm64@npm:0.33.4"
   dependencies:
     "@img/sharp-libvips-linuxmusl-arm64": "npm:1.0.2"
   dependenciesMeta:
@@ -2289,9 +2289,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@img/sharp-linuxmusl-x64@npm:0.33.3":
-  version: 0.33.3
-  resolution: "@img/sharp-linuxmusl-x64@npm:0.33.3"
+"@img/sharp-linuxmusl-x64@npm:0.33.4":
+  version: 0.33.4
+  resolution: "@img/sharp-linuxmusl-x64@npm:0.33.4"
   dependencies:
     "@img/sharp-libvips-linuxmusl-x64": "npm:1.0.2"
   dependenciesMeta:
@@ -2301,25 +2301,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@img/sharp-wasm32@npm:0.33.3":
-  version: 0.33.3
-  resolution: "@img/sharp-wasm32@npm:0.33.3"
+"@img/sharp-wasm32@npm:0.33.4":
+  version: 0.33.4
+  resolution: "@img/sharp-wasm32@npm:0.33.4"
   dependencies:
-    "@emnapi/runtime": "npm:^1.1.0"
+    "@emnapi/runtime": "npm:^1.1.1"
   conditions: cpu=wasm32
   languageName: node
   linkType: hard
 
-"@img/sharp-win32-ia32@npm:0.33.3":
-  version: 0.33.3
-  resolution: "@img/sharp-win32-ia32@npm:0.33.3"
+"@img/sharp-win32-ia32@npm:0.33.4":
+  version: 0.33.4
+  resolution: "@img/sharp-win32-ia32@npm:0.33.4"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@img/sharp-win32-x64@npm:0.33.3":
-  version: 0.33.3
-  resolution: "@img/sharp-win32-x64@npm:0.33.3"
+"@img/sharp-win32-x64@npm:0.33.4":
+  version: 0.33.4
+  resolution: "@img/sharp-win32-x64@npm:0.33.4"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -2689,6 +2689,13 @@ __metadata:
     read-package-json-fast: "npm:^3.0.0"
     which: "npm:^3.0.0"
   checksum: 10c0/8c6ab2895eb6a2f24b1cd85dc934edae2d1c02af3acfc383655857f3893ed133d393876add800600d2e1702f8b62133d7cf8da00d81a1c885cc6029ef9e8e691
+  languageName: node
+  linkType: hard
+
+"@oddbird/popover-polyfill@npm:0.4.3":
+  version: 0.4.3
+  resolution: "@oddbird/popover-polyfill@npm:0.4.3"
+  checksum: 10c0/262c6d35cda575bfc67a1b7e8ba612a1d19474f8440b297e94c69b34f9c5baa8a661f82be71d057bec42c3d282a5389bebe71d4e8aaac2546e482b12c9225abc
   languageName: node
   linkType: hard
 
@@ -3274,12 +3281,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@primer/live-region-element@npm:^0.2.0":
-  version: 0.2.0
-  resolution: "@primer/live-region-element@npm:0.2.0"
+"@primer/live-region-element@npm:^0.6.1":
+  version: 0.6.1
+  resolution: "@primer/live-region-element@npm:0.6.1"
   dependencies:
     "@lit-labs/ssr-dom-shim": "npm:^1.2.0"
-  checksum: 10c0/d611b558a2f4333ffb081ffc25472e25bd88633d31cfb113c66e05f2a396d89bd8530ce49fa0f30eabc18659be6a4a9955c6d1e7b5c98fa70c958d3563373ef7
+  checksum: 10c0/3ad709d31087a4dc3e5f40538b1ac38deb17805497ed20a34a2746851bf845dac65de51bbace099326b38394acf54e6ac73281f8cf528e1f687c7b02549f08f7
   languageName: node
   linkType: hard
 
@@ -3299,32 +3306,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@primer/react-brand@npm:^0.33.0":
-  version: 0.33.0
-  resolution: "@primer/react-brand@npm:0.33.0"
+"@primer/react-brand@npm:^0.34.0":
+  version: 0.34.0
+  resolution: "@primer/react-brand@npm:0.34.0"
   dependencies:
+    "@oddbird/popover-polyfill": "npm:0.4.3"
     "@primer/behaviors": "npm:^1.3.4"
     clsx: "npm:^1.2.1"
   peerDependencies:
     react: ">=17 <= 18"
     react-dom: ">=17 <= 18"
-  checksum: 10c0/ab33126664c8da2893ddda4ef4ec0624e8a4eef7dcce6844eaf1fd7a4dca05ae5202affd2d304cefaaad25d0a8f684383432b20cbde1d16ccb913688e119b9ba
+  checksum: 10c0/40e597d7feb9ca3a5e492f70038f23ab589c049d2515ff7f0254dceb3f93a2d5122c1f09b124300cd421921ce801b278601e5259da30bc123ce852c374044f9d
   languageName: node
   linkType: hard
 
-"@primer/react@npm:^36.17.0":
-  version: 36.17.0
-  resolution: "@primer/react@npm:36.17.0"
+"@primer/react@npm:^36.19.0":
+  version: 36.19.0
+  resolution: "@primer/react@npm:36.19.0"
   dependencies:
     "@github/combobox-nav": "npm:^2.1.5"
     "@github/markdown-toolbar-element": "npm:^2.1.0"
     "@github/paste-markdown": "npm:^1.4.0"
     "@github/relative-time-element": "npm:^4.1.2"
-    "@github/tab-container-element": "npm:4.5.0"
+    "@github/tab-container-element": "npm:^4.8.0"
     "@lit-labs/react": "npm:1.2.1"
     "@oddbird/popover-polyfill": "npm:^0.3.1"
     "@primer/behaviors": "npm:^1.5.1"
-    "@primer/live-region-element": "npm:^0.2.0"
+    "@primer/live-region-element": "npm:^0.6.1"
     "@primer/octicons-react": "npm:^19.9.0"
     "@primer/primitives": "npm:^7.16.0"
     "@styled-system/css": "npm:^5.1.5"
@@ -3360,7 +3368,7 @@ __metadata:
       optional: true
     "@types/styled-components":
       optional: true
-  checksum: 10c0/3c5cd01a0daf37bd539cd8f53cf3949e7231fd476a973bfe031457b3905e0881a86baa40c4c8c5d597b69bd33ecc2994fdaaf2991505ad48784d3912fc8dd8a8
+  checksum: 10c0/eb54c32c493e708d3ea43b1560e0b6b2ff412c03a2abe03b299b3e6f51cd65f6869346f3846fa7c568a6bacf39270d361e3aeae22a6c924af5472c3f8483fd94
   languageName: node
   linkType: hard
 
@@ -4336,7 +4344,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vercel/webpack-asset-relocator-loader@npm:^1.7.3":
+"@vercel/webpack-asset-relocator-loader@npm:1.7.3":
   version: 1.7.3
   resolution: "@vercel/webpack-asset-relocator-loader@npm:1.7.3"
   dependencies:
@@ -9187,9 +9195,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby@npm:^5.13.4":
-  version: 5.13.4
-  resolution: "gatsby@npm:5.13.4"
+"gatsby@npm:^5.13.5":
+  version: 5.13.5
+  resolution: "gatsby@npm:5.13.5"
   dependencies:
     "@babel/code-frame": "npm:^7.18.6"
     "@babel/core": "npm:^7.20.12"
@@ -9218,7 +9226,7 @@ __metadata:
     "@types/http-proxy": "npm:^1.17.11"
     "@typescript-eslint/eslint-plugin": "npm:^5.60.1"
     "@typescript-eslint/parser": "npm:^5.60.1"
-    "@vercel/webpack-asset-relocator-loader": "npm:^1.7.3"
+    "@vercel/webpack-asset-relocator-loader": "npm:1.7.3"
     acorn-loose: "npm:^8.3.0"
     acorn-walk: "npm:^8.2.0"
     address: "npm:1.2.2"
@@ -9367,7 +9375,7 @@ __metadata:
       optional: true
   bin:
     gatsby: ./cli.js
-  checksum: 10c0/1fe52e9dc94377c5766aacdcd7ff3373eec057d18ce13820329689a4fe7590b5c02b271480b0c9819591ed838e9b859fb65496ee2bca72be502092dfb3f2b73d
+  checksum: 10c0/7592d18bfb15ce870bc3e62f3647e480df8739bdfaf9308a3e290963189208fd5c331a01c82b4f46d3774e25b05eac073754afecfb2a897e1b1344f959e50420
   languageName: node
   linkType: hard
 
@@ -15218,12 +15226,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sharp@npm:^0.33.3":
-  version: 0.33.3
-  resolution: "sharp@npm:0.33.3"
+"sharp@npm:^0.33.4":
+  version: 0.33.4
+  resolution: "sharp@npm:0.33.4"
   dependencies:
-    "@img/sharp-darwin-arm64": "npm:0.33.3"
-    "@img/sharp-darwin-x64": "npm:0.33.3"
+    "@img/sharp-darwin-arm64": "npm:0.33.4"
+    "@img/sharp-darwin-x64": "npm:0.33.4"
     "@img/sharp-libvips-darwin-arm64": "npm:1.0.2"
     "@img/sharp-libvips-darwin-x64": "npm:1.0.2"
     "@img/sharp-libvips-linux-arm": "npm:1.0.2"
@@ -15232,15 +15240,15 @@ __metadata:
     "@img/sharp-libvips-linux-x64": "npm:1.0.2"
     "@img/sharp-libvips-linuxmusl-arm64": "npm:1.0.2"
     "@img/sharp-libvips-linuxmusl-x64": "npm:1.0.2"
-    "@img/sharp-linux-arm": "npm:0.33.3"
-    "@img/sharp-linux-arm64": "npm:0.33.3"
-    "@img/sharp-linux-s390x": "npm:0.33.3"
-    "@img/sharp-linux-x64": "npm:0.33.3"
-    "@img/sharp-linuxmusl-arm64": "npm:0.33.3"
-    "@img/sharp-linuxmusl-x64": "npm:0.33.3"
-    "@img/sharp-wasm32": "npm:0.33.3"
-    "@img/sharp-win32-ia32": "npm:0.33.3"
-    "@img/sharp-win32-x64": "npm:0.33.3"
+    "@img/sharp-linux-arm": "npm:0.33.4"
+    "@img/sharp-linux-arm64": "npm:0.33.4"
+    "@img/sharp-linux-s390x": "npm:0.33.4"
+    "@img/sharp-linux-x64": "npm:0.33.4"
+    "@img/sharp-linuxmusl-arm64": "npm:0.33.4"
+    "@img/sharp-linuxmusl-x64": "npm:0.33.4"
+    "@img/sharp-wasm32": "npm:0.33.4"
+    "@img/sharp-win32-ia32": "npm:0.33.4"
+    "@img/sharp-win32-x64": "npm:0.33.4"
     color: "npm:^4.2.3"
     detect-libc: "npm:^2.0.3"
     semver: "npm:^7.6.0"
@@ -15283,7 +15291,7 @@ __metadata:
       optional: true
     "@img/sharp-win32-x64":
       optional: true
-  checksum: 10c0/12f5203426595b4e64c807162a6d52358b591d25fbb414a51fe38861584759fba38485be951ed98d15be3dfe21f2def5336f78ca35bf8bbd22d88cc78ca03f2a
+  checksum: 10c0/428c5c6a84ff8968effe50c2de931002f5f30b9f263e1c026d0384e581673c13088a49322f7748114d3d9be4ae9476a74bf003a3af34743e97ef2f880d1cfe45
   languageName: node
   linkType: hard
 

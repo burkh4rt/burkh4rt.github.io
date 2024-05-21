@@ -241,13 +241,24 @@ export default function Home() {
                     </Link>
                     ,{' '}
                     <Link
-                      href="https://www.c2d3.cam.ac.uk/events/trustworthy-ai-medical-and-health-research-workshop"
+                      href="https://www.c2d3.cam.ac.uk/sites/www.c2d3.cam.ac.uk/files/attachments/2023-01/michael_burkhart_-_trustworthy_ai_workshop_-_updated.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                       inline={true}
                       style={{whiteSpace: `nowrap`}}
                     >
                       presentation&thinsp;
+                      <LinkExternalIcon verticalAlign="middle" />
+                    </Link>
+                    ,{' '}
+                    <Link
+                      href="https://doi.org/10.1038/s41598-024-60914-w"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                      style={{whiteSpace: `nowrap`}}
+                    >
+                      paper&thinsp;
                       <LinkExternalIcon verticalAlign="middle" />
                     </Link>
                     ). I also investigated how sequential inference can be applied to optimization (

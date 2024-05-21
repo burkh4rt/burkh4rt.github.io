@@ -134,7 +134,7 @@ export default function Home() {
                   eBird&thinsp;
                   <LinkExternalIcon verticalAlign="middle" />
                 </Link>
-                <Link href="https://twitter.com/burkh4rt" target="_blank" style={{whiteSpace: `nowrap`}}>
+                <Link href="https://x.com/burkh4rt" target="_blank" style={{whiteSpace: `nowrap`}}>
                   <XLogo style={{height: `0.75em`}} verticalAlign="middle" />
                   &thinsp;née twitter&thinsp;
                   <LinkExternalIcon verticalAlign="middle" />
