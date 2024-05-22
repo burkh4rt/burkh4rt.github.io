@@ -154,7 +154,18 @@ export default function Home() {
                       BrainGate
                     </Link>{' '}
                     Clinical Trial that enables participants with quadriplegia to communicate and interact with their
-                    environments in real time using mental imagery alone.
+                    environments in real time using mental imagery alone (
+                    <Link
+                      href="https://doi.org/10.1162/neco_a_01275"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                      style={{whiteSpace: `nowrap`}}
+                    >
+                      paper&thinsp;
+                      <LinkExternalIcon verticalAlign="middle" />
+                    </Link>
+                    ).
                   </Timeline.Body>
                 </Timeline.Item>
                 <Timeline.Item>
