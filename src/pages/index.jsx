@@ -68,12 +68,7 @@ export default function Home() {
       >
         <BaseStyles>
           <SplitPageLayout sx={{bg: 'canvas.default', minHeight: `100vh`}}>
-            <SplitPageLayout.Pane
-              position="start"
-              width={500}
-              divider="none"
-              // padding="condensed"
-            >
+            <SplitPageLayout.Pane position="start" width={500} divider="none" padding="normal">
               <Box height={400}>
                 <StaticImage
                   src="../images/profile_img.jpg"
@@ -114,12 +109,12 @@ export default function Home() {
               </Box>
             </SplitPageLayout.Pane>
 
-            <SplitPageLayout.Content divider="none" style={{paddingTop: 0}}>
+            <SplitPageLayout.Content divider="none" style={{paddingTop: 0}} padding="normal">
               <Pagehead as="h3" style={{paddingTop: 0, fontWeight: `normal`}}>
                 About Me
               </Pagehead>
 
-              <Timeline as="section" className="anim-fade-in" style={{maxWidth: `calc(max(75%,500px))`}}>
+              <Timeline as="section" style={{maxWidth: `calc(max(75%,500px))`}}>
                 <Timeline.Item>
                   <Timeline.Badge>
                     <Octicon icon={MortarBoardIcon} />

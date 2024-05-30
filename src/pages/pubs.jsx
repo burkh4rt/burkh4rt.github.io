@@ -177,8 +177,8 @@ export default function Home() {
                   </li>
 
                   <li>
-                    R. Li, E. Harshfield, S. Bell, M. Burkhart, A. Tuladhar, S. Hilal, D. Tozer, F. Chappell, S. Makin,
-                    J. Lo, J. Wardlaw, F.-E. de Leeuw, C. Chen, Z. Kourtzi, &amp; H. Markus,{' '}
+                    R. Li, E. Harshfield, S. Bell, M. Burkhart, A. Tuladhar, &hellip;, C. Chen, Z. Kourtzi, &amp; H.
+                    Markus,{' '}
                     <Link
                       href="https://doi.org/10.1016/j.cccb.2023.100179"
                       target="_blank"
@@ -523,7 +523,7 @@ export default function Home() {
                       rel="noopener noreferrer"
                       inline={true}
                     >
-                      Measurement and verification of building systems under uncertain data: A Gaussian process modeling
+                      Measurement and verification of building systems under uncertain data: a Gaussian process modeling
                       approach
                     </Link>
                     , Energy and Buildings 75 (2014)&ensp;&ensp;
@@ -610,7 +610,7 @@ export default function Home() {
                     >
                       A Discriminative Approach to Bayesian Filtering with Applications to Human Neural Decoding
                     </Link>
-                    , Ph.D. Dissertation, Brown University, Division of Applied Mathematics, Providence,
+                    , Ph.D. Dissertation, Division of Applied Mathematics, Brown University, Providence,
                     2019&ensp;&ensp;
                     <Link
                       href="https://mathscinet.ams.org/mathscinet-getitem?mr=4158190"
@@ -650,8 +650,7 @@ export default function Home() {
                     >
                       Causal inference via neuroevolutionary selection
                     </Link>
-                    , U.S. Patent Application #17/748,891 filed 2022, published as
-                    US&thinsp;2023/0376776&thinsp;A1&ensp;&ensp;
+                    , U.S. Patent Application #17/748,891 filed 2022, published 2023&ensp;&ensp;
                     <Link
                       href="/pubs/Burkhart-Ruiz-US20230376776A1.pdf"
                       target="_blank"
@@ -674,8 +673,7 @@ export default function Home() {
                     >
                       User classification from data via deep segmentation for semi-supervised learning
                     </Link>
-                    , U.S. Patent Application #16/681,239 filed 2019, published as US&thinsp;2021/0142152&thinsp;A1,
-                    granted 2022 as US&thinsp;11,455,518&thinsp;B2&ensp;&ensp;
+                    , U.S. Patent 11,455,518 filed 2019, granted 2022&ensp;&ensp;
                     <Link
                       href="/pubs/Burkhart-Shan-US11455518B2.pdf"
                       target="_blank"
@@ -698,8 +696,7 @@ export default function Home() {
                     >
                       Digital experience enhancement using an ensemble deep learning model
                     </Link>
-                    , U.S. Patent Application #16/375,627 filed 2019, published as US&thinsp;2020/0320382&thinsp;A1,
-                    granted 2023 as US&thinsp;11,816,562&thinsp;B2&ensp;&ensp;
+                    , U.S. Patent 11,816,562 filed 2019, granted 2023&ensp;&ensp;
                     <Link
                       href="/pubs/Burkhart-Modarresi-US11816562B2.pdf"
                       target="_blank"
