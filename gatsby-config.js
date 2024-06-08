@@ -14,7 +14,8 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,
-    'gatsby-plugin-svgr',
+    `gatsby-plugin-svgr`,
+    `gatsby-plugin-well-known`,
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
@@ -61,8 +62,6 @@ module.exports = {
         siteUrl: `https://burkh4rt.github.io`,
       },
     },
-    {
-      resolve: `gatsby-plugin-offline`,
-    },
+    `gatsby-plugin-offline`,
   ],
 }
