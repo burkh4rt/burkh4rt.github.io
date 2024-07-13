@@ -1635,13 +1635,13 @@ __metadata:
   resolution: "@burkh4rt/burkh4rt.github.io@workspace:."
   dependencies:
     "@github/prettier-config": "npm:^0.0.6"
-    "@primer/octicons-react": "npm:^19.10.0"
-    "@primer/react": "npm:^36.22.0"
-    "@primer/react-brand": "npm:^0.34.0"
+    "@primer/octicons-react": "npm:^19.11.0"
+    "@primer/react": "npm:^36.25.0"
+    "@primer/react-brand": "npm:^0.34.3"
     "@svgr/webpack": "npm:^8.1.0"
     babel-plugin-styled-components: "npm:^2.1.4"
     deepmerge: "npm:^4.3.1"
-    gatsby: "npm:^5.13.6"
+    gatsby: "npm:^5.13.7"
     gatsby-plugin-canonical-urls: "npm:^5.13.1"
     gatsby-plugin-google-gtag: "npm:^5.13.1"
     gatsby-plugin-html-attributes: "npm:^1.0.5"
@@ -1656,7 +1656,7 @@ __metadata:
     gatsby-transformer-sharp: "npm:^5.13.1"
     gh-pages: "npm:^6.1.1"
     npm-check-updates: "npm:^16.14.20"
-    prettier: "npm:^3.3.2"
+    prettier: "npm:^3.3.3"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
     resolve-url-loader: "npm:^5.0.0"
@@ -3282,21 +3282,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@primer/live-region-element@npm:^0.6.1":
-  version: 0.6.1
-  resolution: "@primer/live-region-element@npm:0.6.1"
+"@primer/live-region-element@npm:^0.7.0":
+  version: 0.7.0
+  resolution: "@primer/live-region-element@npm:0.7.0"
   dependencies:
     "@lit-labs/ssr-dom-shim": "npm:^1.2.0"
-  checksum: 10c0/3ad709d31087a4dc3e5f40538b1ac38deb17805497ed20a34a2746851bf845dac65de51bbace099326b38394acf54e6ac73281f8cf528e1f687c7b02549f08f7
+  checksum: 10c0/93436bfdac91ba12a33ce77cc70b4713309db120900bba9a238ba0cc06fd31b52b2ce16d75fa444edfecc1d52842d982df97051ba10cb4da217eda69de570256
   languageName: node
   linkType: hard
 
-"@primer/octicons-react@npm:^19.10.0":
-  version: 19.10.0
-  resolution: "@primer/octicons-react@npm:19.10.0"
+"@primer/octicons-react@npm:^19.11.0":
+  version: 19.11.0
+  resolution: "@primer/octicons-react@npm:19.11.0"
   peerDependencies:
     react: ">=16.3"
-  checksum: 10c0/ebbce47fc0f692360675fa42e81b9b7721c2b937f0ebc73aa7560714789445f28f861bea26708c4bfa24989cdb85b3771252f5adb131a5fc71f4482c454cfa38
+  checksum: 10c0/acbeaf8f5c128797b6fb061939ca2547e02a14b75a3864d39288a12abe29233f393795025337ac8ba043bb7c248c9e22b5e261f425467b7d5aa9b0c4a5b38245
   languageName: node
   linkType: hard
 
@@ -3316,9 +3316,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@primer/react-brand@npm:^0.34.0":
-  version: 0.34.0
-  resolution: "@primer/react-brand@npm:0.34.0"
+"@primer/react-brand@npm:^0.34.3":
+  version: 0.34.3
+  resolution: "@primer/react-brand@npm:0.34.3"
   dependencies:
     "@oddbird/popover-polyfill": "npm:0.4.3"
     "@primer/behaviors": "npm:^1.3.4"
@@ -3326,13 +3326,13 @@ __metadata:
   peerDependencies:
     react: ">=17 <= 18"
     react-dom: ">=17 <= 18"
-  checksum: 10c0/40e597d7feb9ca3a5e492f70038f23ab589c049d2515ff7f0254dceb3f93a2d5122c1f09b124300cd421921ce801b278601e5259da30bc123ce852c374044f9d
+  checksum: 10c0/d8a93139f3c888ffd128e38e1aa97ad85239a3ea958faec57adbf1c6af1159a624ffa90e2923e70da411bf06124967104f6841cdf8f58d685f3359ac3224ac48
   languageName: node
   linkType: hard
 
-"@primer/react@npm:^36.22.0":
-  version: 36.22.0
-  resolution: "@primer/react@npm:36.22.0"
+"@primer/react@npm:^36.25.0":
+  version: 36.25.0
+  resolution: "@primer/react@npm:36.25.0"
   dependencies:
     "@github/combobox-nav": "npm:^2.1.5"
     "@github/markdown-toolbar-element": "npm:^2.1.0"
@@ -3342,7 +3342,7 @@ __metadata:
     "@lit-labs/react": "npm:1.2.1"
     "@oddbird/popover-polyfill": "npm:^0.3.1"
     "@primer/behaviors": "npm:^1.5.1"
-    "@primer/live-region-element": "npm:^0.6.1"
+    "@primer/live-region-element": "npm:^0.7.0"
     "@primer/octicons-react": "npm:^19.9.0"
     "@primer/primitives": "npm:^7.16.0"
     "@styled-system/css": "npm:^5.1.5"
@@ -3378,7 +3378,7 @@ __metadata:
       optional: true
     "@types/styled-components":
       optional: true
-  checksum: 10c0/5c2fae65c8c27e90537e30d3ba73054125986c372ed26148410ced8d38384062a892c43abf74aac88e17d5a4722b8f311035ac40533e1571564380d7fc6d62d9
+  checksum: 10c0/a4f0fd0fc8838cd05fdaf3fd651ef827a1b80914e24443835f91e8841b1fad3007a1a268bc815629dd156ce169273f1aebe78fb2d253c9feb795538f73350318
   languageName: node
   linkType: hard
 
@@ -9214,9 +9214,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby@npm:^5.13.6":
-  version: 5.13.6
-  resolution: "gatsby@npm:5.13.6"
+"gatsby@npm:^5.13.7":
+  version: 5.13.7
+  resolution: "gatsby@npm:5.13.7"
   dependencies:
     "@babel/code-frame": "npm:^7.18.6"
     "@babel/core": "npm:^7.20.12"
@@ -9394,7 +9394,7 @@ __metadata:
       optional: true
   bin:
     gatsby: ./cli.js
-  checksum: 10c0/3790121391201edf68285a120bd48625c4f878d03fcff76e9f3badca2902c093dbae56032bc0d0bc82427682c66274ade283eafc537946a6e783943f0d6272d9
+  checksum: 10c0/8e5a206e2d2b035e68aaece92e76785a8034256cf778812c0b13f1d2fa6b96652fba225abe852fd6d3659174a5bdee091b5782e8fecbc8cd85df9a334838ba7e
   languageName: node
   linkType: hard
 
@@ -13989,12 +13989,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^3.3.2":
-  version: 3.3.2
-  resolution: "prettier@npm:3.3.2"
+"prettier@npm:^3.3.3":
+  version: 3.3.3
+  resolution: "prettier@npm:3.3.3"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 10c0/39ed27d17f0238da6dd6571d63026566bd790d3d0edac57c285fbab525982060c8f1e01955fe38134ab10f0951a6076da37f015db8173c02f14bc7f0803a384c
+  checksum: 10c0/b85828b08e7505716324e4245549b9205c0cacb25342a030ba8885aba2039a115dbcf75a0b7ca3b37bc9d101ee61fab8113fc69ca3359f2a226f1ecc07ad2e26
   languageName: node
   linkType: hard
 

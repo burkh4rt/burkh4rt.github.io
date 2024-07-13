@@ -592,6 +592,31 @@ export default function Home() {
                       <LinkExternalIcon verticalAlign="middle" />
                     </Link>
                   </li>
+
+                  <li>
+                    L. Lee, D. Vaghari, M. Burkhart, P. Tiňo, M. Montagnese, Z. Li, K. Zühlsdorff, J. Giorgio, G.
+                    Williams, E. Chong, C. Chen, B. Underwood, T. Rittman, &amp; Z. Kourtzi,{' '}
+                    <Link
+                      href="https://doi.org/10.1016/j.eclinm.2024.102725"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                    >
+                      Robust and interpretable AI-guided marker for early dementia prediction in real-world clinical
+                      settings
+                    </Link>
+                    , eClinicalMedicine (in press)&ensp;&ensp;
+                    <Link
+                      href="/pubs/Lee-Vaghari-et-al-2024-eClinicalMedicine.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                      style={{whiteSpace: `nowrap`}}
+                    >
+                      pdf&thinsp;
+                      <LinkExternalIcon verticalAlign="middle" />
+                    </Link>
+                  </li>
                 </ul>
               </Text>
 

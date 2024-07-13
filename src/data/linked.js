@@ -99,7 +99,8 @@ export default function LinkedData() {
                   "https://manifold.markets/burkh4rt",
                   "https://www.metaculus.com/accounts/profile/172761/",
                   "https://openreview.net/profile?id=~Michael_C._Burkhart1",
-                  "https://huggingface.co/burkh4rt"
+                  "https://huggingface.co/burkh4rt",
+                  "https://fatcat.wiki/creator/xgly3refozdyrhn7466pxws434"
               ],
               "image": "https://commons.wikimedia.org/wiki/File:Michael_C._Burkhart.jpg",
               "alumniOf": [

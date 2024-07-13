@@ -68,7 +68,7 @@ export default function Home() {
       >
         <BaseStyles>
           <SplitPageLayout sx={{bg: 'canvas.default', minHeight: `100vh`}}>
-            <SplitPageLayout.Pane position="start" width={500} divider="none" padding="normal" sx={{padding: `0.75em`}}>
+            <SplitPageLayout.Pane position="start" width={500} divider="none" sx={{padding: `0.75em`}}>
               <Box height={400}>
                 <StaticImage
                   src="../images/profile_img.jpg"

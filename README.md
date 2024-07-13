@@ -5,6 +5,7 @@
 To use:
 
 ```sh
+npm install --global yarn
 yarn
 yarn up -R
 yarn yarn-upgrade-all
