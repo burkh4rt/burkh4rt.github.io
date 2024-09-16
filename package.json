@@ -6,22 +6,22 @@
   "description": "Michael's personal website",
   "dependencies": {
     "@primer/octicons-react": "^19.11.0",
-    "@primer/react": "^36.25.0",
-    "@primer/react-brand": "^0.34.3",
+    "@primer/react": "^36.27.0",
+    "@primer/react-brand": "^0.40.0",
     "@svgr/webpack": "^8.1.0",
     "deepmerge": "^4.3.1",
     "gatsby-plugin-canonical-urls": "^5.13.1",
     "gatsby-plugin-google-gtag": "^5.13.1",
     "gatsby-plugin-manifest": "^5.13.1",
-    "gatsby-plugin-offline": "^6.13.2",
+    "gatsby-plugin-offline": "^6.13.3",
     "gatsby-plugin-styled-components": "^6.13.1",
     "gatsby-plugin-svgr": "^3.0.0-beta.0",
     "gatsby-plugin-well-known": "^1.0.0",
     "gatsby-source-filesystem": "^5.13.1",
-    "npm-check-updates": "^16.14.20",
+    "npm-check-updates": "^17.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "styled-components": "^6.1.11"
+    "styled-components": "^6.1.13"
   },
   "devDependencies": {
     "@github/prettier-config": "^0.0.6",
@@ -34,9 +34,9 @@
     "gh-pages": "^6.1.1",
     "prettier": "^3.3.3",
     "resolve-url-loader": "^5.0.0",
-    "sharp": "^0.33.4",
+    "sharp": "^0.33.5",
     "svgo": "^3.3.2",
-    "yarn-upgrade-all": "^0.7.2"
+    "yarn-upgrade-all": "^0.7.4"
   },
   "license": "UNLICENSED",
   "name": "@burkh4rt/burkh4rt.github.io",

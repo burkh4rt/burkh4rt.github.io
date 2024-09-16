@@ -136,7 +136,7 @@ export default function Home() {
                 </Link>
                 <Link href="https://x.com/burkh4rt" target="_blank" style={{whiteSpace: `nowrap`}}>
                   <XLogo style={{height: `0.75em`}} verticalAlign="middle" />
-                  &thinsp;née twitter&thinsp;
+                  &thinsp;
                   <LinkExternalIcon verticalAlign="middle" />
                 </Link>
                 <Link href="https://burkh4rt.tumblr.com" target="_blank" style={{whiteSpace: `nowrap`}}>

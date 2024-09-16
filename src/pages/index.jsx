@@ -292,6 +292,20 @@ export default function Home() {
                     ).
                   </Timeline.Body>
                 </Timeline.Item>
+
+                <Timeline.Item>
+                  <Timeline.Badge>
+                    <Octicon icon={GitCommitIcon} />
+                  </Timeline.Badge>
+                  <Timeline.Body sx={{fontSize: `1rem`}}>
+                    In 2024, I joined the{' '}
+                    <Link href="https://bbjlab.com" target="_blank" rel="noopener noreferrer" inline={true}>
+                      Beaulieu-Jones Lab
+                    </Link>{' '}
+                    at the University of Chicago to continue working to improve machine learning for healthcare
+                    applications.
+                  </Timeline.Body>
+                </Timeline.Item>
               </Timeline>
 
               <Box height={10} />

@@ -1,6 +1,6 @@
-/**
- * Cf.: https://www.gatsbyjs.org/docs/gatsby-config/
- */
+/*
+Cf.: https://www.gatsbyjs.org/docs/gatsby-config/
+*/
 
 module.exports = {
   siteMetadata: {
@@ -47,12 +47,12 @@ module.exports = {
         description: `Snippets from work and life, with links`,
         lang: `en`,
         start_url: `/`,
-        icon: `src/logos/m.svg`,
+        icon: `static/m.svg`,
         icon_options: {
           purpose: `any maskable`,
         },
-        background_color: `#85b09a`,
-        theme_color: `#85b09a`,
+        background_color: `#800000`,
+        theme_color: `#800000`,
         display: `standalone`,
       },
     },

@@ -37,6 +37,8 @@ export default function LinkedData() {
                   "https://dblp.uni-trier.de/pid/223/5859.html",
                   "https://app.dimensions.ai/details/entities/publication/author/ur.010351326437.47",
                   "https://github.com/burkh4rt",
+                  "https://gitlab.com/burkh4rt",
+                  "https://bitbucket.org/burkh4rt/",
                   "https://www.google.com/search?kgmid=/g/11fkdtqf1m",
                   "https://scholar.google.com/citations?user=OcFnA0UAAAAJ",
                   "https://cv.archives-ouvertes.fr/burkh4rt",
@@ -50,7 +52,7 @@ export default function LinkedData() {
                   "https://openlibrary.org/works/OL9118704A",
                   "https://openalex.org/A5005277906",
                   "https://orcid.org/0000-0002-2772-5840",
-                  "https://www.webofscience.com/wos/author/record/1647191"
+                  "https://www.webofscience.com/wos/author/record/KRR-0007-2024"
                   "https://www.researchgate.net/profile/Michael-Burkhart-2",
                   "https://www.scienceopen.com/user/32247102-0224-4f91-80cc-94e7fbc3256f",
                   "https://www.scopus.com/authid/detail.uri?authorId=56094628500",
@@ -71,7 +73,6 @@ export default function LinkedData() {
                   "https://www.c2d3.cam.ac.uk/directory/16451/michael-burkhart",
                   "https://neuroscience.cam.ac.uk/member/burkh4rt/",
                   "https://gitlab.developers.cam.ac.uk/mcb93",
-                  "https://gitlab.com/burkh4rt",
                   "https://mcb93.user.srcf.net",
                   "https://www.last.fm/user/burkh4rt",
                   "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=5871438",
@@ -100,7 +101,8 @@ export default function LinkedData() {
                   "https://www.metaculus.com/accounts/profile/172761/",
                   "https://openreview.net/profile?id=~Michael_C._Burkhart1",
                   "https://huggingface.co/burkh4rt",
-                  "https://fatcat.wiki/creator/xgly3refozdyrhn7466pxws434"
+                  "https://fatcat.wiki/creator/xgly3refozdyrhn7466pxws434",
+                  "https://directory.uchicago.edu/individuals/1340604024"
               ],
               "image": "https://commons.wikimedia.org/wiki/File:Michael_C._Burkhart.jpg",
               "alumniOf": [
