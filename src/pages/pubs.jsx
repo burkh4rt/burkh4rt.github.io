@@ -572,6 +572,29 @@ export default function Home() {
               <Text>
                 <ul>
                   <li>
+                    E. G. Woo, M. Burkhart, E. Alsentzer, &amp; B. Beaulieu-Jones,{' '}
+                    <Link
+                      href="https://doi.org/10.1101/2024.09.27.24314517"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                    >
+                      Synthetic data distillation enables the extraction of clinical information at scale
+                    </Link>
+                    , medRxiv 2024.09.27.24314517&ensp;&ensp;
+                    <Link
+                      href="/pubs/Woo-Burkhart-et-al-2024-medRxiv.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                      style={{whiteSpace: `nowrap`}}
+                    >
+                      pdf&thinsp;
+                      <LinkExternalIcon verticalAlign="middle" />
+                    </Link>
+                  </li>
+
+                  <li>
                     M. Burkhart,{' '}
                     <Link
                       href="https://doi.org/10.1017/prm.2023.96"

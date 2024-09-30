@@ -1637,7 +1637,7 @@ __metadata:
     "@github/prettier-config": "npm:^0.0.6"
     "@primer/octicons-react": "npm:^19.11.0"
     "@primer/react": "npm:^36.27.0"
-    "@primer/react-brand": "npm:^0.40.0"
+    "@primer/react-brand": "npm:^0.40.1"
     "@svgr/webpack": "npm:^8.1.0"
     babel-plugin-styled-components: "npm:^2.1.4"
     deepmerge: "npm:^4.3.1"
@@ -1655,7 +1655,7 @@ __metadata:
     gatsby-source-filesystem: "npm:^5.13.1"
     gatsby-transformer-sharp: "npm:^5.13.1"
     gh-pages: "npm:^6.1.1"
-    npm-check-updates: "npm:^17.1.1"
+    npm-check-updates: "npm:^17.1.3"
     prettier: "npm:^3.3.3"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
@@ -3232,9 +3232,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@primer/react-brand@npm:^0.40.0":
-  version: 0.40.0
-  resolution: "@primer/react-brand@npm:0.40.0"
+"@primer/react-brand@npm:^0.40.1":
+  version: 0.40.1
+  resolution: "@primer/react-brand@npm:0.40.1"
   dependencies:
     "@oddbird/popover-polyfill": "npm:0.4.3"
     "@primer/behaviors": "npm:^1.3.4"
@@ -3242,7 +3242,7 @@ __metadata:
   peerDependencies:
     react: ">=17 <20"
     react-dom: ">=17 <20"
-  checksum: 10c0/a31b2d40bb6328ae2c2704b0bae21456ee733a9ecd3116b8e5612dde14baffe3fae67521831a907b1e5f8ece097605f38f15faf77b3c50daa84ede4eefaeb1de
+  checksum: 10c0/d1553a06f0f2c4f9b59186c0a9f98366438e9f94509f1aafd98835fb72dca8d077e6cc887ec6867289576d3ffffe81412c3a4dee4be7a7a35f08c99df0f54edd
   languageName: node
   linkType: hard
 
@@ -12026,13 +12026,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"npm-check-updates@npm:^17.1.1":
-  version: 17.1.1
-  resolution: "npm-check-updates@npm:17.1.1"
+"npm-check-updates@npm:^17.1.3":
+  version: 17.1.3
+  resolution: "npm-check-updates@npm:17.1.3"
   bin:
     ncu: build/cli.js
     npm-check-updates: build/cli.js
-  checksum: 10c0/1988deaf8bfa8b974156653b669a52af2ef6c43073802f7f6601793bf25ff3850f33c0cf7047c4b9dc1df9c379d3457965741d6ce3c18262e8a21f4ea2235826
+  checksum: 10c0/46151330ba4e65b91d2a10c29aea52d84e6989ad2bcf37f09a4b927069ae4cd08290875971167cdb78adc61cfd5faaec8127f6f43a2542802d5dbf1b800dc63f
   languageName: node
   linkType: hard
 
