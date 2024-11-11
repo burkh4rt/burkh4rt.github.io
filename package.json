@@ -40,7 +40,7 @@
   },
   "license": "UNLICENSED",
   "name": "@burkh4rt/burkh4rt.github.io",
-  "packageManager": "yarn@4.1.1",
+  "packageManager": "yarn@4.5.1",
   "private": true,
   "prettier": "@github/prettier-config",
   "repository": {

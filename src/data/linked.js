@@ -52,7 +52,7 @@ export default function LinkedData() {
                   "https://openlibrary.org/works/OL9118704A",
                   "https://openalex.org/A5005277906",
                   "https://orcid.org/0000-0002-2772-5840",
-                  "https://www.webofscience.com/wos/author/record/KRR-0007-2024"
+                  "https://www.webofscience.com/wos/author/record/KRR-0007-2024",
                   "https://www.researchgate.net/profile/Michael-Burkhart-2",
                   "https://www.scienceopen.com/user/32247102-0224-4f91-80cc-94e7fbc3256f",
                   "https://www.scopus.com/authid/detail.uri?authorId=56094628500",
@@ -102,7 +102,8 @@ export default function LinkedData() {
                   "https://openreview.net/profile?id=~Michael_C._Burkhart1",
                   "https://huggingface.co/burkh4rt",
                   "https://fatcat.wiki/creator/xgly3refozdyrhn7466pxws434",
-                  "https://directory.uchicago.edu/individuals/1340604024"
+                  "https://directory.uchicago.edu/individuals/1340604024",
+                  "https://voices.uchicago.edu/burkh4rt/"
               ],
               "image": "https://commons.wikimedia.org/wiki/File:Michael_C._Burkhart.jpg",
               "alumniOf": [
