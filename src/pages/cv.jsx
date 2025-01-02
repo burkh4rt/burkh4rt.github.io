@@ -10,7 +10,7 @@ export const Head = () => (
     <html lang="en" />
     <title>Michael's cv</title>
     <meta http-equiv="refresh" content="0;url=https://burkh4rt.github.io/cv.pdf" />
-    <link rel="canonical" href="https://burkh4rt.github.io/cv" />
+    <link rel="canonical" href="https://burkh4rt.github.io/cv/" />
   </>
 )
 
