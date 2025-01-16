@@ -314,6 +314,16 @@ export default function Home() {
                         paper&thinsp;
                         <LinkExternalIcon verticalAlign="middle" />
                       </Link>
+                      ,{' '}
+                      <Link
+                        href="https://doi.org/10.1017/S0017089524000363"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        inline={true}
+                      >
+                        paper&thinsp;
+                        <LinkExternalIcon verticalAlign="middle" />
+                      </Link>
                       ).
                     </Text>
                   </Timeline.Body>
