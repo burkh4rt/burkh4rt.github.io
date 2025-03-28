@@ -71,12 +71,12 @@ export default function Home() {
               >
                 <Link href="https://www.linkedin.com/in/burkh4rt/" target="_blank" style={{whiteSpace: `nowrap`}}>
                   <LinkedInLogo style={{height: `0.75em`}} verticalAlign="middle" />
-                  &thinsp;LinkedIn&thinsp;
+                  &nbsp;LinkedIn&thinsp;
                   <LinkExternalIcon verticalAlign="middle" />
                 </Link>
                 <Link href="https://github.com/burkh4rt/" target="_blank" style={{whiteSpace: `nowrap`}}>
                   <GithubLogo style={{height: `0.75em`}} verticalAlign="middle" />
-                  &thinsp;Github&thinsp;
+                  &nbsp;Github&thinsp;
                   <LinkExternalIcon verticalAlign="middle" />
                 </Link>
                 <Link
@@ -85,12 +85,12 @@ export default function Home() {
                   style={{whiteSpace: `nowrap`}}
                 >
                   <GoogleScholarLogo style={{height: `0.75em`}} verticalAlign="middle" />
-                  &thinsp;Google Scholar&thinsp;
+                  &nbsp;Google Scholar&thinsp;
                   <LinkExternalIcon verticalAlign="middle" />
                 </Link>
                 <Link href="https://orcid.org/0000-0002-2772-5840" target="_blank" style={{whiteSpace: `nowrap`}}>
                   <OrcIDLogo style={{height: `0.75em`}} verticalAlign="middle" />
-                  &thinsp;OrcID&thinsp;
+                  &nbsp;OrcID&thinsp;
                   <LinkExternalIcon verticalAlign="middle" />
                 </Link>
                 <Link
@@ -99,7 +99,7 @@ export default function Home() {
                   style={{whiteSpace: `nowrap`}}
                 >
                   <AMSLogo style={{height: `0.75em`}} verticalAlign="middle" />
-                  &thinsp;MathSciNet&thinsp;
+                  &nbsp;MathSciNet&thinsp;
                   <LinkExternalIcon verticalAlign="middle" />
                 </Link>
                 <Link
@@ -108,7 +108,7 @@ export default function Home() {
                   style={{whiteSpace: `nowrap`}}
                 >
                   <ZBMathLogo style={{height: `0.75em`}} verticalAlign="middle" />
-                  &thinsp;zbMath&thinsp;
+                  &nbsp;zbMath&thinsp;
                   <LinkExternalIcon verticalAlign="middle" />
                 </Link>
                 <Link
@@ -121,13 +121,12 @@ export default function Home() {
                 </Link>
                 <Link href="https://arxiv.org/a/burkhart_m_2.html" target="_blank" style={{whiteSpace: `nowrap`}}>
                   <ArXivLogo style={{height: `0.75em`}} verticalAlign="middle" />
-                  &thinsp;arXiv&thinsp;
+                  &nbsp;arXiv&thinsp;
                   <LinkExternalIcon verticalAlign="middle" />
                 </Link>
-
                 <Link href="https://www.inaturalist.org/people/burkh4rt" target="_blank" style={{whiteSpace: `nowrap`}}>
                   <INaturalistLogo style={{height: `0.75em`}} verticalAlign="middle" />
-                  &thinsp;iNaturalist&thinsp;
+                  &nbsp;iNaturalist&thinsp;
                   <LinkExternalIcon verticalAlign="middle" />
                 </Link>
                 <Link href="https://ebird.org/profile/NDYwNzg1MA/" target="_blank" style={{whiteSpace: `nowrap`}}>
@@ -149,7 +148,7 @@ export default function Home() {
                 </Link>
                 <Link href="https://www.instagram.com/burkh4rt/" target="_blank" style={{whiteSpace: `nowrap`}}>
                   <InstagramLogo style={{height: `0.75em`}} verticalAlign="middle" />
-                  &thinsp;Instagram&thinsp;
+                  &nbsp;Instagram&thinsp;
                   <LinkExternalIcon verticalAlign="middle" />
                 </Link>
                 <Link href="https://www.instagram.com/felixity_the_cat/" target="_blank" style={{whiteSpace: `nowrap`}}>

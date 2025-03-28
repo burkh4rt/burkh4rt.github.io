@@ -70,9 +70,7 @@ export default function LinkedData() {
                   "https://scholia.toolforge.org/author/Q60057814",
                   "https://europepmc.org/authors/0000-0002-2772-5840",
                   "https://www.lens.org/lens/profile/326252578",
-                  "https://www.c2d3.cam.ac.uk/directory/16451/michael-burkhart",
-                  "https://neuroscience.cam.ac.uk/member/burkh4rt/",
-                  "https://gitlab.developers.cam.ac.uk/mcb93",
+                  "https://gitlab.developers.cam.ac.uk/-/snippets/244",
                   "https://mcb93.user.srcf.net",
                   "https://www.last.fm/user/burkh4rt",
                   "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=5871438",
@@ -103,7 +101,9 @@ export default function LinkedData() {
                   "https://huggingface.co/burkh4rt",
                   "https://fatcat.wiki/creator/xgly3refozdyrhn7466pxws434",
                   "https://directory.uchicago.edu/individuals/1340604024",
-                  "https://voices.uchicago.edu/burkh4rt/"
+                  "https://voices.uchicago.edu/burkh4rt/",
+                  "https://bento.me/burkh4rt",
+                  "https://www.youtube.com/@burkh4rt"
               ],
               "image": "https://commons.wikimedia.org/wiki/File:Michael_C._Burkhart.jpg",
               "alumniOf": [

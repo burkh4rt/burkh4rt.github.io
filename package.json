@@ -53,6 +53,7 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "prettier": "npm run format",
     "pretty": "npm run format",
+    "preview": "gatsby serve",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "deploy": "gh-pages -t -d public -b master",

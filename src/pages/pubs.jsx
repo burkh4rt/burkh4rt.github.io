@@ -62,6 +62,29 @@ export default function Home() {
               <Text>
                 <ul>
                   <li>
+                    M. Burkhart,{' '}
+                    <Link
+                      href="https://doi.org/10.1017/S0017089524000363"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                    >
+                      Actions of nilpotent groups on nilpotent groups
+                    </Link>
+                    , Glasgow Mathematical Journal 67 (2025)&ensp;&ensp;
+                    <Link
+                      href="/pubs/Burkhart-2025-Glasg-Math-J.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                      style={{whiteSpace: `nowrap`}}
+                    >
+                      pdf&thinsp;
+                      <LinkExternalIcon verticalAlign="middle" />
+                    </Link>
+                  </li>
+
+                  <li>
                     M. Burkhart, L. Lee, D. Vaghari, A. Toh, E. Chong, C. Chen, P. Tiňo, &amp; Z. Kourtzi,{' '}
                     <Link
                       href="https://doi.org/10.1038/s41598-024-60914-w"
@@ -571,29 +594,6 @@ export default function Home() {
               </Pagehead>
               <Text>
                 <ul>
-                  <li>
-                    M. Burkhart,{' '}
-                    <Link
-                      href="https://doi.org/10.1017/S0017089524000363"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      inline={true}
-                    >
-                      Actions of nilpotent groups on nilpotent groups
-                    </Link>
-                    , Glasgow Mathematical Journal (in press)&ensp;&ensp;
-                    <Link
-                      href="/pubs/Burkhart-2025-Glasg-Math-J.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      inline={true}
-                      style={{whiteSpace: `nowrap`}}
-                    >
-                      pdf&thinsp;
-                      <LinkExternalIcon verticalAlign="middle" />
-                    </Link>
-                  </li>
-
                   <li>
                     E. G. Woo, M. Burkhart, E. Alsentzer, &amp; B. Beaulieu-Jones,{' '}
                     <Link
