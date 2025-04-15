@@ -595,6 +595,64 @@ export default function Home() {
               <Text>
                 <ul>
                   <li>
+                    M. Burkhart, B. Ramadan, Z. Liao, K. Chhikara, J. Rojas, W. Parker, &amp; B. Beaulieu-Jones,{' '}
+                    <Link
+                      href="https://doi.org/10.48550/arXiv.2504.10422"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                    >
+                      Foundation models for electronic health records: representation dynamics and transferability
+                    </Link>
+                    , arXiv:2504.10422&ensp;&ensp;
+                    <Link
+                      href="https://github.com/burkh4rt/FMs-EHRs-Rep-Dynamics-and-Transfer"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                      style={{whiteSpace: `nowrap`}}
+                    >
+                      code&thinsp;
+                      <LinkExternalIcon verticalAlign="middle" />
+                    </Link>
+                    &ensp;&ensp;
+                    <Link
+                      href="/pubs/Burkhart-et-al-2025-arXiv.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                      style={{whiteSpace: `nowrap`}}
+                    >
+                      pdf&thinsp;
+                      <LinkExternalIcon verticalAlign="middle" />
+                    </Link>
+                  </li>
+
+                  <li>
+                    S. Sethi, D. Chen, T. Statchen, M. Burkhart, N. Bhandari, B. Ramadan, &amp; B. Beaulieu-Jones,{' '}
+                    <Link
+                      href="https://doi.org/10.48550/arXiv.2504.08713"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                    >
+                      ProtoECGNet: case-based interpretable deep learning for multi-label ECG classification with
+                      contrastive learning
+                    </Link>
+                    , arXiv:2504.08713&ensp;&ensp;
+                    <Link
+                      href="/pubs/Sethi-et-al-2025-arXiv.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                      style={{whiteSpace: `nowrap`}}
+                    >
+                      pdf&thinsp;
+                      <LinkExternalIcon verticalAlign="middle" />
+                    </Link>
+                  </li>
+
+                  <li>
                     E. G. Woo, M. Burkhart, E. Alsentzer, &amp; B. Beaulieu-Jones,{' '}
                     <Link
                       href="https://doi.org/10.1101/2024.09.27.24314517"
