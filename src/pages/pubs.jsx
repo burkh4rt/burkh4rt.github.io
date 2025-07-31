@@ -595,6 +595,41 @@ export default function Home() {
               <Text>
                 <ul>
                   <li>
+                    M. Burkhart, B. Ramadan, L. Solo, W. Parker, &amp; B. Beaulieu-Jones,{' '}
+                    <Link
+                      href="https://doi.org/10.48550/arXiv.2507.22798"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                    >
+                      Quantifying surprise in clinical care: detecting highly informative events in electronic health
+                      records with foundation models
+                    </Link>
+                    , arXiv:2507.22798&ensp;&ensp;
+                    <Link
+                      href="https://github.com/burkh4rt/Quantifying-Surprise-EHRs"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                      style={{whiteSpace: `nowrap`}}
+                    >
+                      code&thinsp;
+                      <LinkExternalIcon verticalAlign="middle" />
+                    </Link>
+                    &ensp;&ensp;
+                    <Link
+                      href="/pubs/Burkhart-et-al-2025-arXiv-2.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                      style={{whiteSpace: `nowrap`}}
+                    >
+                      pdf&thinsp;
+                      <LinkExternalIcon verticalAlign="middle" />
+                    </Link>
+                  </li>
+
+                  <li>
                     M. Burkhart, B. Ramadan, Z. Liao, K. Chhikara, J. Rojas, W. Parker, &amp; B. Beaulieu-Jones,{' '}
                     <Link
                       href="https://doi.org/10.48550/arXiv.2504.10422"
@@ -642,52 +677,6 @@ export default function Home() {
                     , arXiv:2504.08713&ensp;&ensp;
                     <Link
                       href="/pubs/Sethi-et-al-2025-arXiv.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      inline={true}
-                      style={{whiteSpace: `nowrap`}}
-                    >
-                      pdf&thinsp;
-                      <LinkExternalIcon verticalAlign="middle" />
-                    </Link>
-                  </li>
-
-                  <li>
-                    E. G. Woo, M. Burkhart, E. Alsentzer, &amp; B. Beaulieu-Jones,{' '}
-                    <Link
-                      href="https://doi.org/10.1101/2024.09.27.24314517"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      inline={true}
-                    >
-                      Synthetic data distillation enables the extraction of clinical information at scale
-                    </Link>
-                    , medRxiv 2024.09.27.24314517&ensp;&ensp;
-                    <Link
-                      href="/pubs/Woo-Burkhart-et-al-2024-medRxiv.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      inline={true}
-                      style={{whiteSpace: `nowrap`}}
-                    >
-                      pdf&thinsp;
-                      <LinkExternalIcon verticalAlign="middle" />
-                    </Link>
-                  </li>
-
-                  <li>
-                    M. Burkhart,{' '}
-                    <Link
-                      href="https://doi.org/10.1017/prm.2023.96"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      inline={true}
-                    >
-                      Fixed point conditions for non-coprime actions
-                    </Link>
-                    , Proceedings of the Royal Society of Edinburgh Section A: Mathematics (in press)&ensp;&ensp;
-                    <Link
-                      href="/pubs/Burkhart-2023-Proc-Roy-Soc-Edinb-Sect-A-Math.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                       inline={true}
