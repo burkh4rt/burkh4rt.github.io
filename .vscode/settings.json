@@ -1,20 +1,27 @@
 {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[markdown]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[shellscript]": {
-        "editor.defaultFormatter": "mkhl.shfmt"
-    },
-    "shellformat.useEditorConfig": true,
-    "[toml]": {
-        "editor.defaultFormatter": "tamasfe.even-better-toml"
-    }
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+  "prettier.proseWrap": "always",
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.cjs",
+  "prettier.printWidth": 79,
+  "telemetry.feedback.enabled": false,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.enableImages": true,
+  "terminal.integrated.smoothScrolling": true,
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  }
 }

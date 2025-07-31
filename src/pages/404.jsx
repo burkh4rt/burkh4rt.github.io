@@ -1,10 +1,18 @@
-import React from 'react'
+import React from "react";
 
-import {Breadcrumbs, Link, Pagehead, Text, ThemeProvider, BaseStyles, SplitPageLayout} from '@primer/react'
+import {
+  Breadcrumbs,
+  Link,
+  Pagehead,
+  Text,
+  ThemeProvider,
+  BaseStyles,
+  SplitPageLayout,
+} from "@primer/react";
 
-import {Fonts} from '../styles/fonts'
-import {customTheme} from '../styles/theme'
-import Footer from '../components/footer'
+import { Fonts } from "../styles/fonts";
+import { customTheme } from "../styles/theme";
+import Footer from "../components/footer";
 
 export const Head = () => (
   <>
@@ -15,7 +23,7 @@ export const Head = () => (
     <meta name="author" content="Michael C. Burkhart" />
     <link rel="canonical" href="https://burkh4rt.github.io/404/" />
   </>
-)
+);
 
 export default function Home() {
   return (
@@ -29,7 +37,7 @@ export default function Home() {
         preventSSRMismatch
       >
         <BaseStyles>
-          <SplitPageLayout sx={{bg: 'canvas.default', minHeight: `100vh`}}>
+          <SplitPageLayout sx={{ bg: "canvas.default", minHeight: `100vh` }}>
             <SplitPageLayout.Header>
               <Breadcrumbs>
                 <Breadcrumbs.Item href="/">home</Breadcrumbs.Item>
@@ -42,7 +50,8 @@ export default function Home() {
             <SplitPageLayout.Content>
               <Pagehead as="h3">Michael's 404</Pagehead>
               <Text>
-                You appear to be lost. This happens from time to time. Shall we head <Link href="/">home</Link>?
+                You appear to be lost. This happens from time to time. Shall we
+                head <Link href="/">home</Link>?
               </Text>
             </SplitPageLayout.Content>
 
@@ -51,5 +60,5 @@ export default function Home() {
         </BaseStyles>
       </ThemeProvider>
     </>
-  )
+  );
 }

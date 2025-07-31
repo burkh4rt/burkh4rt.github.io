@@ -19,7 +19,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: ['G-P9BKGH7JBF'],
+        trackingIds: ["G-P9BKGH7JBF"],
       },
       gtagConfig: {
         cookie_expires: 0,
@@ -64,4 +64,4 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
   ],
-}
+};

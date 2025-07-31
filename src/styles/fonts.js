@@ -1,12 +1,12 @@
-import {createGlobalStyle} from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
-import GillSansNovaBookWoff2 from '../fonts/GillSansNova-Book.woff2'
-import GillSansNovaBookWoff from '../fonts/GillSansNova-Book.woff'
-import GillSansNovaBookOtf from '../fonts/GillSansNova-Book.otf'
+import GillSansNovaBookWoff2 from "../fonts/GillSansNova-Book.woff2";
+import GillSansNovaBookWoff from "../fonts/GillSansNova-Book.woff";
+import GillSansNovaBookOtf from "../fonts/GillSansNova-Book.otf";
 
-import GillSansNovaBookItWoff2 from '../fonts/GillSansNova-BookItalic.woff2'
-import GillSansNovaBookItWoff from '../fonts/GillSansNova-BookItalic.woff'
-import GillSansNovaBookItOtf from '../fonts/GillSansNova-BookItalic.otf'
+import GillSansNovaBookItWoff2 from "../fonts/GillSansNova-BookItalic.woff2";
+import GillSansNovaBookItWoff from "../fonts/GillSansNova-BookItalic.woff";
+import GillSansNovaBookItOtf from "../fonts/GillSansNova-BookItalic.otf";
 
 export const Fonts = createGlobalStyle`
     @font-face {
@@ -35,4 +35,4 @@ export const Fonts = createGlobalStyle`
           /* unicode-range: U+000-5FF;  Latin glyphs */
           font-display: block;
     }
-`
+`;
