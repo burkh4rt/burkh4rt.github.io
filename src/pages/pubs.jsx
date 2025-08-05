@@ -693,6 +693,31 @@ export default function Home() {
               <Text>
                 <ul>
                   <li>
+                    S. Sethi, D. Chen, M. Burkhart, N. Bhandari, B. Ramadan,
+                    &amp; B. Beaulieu-Jones,{" "}
+                    <Link
+                      href="https://doi.org/10.48550/arXiv.2508.01521"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                    >
+                      Prototype learning to create refined interpretable digital
+                      phenotypes from ECGs
+                    </Link>
+                    , arXiv:2508.01521&ensp;&ensp;
+                    <Link
+                      href="/pubs/Sethi-et-al-2025-arXiv-2.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                      style={{ whiteSpace: `nowrap` }}
+                    >
+                      pdf&thinsp;
+                      <LinkExternalIcon verticalAlign="middle" />
+                    </Link>
+                  </li>
+
+                  <li>
                     M. Burkhart, B. Ramadan, L. Solo, W. Parker, &amp; B.
                     Beaulieu-Jones,{" "}
                     <Link
