@@ -693,6 +693,31 @@ export default function Home() {
               <Text>
                 <ul>
                   <li>
+                    B. Ramadan, M.-C. Liu, M. Burkhart, W. Parker, &amp; B.
+                    Beaulieu-Jones,{" "}
+                    <Link
+                      href="https://doi.org/10.1101/2025.08.09.25333360"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                    >
+                      Diagnostic codes in AI prediction models and label leakage
+                      of same-admission clinical outcomes
+                    </Link>
+                    , medRxiv:2025.08.09.25333360&ensp;&ensp;
+                    <Link
+                      href="/pubs/Ramadan-et-al-2025-medRxiv.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                      style={{ whiteSpace: `nowrap` }}
+                    >
+                      pdf&thinsp;
+                      <LinkExternalIcon verticalAlign="middle" />
+                    </Link>
+                  </li>
+
+                  <li>
                     S. Sethi, D. Chen, M. Burkhart, N. Bhandari, B. Ramadan,
                     &amp; B. Beaulieu-Jones,{" "}
                     <Link
@@ -831,6 +856,30 @@ export default function Home() {
                     , arXiv:2303.01513&ensp;&ensp;
                     <Link
                       href="/pubs/Abroshan-et-al-2023-arXiv.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                      style={{ whiteSpace: `nowrap` }}
+                    >
+                      pdf&thinsp;
+                      <LinkExternalIcon verticalAlign="middle" />
+                    </Link>
+                  </li>
+
+                  <li>
+                    M. Burkhart,{" "}
+                    <Link
+                      href="https://doi.org/10.48550/arXiv.1209.3357"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      inline={true}
+                    >
+                      Linear transformations &amp; the multivariate generating
+                      function
+                    </Link>
+                    , arXiv:1209.3357&ensp;&ensp;
+                    <Link
+                      href="/pubs/Burkhart-2012-arXiv.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                       inline={true}
