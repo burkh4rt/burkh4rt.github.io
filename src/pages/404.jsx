@@ -3,7 +3,7 @@ import React from "react";
 import {
   Breadcrumbs,
   Link,
-  Pagehead,
+  PageHeader,
   Text,
   ThemeProvider,
   BaseStyles,
@@ -48,7 +48,7 @@ export default function Home() {
             </SplitPageLayout.Header>
 
             <SplitPageLayout.Content>
-              <Pagehead as="h3">Michael's 404</Pagehead>
+              <PageHeader as="h3">Michael's 404</PageHeader>
               <Text>
                 You appear to be lost. This happens from time to time. Shall we
                 head <Link href="/">home</Link>?

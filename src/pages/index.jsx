@@ -1,10 +1,8 @@
 import React from "react";
-import { StaticImage } from "gatsby-plugin-image";
+
 import {
-  Box,
   Link,
-  Octicon,
-  Pagehead,
+  PageHeader,
   Timeline,
   Heading,
   SubNav,
@@ -20,10 +18,11 @@ import {
   LinkExternalIcon,
 } from "@primer/octicons-react";
 
-import LinkedData from "../data/linked";
+import LinkedData from "../data/linked.jsx";
 import { Fonts } from "../styles/fonts";
 import { customTheme } from "../styles/theme";
 import Footer from "../components/footer";
+import ProfileImg from "../images/profile_img.jpg";
 
 import { ReactComponent as LinkedInLogo } from "../logos/linkedin-logo.svg";
 import { ReactComponent as GithubLogo } from "../logos/github-logo.svg";
@@ -107,23 +106,25 @@ export default function Home() {
               divider="none"
               sx={{ padding: `0.75em` }}
             >
-              <Box height={400}>
-                <StaticImage
-                  src="../images/profile_img.jpg"
+              <div height={400}>
+                <img
+                  src={ProfileImg}
                   alt="photo of Michael C. Burkhart"
-                  aspectRatio={1}
                   width={300}
                   height={300}
-                  style={{ borderRadius: `50%` }}
-                  formats={["auto", "webp", "avif"]}
-                  placeholder="blurred"
+                  style={{
+                    borderRadius: `50%`,
+                    aspectRatio: 1,
+                    objectFit: "cover",
+                  }}
+                  loading="lazy"
                 />
-                <Box height={10} />
+                <div height={10} />
 
                 <Heading as="h1" sx={{ fontWeight: `normal` }}>
                   Michael C. Burkhart
                 </Heading>
-                <Box height={10} />
+                <div height={10} />
 
                 <SubNav aria-label="Main">
                   <SubNav.Links>
@@ -159,25 +160,22 @@ export default function Home() {
                     </SubNav.Link>
                   </SubNav.Links>
                 </SubNav>
-              </Box>
+              </div>
             </SplitPageLayout.Pane>
 
             <SplitPageLayout.Content
               divider="none"
-              style={{ paddingTop: 0 }}
+              sx={{ paddingTop: 0 }}
               padding="normal"
             >
-              <Pagehead as="h3" style={{ paddingTop: 0, fontWeight: `normal` }}>
+              <PageHeader as="h3" sx={{ paddingTop: 0, fontWeight: `normal` }}>
                 About Me
-              </Pagehead>
+              </PageHeader>
 
-              <Timeline
-                as="section"
-                style={{ maxWidth: `calc(max(75%,500px))` }}
-              >
+              <Timeline as="section" sx={{ maxWidth: `calc(max(75%,500px))` }}>
                 <Timeline.Item>
                   <Timeline.Badge>
-                    <Octicon icon={MortarBoardIcon} />
+                    <MortarBoardIcon />
                   </Timeline.Badge>
                   <Timeline.Body sx={{ fontSize: `1rem` }}>
                     I earned my Ph.D. in 2019 from Brown University's Division
@@ -187,12 +185,12 @@ export default function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                       inline={true}
-                      style={{ whiteSpace: `nowrap` }}
+                      sx={{ whiteSpace: `nowrap` }}
                     >
                       dissertation&thinsp;
                       <LinkExternalIcon verticalAlign="middle" />
                     </Link>{" "}
-                    <Text style={{ whiteSpace: `nowrap` }}>
+                    <Text sx={{ whiteSpace: `nowrap` }}>
                       (
                       <Link
                         href="https://doi.org/10.6084/m9.figshare.8085749"
@@ -221,7 +219,7 @@ export default function Home() {
                     Clinical Trial that enables participants with quadriplegia
                     to communicate and interact with their environments in real
                     time using mental imagery alone{" "}
-                    <Text style={{ whiteSpace: `nowrap` }}>
+                    <Text sx={{ whiteSpace: `nowrap` }}>
                       (
                       <Link
                         href="https://doi.org/10.1162/neco_a_01275"
@@ -238,7 +236,7 @@ export default function Home() {
                 </Timeline.Item>
                 <Timeline.Item>
                   <Timeline.Badge>
-                    <Octicon icon={GitCommitIcon} />
+                    <GitCommitIcon />
                   </Timeline.Badge>
                   <Timeline.Body sx={{ fontSize: `1rem` }}>
                     I then spent three years working as a machine learning
@@ -246,7 +244,7 @@ export default function Home() {
                     customer segmentation and causal inference. I also
                     supervised intern projects in representation learning for
                     semi-supervised classification{" "}
-                    <Text style={{ whiteSpace: `nowrap` }}>
+                    <Text sx={{ whiteSpace: `nowrap` }}>
                       (
                       <Link
                         href="https://doi.org/10.1007/978-3-030-50420-5_22"
@@ -259,7 +257,7 @@ export default function Home() {
                       </Link>
                       ,
                     </Text>{" "}
-                    <Text style={{ whiteSpace: `nowrap` }}>
+                    <Text sx={{ whiteSpace: `nowrap` }}>
                       <Link
                         href="https://patents.google.com/patent/US11455518B2"
                         target="_blank"
@@ -272,7 +270,7 @@ export default function Home() {
                       )
                     </Text>{" "}
                     and causal inference{" "}
-                    <Text style={{ whiteSpace: `nowrap` }}>
+                    <Text sx={{ whiteSpace: `nowrap` }}>
                       (
                       <Link
                         href="https://doi.org/10.1016/j.jocs.2023.102054"
@@ -285,7 +283,7 @@ export default function Home() {
                       </Link>
                       ,
                     </Text>{" "}
-                    <Text style={{ whiteSpace: `nowrap` }}>
+                    <Text sx={{ whiteSpace: `nowrap` }}>
                       <Link
                         href="https://patents.google.com/patent/US20230376776A1"
                         target="_blank"
@@ -297,7 +295,7 @@ export default function Home() {
                       </Link>
                       ,
                     </Text>{" "}
-                    <Text style={{ whiteSpace: `nowrap` }}>
+                    <Text sx={{ whiteSpace: `nowrap` }}>
                       <Link
                         href="https://doi.org/10.6084/m9.figshare.24990633"
                         target="_blank"
@@ -313,46 +311,46 @@ export default function Home() {
                 </Timeline.Item>
                 <Timeline.Item>
                   <Timeline.Badge>
-                    <Octicon icon={GitCommitIcon} />
+                    <GitCommitIcon />
                   </Timeline.Badge>
                   <Timeline.Body sx={{ fontSize: `1rem` }}>
                     In 2021, I joined Cambridge University as a research
                     associate to develop machine learning-based approaches for
                     the early diagnosis of neurodegenerative disease{" "}
-                    <Text style={{ whiteSpace: `nowrap` }}>
+                    <Text sx={{ whiteSpace: `nowrap` }}>
                       (
                       <Link
                         href="https://doi.org/10.1002/alz.062434"
                         target="_blank"
                         rel="noopener noreferrer"
                         inline={true}
-                        style={{ whiteSpace: `nowrap` }}
+                        sx={{ whiteSpace: `nowrap` }}
                       >
                         abstract&thinsp;
                         <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                       ,
                     </Text>{" "}
-                    <Text style={{ whiteSpace: `nowrap` }}>
+                    <Text sx={{ whiteSpace: `nowrap` }}>
                       <Link
                         href="https://www.c2d3.cam.ac.uk/sites/www.c2d3.cam.ac.uk/files/attachments/2023-01/michael_burkhart_-_trustworthy_ai_workshop_-_updated.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         inline={true}
-                        style={{ whiteSpace: `nowrap` }}
+                        sx={{ whiteSpace: `nowrap` }}
                       >
                         presentation&thinsp;
                         <LinkExternalIcon verticalAlign="middle" />
                       </Link>
                       ,
                     </Text>{" "}
-                    <Text style={{ whiteSpace: `nowrap` }}>
+                    <Text sx={{ whiteSpace: `nowrap` }}>
                       <Link
                         href="https://doi.org/10.1038/s41598-024-60914-w"
                         target="_blank"
                         rel="noopener noreferrer"
                         inline={true}
-                        style={{ whiteSpace: `nowrap` }}
+                        sx={{ whiteSpace: `nowrap` }}
                       >
                         paper&thinsp;
                         <LinkExternalIcon verticalAlign="middle" />
@@ -361,7 +359,7 @@ export default function Home() {
                     </Text>{" "}
                     I also investigated how sequential inference can be applied
                     to optimization{" "}
-                    <Text style={{ whiteSpace: `nowrap` }}>
+                    <Text sx={{ whiteSpace: `nowrap` }}>
                       (
                       <Link
                         href="https://doi.org/10.1007/s11590-022-01895-5"
@@ -376,7 +374,7 @@ export default function Home() {
                     </Text>{" "}
                     and conditions for non-coprime actions in abstract groups to
                     have fixed points{" "}
-                    <Text style={{ whiteSpace: `nowrap` }}>
+                    <Text sx={{ whiteSpace: `nowrap` }}>
                       (
                       <Link
                         href="https://doi.org/10.1017/prm.2023.96"
@@ -404,7 +402,7 @@ export default function Home() {
 
                 <Timeline.Item>
                   <Timeline.Badge>
-                    <Octicon icon={GitCommitIcon} />
+                    <GitCommitIcon />
                   </Timeline.Badge>
                   <Timeline.Body sx={{ fontSize: `1rem` }}>
                     In 2024, I joined the{" "}
@@ -422,11 +420,11 @@ export default function Home() {
                 </Timeline.Item>
               </Timeline>
 
-              <Box height={10} />
+              <div height={10} />
               <SubNav
                 aria-label="Main"
                 padding="normal"
-                style={{
+                sx={{
                   display: `flex`,
                   flexDirection: `row`,
                   justifyContent: `flex-end`,
@@ -457,7 +455,7 @@ export default function Home() {
                   </SubNav.Link>
                 </SubNav.Links>
               </SubNav>
-              <Box height={10} />
+              <div height={10} />
             </SplitPageLayout.Content>
 
             <Footer />

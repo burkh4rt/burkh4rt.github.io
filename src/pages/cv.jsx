@@ -1,6 +1,6 @@
-/* 
-redirects https://burkh4rt.github.io/cv 
-to https://burkh4rt.github.io/cv.pdf 
+/*
+redirects https://burkh4rt.github.io/cv
+to https://burkh4rt.github.io/cv.pdf
 */
 
 import React from "react";
