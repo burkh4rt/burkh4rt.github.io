@@ -1,0 +1,70 @@
+@import "@primer/primitives/dist/css/base/size/size.css";
+@import "@primer/primitives/dist/css/base/typography/typography.css";
+@import "@primer/primitives/dist/css/base/motion/motion.css";
+@import "@primer/primitives/dist/css/functional/size/border.css";
+@import "@primer/primitives/dist/css/functional/size/breakpoints.css";
+@import "@primer/primitives/dist/css/functional/size/size-coarse.css";
+@import "@primer/primitives/dist/css/functional/size/size-fine.css";
+@import "@primer/primitives/dist/css/functional/size/size.css";
+@import "@primer/primitives/dist/css/functional/size/viewport.css";
+@import "@primer/primitives/dist/css/functional/typography/typography.css";
+
+@import "@primer/primitives/dist/css/functional/themes/light.css";
+@import "@primer/primitives/dist/css/functional/themes/dark-dimmed.css";
+
+@font-face {
+  font-family: "Gill Sans Nova";
+  src:
+    url("./fonts/GillSansNova-Book.otf") format("opentype"),
+    url("./fonts/GillSansNova-Book.woff2") format("woff2"),
+    url("./fonts/GillSansNova-Book.woff") format("woff"),
+    url("https://use.typekit.net/af/078c93/00000000000000003b9b1f81/27/l")
+      format("woff2"),
+    url("https://use.typekit.net/af/078c93/00000000000000003b9b1f81/27/d")
+      format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-feature-settings:
+    "calt" 1,
+    "kern" 1,
+    "liga" 1,
+    "onum" 1,
+    "salt" 1;
+  unicode-range: U+000-5FF, U+0148; /* Latin glyphs */
+  font-display: block;
+}
+@font-face {
+  font-family: "Gill Sans Nova";
+  src:
+    url("./fonts/GillSansNova-Book.woff2") format("woff2"),
+    url("./fonts/GillSansNova-Book.woff") format("woff"),
+    url("./fonts/GillSansNova-BookItalic.otf") format("opentype"),
+    url("https://use.typekit.net/af/7c22c1/00000000000000003b9b1f82/27/l")
+      format("woff2"),
+    url("https://use.typekit.net/af/7c22c1/00000000000000003b9b1f82/27/d")
+      format("woff");
+  font-style: italic;
+  font-weight: 400;
+  font-feature-settings:
+    "calt" 1,
+    "kern" 1,
+    "liga" 1,
+    "onum" 1,
+    "salt" 1;
+  /* unicode-range: U+000-5FF;  Latin glyphs */
+  font-display: block;
+}
+
+* {
+  font-family:
+    Gill Sans Nova,
+    Gill Sans,
+    Helvetica,
+    Arial,
+    sans-serif;
+}
+
+[class^="prc-PageLayout-Pane-"] {
+  width: inherit !important;
+  overflow: visible !important;
+}
