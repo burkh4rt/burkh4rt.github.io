@@ -84,7 +84,7 @@ export default function Home() {
                   </Link>
                   &ensp;&ensp;
                   <Link
-                    href="/pubs/Burkhart-2025-Glasg-Math-J.pdf"
+                    href="pubs/Burkhart-2025-Glasg-Math-J.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -119,7 +119,7 @@ export default function Home() {
                   </Link>
                   &ensp;&ensp;
                   <Link
-                    href="/pubs/Burkhart-2025-Proc-Roy-Soc-Edinb-Sect-A-Math.pdf"
+                    href="pubs/Burkhart-2025-Proc-Roy-Soc-Edinb-Sect-A-Math.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -143,7 +143,7 @@ export default function Home() {
                   </Link>
                   , npj Digital Medicine 8 (2025)&ensp;&ensp;
                   <Link
-                    href="/pubs/Woo-Burkhart-et-al-2025-npj-Digit-Med.pdf"
+                    href="pubs/Woo-Burkhart-et-al-2025-npj-Digit-Med.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -179,7 +179,7 @@ export default function Home() {
                   </Link>
                   &ensp;&ensp;
                   <Link
-                    href="/pubs/Burkhart-et-al-2024-Sci-Rep.pdf"
+                    href="pubs/Burkhart-et-al-2024-Sci-Rep.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -205,7 +205,7 @@ export default function Home() {
                   </Link>
                   , eClinicalMedicine 74 (2024)&ensp;&ensp;
                   <Link
-                    href="/pubs/Lee-Vaghari-et-al-2024-eClinicalMedicine.pdf"
+                    href="pubs/Lee-Vaghari-et-al-2024-eClinicalMedicine.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -240,7 +240,7 @@ export default function Home() {
                   </Link>
                   &ensp;&ensp;
                   <Link
-                    href="/pubs/Burkhart-Ruiz-2023-J-Comput-Sci.pdf"
+                    href="pubs/Burkhart-Ruiz-2023-J-Comput-Sci.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -286,7 +286,7 @@ export default function Home() {
                   </Link>
                   &ensp;&ensp;
                   <Link
-                    href="/pubs/Burkhart-2023-Optim-Lett.pdf"
+                    href="pubs/Burkhart-2023-Optim-Lett.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -313,7 +313,7 @@ export default function Home() {
                   , Cerebral Circulation &ndash; Cognition and Behavior 5
                   (2023)&ensp;&ensp;
                   <Link
-                    href="/pubs/Li-et-al-2023-Cereb-Circ-Cogn-Behav.pdf"
+                    href="pubs/Li-et-al-2023-Cereb-Circ-Cogn-Behav.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -339,7 +339,7 @@ export default function Home() {
                   </Link>
                   , Alzheimer's &amp; Dementia 19 (2023)&ensp;&ensp;
                   <Link
-                    href="/pubs/Borchert-et-al-2023-Alzheimers-Dement.pdf"
+                    href="pubs/Borchert-et-al-2023-Alzheimers-Dement.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -376,7 +376,7 @@ export default function Home() {
                   </Link>
                   &ensp;&ensp;
                   <Link
-                    href="/pubs/Burkhart-2022-Proc-Edinb-Math-Soc.pdf"
+                    href="pubs/Burkhart-2022-Proc-Edinb-Math-Soc.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -400,7 +400,7 @@ export default function Home() {
                   </Link>
                   , Computational Science &ndash; ICCS 2022&ensp;&ensp;
                   <Link
-                    href="/pubs/Burkhart-Ruiz-2022-Comput-Sci.pdf"
+                    href="pubs/Burkhart-Ruiz-2022-Comput-Sci.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -435,7 +435,7 @@ export default function Home() {
                   </Link>
                   &ensp;&ensp;
                   <Link
-                    href="/pubs/Burkhart-2021-Comput-Sci.pdf"
+                    href="pubs/Burkhart-2021-Comput-Sci.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -470,7 +470,7 @@ export default function Home() {
                   </Link>
                   &ensp;&ensp;
                   <Link
-                    href="/pubs/Burkhart-Shan-2020-Comput-Sci.pdf"
+                    href="pubs/Burkhart-Shan-2020-Comput-Sci.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -517,7 +517,7 @@ export default function Home() {
                   </Link>
                   &ensp;&ensp;
                   <Link
-                    href="/pubs/Burkhart-et-al-2020-Neural-Comput.pdf"
+                    href="pubs/Burkhart-et-al-2020-Neural-Comput.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -541,7 +541,7 @@ export default function Home() {
                   </Link>
                   , Computational Science &ndash; ICCS 2019&ensp;&ensp;
                   <Link
-                    href="/pubs/Burkhart-Modarresi-2019-Comput-Sci-2.pdf"
+                    href="pubs/Burkhart-Modarresi-2019-Comput-Sci-2.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -576,7 +576,7 @@ export default function Home() {
                   </Link>
                   &ensp;&ensp;
                   <Link
-                    href="/pubs/Burkhart-Modarresi-2019-Comput-Sci.pdf"
+                    href="pubs/Burkhart-Modarresi-2019-Comput-Sci.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -612,7 +612,7 @@ export default function Home() {
                   </Link>
                   &ensp;&ensp;
                   <Link
-                    href="/pubs/Brandman-et-al-2018-Neural-Comput.pdf"
+                    href="pubs/Brandman-et-al-2018-Neural-Comput.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -638,7 +638,7 @@ export default function Home() {
                   </Link>
                   , Journal of Neural Engineering 15 (2018)&ensp;&ensp;
                   <Link
-                    href="/pubs/Brandman-et-al-2018-J-Neural-Eng.pdf"
+                    href="pubs/Brandman-et-al-2018-J-Neural-Eng.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -662,7 +662,7 @@ export default function Home() {
                   </Link>
                   , Energy and Buildings 75 (2014)&ensp;&ensp;
                   <Link
-                    href="/pubs/Burkhart-et-al-2014-Energy-Build.pdf"
+                    href="pubs/Burkhart-et-al-2014-Energy-Build.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -694,7 +694,7 @@ export default function Home() {
                   </Link>
                   , medRxiv:2025.08.09.25333360&ensp;&ensp;
                   <Link
-                    href="/pubs/Ramadan-et-al-2025-medRxiv.pdf"
+                    href="pubs/Ramadan-et-al-2025-medRxiv.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -719,7 +719,7 @@ export default function Home() {
                   </Link>
                   , arXiv:2508.01521&ensp;&ensp;
                   <Link
-                    href="/pubs/Sethi-et-al-2025-arXiv-2.pdf"
+                    href="pubs/Sethi-et-al-2025-arXiv-2.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -756,7 +756,7 @@ export default function Home() {
                   </Link>
                   &ensp;&ensp;
                   <Link
-                    href="/pubs/Burkhart-et-al-2025-arXiv-2.pdf"
+                    href="pubs/Burkhart-et-al-2025-arXiv-2.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -792,7 +792,7 @@ export default function Home() {
                   </Link>
                   &ensp;&ensp;
                   <Link
-                    href="/pubs/Burkhart-et-al-2025-arXiv.pdf"
+                    href="pubs/Burkhart-et-al-2025-arXiv.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -817,7 +817,7 @@ export default function Home() {
                   </Link>
                   , arXiv:2504.08713&ensp;&ensp;
                   <Link
-                    href="/pubs/Sethi-et-al-2025-arXiv.pdf"
+                    href="pubs/Sethi-et-al-2025-arXiv.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -843,7 +843,7 @@ export default function Home() {
                   </Link>
                   , arXiv:2303.01513&ensp;&ensp;
                   <Link
-                    href="/pubs/Abroshan-et-al-2023-arXiv.pdf"
+                    href="pubs/Abroshan-et-al-2023-arXiv.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -867,7 +867,7 @@ export default function Home() {
                   </Link>
                   , arXiv:1209.3357&ensp;&ensp;
                   <Link
-                    href="/pubs/Burkhart-2012-arXiv.pdf"
+                    href="pubs/Burkhart-2012-arXiv.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -910,7 +910,7 @@ export default function Home() {
                   </Link>
                   &ensp;&ensp;
                   <Link
-                    href="/pubs/Burkhart-2019.pdf"
+                    href="pubs/Burkhart-2019.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -939,7 +939,7 @@ export default function Home() {
                   , U.S. Patent Application #17/748,891 filed 2022, published
                   2023&ensp;&ensp;
                   <Link
-                    href="/pubs/Burkhart-Ruiz-US20230376776A1.pdf"
+                    href="pubs/Burkhart-Ruiz-US20230376776A1.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -963,7 +963,7 @@ export default function Home() {
                   </Link>
                   , U.S. Patent 11,455,518 filed 2019, granted 2022&ensp;&ensp;
                   <Link
-                    href="/pubs/Burkhart-Shan-US11455518B2.pdf"
+                    href="pubs/Burkhart-Shan-US11455518B2.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -987,7 +987,7 @@ export default function Home() {
                   </Link>
                   , U.S. Patent 11,816,562 filed 2019, granted 2023&ensp;&ensp;
                   <Link
-                    href="/pubs/Burkhart-Modarresi-US11816562B2.pdf"
+                    href="pubs/Burkhart-Modarresi-US11816562B2.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
@@ -1003,6 +1003,7 @@ export default function Home() {
             <SubNav
               aria-label="Main"
               padding="normal"
+              paddingTop="10pt"
               sx={{ flexDirection: `row`, justifyContent: `flex-end` }}
             >
               <SubNav.Links>

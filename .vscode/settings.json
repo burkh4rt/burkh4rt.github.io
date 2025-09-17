@@ -1,18 +1,7 @@
 {
+  "cSpell.diagnosticLevel": "Hint",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[toml]": {
-    "editor.defaultFormatter": "tamasfe.even-better-toml"
-  },
   "prettier.proseWrap": "always",
   "prettier.prettierPath": ".yarn/sdks/prettier/index.cjs",
   "prettier.printWidth": 79,

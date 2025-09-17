@@ -16,9 +16,46 @@ export default defineConfig({
     svgr(),
     imagetools(),
     VitePWA({
+      includeAssets: ["**/*.otf", "**/*.woff"],
       registerType: "autoUpdate",
       devOptions: {
         enabled: true,
+      },
+      workbox: {
+        runtimeCaching: [
+          {
+            urlPattern: /\.(?:webp|jpeg|jpg|avif)$/,
+            handler: "NetworkFirst",
+            options: {
+              cacheName: "images-cache",
+              expiration: {
+                maxEntries: 100,
+                maxAgeSeconds: 60 * 60 * 24 * 365,
+              },
+            },
+          },
+          {
+            urlPattern: /cv.pdf$/,
+            handler: "NetworkFirst",
+            options: {
+              cacheName: "pdf-cache",
+              expiration: {
+                maxAgeSeconds: 60 * 60 * 24 * 365,
+              },
+            },
+          },
+          // {
+          //   urlPattern: /\.(?:otf|woff)$/,
+          //   handler: "StaleWhileRevalidate",
+          //   options: {
+          //     cacheName: "fonts-cache",
+          //     expiration: {
+          //       maxEntries: 5,
+          //       maxAgeSeconds: 60 * 60 * 24 * 365,
+          //     },
+          //   },
+          // },
+        ],
       },
     }),
   ],

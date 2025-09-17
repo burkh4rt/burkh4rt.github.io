@@ -20,7 +20,9 @@ import {
 import { Helmet } from "react-helmet";
 
 import Footer from "../components/footer";
-import ProfileImg from "../images/profile_img.jpg?w=300&format=webp";
+import ProfileAvif from "../images/profile_img.jpg?w=600&format=avif&quality=100&as=srcset";
+import ProfileWebp from "../images/profile_img.jpg?w=600&format=webp&quality=100&as=srcset";
+import ProfileJpg from "../images/profile_img.jpg?w=600&format=jpg&quality=100";
 
 import LinkedInLogo from "../logos/linkedin-logo.svg?react";
 import GithubLogo from "../logos/github-logo.svg?react";
@@ -82,32 +84,36 @@ export default function Home() {
             divider="none"
             sx={{
               padding: `0.75em`,
-              width: `500px`,
-              minWidth: "500px",
-              maxWidth: "500px",
+              width: `400px`,
+              minWidth: "400px",
+              maxWidth: "400px",
               overflow: `hidden`,
             }}
           >
-            <img
-              src={ProfileImg}
-              alt="photo of Michael C. Burkhart"
-              width={300}
-              height={300}
-              style={{
-                borderRadius: `50%`,
-                aspectRatio: 1,
-                objectFit: `cover`,
-                overflow: `visible`,
-              }}
-            />
+            <picture>
+              <source srcset={ProfileAvif} type="image/avif" />
+              <source srcset={ProfileWebp} type="image/webp" />
+              <img
+                src={ProfileJpg}
+                alt="photo of Michael C. Burkhart"
+                width={300}
+                height={300}
+                style={{
+                  borderRadius: `50%`,
+                  aspectRatio: 1,
+                  objectFit: `cover`,
+                  overflow: `visible`,
+                }}
+              />
+            </picture>
 
             <Heading
               as="h1"
               sx={{
                 fontWeight: `normal`,
-                width: `500px`,
+                width: `400px`,
                 overflow: `hidden`,
-                paddingTop: `5pt`,
+                paddingTop: `10pt`,
               }}
             >
               Michael C. Burkhart
@@ -412,6 +418,7 @@ export default function Home() {
             <SubNav
               aria-label="Main"
               padding="normal"
+              paddingTop="10pt"
               sx={{
                 display: `flex`,
                 flexDirection: `row`,
@@ -434,7 +441,7 @@ export default function Home() {
                   links
                 </SubNav.Link>
                 <SubNav.Link
-                  href="/cv.pdf"
+                  href="cv.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   sx={{ fontSize: `1rem` }}

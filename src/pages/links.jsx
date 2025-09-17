@@ -214,6 +214,7 @@ export default function Home() {
             <SubNav
               aria-label="Main"
               padding="normal"
+              paddingTop="10pt"
               sx={{ flexDirection: `row`, justifyContent: `flex-end` }}
             >
               <SubNav.Links>
