@@ -1,0 +1,1 @@
+import{j as t}from"./index-BYVmtEzm.js";const r=()=>t.jsxs(t.Fragment,{children:[t.jsx("html",{lang:"en"}),t.jsx("title",{children:"Michael's cv"}),t.jsx("meta",{"http-equiv":"refresh",content:"0;url=https://burkh4rt.github.io/cv.pdf"}),t.jsx("link",{rel:"canonical",href:"https://burkh4rt.github.io/cv/"})]});function n(){return t.jsx(t.Fragment,{})}export{r as Head,n as default};
