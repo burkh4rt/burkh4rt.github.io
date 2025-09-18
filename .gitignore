@@ -1,6 +1,8 @@
 # Idiosyncratic
-public/
+dist/*
+dev-dist/*
 .pnp.*
+src/router.ts
 
 # Logs
 logs
@@ -21,9 +23,7 @@ node_modules/
 # dotenv environment variable files
 .env*
 
-# gatsby files
 .cache/
-public
 
 # Mac files
 .DS_Store
