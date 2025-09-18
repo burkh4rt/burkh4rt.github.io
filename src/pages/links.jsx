@@ -1,5 +1,3 @@
-import React from "react";
-
 import {
   Breadcrumbs,
   Link,
@@ -12,6 +10,7 @@ import {
 import { LinkExternalIcon } from "@primer/octicons-react";
 
 import Footer from "../components/footer";
+import SNav from "../components/footer-nav-alt";
 import { Helmet } from "react-helmet";
 
 import LinkedInLogo from "../logos/linkedin-logo.svg?react";
@@ -211,18 +210,7 @@ export default function Home() {
               </Link>
             </div>
 
-            <SubNav
-              aria-label="Main"
-              padding="normal"
-              paddingTop="10pt"
-              sx={{ flexDirection: `row`, justifyContent: `flex-end` }}
-            >
-              <SubNav.Links>
-                <SubNav.Link href="/" rel="noopener noreferrer">
-                  home
-                </SubNav.Link>
-              </SubNav.Links>
-            </SubNav>
+            <SNav />
           </SplitPageLayout.Content>
 
           <Footer />

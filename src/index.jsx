@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { Routes } from "@generouted/react-router";
+import { Routes } from "@generouted/react-router/lazy";
 import { ThemeProvider, BaseStyles } from "@primer/react";
 
 import "./globals.css";

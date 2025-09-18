@@ -1,5 +1,3 @@
-import React from "react";
-
 import { Text, SplitPageLayout } from "@primer/react";
 
 import { LocationIcon } from "@primer/octicons-react";
