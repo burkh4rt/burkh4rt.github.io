@@ -16,30 +16,56 @@ export default defineConfig({
     svgr(),
     imagetools(),
     VitePWA({
-      includeAssets: ["**/*.otf", "**/*.woff"],
+      includeAssets: [
+        "**/*.otf",
+        "**/*.woff",
+        "**/*.svg",
+        "**/cv.pdf",
+        "**/*.webp",
+      ],
       registerType: "autoUpdate",
       devOptions: {
         enabled: true,
       },
+      manifest: {
+        name: "Michael Burkhart's Site",
+        short_name: "burkh4rt's homepage",
+        description: "Snippets from work and life, with links",
+        lang: "en",
+        start_url: "/",
+        background_color: "#800000",
+        theme_color: "#800000",
+        display: "standalone",
+        icons: [
+          {
+            purpose: "any maskable",
+            src: "m.svg",
+            sizes: "any",
+            type: "image/svg+xml",
+          },
+          {
+            purpose: "any",
+            src: "icon-192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
+          {
+            purpose: "any",
+            src: "icon-512.png",
+            sizes: "512x512",
+            type: "image/png",
+          },
+        ],
+      },
       workbox: {
         runtimeCaching: [
           {
-            urlPattern: /\.(?:webp|jpeg|jpg|avif)$/,
+            urlPattern: /\.(?:jpeg|jpg|avif)$/,
             handler: "NetworkFirst",
             options: {
               cacheName: "images-cache",
               expiration: {
                 maxEntries: 100,
-                maxAgeSeconds: 60 * 60 * 24 * 365,
-              },
-            },
-          },
-          {
-            urlPattern: /cv.pdf$/,
-            handler: "NetworkFirst",
-            options: {
-              cacheName: "pdf-cache",
-              expiration: {
                 maxAgeSeconds: 60 * 60 * 24 * 365,
               },
             },
@@ -56,6 +82,7 @@ export default defineConfig({
           //   },
           // },
         ],
+        navigateFallbackDenylist: [/^(?!.*cv\.pdf$).*\.pdf$/],
       },
     }),
   ],

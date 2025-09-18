@@ -13,5 +13,4 @@ yarn develop
 yarn build
 yarn serve
 yarn deploy
-yarn upgrade-interactive
 ```

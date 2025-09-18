@@ -20,9 +20,8 @@ import {
 import { Helmet } from "react-helmet";
 
 import Footer from "../components/footer";
-import ProfileAvif from "../images/profile_img.jpg?w=600&format=avif&quality=100&as=srcset";
-import ProfileWebp from "../images/profile_img.jpg?w=600&format=webp&quality=100&as=srcset";
-import ProfileJpg from "../images/profile_img.jpg?w=600&format=jpg&quality=100";
+import ProfileWebp from "../images/profile_img.jpg?format=webp&quality=100&as=srcset";
+import ProfileJpg from "../images/profile_img.jpg";
 
 import LinkedInLogo from "../logos/linkedin-logo.svg?react";
 import GithubLogo from "../logos/github-logo.svg?react";
@@ -91,18 +90,16 @@ export default function Home() {
             }}
           >
             <picture>
-              <source srcset={ProfileAvif} type="image/avif" />
               <source srcset={ProfileWebp} type="image/webp" />
               <img
                 src={ProfileJpg}
                 alt="photo of Michael C. Burkhart"
                 width={300}
                 height={300}
+                fetchpriority="high"
                 style={{
                   borderRadius: `50%`,
-                  aspectRatio: 1,
                   objectFit: `cover`,
-                  overflow: `visible`,
                 }}
               />
             </picture>
@@ -167,7 +164,15 @@ export default function Home() {
               About Me
             </PageHeader>
 
-            <Timeline as="section" sx={{ maxWidth: `calc(max(75%,500px))` }}>
+            <Timeline
+              as="section"
+              sx={{
+                maxWidth: `calc(max(75%,500px))`,
+                animationName: "unfaded",
+                animationDuration: "0.5s",
+                animationFillMode: "forwards",
+              }}
+            >
               <Timeline.Item>
                 <Timeline.Badge>
                   <MortarBoardIcon />

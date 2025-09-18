@@ -68,3 +68,14 @@
   width: inherit !important;
   overflow: visible !important;
 }
+
+@keyframes unfaded {
+  from {
+    opacity: 0;
+    transform: translateY(42px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

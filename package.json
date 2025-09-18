@@ -18,19 +18,14 @@
     "react-is": "^19.1.1",
     "react-router": "^7.9.1",
     "react-router-dom": "^7.6.0",
-    "styled-components": "^5.3.11",
-    "web-vitals": "^5.1.0"
+    "styled-components": "^5.3.11"
   },
   "devDependencies": {
-    "imagemin-webp": "^8.0.0",
-    "npm-check-updates": "^17.1.3",
-    "postcss": "^8.5.6",
     "@csstools/postcss-global-data": "3.0.0",
     "@eslint/js": "^9.30.0",
     "@github/browserslist-config": "^1.0.0",
     "@types/react": "^18.3.23",
     "@types/react-dom": "^18.3.5",
-    "@vheemstra/vite-plugin-imagemin": "^2.2.1",
     "@vitejs/plugin-react": "^4.3.4",
     "babel-plugin-styled-components": "^2.1.4",
     "eslint": "^9.35.0",
@@ -42,7 +37,8 @@
     "gh-pages": "^6.1.1",
     "glob": "^11.0.3",
     "globals": "^16.2.0",
-    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-webp": "^8.0.0",
+    "postcss": "^8.5.6",
     "postcss-preset-env": "^10.3.1",
     "prettier": "^3.6.2",
     "resolve-url-loader": "^5.0.0",
@@ -53,7 +49,8 @@
     "vite-plugin-image-optimizer": "^2.0.2",
     "vite-plugin-pwa": "^1.0.3",
     "vite-plugin-svgr": "^4.5.0",
-    "yarn-upgrade-all": "^0.7.4"
+    "yarn-upgrade-all": "^0.7.4",
+    "web-vitals": "^5.1.0"
   },
   "license": "UNLICENSED",
   "name": "@burkh4rt/burkh4rt.github.io",
@@ -64,6 +61,7 @@
   },
   "scripts": {
     "build": "npm run format && vite build",
+    "deploy": "gh-pages -t -d dist -b master",
     "develop": "vite",
     "dev": "vite",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
