@@ -29,6 +29,7 @@ export default function Home() {
           <SplitPageLayout.Pane
             position="start"
             divider="none"
+            minWidth={400}
             sx={{
               padding: `0.75em`,
               width: `400px`,
@@ -69,6 +70,7 @@ export default function Home() {
 
           <SplitPageLayout.Content
             divider="none"
+            minWidth={400}
             sx={{ paddingTop: 0 }}
             padding="normal"
           >

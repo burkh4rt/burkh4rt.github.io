@@ -16,13 +16,7 @@ export default defineConfig({
     svgr(),
     imagetools(),
     VitePWA({
-      includeAssets: [
-        "**/*.otf",
-        "**/*.woff",
-        "**/*.svg",
-        "**/cv.pdf",
-        "**/*.webp",
-      ],
+      includeAssets: ["**/*.otf", "**/*.svg", "**/cv.pdf", "**/*.webp"],
       registerType: "autoUpdate",
       devOptions: {
         enabled: true,
@@ -60,7 +54,7 @@ export default defineConfig({
       workbox: {
         runtimeCaching: [
           {
-            urlPattern: /\.(?:jpeg|jpg|avif)$/,
+            urlPattern: /\.(?:jpeg|jpg|avif|webp)$/,
             handler: "NetworkFirst",
             options: {
               cacheName: "images-cache",
@@ -70,17 +64,17 @@ export default defineConfig({
               },
             },
           },
-          // {
-          //   urlPattern: /\.(?:otf|woff)$/,
-          //   handler: "StaleWhileRevalidate",
-          //   options: {
-          //     cacheName: "fonts-cache",
-          //     expiration: {
-          //       maxEntries: 5,
-          //       maxAgeSeconds: 60 * 60 * 24 * 365,
-          //     },
-          //   },
-          // },
+          {
+            urlPattern: /\.(?:otf|woff)$/,
+            handler: "NetworkFirst",
+            options: {
+              cacheName: "fonts-cache",
+              expiration: {
+                maxEntries: 5,
+                maxAgeSeconds: 60 * 60 * 24 * 365,
+              },
+            },
+          },
         ],
         navigateFallbackDenylist: [/^(?!.*cv\.pdf$).*\.pdf$/],
       },
