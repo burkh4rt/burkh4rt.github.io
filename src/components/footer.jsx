@@ -8,7 +8,7 @@ export default function Footer() {
       <Text
         as="p"
         align="end"
-        style={{ fontSize: `10pt`, padding: 0, margin: 0, textAlign: `right` }}
+        style={{ fontSize: "10pt", padding: 0, margin: 0, textAlign: "right" }}
       >
         <LocationIcon size="10" verticalAlign="middle" /> Plainfield, Indiana
         &copy;&thinsp;

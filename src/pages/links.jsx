@@ -39,7 +39,7 @@ export default function Home() {
     <>
       <Head />
       <BaseStyles>
-        <SplitPageLayout sx={{ bg: "canvas.default", minHeight: `100vh` }}>
+        <SplitPageLayout sx={{ bg: "canvas.default", minHeight: "100vh" }}>
           <SplitPageLayout.Header>
             <Breadcrumbs>
               <Breadcrumbs.Item href="/">home</Breadcrumbs.Item>
@@ -54,30 +54,30 @@ export default function Home() {
               padding="normal"
               as="h3"
               id="find-me-online"
-              sx={{ fontWeight: `normal` }}
+              sx={{ fontWeight: "normal" }}
             >
               Online Presence
             </PageHeader>
 
             <div
               style={{
-                display: `flex`,
-                flexDirection: `row`,
-                flexWrap: `wrap`,
-                justifyContent: `space-evenly`,
-                gap: `2rem`,
-                maxWidth: `calc(max(50%,400px))`,
-                marginLeft: `auto`,
-                marginRight: `auto`,
+                display: "flex",
+                flexDirection: "row",
+                flexWrap: "wrap",
+                justifyContent: "space-evenly",
+                gap: "2rem",
+                maxWidth: "calc(max(50%,400px))",
+                marginLeft: "auto",
+                marginRight: "auto",
               }}
             >
               <Link
                 href="https://www.linkedin.com/in/burkh4rt/"
                 target="_blank"
-                sx={{ whiteSpace: `nowrap` }}
+                sx={{ whiteSpace: "nowrap" }}
               >
                 <LinkedInLogo
-                  style={{ height: `0.75em` }}
+                  style={{ height: "0.75em" }}
                   verticalAlign="middle"
                 />
                 &nbsp;LinkedIn&thinsp;
@@ -86,10 +86,10 @@ export default function Home() {
               <Link
                 href="https://github.com/burkh4rt/"
                 target="_blank"
-                sx={{ whiteSpace: `nowrap` }}
+                sx={{ whiteSpace: "nowrap" }}
               >
                 <GithubLogo
-                  style={{ height: `0.75em` }}
+                  style={{ height: "0.75em" }}
                   verticalAlign="middle"
                 />
                 &nbsp;Github&thinsp;
@@ -98,10 +98,10 @@ export default function Home() {
               <Link
                 href="https://scholar.google.com/citations?user=OcFnA0UAAAAJ"
                 target="_blank"
-                sx={{ whiteSpace: `nowrap` }}
+                sx={{ whiteSpace: "nowrap" }}
               >
                 <GoogleScholarLogo
-                  style={{ height: `0.75em` }}
+                  style={{ height: "0.75em" }}
                   verticalAlign="middle"
                 />
                 &nbsp;Google Scholar&thinsp;
@@ -110,10 +110,10 @@ export default function Home() {
               <Link
                 href="https://orcid.org/0000-0002-2772-5840"
                 target="_blank"
-                sx={{ whiteSpace: `nowrap` }}
+                sx={{ whiteSpace: "nowrap" }}
               >
                 <OrcIDLogo
-                  style={{ height: `0.75em` }}
+                  style={{ height: "0.75em" }}
                   verticalAlign="middle"
                 />
                 &nbsp;OrcID&thinsp;
@@ -122,19 +122,19 @@ export default function Home() {
               <Link
                 href="https://mathscinet.ams.org/mathscinet/MRAuthorID/1296691"
                 target="_blank"
-                sx={{ whiteSpace: `nowrap` }}
+                sx={{ whiteSpace: "nowrap" }}
               >
-                <AMSLogo style={{ height: `0.75em` }} verticalAlign="middle" />
+                <AMSLogo style={{ height: "0.75em" }} verticalAlign="middle" />
                 &nbsp;MathSciNet&thinsp;
                 <LinkExternalIcon verticalAlign="middle" />
               </Link>
               <Link
                 href="https://zbmath.org/authors/burkhart.michael-c"
                 target="_blank"
-                sx={{ whiteSpace: `nowrap` }}
+                sx={{ whiteSpace: "nowrap" }}
               >
                 <ZBMathLogo
-                  style={{ height: `0.75em` }}
+                  style={{ height: "0.75em" }}
                   verticalAlign="middle"
                 />
                 &nbsp;zbMath&thinsp;
@@ -143,7 +143,7 @@ export default function Home() {
               <Link
                 href="https://www.genealogy.math.ndsu.nodak.edu/id.php?id=246430"
                 target="_blank"
-                sx={{ whiteSpace: `nowrap` }}
+                sx={{ whiteSpace: "nowrap" }}
               >
                 MGP&thinsp;
                 <LinkExternalIcon verticalAlign="middle" />
@@ -151,10 +151,10 @@ export default function Home() {
               <Link
                 href="https://arxiv.org/a/burkhart_m_2.html"
                 target="_blank"
-                sx={{ whiteSpace: `nowrap` }}
+                sx={{ whiteSpace: "nowrap" }}
               >
                 <ArXivLogo
-                  style={{ height: `0.75em` }}
+                  style={{ height: "0.75em" }}
                   verticalAlign="middle"
                 />
                 &nbsp;arXiv&thinsp;
@@ -163,10 +163,10 @@ export default function Home() {
               <Link
                 href="https://www.inaturalist.org/people/burkh4rt"
                 target="_blank"
-                sx={{ whiteSpace: `nowrap` }}
+                sx={{ whiteSpace: "nowrap" }}
               >
                 <INaturalistLogo
-                  style={{ height: `0.75em` }}
+                  style={{ height: "0.75em" }}
                   verticalAlign="middle"
                 />
                 &nbsp;iNaturalist&thinsp;
@@ -175,7 +175,7 @@ export default function Home() {
               <Link
                 href="https://ebird.org/profile/NDYwNzg1MA/"
                 target="_blank"
-                sx={{ whiteSpace: `nowrap` }}
+                sx={{ whiteSpace: "nowrap" }}
               >
                 eBird&thinsp;
                 <LinkExternalIcon verticalAlign="middle" />
@@ -183,7 +183,7 @@ export default function Home() {
               <Link
                 href="https://burkh4rt.tumblr.com"
                 target="_blank"
-                sx={{ whiteSpace: `nowrap` }}
+                sx={{ whiteSpace: "nowrap" }}
               >
                 tumblr&thinsp;
                 <LinkExternalIcon verticalAlign="middle" />
@@ -191,10 +191,10 @@ export default function Home() {
               <Link
                 href="https://www.instagram.com/burkh4rt/"
                 target="_blank"
-                sx={{ whiteSpace: `nowrap` }}
+                sx={{ whiteSpace: "nowrap" }}
               >
                 <InstagramLogo
-                  style={{ height: `0.75em` }}
+                  style={{ height: "0.75em" }}
                   verticalAlign="middle"
                 />
                 &nbsp;Instagram&thinsp;
@@ -203,7 +203,7 @@ export default function Home() {
               <Link
                 href="https://www.instagram.com/felixity_the_cat/"
                 target="_blank"
-                sx={{ whiteSpace: `nowrap` }}
+                sx={{ whiteSpace: "nowrap" }}
               >
                 Felixity&thinsp;
                 <LinkExternalIcon verticalAlign="middle" />

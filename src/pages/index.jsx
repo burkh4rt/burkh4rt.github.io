@@ -22,59 +22,63 @@ export default function Home() {
         <SplitPageLayout
           sx={{
             bg: "canvas.default",
-            minHeight: `100vh`,
-            padding: `0 0.75em`,
+            minHeight: "100vh",
+            padding: "0 0.75em",
           }}
         >
           <SplitPageLayout.Pane
             position="start"
             divider="none"
-            minWidth={400}
+            style={{ minWidth: "400px" }}
             sx={{
-              padding: `0.75em`,
-              width: `400px`,
-              minWidth: "400px",
-              maxWidth: "400px",
-              overflow: `hidden`,
+              position: { narrow: "static", regular: "sticky" },
+              padding: { narrow: "0pt", regular: "0.75em" },
+              width: "400px",
+              overflow: "hidden",
             }}
           >
-            <picture>
-              <source srcset={ProfileWebp} type="image/webp" />
-              <img
-                src={ProfileJpg}
-                alt="photo of Michael C. Burkhart"
-                width={300}
-                height={300}
-                fetchpriority="high"
-                style={{
-                  borderRadius: `50%`,
-                  objectFit: `cover`,
+            <div>
+              <picture>
+                <source srcset={ProfileWebp} type="image/webp" />
+                <img
+                  src={ProfileJpg}
+                  alt="photo of Michael C. Burkhart"
+                  width={300}
+                  height={300}
+                  fetchpriority="high"
+                  style={{
+                    borderRadius: "50%",
+                    objectFit: "cover",
+                  }}
+                />
+              </picture>
+
+              <Heading
+                as="h1"
+                sx={{
+                  fontWeight: "normal",
+                  width: "400px",
+                  overflow: "hidden",
+                  paddingTop: { narrow: "0pt", regular: "10pt" },
                 }}
-              />
-            </picture>
+              >
+                Michael C. Burkhart
+              </Heading>
 
-            <Heading
-              as="h1"
-              sx={{
-                fontWeight: `normal`,
-                width: `400px`,
-                overflow: `hidden`,
-                paddingTop: `10pt`,
-              }}
-            >
-              Michael C. Burkhart
-            </Heading>
-
-            <HNav />
+              <HNav />
+            </div>
           </SplitPageLayout.Pane>
 
           <SplitPageLayout.Content
             divider="none"
-            minWidth={400}
+            style={{ minWidth: "400px" }}
             sx={{ paddingTop: 0 }}
             padding="normal"
           >
-            <PageHeader as="h3" sx={{ paddingTop: 0, fontWeight: `normal` }}>
+            <PageHeader
+              as="h3"
+              sx={{ marginTop: 0, paddingTop: 0, fontWeight: "normal" }}
+            >
               About Me
             </PageHeader>
 

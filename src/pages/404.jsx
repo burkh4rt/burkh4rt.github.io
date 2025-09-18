@@ -26,7 +26,7 @@ export default function Home() {
     <>
       <Head />
       <BaseStyles>
-        <SplitPageLayout sx={{ bg: "canvas.default", minHeight: `100vh` }}>
+        <SplitPageLayout sx={{ bg: "canvas.default", minHeight: "100vh" }}>
           <SplitPageLayout.Header>
             <Breadcrumbs>
               <Breadcrumbs.Item href="/">home</Breadcrumbs.Item>

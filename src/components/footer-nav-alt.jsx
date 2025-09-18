@@ -6,7 +6,7 @@ export default function SNav() {
       aria-label="Main"
       padding="normal"
       paddingTop="10pt"
-      sx={{ flexDirection: `row`, justifyContent: `flex-end` }}
+      sx={{ flexDirection: "row", justifyContent: "flex-end" }}
     >
       <SubNav.Links>
         <SubNav.Link href="/" rel="noopener noreferrer">

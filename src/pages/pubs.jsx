@@ -30,7 +30,7 @@ export default function Home() {
     <>
       <Head />
       <BaseStyles>
-        <SplitPageLayout sx={{ bg: "canvas.default", minHeight: `100vh` }}>
+        <SplitPageLayout sx={{ bg: "canvas.default", minHeight: "100vh" }}>
           <SplitPageLayout.Header>
             <Breadcrumbs>
               <Breadcrumbs.Item href="/">home</Breadcrumbs.Item>
@@ -43,18 +43,18 @@ export default function Home() {
           <SplitPageLayout.Content
             sx={{
               ul: {
-                listStyle: `none`,
+                listStyle: "none",
                 marginLeft: 0,
               },
               li: {
-                paddingLeft: `2em`,
-                textIndent: `-2em`,
-                paddingBottom: `0.75em`,
-                maxWidth: `calc(max(75%,500px))`,
+                paddingLeft: "2em",
+                textIndent: "-2em",
+                paddingBottom: "0.75em",
+                maxWidth: "calc(max(75%,500px))",
               },
             }}
           >
-            <PageHeader as="h3" id="papers" sx={{ fontWeight: `normal` }}>
+            <PageHeader as="h3" id="papers" sx={{ fontWeight: "normal" }}>
               Papers
             </PageHeader>
 
@@ -76,7 +76,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     MR4883973&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -87,7 +87,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -111,7 +111,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     MR4899574&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -122,7 +122,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -146,7 +146,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -171,7 +171,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     code&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -182,7 +182,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -208,7 +208,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -232,7 +232,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     code&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -243,7 +243,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -267,7 +267,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     MR4557438&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -278,7 +278,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     code&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -289,7 +289,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -316,7 +316,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -342,7 +342,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -368,7 +368,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     MR4542651&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -379,7 +379,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -403,7 +403,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -427,7 +427,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     MR4371656&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -438,7 +438,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -462,7 +462,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     MR4152505&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -473,7 +473,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -498,7 +498,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     MR4101168&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -509,7 +509,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     code&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -520,7 +520,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -544,7 +544,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -568,7 +568,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     MR3975427&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -579,7 +579,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -604,7 +604,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     MR3873814&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -615,7 +615,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -641,7 +641,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -665,7 +665,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -674,7 +674,7 @@ export default function Home() {
               </ul>
             </Text>
 
-            <PageHeader as="h3" id="preprints" sx={{ fontWeight: `normal` }}>
+            <PageHeader as="h3" id="preprints" sx={{ fontWeight: "normal" }}>
               Preprints
             </PageHeader>
             <Text>
@@ -697,7 +697,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -722,7 +722,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -748,7 +748,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     code&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -759,7 +759,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -784,7 +784,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     code&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -795,7 +795,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -820,7 +820,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -846,7 +846,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -870,7 +870,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -879,7 +879,7 @@ export default function Home() {
               </ul>
             </Text>
 
-            <PageHeader as="h3" id="dissertation" sx={{ fontWeight: `normal` }}>
+            <PageHeader as="h3" id="dissertation" sx={{ fontWeight: "normal" }}>
               Dissertation
             </PageHeader>
             <Text>
@@ -902,7 +902,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     MR4158190&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -913,7 +913,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -921,7 +921,7 @@ export default function Home() {
                 </li>
               </ul>
 
-              <PageHeader as="h3" id="patents" sx={{ fontWeight: `normal` }}>
+              <PageHeader as="h3" id="patents" sx={{ fontWeight: "normal" }}>
                 Patents &amp; Pending
               </PageHeader>
               <ul>
@@ -942,7 +942,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -966,7 +966,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
@@ -990,7 +990,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     inline={true}
-                    sx={{ whiteSpace: `nowrap` }}
+                    sx={{ whiteSpace: "nowrap" }}
                   >
                     pdf&thinsp;
                     <LinkExternalIcon verticalAlign="middle" />
