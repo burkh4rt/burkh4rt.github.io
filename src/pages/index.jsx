@@ -75,10 +75,7 @@ export default function Home() {
             sx={{ paddingTop: 0 }}
             padding="normal"
           >
-            <PageHeader
-              as="h3"
-              sx={{ marginTop: 0, paddingTop: 0, fontWeight: "normal" }}
-            >
+            <PageHeader as="h3" sx={{ paddingTop: 0, fontWeight: "normal" }}>
               About Me
             </PageHeader>
 
