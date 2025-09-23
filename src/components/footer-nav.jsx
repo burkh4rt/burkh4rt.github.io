@@ -5,11 +5,11 @@ export default function SNav() {
     <SubNav
       aria-label="Main"
       padding="normal"
-      paddingTop="10pt"
       sx={{
         display: "flex",
         flexDirection: "row",
         justifyContent: "flex-end",
+        paddingTop: "10pt",
       }}
     >
       <SubNav.Links>

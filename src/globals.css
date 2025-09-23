@@ -56,3 +56,9 @@
     transform: translateY(0);
   }
 }
+
+@media (min-width: 768px) {
+  .pl-med {
+    padding-left: var(--base-size-24);
+  }
+}

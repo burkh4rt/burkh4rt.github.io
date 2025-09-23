@@ -18,9 +18,9 @@ export default defineConfig({
     VitePWA({
       includeAssets: ["**/*.otf", "**/*.svg", "**/cv.pdf", "**/*.webp"],
       registerType: "autoUpdate",
-      devOptions: {
-        enabled: true,
-      },
+      // devOptions: {
+      //   enabled: true,
+      // },
       manifest: {
         name: "Michael Burkhart's Site",
         short_name: "burkh4rt's homepage",

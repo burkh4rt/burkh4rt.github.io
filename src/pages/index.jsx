@@ -20,32 +20,36 @@ export default function Home() {
       <IHead />
       <BaseStyles>
         <SplitPageLayout
+          padding={{
+            narrow: "condensed",
+            regular: "normal",
+            wide: "normal",
+          }}
           sx={{
             bg: "canvas.default",
             minHeight: "100vh",
-            padding: "0 0.75em",
           }}
         >
           <SplitPageLayout.Pane
+            className="pl-med"
             position="start"
             divider="none"
-            style={{ minWidth: "400px" }}
+            sticky={false}
+            padding="normal"
             sx={{
-              position: { narrow: "static", regular: "sticky" },
-              padding: { narrow: "0pt", regular: "0.75em" },
-              width: "400px",
+              minWidth: "calc(min(100vw,400px))",
               overflow: "hidden",
             }}
           >
             <div>
               <picture>
-                <source srcset={ProfileWebp} type="image/webp" />
+                <source srcSet={ProfileWebp} type="image/webp" />
                 <img
                   src={ProfileJpg}
                   alt="photo of Michael C. Burkhart"
                   width={300}
                   height={300}
-                  fetchpriority="high"
+                  fetchPriority="high"
                   style={{
                     borderRadius: "50%",
                     objectFit: "cover",
@@ -57,7 +61,7 @@ export default function Home() {
                 as="h1"
                 sx={{
                   fontWeight: "normal",
-                  width: "400px",
+                  width: "calc(min(75vw,350px))",
                   overflow: "hidden",
                   paddingTop: { narrow: "0pt", regular: "10pt" },
                 }}
@@ -71,7 +75,7 @@ export default function Home() {
 
           <SplitPageLayout.Content
             divider="none"
-            style={{ minWidth: "400px" }}
+            style={{ minWidth: "calc(min(75vw,350px))" }}
             sx={{ paddingTop: 0 }}
             padding="normal"
           >

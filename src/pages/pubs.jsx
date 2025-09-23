@@ -41,6 +41,7 @@ export default function Home() {
           </SplitPageLayout.Header>
 
           <SplitPageLayout.Content
+            padding="normal"
             sx={{
               ul: {
                 listStyle: "none",
