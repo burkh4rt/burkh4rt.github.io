@@ -1,7 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { Text, SplitPageLayout, UnderlineNav } from "@primer/react";
-
-import { LocationIcon, HomeIcon } from "@primer/octicons-react";
+import { LocationIcon } from "@primer/octicons-react";
 
 export default function Footer() {
   const location = useLocation();

@@ -1,11 +1,21 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import generouted from "@generouted/react-router/plugin";
 import svgr from "vite-plugin-svgr";
 import { VitePWA } from "vite-plugin-pwa";
 import { imagetools } from "vite-imagetools";
+import { resolve } from "path";
 
 export default defineConfig({
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, "index.html"),
+        links: resolve(__dirname, "links.html"),
+        pubs: resolve(__dirname, "pubs.html"),
+        404: resolve(__dirname, "404.html"),
+      },
+    },
+  },
   esbuild: {
     legalComments: "none",
   },
@@ -14,7 +24,6 @@ export default defineConfig({
   },
   plugins: [
     react(),
-    generouted(),
     svgr(),
     imagetools(),
     VitePWA({

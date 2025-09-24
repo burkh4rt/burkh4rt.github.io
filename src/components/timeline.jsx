@@ -1,5 +1,4 @@
 import { Link, Timeline, Text } from "@primer/react";
-
 import {
   MortarBoardIcon,
   GitCommitIcon,
