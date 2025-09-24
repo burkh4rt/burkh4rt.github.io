@@ -12,6 +12,7 @@ export default defineConfig({
         main: resolve(__dirname, "index.html"),
         links: resolve(__dirname, "links.html"),
         pubs: resolve(__dirname, "pubs.html"),
+        cv: resolve(__dirname, "cv.html"),
         404: resolve(__dirname, "404.html"),
       },
     },
