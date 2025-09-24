@@ -1,11 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import generouted from "@generouted/react-router/plugin";
-import postcssGlobalData from "@csstools/postcss-global-data";
-import postcssPresetEnv from "postcss-preset-env";
-import browsers from "@github/browserslist-config";
 import svgr from "vite-plugin-svgr";
-import { globSync } from "glob";
 import { VitePWA } from "vite-plugin-pwa";
 import { imagetools } from "vite-imagetools";
 
@@ -22,7 +18,7 @@ export default defineConfig({
     svgr(),
     imagetools(),
     VitePWA({
-      includeAssets: ["**/*.otf", "**/*.svg", "**/cv.pdf", "**/*.webp"],
+      includeAssets: ["**/*.svg", "**/cv.pdf", "**/*.webp"],
       registerType: "autoUpdate",
       // devOptions: {
       //   enabled: true,
@@ -71,7 +67,7 @@ export default defineConfig({
             },
           },
           {
-            urlPattern: /\.(?:otf|woff)$/,
+            urlPattern: /\.(?:otf|woff|woff2)$/,
             handler: "NetworkFirst",
             options: {
               cacheName: "fonts-cache",
