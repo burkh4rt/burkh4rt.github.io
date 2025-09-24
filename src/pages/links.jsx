@@ -29,7 +29,7 @@ export const Head = () => (
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Michael C. Burkhart" />
-    <link rel="canonical" href="https://burkh4rt.github.io/links/" />
+    <link rel="canonical" href="https://burkh4rt.github.io/links" />
   </Helmet>
 );
 
