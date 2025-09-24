@@ -10,7 +10,6 @@ import {
 import { LinkExternalIcon } from "@primer/octicons-react";
 
 import Footer from "../components/footer";
-import SNav from "../components/footer-nav-alt";
 import { Helmet } from "react-helmet";
 
 import LinkedInLogo from "../logos/linkedin-logo.svg?react";
@@ -209,8 +208,6 @@ export default function Home() {
                 <LinkExternalIcon verticalAlign="middle" />
               </Link>
             </div>
-
-            <SNav />
           </SplitPageLayout.Content>
 
           <Footer />

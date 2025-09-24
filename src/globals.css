@@ -32,6 +32,21 @@
   font-display: block;
 }
 
+@font-face {
+  font-family: "Gill Sans Nova";
+  src: url("./fonts/GillSansNova-Medium.otf") format("opentype");
+  font-style: normal;
+  font-weight: 600;
+  font-feature-settings:
+    "calt" 1,
+    "kern" 1,
+    "liga" 1,
+    "onum" 1,
+    "salt" 1;
+  unicode-range: U+000-5FF, U+0148, U+2009; /* Latin glyphs */
+  font-display: block;
+}
+
 * {
   font-family:
     Gill Sans Nova,
@@ -41,9 +56,13 @@
     sans-serif;
 }
 
-[class^="prc-PageLayout-Pane-"] {
+[class*="prc-PageLayout-Pane-"] {
   width: inherit !important;
   overflow: visible !important;
+}
+
+[class*="UnderlineWrapper"] {
+  justify-content: flex-end !important;
 }
 
 @keyframes unfaded {

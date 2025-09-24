@@ -11,7 +11,6 @@ import {
 import { LinkExternalIcon } from "@primer/octicons-react";
 
 import Footer from "../components/footer";
-import SNav from "../components/footer-nav-alt";
 import { Helmet } from "react-helmet";
 
 export const Head = () => (
@@ -999,8 +998,6 @@ export default function Home() {
                 </li>
               </ul>
             </Text>
-
-            <SNav />
           </SplitPageLayout.Content>
 
           <Footer />

@@ -10,6 +10,12 @@ import { VitePWA } from "vite-plugin-pwa";
 import { imagetools } from "vite-imagetools";
 
 export default defineConfig({
+  esbuild: {
+    legalComments: "none",
+  },
+  optimizeDeps: {
+    exclude: ["fsevents"],
+  },
   plugins: [
     react(),
     generouted(),
@@ -81,30 +87,7 @@ export default defineConfig({
     }),
   ],
   server: { port: 8000 },
-  optimizeDeps: {
-    exclude: ["fsevents"],
-  },
   ssr: {
     external: ["fsevents"],
-  },
-  css: {
-    postcss: {
-      plugins: [
-        postcssGlobalData({
-          files: globSync("node_modules/@primer/primitives/dist/css/**/*.css"),
-        }),
-        postcssPresetEnv({
-          stage: 2,
-          browsers,
-          features: {
-            "nesting-rules": {
-              noIsPseudoSelector: true,
-            },
-            "focus-visible-pseudo-class": false,
-            "logical-properties-and-values": false,
-          },
-        }),
-      ],
-    },
   },
 });

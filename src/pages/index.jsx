@@ -8,7 +8,6 @@ import {
 import IHead from "../components/index-head";
 import HNav from "../components/header-nav";
 import TLine from "../components/timeline";
-import SNav from "../components/footer-nav";
 import Footer from "../components/footer";
 
 import ProfileWebp from "../images/profile_img.jpg?format=webp&quality=100&as=srcset";
@@ -84,7 +83,6 @@ export default function Home() {
             </PageHeader>
 
             <TLine />
-            <SNav />
           </SplitPageLayout.Content>
 
           <Footer />
