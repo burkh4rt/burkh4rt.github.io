@@ -1281,11 +1281,11 @@ __metadata:
     "@generouted/react-router": "npm:^1.20.0"
     "@github/browserslist-config": "npm:^1.0.0"
     "@primer/octicons-react": "npm:^19.18.0"
-    "@primer/primitives": "npm:^11.1.0"
+    "@primer/primitives": "npm:^11.2.0"
     "@primer/react": "npm:^37.31.0"
     "@primer/react-brand": "npm:^0.58.1"
     "@svgr/webpack": "npm:^8.1.0"
-    "@types/react": "npm:^19.1.13"
+    "@types/react": "npm:^19.1.14"
     "@types/react-dom": "npm:^19.1.9"
     "@vitejs/plugin-react": "npm:^5.0.3"
     babel-plugin-styled-components: "npm:^2.1.4"
@@ -1301,8 +1301,8 @@ __metadata:
     react-dom: "npm:^19.1.1"
     react-helmet: "npm:^6.1.0"
     react-is: "npm:^19.1.1"
-    react-router: "npm:^7.9.1"
-    react-router-dom: "npm:^7.9.1"
+    react-router: "npm:^7.9.3"
+    react-router-dom: "npm:^7.9.3"
     resolve-url-loader: "npm:^5.0.0"
     sharp: "npm:^0.34.4"
     styled-components: "npm:^6.1.19"
@@ -2729,10 +2729,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@primer/primitives@npm:10.x || 11.x, @primer/primitives@npm:^11.1.0":
+"@primer/primitives@npm:10.x || 11.x":
   version: 11.1.0
   resolution: "@primer/primitives@npm:11.1.0"
   checksum: 10c0/2d627f9e52201173287ebb0b569635ea2e81d93203c972296df25ae187e30bcb094513bd80354308ccb7da8c49be79a9180e1dffe94405b35db97e8fda2ab7b1
+  languageName: node
+  linkType: hard
+
+"@primer/primitives@npm:^11.2.0":
+  version: 11.2.0
+  resolution: "@primer/primitives@npm:11.2.0"
+  checksum: 10c0/d103d15f94553dedba2e0df089b250493441473b284e3901d0faca18afa117a18b1b058ed48cb101feca102029ca4dd63a3ae73cd141cdedd120fb1ee87447b5
   languageName: node
   linkType: hard
 
@@ -3452,12 +3459,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^19.1.13":
-  version: 19.1.13
-  resolution: "@types/react@npm:19.1.13"
+"@types/react@npm:^19.1.14":
+  version: 19.1.14
+  resolution: "@types/react@npm:19.1.14"
   dependencies:
     csstype: "npm:^3.0.2"
-  checksum: 10c0/75e35b54883f5ed07d3b5cb16a4711b6dbb7ec6b74301bcb9bfa697c9d9fff022ec508e1719e7b2c69e2e8b042faac1125be7717b5e5e084f816a2c88e136920
+  checksum: 10c0/0d1629e065413be79c949f011845836e7f515c8f97dbfef057719be2f312b404405d2d064cb28e03363c62c153c100e84268c09dd9aeda488858d45033b520f0
   languageName: node
   linkType: hard
 
@@ -7941,21 +7948,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:^7.9.1":
-  version: 7.9.1
-  resolution: "react-router-dom@npm:7.9.1"
+"react-router-dom@npm:^7.9.3":
+  version: 7.9.3
+  resolution: "react-router-dom@npm:7.9.3"
   dependencies:
-    react-router: "npm:7.9.1"
+    react-router: "npm:7.9.3"
   peerDependencies:
     react: ">=18"
     react-dom: ">=18"
-  checksum: 10c0/a211b9e6d69e6efc9b55cfc0f1eb8a772832f86b13fd16a6d89befb78ff6bfc06d9cc48abf4b96420edd81a07216f910c15afb0769ae4d4f445b59d4e2ec9376
+  checksum: 10c0/85ab89f5ef517299ef4dd534db656f8b04ccd0c9f80121d8ddeadc5bf192fefa89f77be06d81ee38694a6a56354539521b7cf941088b696ca79785378aa5615b
   languageName: node
   linkType: hard
 
-"react-router@npm:7.9.1, react-router@npm:^7.9.1":
-  version: 7.9.1
-  resolution: "react-router@npm:7.9.1"
+"react-router@npm:7.9.3, react-router@npm:^7.9.3":
+  version: 7.9.3
+  resolution: "react-router@npm:7.9.3"
   dependencies:
     cookie: "npm:^1.0.1"
     set-cookie-parser: "npm:^2.6.0"
@@ -7965,7 +7972,7 @@ __metadata:
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: 10c0/27448e4c84199d240f6a15d503cf26509320fd4ea31aec6f12a427ac4a560a320321e9b119981eddad25801c062be0f814d4461174f69efdc9f9e5af14cf6915
+  checksum: 10c0/ad77654d53df38b66415d158dfeb42d589e732691da6cb3ce77e8e31cb295a809f2a280e2ea203119d2b9e944992ca87f309db5c6524649cba6fa6539f6c4a83
   languageName: node
   linkType: hard
 

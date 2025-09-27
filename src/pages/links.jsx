@@ -15,15 +15,15 @@ import "../globals.css";
 
 import Footer from "../components/footer";
 
-import LinkedInLogo from "../logos/linkedin-logo.svg?react";
-import GithubLogo from "../logos/github-logo.svg?react";
-import GoogleScholarLogo from "../logos/google-scholar-logo.svg?react";
-import OrcIDLogo from "../logos/orcid-logo.svg?react";
-import AMSLogo from "../logos/ams-logo.svg?react";
-import ZBMathLogo from "../logos/zbmath-logo.svg?react";
-import ArXivLogo from "../logos/arxiv-logo.svg?react";
-import INaturalistLogo from "../logos/inaturalist-logo.svg?react";
-import InstagramLogo from "../logos/instagram-logo.svg?react";
+import LinkedInLogo from "../logos/linkedin-logo.svg?inline";
+import GithubLogo from "../logos/github-logo.svg?inline";
+import GoogleScholarLogo from "../logos/google-scholar-logo.svg?inline";
+import OrcIDLogo from "../logos/orcid-logo.svg?inline";
+import AMSLogo from "../logos/ams-logo.svg?inline";
+import ZBMathLogo from "../logos/zbmath-logo.svg?inline";
+import ArXivLogo from "../logos/arxiv-logo.svg?inline";
+import INaturalistLogo from "../logos/inaturalist-logo.svg?inline";
+import InstagramLogo from "../logos/instagram-logo.svg?inline";
 
 export default function Links() {
   return (
@@ -55,7 +55,7 @@ export default function Links() {
               flexWrap: "wrap",
               justifyContent: "space-evenly",
               gap: "2rem",
-              maxWidth: "calc(max(50%,400px))",
+              maxWidth: "calc(min(max(50%,400px),75vw))",
               marginLeft: "auto",
               marginRight: "auto",
             }}
