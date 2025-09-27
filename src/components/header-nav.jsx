@@ -1,10 +1,10 @@
 import { SubNav } from "@primer/react";
 
-import LinkedInLogo from "../logos/linkedin-logo.svg?inline";
-import GithubLogo from "../logos/github-logo.svg?inline";
-import GoogleScholarLogo from "../logos/google-scholar-logo.svg?inline";
-import OrcIDLogo from "../logos/orcid-logo.svg?inline";
-import INaturalistLogo from "../logos/inaturalist-logo.svg?inline";
+import LinkedInLogo from "../logos/linkedin-logo.svg?react";
+import GithubLogo from "../logos/github-logo.svg?react";
+import GoogleScholarLogo from "../logos/google-scholar-logo.svg?react";
+import OrcIDLogo from "../logos/orcid-logo.svg?react";
+import INaturalistLogo from "../logos/inaturalist-logo.svg?react";
 
 export default function HNav() {
   return (

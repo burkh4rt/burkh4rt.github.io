@@ -64,5 +64,5 @@
     "serve": "vite preview --port=9000"
   },
   "type": "module",
-  "version": "4.0.0"
+  "version": "4.0.1"
 }
