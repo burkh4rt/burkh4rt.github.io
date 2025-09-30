@@ -1,15 +1,15 @@
 import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
 import { LocationIcon } from "@primer/octicons-react";
 import {
+  BaseStyles,
   Breadcrumbs,
   Link,
   PageHeader,
-  Text,
-  BaseStyles,
   SplitPageLayout,
+  Text,
   ThemeProvider,
 } from "@primer/react";
+import { createRoot } from "react-dom/client";
 
 import "../globals.css";
 

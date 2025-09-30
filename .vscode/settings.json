@@ -3,7 +3,6 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "prettier.proseWrap": "always",
-  "prettier.prettierPath": ".yarn/sdks/prettier/index.cjs",
   "prettier.printWidth": 79,
   "telemetry.feedback.enabled": false,
   "terminal.integrated.copyOnSelection": true,

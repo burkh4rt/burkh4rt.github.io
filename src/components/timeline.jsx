@@ -1,9 +1,9 @@
-import { Link, Timeline, Text } from "@primer/react";
 import {
-  MortarBoardIcon,
   GitCommitIcon,
   LinkExternalIcon,
+  MortarBoardIcon,
 } from "@primer/octicons-react";
+import { Link, Text, Timeline } from "@primer/react";
 
 export default function TLine() {
   return (

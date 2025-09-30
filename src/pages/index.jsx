@@ -1,22 +1,21 @@
 import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
 import {
-  PageHeader,
-  Heading,
   BaseStyles,
+  Heading,
+  PageHeader,
   SplitPageLayout,
   ThemeProvider,
 } from "@primer/react";
+import { createRoot } from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
 
 import "../globals.css";
 
+import Footer from "../components/footer";
 import HNav from "../components/header-nav";
 import TLine from "../components/timeline";
-import Footer from "../components/footer";
-
-import ProfileWebp from "../images/profile_img.jpg?format=webp&quality=100&as=srcset";
 import ProfileJpg from "../images/profile_img.jpg";
+import ProfileWebp from "../images/profile_img.jpg?format=webp&quality=100&as=srcset";
 
 export default function Home() {
   return (

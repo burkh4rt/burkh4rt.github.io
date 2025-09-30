@@ -1,9 +1,10 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
-import svgr from "vite-plugin-svgr";
-import { VitePWA } from "vite-plugin-pwa";
-import { imagetools } from "vite-imagetools";
 import { resolve } from "path";
+import legacy from "@vitejs/plugin-legacy";
+import react from "@vitejs/plugin-react";
+import { defineConfig } from "vite";
+import { imagetools } from "vite-imagetools";
+import { VitePWA } from "vite-plugin-pwa";
+import svgr from "vite-plugin-svgr";
 
 export default defineConfig({
   build: {
@@ -24,6 +25,9 @@ export default defineConfig({
     exclude: ["fsevents"],
   },
   plugins: [
+    legacy({
+      targets: ["defaults", "not IE 11"],
+    }),
     react(),
     svgr(),
     imagetools(),

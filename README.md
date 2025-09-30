@@ -5,12 +5,8 @@
 To use:
 
 ```sh
-npm install --global yarn
-yarn
-yarn up -R
-yarn yarn-upgrade-all
-yarn develop
-yarn build
-yarn serve
-yarn deploy
+npm install
+npm run build
+npm run serve
+npm run deploy
 ```
