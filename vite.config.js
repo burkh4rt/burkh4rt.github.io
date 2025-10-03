@@ -1,5 +1,4 @@
 import { resolve } from "path";
-import legacy from "@vitejs/plugin-legacy";
 import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 import { imagetools } from "vite-imagetools";
@@ -17,6 +16,7 @@ export default defineConfig({
         404: resolve(__dirname, "404.html"),
       },
     },
+    target: "es2019",
   },
   esbuild: {
     legalComments: "none",
@@ -25,9 +25,6 @@ export default defineConfig({
     exclude: ["fsevents"],
   },
   plugins: [
-    legacy({
-      targets: ["defaults", "not IE 11"],
-    }),
     react(),
     svgr(),
     imagetools(),
