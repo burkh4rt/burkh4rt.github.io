@@ -1,15 +1,13 @@
-import { StrictMode } from "react";
 import { LocationIcon } from "@primer/octicons-react";
 import {
-  BaseStyles,
   Breadcrumbs,
   Link,
   PageHeader,
   SplitPageLayout,
   Text,
-  ThemeProvider,
 } from "@primer/react";
-import { createRoot } from "react-dom/client";
+
+import renderOrHydrate from "../functions/renderOrHydrate";
 
 import "../globals.css";
 
@@ -57,17 +55,4 @@ export default function Err404() {
   );
 }
 
-createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <ThemeProvider
-      colorMode="auto"
-      dayScheme="light"
-      nightScheme="dark_dimmed"
-      preventSSRMismatch
-    >
-      <BaseStyles>
-        <Err404 />
-      </BaseStyles>
-    </ThemeProvider>
-  </StrictMode>,
-);
+renderOrHydrate(Err404);

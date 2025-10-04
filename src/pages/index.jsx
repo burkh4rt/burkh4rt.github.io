@@ -1,13 +1,6 @@
-import { StrictMode } from "react";
-import {
-  BaseStyles,
-  Heading,
-  PageHeader,
-  SplitPageLayout,
-  ThemeProvider,
-} from "@primer/react";
-import { createRoot } from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
+import { Heading, PageHeader, SplitPageLayout } from "@primer/react";
+
+import renderOrHydrate from "../functions/renderOrHydrate";
 
 import "../globals.css";
 
@@ -92,19 +85,4 @@ export default function Home() {
   );
 }
 
-createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <BrowserRouter>
-      <ThemeProvider
-        colorMode="auto"
-        dayScheme="light"
-        nightScheme="dark_dimmed"
-        preventSSRMismatch
-      >
-        <BaseStyles>
-          <Home />
-        </BaseStyles>
-      </ThemeProvider>
-    </BrowserRouter>
-  </StrictMode>,
-);
+renderOrHydrate(Home);

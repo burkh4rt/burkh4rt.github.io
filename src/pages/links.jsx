@@ -1,15 +1,7 @@
-import { StrictMode } from "react";
 import { LinkExternalIcon } from "@primer/octicons-react";
-import {
-  BaseStyles,
-  Breadcrumbs,
-  Link,
-  PageHeader,
-  SplitPageLayout,
-  ThemeProvider,
-} from "@primer/react";
-import { createRoot } from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
+import { Breadcrumbs, Link, PageHeader, SplitPageLayout } from "@primer/react";
+
+import renderOrHydrate from "../functions/renderOrHydrate";
 
 import "../globals.css";
 
@@ -193,19 +185,4 @@ export default function Links() {
   );
 }
 
-createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <BrowserRouter>
-      <ThemeProvider
-        colorMode="auto"
-        dayScheme="light"
-        nightScheme="dark_dimmed"
-        preventSSRMismatch
-      >
-        <BaseStyles>
-          <Links />
-        </BaseStyles>
-      </ThemeProvider>
-    </BrowserRouter>
-  </StrictMode>,
-);
+renderOrHydrate(Links);

@@ -1,16 +1,13 @@
-import { StrictMode } from "react";
 import { LinkExternalIcon } from "@primer/octicons-react";
 import {
-  BaseStyles,
   Breadcrumbs,
   Link,
   PageHeader,
   SplitPageLayout,
   Text,
-  ThemeProvider,
 } from "@primer/react";
-import { createRoot } from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
+
+import renderOrHydrate from "../functions/renderOrHydrate";
 
 import "../globals.css";
 
@@ -992,19 +989,4 @@ export default function Pubs() {
   );
 }
 
-createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <BrowserRouter>
-      <ThemeProvider
-        colorMode="auto"
-        dayScheme="light"
-        nightScheme="dark_dimmed"
-        preventSSRMismatch
-      >
-        <BaseStyles>
-          <Pubs />
-        </BaseStyles>
-      </ThemeProvider>
-    </BrowserRouter>
-  </StrictMode>,
-);
+renderOrHydrate(Pubs);

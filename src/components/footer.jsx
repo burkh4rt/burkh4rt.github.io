@@ -42,6 +42,7 @@ export default function Footer() {
           margin: 0,
           textAlign: "right",
         }}
+        suppressHydrationWarning={true}
       >
         <LocationIcon size="10" verticalAlign="middle" /> Plainfield, Indiana
         &copy;&thinsp;
