@@ -7,6 +7,7 @@ import svgr from "vite-plugin-svgr";
 
 export default defineConfig({
   build: {
+    assetsInlineLimit: 102400,
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
@@ -17,6 +18,8 @@ export default defineConfig({
       },
     },
     target: "es2019",
+    // cssMinify: false,
+    // minify: false,
   },
   esbuild: {
     legalComments: "none",
@@ -25,9 +28,9 @@ export default defineConfig({
     exclude: ["fsevents"],
   },
   plugins: [
+    imagetools(),
     react(),
     svgr(),
-    imagetools(),
     VitePWA({
       includeAssets: ["**/*.svg", "**/cv.pdf", "**/*.webp"],
       registerType: "autoUpdate",

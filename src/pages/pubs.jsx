@@ -48,6 +48,32 @@ export default function Pubs() {
           <Text>
             <ul>
               <li>
+                S. Sethi, D. Chen, T. Statchen, M. Burkhart, N. Bhandari, B.
+                Ramadan, &amp; B. Beaulieu-Jones,{" "}
+                <Link
+                  href="https://proceedings.mlr.press/v298/sethi25a.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  inline={true}
+                >
+                  ProtoECGNet: case-based interpretable deep learning for
+                  multi-label ECG classification with contrastive learning
+                </Link>
+                , Proceedings of the 10th Machine Learning for Healthcare
+                Conference, PMLR 298 (2025)&ensp;&ensp;
+                <Link
+                  href="pubs/Sethi-et-al-2025-Mach-Learn-Healthcare-Conf.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  inline={true}
+                  sx={{ whiteSpace: "nowrap" }}
+                >
+                  pdf&thinsp;
+                  <LinkExternalIcon verticalAlign="middle" />
+                </Link>
+              </li>
+
+              <li>
                 M. Burkhart,{" "}
                 <Link
                   href="https://doi.org/10.1017/S0017089524000363"
@@ -776,31 +802,6 @@ export default function Pubs() {
                 &ensp;&ensp;
                 <Link
                   href="pubs/Burkhart-et-al-2025-arXiv.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  inline={true}
-                  sx={{ whiteSpace: "nowrap" }}
-                >
-                  pdf&thinsp;
-                  <LinkExternalIcon verticalAlign="middle" />
-                </Link>
-              </li>
-
-              <li>
-                S. Sethi, D. Chen, T. Statchen, M. Burkhart, N. Bhandari, B.
-                Ramadan, &amp; B. Beaulieu-Jones,{" "}
-                <Link
-                  href="https://doi.org/10.48550/arXiv.2504.08713"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  inline={true}
-                >
-                  ProtoECGNet: case-based interpretable deep learning for
-                  multi-label ECG classification with contrastive learning
-                </Link>
-                , arXiv:2504.08713&ensp;&ensp;
-                <Link
-                  href="pubs/Sethi-et-al-2025-arXiv.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   inline={true}

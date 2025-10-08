@@ -10,7 +10,6 @@
     "@primer/react": "^37.31.0",
     "@primer/react-brand": "^0.58.1",
     "@svgr/webpack": "^8.1.0",
-    "deepmerge": "^4.3.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-helmet": "^6.1.0",
@@ -53,10 +52,9 @@
   "reactSnap": {
     "include": [
       "/",
-      "/links.html",
-      "/pubs.html",
-      "/cv.html",
-      "/404.html"
+      "/links",
+      "/pubs",
+      "/cv"
     ],
     "source": "dist",
     "waitFor": 2000
