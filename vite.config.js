@@ -1,8 +1,10 @@
-import { resolve } from "path";
+import path, { resolve } from "path";
 import react from "@vitejs/plugin-react";
+import fg from "fast-glob";
 import { defineConfig } from "vite";
 import { imagetools } from "vite-imagetools";
 import { VitePWA } from "vite-plugin-pwa";
+import Sitemap from "vite-plugin-sitemap";
 import svgr from "vite-plugin-svgr";
 
 export default defineConfig({
@@ -30,6 +32,14 @@ export default defineConfig({
   plugins: [
     imagetools(),
     react(),
+    Sitemap({
+      hostname: "https://burkh4rt.github.io",
+      dynamicRoutes: (() => {
+        const publicDir = path.resolve(__dirname, "public");
+        const pdfs = fg.sync("**/*.pdf", { cwd: publicDir });
+        return pdfs.map((f) => "/" + f.replace(/\\/g, "/") + ".pdf"); // a hack; one of the .pdf's will get stripped
+      })(),
+    }),
     svgr(),
     VitePWA({
       includeAssets: ["**/*.svg", "**/cv.pdf", "**/*.webp"],
