@@ -777,6 +777,32 @@ export default function Pubs() {
               </li>
 
               <li>
+                N. Hahn, E. Stein, BrainGate Consortium (128 named members
+                including M. Burkhart, D. Brandman, E. Brown, & M. Harrison), J.
+                Donoghue, J. Simeral, L. Hochberg, & F. Willett,{" "}
+                <Link
+                  href="https://doi.org/10.1101/2025.07.02.25330310"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  inline={true}
+                >
+                  Long-term performance of intracortical microelectrode arrays
+                  in 14 BrainGate clinical trial participants
+                </Link>
+                , medRxiv:2025.07.02.25330310&ensp;&ensp;
+                <Link
+                  href="pubs/Hahn-et-al-2025-medRxiv.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  inline={true}
+                  sx={{ whiteSpace: "nowrap" }}
+                >
+                  pdf&thinsp;
+                  <LinkExternalIcon verticalAlign="middle" />
+                </Link>
+              </li>
+
+              <li>
                 M. Burkhart, B. Ramadan, Z. Liao, K. Chhikara, J. Rojas, W.
                 Parker, &amp; B. Beaulieu-Jones,{" "}
                 <Link

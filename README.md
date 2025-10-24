@@ -6,6 +6,8 @@ To use:
 
 ```sh
 npm install
+npx npm-check-updates -u
+npm install
 npm run build
 npm run serve
 npm run deploy
