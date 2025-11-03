@@ -80,8 +80,8 @@ export default defineConfig({
       workbox: {
         runtimeCaching: [
           {
-            urlPattern: /\.(?:jpeg|jpg|avif|webp)$/,
-            handler: "NetworkFirst",
+            urlPattern: /\.(?:jpeg|jpg|avif|webp)$/i,
+            handler: "CacheFirst",
             options: {
               cacheName: "images-cache",
               expiration: {
@@ -91,8 +91,8 @@ export default defineConfig({
             },
           },
           {
-            urlPattern: /\.(?:otf|woff|woff2)$/,
-            handler: "NetworkFirst",
+            urlPattern: /\.(?:otf|woff|woff2)$/i,
+            handler: "CacheFirst",
             options: {
               cacheName: "fonts-cache",
               expiration: {
