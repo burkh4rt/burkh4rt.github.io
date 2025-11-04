@@ -83,3 +83,23 @@
     padding-left: var(--base-size-24);
   }
 }
+
+.normal-weight {
+  font-weight: normal;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.pubslist {
+  list-style: none;
+  margin-left: 0;
+}
+
+.pubslist li {
+  padding-left: 2em;
+  text-indent: -2em;
+  padding-bottom: 0.75em;
+  max-width: calc(max(75%, 500px));
+}

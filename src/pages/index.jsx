@@ -19,8 +19,8 @@ export default function Home() {
           regular: "normal",
           wide: "normal",
         }}
-        sx={{
-          bg: "canvas.default",
+        style={{
+          backgroundColor: "var(--bgColor-default)",
           minHeight: "100vh",
         }}
       >
@@ -30,7 +30,7 @@ export default function Home() {
           divider="none"
           sticky={false}
           padding="normal"
-          sx={{
+          style={{
             minWidth: "calc(min(100vw,400px))",
             overflow: "hidden",
           }}
@@ -53,12 +53,12 @@ export default function Home() {
 
             <Heading
               as="h1"
-              sx={{
-                fontWeight: "normal",
+              style={{
                 width: "calc(min(75vw,350px))",
                 overflow: "hidden",
                 paddingTop: { narrow: "0pt", regular: "10pt" },
               }}
+              className="normal-weight"
             >
               Michael C. Burkhart
             </Heading>
@@ -69,11 +69,14 @@ export default function Home() {
 
         <SplitPageLayout.Content
           divider="none"
-          style={{ minWidth: "calc(min(75vw,350px))" }}
-          sx={{ paddingTop: 0 }}
+          style={{ minWidth: "calc(min(75vw,350px))", paddingTop: 0 }}
           padding="normal"
         >
-          <PageHeader as="h3" sx={{ paddingTop: 0, fontWeight: "normal" }}>
+          <PageHeader
+            as="h3"
+            style={{ paddingTop: 0 }}
+            className="normal-weight"
+          >
             About Me
           </PageHeader>
 
