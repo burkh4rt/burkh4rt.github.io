@@ -1,4 +1,5 @@
 import { Heading, PageHeader, SplitPageLayout } from "@primer/react";
+import { Helmet } from "react-helmet";
 
 import renderOrHydrate from "../functions/renderOrHydrate";
 
@@ -13,6 +14,10 @@ import ProfileWebp from "../images/profile_img.jpg?format=webp&quality=100&as=sr
 export default function Home() {
   return (
     <>
+      <Helmet>
+        <link rel="preload" href={ProfileJpg} as="image" type="image/webp" />
+      </Helmet>
+
       <SplitPageLayout
         padding={{
           narrow: "condensed",
