@@ -51,10 +51,10 @@ export default function Links() {
               flexWrap: "wrap",
               justifyContent: "space-evenly",
               gap: "2rem",
-              maxWidth: "calc(min(max(50%,400px),75vw))",
               marginLeft: "auto",
               marginRight: "auto",
             }}
+            className="columnar"
           >
             <Link
               href="https://www.linkedin.com/in/burkh4rt/"

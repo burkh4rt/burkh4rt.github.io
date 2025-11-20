@@ -103,3 +103,18 @@
   padding-bottom: 0.75em;
   max-width: calc(max(75%, 500px));
 }
+
+.columnar {
+  max-width: calc(min(max(50%, 400px), 75vw));
+}
+
+.sc {
+  font-feature-settings:
+    "calt" 1,
+    "kern" 1,
+    "liga" 1,
+    "onum" 1,
+    "salt" 1,
+    "smcp" 1;
+  letter-spacing: 0.03em;
+}

@@ -81,7 +81,7 @@ export default defineConfig({
         runtimeCaching: [
           {
             urlPattern: /\.(?:jpeg|jpg|avif|webp)$/i,
-            handler: "CacheFirst",
+            handler: "NetworkFirst",
             options: {
               cacheName: "images-cache",
               expiration: {
@@ -92,7 +92,7 @@ export default defineConfig({
           },
           {
             urlPattern: /\.(?:otf|woff|woff2)$/i,
-            handler: "CacheFirst",
+            handler: "NetworkFirst",
             options: {
               cacheName: "fonts-cache",
               expiration: {

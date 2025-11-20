@@ -39,6 +39,93 @@ export default function Pubs() {
           <Text>
             <ul className="pubslist">
               <li>
+                M. Burkhart, B. Ramadan, L. Solo, W. Parker, &amp; B.
+                Beaulieu-Jones,{" "}
+                <Link
+                  href="https://doi.org/10.48550/arXiv.2507.22798"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  inline={true}
+                >
+                  Quantifying surprise in clinical care: detecting highly
+                  informative events in electronic health records with
+                  foundation models
+                </Link>
+                , Pacific Symposium on Biocomputing 31 (2026)&ensp;&ensp;
+                <Link
+                  href="https://github.com/burkh4rt/Quantifying-Surprise-EHRs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  inline={true}
+                  className="nowrap"
+                >
+                  code&thinsp;
+                  <LinkExternalIcon verticalAlign="middle" />
+                </Link>
+                &ensp;&ensp;
+                <Link
+                  href="pubs/Burkhart-et-al-2026-Pac-Symp-Biocomput.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  inline={true}
+                  className="nowrap"
+                >
+                  pdf&thinsp;
+                  <LinkExternalIcon verticalAlign="middle" />
+                </Link>
+              </li>
+
+              <li>
+                S. Sethi, D. Chen, M. Burkhart, N. Bhandari, B. Ramadan, &amp;
+                B. Beaulieu-Jones,{" "}
+                <Link
+                  href="https://doi.org/10.48550/arXiv.2508.01521"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  inline={true}
+                >
+                  Prototype learning to create refined interpretable digital
+                  phenotypes from ECGs
+                </Link>
+                , Pacific Symposium on Biocomputing 31 (2026)&ensp;&ensp;
+                <Link
+                  href="pubs/Sethi-et-al-2026-Pac-Symp-Biocomput.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  inline={true}
+                  className="nowrap"
+                >
+                  pdf&thinsp;
+                  <LinkExternalIcon verticalAlign="middle" />
+                </Link>
+              </li>
+
+              <li>
+                B. Ramadan, M.-C. Liu, M. Burkhart, W. Parker, &amp; B.
+                Beaulieu-Jones,{" "}
+                <Link
+                  href="https://doi.org/10.1101/2025.08.09.25333360" // https://doi.org/10.1001/jamanetworkopen.2025.50454
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  inline={true}
+                >
+                  Diagnostic codes in AI prediction models and label leakage of
+                  same-admission clinical outcomes
+                </Link>
+                , JAMA Network Open 8 (in press)&ensp;&ensp;
+                <Link
+                  href="pubs/Ramadan-et-al-2025-medRxiv.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  inline={true}
+                  className="nowrap"
+                >
+                  pdf&thinsp;
+                  <LinkExternalIcon verticalAlign="middle" />
+                </Link>
+              </li>
+
+              <li>
                 S. Sethi, D. Chen, T. Statchen, M. Burkhart, N. Bhandari, B.
                 Ramadan, &amp; B. Beaulieu-Jones,{" "}
                 <Link
@@ -680,93 +767,6 @@ export default function Pubs() {
           </PageHeader>
           <Text>
             <ul className="pubslist">
-              <li>
-                B. Ramadan, M.-C. Liu, M. Burkhart, W. Parker, &amp; B.
-                Beaulieu-Jones,{" "}
-                <Link
-                  href="https://doi.org/10.1101/2025.08.09.25333360"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  inline={true}
-                >
-                  Diagnostic codes in AI prediction models and label leakage of
-                  same-admission clinical outcomes
-                </Link>
-                , medRxiv:2025.08.09.25333360&ensp;&ensp;
-                <Link
-                  href="pubs/Ramadan-et-al-2025-medRxiv.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  inline={true}
-                  className="nowrap"
-                >
-                  pdf&thinsp;
-                  <LinkExternalIcon verticalAlign="middle" />
-                </Link>
-              </li>
-
-              <li>
-                S. Sethi, D. Chen, M. Burkhart, N. Bhandari, B. Ramadan, &amp;
-                B. Beaulieu-Jones,{" "}
-                <Link
-                  href="https://doi.org/10.48550/arXiv.2508.01521"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  inline={true}
-                >
-                  Prototype learning to create refined interpretable digital
-                  phenotypes from ECGs
-                </Link>
-                , arXiv:2508.01521&ensp;&ensp;
-                <Link
-                  href="pubs/Sethi-et-al-2025-arXiv-2.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  inline={true}
-                  className="nowrap"
-                >
-                  pdf&thinsp;
-                  <LinkExternalIcon verticalAlign="middle" />
-                </Link>
-              </li>
-
-              <li>
-                M. Burkhart, B. Ramadan, L. Solo, W. Parker, &amp; B.
-                Beaulieu-Jones,{" "}
-                <Link
-                  href="https://doi.org/10.48550/arXiv.2507.22798"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  inline={true}
-                >
-                  Quantifying surprise in clinical care: detecting highly
-                  informative events in electronic health records with
-                  foundation models
-                </Link>
-                , arXiv:2507.22798&ensp;&ensp;
-                <Link
-                  href="https://github.com/burkh4rt/Quantifying-Surprise-EHRs"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  inline={true}
-                  className="nowrap"
-                >
-                  code&thinsp;
-                  <LinkExternalIcon verticalAlign="middle" />
-                </Link>
-                &ensp;&ensp;
-                <Link
-                  href="pubs/Burkhart-et-al-2025-arXiv-2.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  inline={true}
-                  className="nowrap"
-                >
-                  pdf&thinsp;
-                  <LinkExternalIcon verticalAlign="middle" />
-                </Link>
-              </li>
-
               <li>
                 N. Hahn, E. Stein, BrainGate Consortium (128 named members
                 including M. Burkhart, D. Brandman, E. Brown, & M. Harrison), J.
