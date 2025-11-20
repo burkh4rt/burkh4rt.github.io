@@ -53,7 +53,7 @@ export default function Home({ pathname }) {
                     <source srcSet={ProfileWebp} type="image/webp" />
                     <img
                       src={ProfileJpg}
-                      alt="photo of Michael C. Burkhart"
+                      alt="Michael C. Burkhart"
                       width={300}
                       height={300}
                       fetchPriority="high"

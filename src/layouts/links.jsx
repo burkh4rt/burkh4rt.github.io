@@ -42,7 +42,7 @@ export default function LinksLayout({ pathname }) {
               <SplitPageLayout.Header>
                 <Breadcrumbs>
                   <Breadcrumbs.Item href="/">home</Breadcrumbs.Item>
-                  <Breadcrumbs.Item href="#" selected>
+                  <Breadcrumbs.Item aria-current="page" selected>
                     links
                   </Breadcrumbs.Item>
                 </Breadcrumbs>
