@@ -4,11 +4,25 @@
     "defaults"
   ],
   "description": "Michael's personal website",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "npm run format && astro build",
+    "deploy": "gh-pages -t -d dist -b master",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "preview": "astro preview",
+    "serve": "astro preview",
+    "astro": "astro"
+  },
   "dependencies": {
+    "@astrojs/react": "^4.4.2",
     "@primer/octicons-react": "^19.21.0",
     "@primer/primitives": "^11.3.0",
     "@primer/react": "^38.1.0",
     "@primer/react-brand": "^0.59.2",
+    "@types/react": "^19.2.6",
+    "@types/react-dom": "^19.2.3",
+    "astro": "^5.15.9",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-is": "^19.2.0",
@@ -20,8 +34,11 @@
     "@csstools/postcss-global-data": "^3.1.0",
     "@github/browserslist-config": "^1.0.0",
     "@ianvs/prettier-plugin-sort-imports": "^4.7.0",
+    "@svgr/rollup": "^8.1.0",
+    "@svgr/webpack": "^8.1.0",
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
+    "@vite-pwa/astro": "^1.1.1",
     "@vitejs/plugin-react": "^5.1.1",
     "babel-plugin-styled-components": "^2.1.4",
     "fast-glob": "^3.3.3",
@@ -49,36 +66,9 @@
   },
   "license": "UNLICENSED",
   "name": "@burkh4rt/burkh4rt.github.io",
-  "packageManager": "yarn@4.5.1",
-  "reactSnap": {
-    "include": [
-      "/",
-      "/404.html",
-      "/links.html",
-      "/pubs.html",
-      "/cv.html"
-    ],
-    "exportOnly": true,
-    "publicPath": "/",
-    "source": "dist",
-    "waitFor": 2000
-  },
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com:burkh4rt/burkh4rt.github.io.git"
   },
-  "scripts": {
-    "build": "npm run format && vite build",
-    "deploy": "gh-pages -t -d dist -b master",
-    "develop": "vite",
-    "dev": "vite",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "postbuild": "react-snap",
-    "prettier": "npm run format",
-    "pretty": "npm run format",
-    "preview": "vite preview --port=9000",
-    "serve": "vite preview --port=9000"
-  },
-  "type": "module",
   "version": "4.1.0"
 }

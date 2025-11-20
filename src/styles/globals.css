@@ -14,8 +14,8 @@
 @font-face {
   font-family: "Gill Sans Nova";
   src:
-    url("./fonts/GillSansNova-Book.woff2") format("woff2"),
-    url("./fonts/GillSansNova-Book.otf") format("opentype"),
+    url("../fonts/GillSansNova-Book.woff2") format("woff2"),
+    url("../fonts/GillSansNova-Book.otf") format("opentype"),
     url("https://use.typekit.net/af/078c93/00000000000000003b9b1f81/27/l")
       format("woff2"),
     url("https://use.typekit.net/af/078c93/00000000000000003b9b1f81/27/d")
@@ -35,8 +35,8 @@
 @font-face {
   font-family: "Gill Sans Nova";
   src:
-    url("./fonts/GillSansNova-Medium.woff2") format("woff2"),
-    url("./fonts/GillSansNova-Medium.otf") format("opentype");
+    url("../fonts/GillSansNova-Medium.woff2") format("woff2"),
+    url("../fonts/GillSansNova-Medium.otf") format("opentype");
   font-style: normal;
   font-weight: 600;
   font-feature-settings:

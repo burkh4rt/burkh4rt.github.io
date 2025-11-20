@@ -1,9 +1,15 @@
+---
+import LinksLayout from '../layouts/links';
+
+const pathname = Astro.url.pathname;
+---
+
 <!doctype html>
 <html lang="en">
   <head>
-    <title>publications</title>
+    <title>links</title>
     <meta charset="utf-8" />
-    <link rel="canonical" href="https://burkh4rt.github.io/pubs" />
+    <link rel="canonical" href="https://burkh4rt.github.io/links" />
     <link rel="icon" href="favicon.ico" sizes="any" />
     <link rel="apple-touch-icon" href="icon-192.png" />
     <meta
@@ -20,7 +26,6 @@
     <meta name="background-color" content="#80000" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="./src/pages/pubs.jsx"></script>
+    <LinksLayout pathname={pathname} />
   </body>
 </html>

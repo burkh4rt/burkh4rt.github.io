@@ -1,11 +1,7 @@
 import { LocationIcon } from "@primer/octicons-react";
 import { SplitPageLayout, Text, UnderlineNav } from "@primer/react";
-import { useLocation } from "react-router-dom";
 
-export default function Footer() {
-  const location = useLocation();
-  const { pathname } = location;
-
+export default function Footer({ pathname }) {
   return (
     <SplitPageLayout.Footer divider="none">
       <UnderlineNav aria-label="navigation">
