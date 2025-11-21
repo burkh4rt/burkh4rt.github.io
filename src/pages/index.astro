@@ -1,4 +1,6 @@
 ---
+import { BaseStyles, ThemeProvider } from "@primer/react";
+
 import Home from "../layouts/index";
 
 const pathname = Astro.url.pathname;
@@ -140,6 +142,15 @@ const pathname = Astro.url.pathname;
     </script>
   </head>
   <body>
-    <Home pathname={pathname} />
+    <ThemeProvider
+      colorMode="auto"
+      dayScheme="light"
+      nightScheme="dark_dimmed"
+      preventSSRMismatch={true}
+    >
+      <BaseStyles>
+        <Home pathname={pathname} />
+      </BaseStyles>
+    </ThemeProvider>
   </body>
 </html>

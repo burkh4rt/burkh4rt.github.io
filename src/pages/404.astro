@@ -1,3 +1,9 @@
+---
+import { BaseStyles, ThemeProvider } from "@primer/react";
+
+import Err404 from "../layouts/404";
+---
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -20,7 +26,15 @@
     <meta name="background-color" content="#80000" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="./src/pages/404.jsx"></script>
+    <ThemeProvider
+      colorMode="auto"
+      dayScheme="light"
+      nightScheme="dark_dimmed"
+      preventSSRMismatch={true}
+    >
+      <BaseStyles>
+        <Err404 />
+      </BaseStyles>
+    </ThemeProvider>
   </body>
 </html>

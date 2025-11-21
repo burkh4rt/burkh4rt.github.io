@@ -32,7 +32,8 @@ export default function TLine() {
           >
             dissertation&thinsp;
             <LinkExternalIcon verticalAlign="middle" />
-          </Link>{" "}
+          </Link>
+          &nbsp;
           <Text className="nowrap">
             (
             <Link
@@ -45,11 +46,11 @@ export default function TLine() {
               <LinkExternalIcon verticalAlign="middle" />
             </Link>
             ),
-          </Text>{" "}
-          I derived a novel approach to Bayesian filtering, the Discriminative
-          Kalman Filter, motivated by and developed with my advisor M. Harrison
-          and collaborators D. Brandman and L. Hochberg. We validated and
-          successfully implemented this filter as part of the{" "}
+          </Text>
+          &nbsp;I derived a novel approach to Bayesian filtering, the
+          Discriminative Kalman Filter, motivated by and developed with my
+          advisor M. Harrison and collaborators D. Brandman and L. Hochberg. We
+          validated and successfully implemented this filter as part of the{" "}
           <Link
             href="https://www.braingate.org"
             target="_blank"
@@ -57,8 +58,8 @@ export default function TLine() {
             inline={true}
           >
             BrainGate
-          </Link>{" "}
-          Clinical Trial that enables participants with quadriplegia to
+          </Link>
+          &nbsp;Clinical Trial that enables participants with quadriplegia to
           communicate and interact with their environments in real time using
           mental imagery alone{" "}
           <Text className="nowrap">
@@ -109,8 +110,8 @@ export default function TLine() {
               <LinkExternalIcon verticalAlign="middle" />
             </Link>
             )
-          </Text>{" "}
-          and causal inference{" "}
+          </Text>
+          &nbsp;and causal inference{" "}
           <Text className="nowrap">
             (
             <Link
@@ -197,8 +198,8 @@ export default function TLine() {
               <LinkExternalIcon verticalAlign="middle" />
             </Link>
             ).
-          </Text>{" "}
-          I also investigated how sequential inference can be applied to
+          </Text>
+          &nbsp;I also investigated how sequential inference can be applied to
           optimization{" "}
           <Text className="nowrap">
             (
@@ -212,9 +213,9 @@ export default function TLine() {
               <LinkExternalIcon verticalAlign="middle" />
             </Link>
             )
-          </Text>{" "}
-          and conditions for non-coprime actions in abstract groups to have
-          fixed points{" "}
+          </Text>
+          &nbsp;and conditions for non-coprime actions in abstract groups to
+          have fixed points{" "}
           <Text className="nowrap">
             (
             <Link
@@ -226,7 +227,7 @@ export default function TLine() {
               paper&thinsp;
               <LinkExternalIcon verticalAlign="middle" />
             </Link>
-            ,{" "}
+            ,&nbsp;
             <Link
               href="https://doi.org/10.1017/S0017089524000363"
               target="_blank"
@@ -254,9 +255,9 @@ export default function TLine() {
             inline={true}
           >
             Beaulieu-Jones Lab
-          </Link>{" "}
-          at the University of Chicago to continue working to improve machine
-          learning for healthcare applications.
+          </Link>
+          &nbsp;at the University of Chicago to continue working to improve
+          machine learning for healthcare applications.
         </Timeline.Body>
       </Timeline.Item>
     </Timeline>
