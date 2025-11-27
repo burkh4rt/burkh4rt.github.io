@@ -1,0 +1,7 @@
+# https://www.robotstxt.org
+
+# allow unrestricted crawling
+User-agent: *
+Disallow:
+
+Sitemap: https://burkh4rt.github.io/sitemap-index.xml
