@@ -13,13 +13,7 @@ import "../styles/globals.css";
 
 export default function PubsLayout({ pathname }) {
   return (
-    <SplitPageLayout
-      padding="normal"
-      style={{
-        backgroundColor: "var(--bgColor-default)",
-        minHeight: "100vh",
-      }}
-    >
+    <SplitPageLayout padding="normal" className="page">
       <SplitPageLayout.Header>
         <Breadcrumbs>
           <Breadcrumbs.Item href="/">home</Breadcrumbs.Item>

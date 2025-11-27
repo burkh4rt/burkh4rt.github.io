@@ -11,11 +11,12 @@ import "../styles/globals.css";
 export default function Home({ pathname }) {
   return (
     <SplitPageLayout
-      padding="normal"
-      style={{
-        backgroundColor: "var(--bgColor-default)",
-        minHeight: "100vh",
+      padding={{
+        narrow: "condensed",
+        regular: "normal",
+        wide: "normal",
       }}
+      className="page"
     >
       <SplitPageLayout.Pane
         className="pl-med"

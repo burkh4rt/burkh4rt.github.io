@@ -16,13 +16,7 @@ import "../styles/globals.css";
 
 export default function LinksLayout({ pathname }) {
   return (
-    <SplitPageLayout
-      padding="normal"
-      style={{
-        backgroundColor: "var(--bgColor-default)",
-        minHeight: "100vh",
-      }}
-    >
+    <SplitPageLayout padding="normal" className="page">
       <SplitPageLayout.Header>
         <Breadcrumbs>
           <Breadcrumbs.Item href="/">home</Breadcrumbs.Item>
@@ -40,24 +34,13 @@ export default function LinksLayout({ pathname }) {
           Online Presence
         </PageHeader>
 
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            flexWrap: "wrap",
-            justifyContent: "space-evenly",
-            gap: "2rem",
-            marginLeft: "auto",
-            marginRight: "auto",
-          }}
-          className="columnar"
-        >
+        <div className="columnar spaced">
           <Link
             href="https://www.linkedin.com/in/burkh4rt/"
             target="_blank"
             className="nowrap"
           >
-            <LinkedInLogo style={{ height: "0.75em" }} />
+            <LinkedInLogo className="three-fourths" />
             &nbsp;LinkedIn&thinsp;
             <LinkExternalIcon verticalAlign="middle" />
           </Link>
@@ -66,7 +49,7 @@ export default function LinksLayout({ pathname }) {
             target="_blank"
             className="nowrap"
           >
-            <GithubLogo style={{ height: "0.75em" }} />
+            <GithubLogo className="three-fourths" />
             &nbsp;Github&thinsp;
             <LinkExternalIcon verticalAlign="middle" />
           </Link>
@@ -75,7 +58,7 @@ export default function LinksLayout({ pathname }) {
             target="_blank"
             className="nowrap"
           >
-            <GoogleScholarLogo style={{ height: "0.75em" }} />
+            <GoogleScholarLogo className="three-fourths" />
             &nbsp;Google Scholar&thinsp;
             <LinkExternalIcon verticalAlign="middle" />
           </Link>
@@ -84,7 +67,7 @@ export default function LinksLayout({ pathname }) {
             target="_blank"
             className="nowrap"
           >
-            <OrcIDLogo style={{ height: "0.75em" }} />
+            <OrcIDLogo className="three-fourths" />
             &nbsp;OrcID&thinsp;
             <LinkExternalIcon verticalAlign="middle" />
           </Link>
@@ -93,7 +76,7 @@ export default function LinksLayout({ pathname }) {
             target="_blank"
             className="nowrap"
           >
-            <AMSLogo style={{ height: "0.75em" }} />
+            <AMSLogo className="three-fourths" />
             &nbsp;MathSciNet&thinsp;
             <LinkExternalIcon verticalAlign="middle" />
           </Link>
@@ -102,7 +85,7 @@ export default function LinksLayout({ pathname }) {
             target="_blank"
             className="nowrap"
           >
-            <ZBMathLogo style={{ height: "0.75em" }} />
+            <ZBMathLogo className="three-fourths" />
             &nbsp;zbMath&thinsp;
             <LinkExternalIcon verticalAlign="middle" />
           </Link>
@@ -119,7 +102,7 @@ export default function LinksLayout({ pathname }) {
             target="_blank"
             className="nowrap"
           >
-            <ArXivLogo style={{ height: "0.75em" }} />
+            <ArXivLogo className="three-fourths" />
             &nbsp;arXiv&thinsp;
             <LinkExternalIcon verticalAlign="middle" />
           </Link>
@@ -128,7 +111,7 @@ export default function LinksLayout({ pathname }) {
             target="_blank"
             className="nowrap"
           >
-            <INaturalistLogo style={{ height: "0.75em" }} />
+            <INaturalistLogo className="three-fourths" />
             &nbsp;iNaturalist&thinsp;
             <LinkExternalIcon verticalAlign="middle" />
           </Link>
@@ -153,7 +136,7 @@ export default function LinksLayout({ pathname }) {
             target="_blank"
             className="nowrap"
           >
-            <InstagramLogo style={{ height: "0.75em" }} />
+            <InstagramLogo className="three-fourths" />
             &nbsp;Instagram&thinsp;
             <LinkExternalIcon verticalAlign="middle" />
           </Link>

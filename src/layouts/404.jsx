@@ -11,12 +11,7 @@ import "../styles/globals.css";
 
 export default function Err404() {
   return (
-    <SplitPageLayout
-      style={{
-        backgroundColor: "var(--bgColor-default)",
-        minHeight: "100vh",
-      }}
-    >
+    <SplitPageLayout padding="normal" className="page">
       <SplitPageLayout.Header>
         <Breadcrumbs>
           <Breadcrumbs.Item href="/">home</Breadcrumbs.Item>
