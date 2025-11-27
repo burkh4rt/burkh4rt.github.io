@@ -20,7 +20,7 @@
     "@primer/primitives": "^11.3.1",
     "@primer/react": "^38.2.0",
     "@primer/react-brand": "^0.59.2",
-    "astro": "^5.16.0",
+    "astro": "^5.16.1",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-is": "^19.2.0",
@@ -38,7 +38,7 @@
     "prettier": "^3.6.2",
     "prettier-plugin-astro": "^0.14.1",
     "vite": "^7.2.4",
-    "vite-imagetools": "^9.0.0",
+    "vite-imagetools": "^9.0.2",
     "vite-plugin-svgr": "^4.5.0"
   },
   "license": "UNLICENSED",
