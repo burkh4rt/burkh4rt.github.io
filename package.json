@@ -15,6 +15,7 @@
     "@astrojs/react": "^4.4.2",
     "@astrojs/sitemap": "^3.6.0",
     "@playform/compress": "^0.2.0",
+    "@playform/inline": "^0.1.2",
     "@primer/octicons-react": "^19.21.0",
     "@primer/primitives": "^11.3.1",
     "@primer/react": "^38.2.0",

@@ -15,6 +15,8 @@ export default defineConfig({
   build: { format: "file" },
   compressHTML: true,
   integrations: [
+    playformCompress({ Image: false }),
+    (await import("@playform/inline")).default(),
     react(),
     AstroPWA({
       // includeAssets: ["**/*.svg", "**/cv.pdf", "**/*.webp", "**/*.png"],
@@ -88,7 +90,6 @@ export default defineConfig({
         );
       })(),
     }),
-    playformCompress({ Image: false }),
   ],
   output: "static",
   prefetch: {
