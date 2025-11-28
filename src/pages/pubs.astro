@@ -1,5 +1,7 @@
 ---
 import PrimerCoat from "../components/primer";
+import GillSansBook from "../fonts/GillSansNova-Book.woff2";
+import GillSansMed from "../fonts/GillSansNova-Medium.woff2";
 import PubsLayout from "../layouts/pubs";
 
 const pathname = Astro.url.pathname;
@@ -25,6 +27,20 @@ const pathname = Astro.url.pathname;
     />
     <meta name="theme-color" content="#80000" />
     <meta name="background-color" content="#80000" />
+    <link
+      rel="preload"
+      as="font"
+      href={GillSansBook}
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="font"
+      href={GillSansMed}
+      type="font/woff2"
+      crossorigin
+    />
   </head>
   <body>
     <PrimerCoat>

@@ -1,5 +1,6 @@
 ---
 import PrimerCoat from "../components/primer";
+import GillSansBook from "../fonts/GillSansNova-Book.woff2";
 import Err404 from "../layouts/404";
 ---
 
@@ -23,6 +24,13 @@ import Err404 from "../layouts/404";
     />
     <meta name="theme-color" content="#80000" />
     <meta name="background-color" content="#80000" />
+    <link
+      rel="preload"
+      as="font"
+      href={GillSansBook}
+      type="font/woff2"
+      crossorigin
+    />
   </head>
   <body>
     <PrimerCoat>

@@ -2,7 +2,6 @@
 import LinkedData from "../components/linked-data.astro";
 import PrimerCoat from "../components/primer";
 import GillSansBook from "../fonts/GillSansNova-Book.woff2";
-import GillSansMed from "../fonts/GillSansNova-Medium.woff2";
 import ProfileJpg from "../images/profile_img.jpg";
 // @ts-ignore
 import ProfileWebp from "../images/profile_img.jpg?format=webp&quality=100&as=srcset";
@@ -64,13 +63,6 @@ const pathname = Astro.url.pathname;
       rel="preload"
       as="font"
       href={GillSansBook}
-      type="font/woff2"
-      crossorigin
-    />
-    <link
-      rel="preload"
-      as="font"
-      href={GillSansMed}
       type="font/woff2"
       crossorigin
     />
