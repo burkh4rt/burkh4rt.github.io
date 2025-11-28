@@ -1,6 +1,11 @@
 ---
 import LinkedData from "../components/linked-data.astro";
 import PrimerCoat from "../components/primer";
+import GillSansBook from "../fonts/GillSansNova-Book.woff2";
+import GillSansMed from "../fonts/GillSansNova-Medium.woff2";
+import ProfileJpg from "../images/profile_img.jpg";
+// @ts-ignore
+import ProfileWebp from "../images/profile_img.jpg?format=webp&quality=100&as=srcset";
 import Home from "../layouts/index";
 
 const pathname = Astro.url.pathname;
@@ -49,6 +54,26 @@ const pathname = Astro.url.pathname;
     />
     <LinkedData />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <link
+      rel="preload"
+      as="image"
+      href={ProfileJpg.src}
+      imagesrcset={ProfileWebp}
+    />
+    <link
+      rel="preload"
+      as="font"
+      href={GillSansBook}
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="font"
+      href={GillSansMed}
+      type="font/woff2"
+      crossorigin
+    />
   </head>
   <body>
     <PrimerCoat>
