@@ -15,12 +15,11 @@
     "@astrojs/react": "^4.4.2",
     "@astrojs/sitemap": "^3.6.0",
     "@playform/compress": "^0.2.0",
-    "@playform/inline": "^0.1.2",
-    "@primer/octicons-react": "^19.21.0",
+    "@primer/octicons-react": "^19.21.1",
     "@primer/primitives": "^11.3.1",
     "@primer/react": "^38.3.0",
     "@primer/react-brand": "^0.60.0",
-    "astro": "^5.16.2",
+    "astro": "^5.16.3",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-is": "^19.2.0",
@@ -35,9 +34,9 @@
     "gh-pages": "^6.3.0",
     "globals": "^16.5.0",
     "npm-check-updates": "^19.1.2",
-    "prettier": "^3.7.1",
+    "prettier": "^3.7.3",
     "prettier-plugin-astro": "^0.14.1",
-    "vite": "^7.2.4",
+    "vite": "^7.2.6",
     "vite-imagetools": "^9.0.2",
     "vite-plugin-svgr": "^4.5.0"
   },
@@ -47,5 +46,5 @@
     "type": "git",
     "url": "ssh://git@github.com:burkh4rt/burkh4rt.github.io.git"
   },
-  "version": "5.0.0"
+  "version": "5.0.1"
 }

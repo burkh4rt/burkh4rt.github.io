@@ -16,10 +16,8 @@ export default defineConfig({
   compressHTML: true,
   integrations: [
     playformCompress({ Image: false }),
-    (await import("@playform/inline")).default(),
     react(),
     AstroPWA({
-      // includeAssets: ["**/*.svg", "**/cv.pdf", "**/*.webp", "**/*.png"],
       manifest: {
         name: "Michael Burkhart's Site",
         short_name: "burkh4rt's homepage",
@@ -51,32 +49,6 @@ export default defineConfig({
         ],
       },
       registerType: "autoUpdate",
-      // workbox: {
-      //   runtimeCaching: [
-      //     {
-      //       urlPattern: /\.(?:jpeg|jpg|avif|webp)$/i,
-      //       handler: "NetworkFirst",
-      //       options: {
-      //         cacheName: "images-cache",
-      //         expiration: {
-      //           maxEntries: 100,
-      //           maxAgeSeconds: 60 * 60 * 24 * 365,
-      //         },
-      //       },
-      //     },
-      //     {
-      //       urlPattern: /\.(?:otf|woff|woff2)$/i,
-      //       handler: "NetworkFirst",
-      //       options: {
-      //         cacheName: "fonts-cache",
-      //         expiration: {
-      //           maxEntries: 5,
-      //           maxAgeSeconds: 60 * 60 * 24 * 365,
-      //         },
-      //       },
-      //     },
-      //   ],
-      // },
     }),
     sitemap({
       customPages: (() => {
