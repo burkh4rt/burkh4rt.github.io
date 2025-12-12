@@ -1,0 +1,75 @@
+---
+import LinkedData from "../components/linked-data.astro";
+import PrimerCoat from "../components/primer";
+import GillSansBook from "../fonts/GillSansNova-Book.woff2";
+import ProfileJpg from "../images/profile_img.jpg";
+// @ts-ignore
+import ProfileWebp from "../images/profile_img.jpg?format=webp&quality=100&as=srcset";
+import Home from "../layouts/index";
+
+const pathname = Astro.url.pathname;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Michael C. Burkhart's website</title>
+    <meta charset="utf-8" />
+    <link rel="canonical" href="https://burkh4rt.github.io" />
+    <link rel="icon" href="favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="icon-192.png" />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1"
+    />
+    <meta name="author" content="Michael C. Burkhart" />
+    <meta
+      property="og:image"
+      name="image"
+      content="https://burkh4rt.github.io/m.svg"
+    />
+    <meta name="theme-color" content="#80000" />
+    <meta name="background-color" content="#80000" />
+    <meta
+      name="description"
+      content="Michael Burkhart's homepage. Snippets from work and life, with links."
+    />
+    <meta property="og:title" content="Michael Burkhart's website" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://burkh4rt.github.io" />
+    <meta
+      property="og:description"
+      content="Michael Burkhart's homepage. Snippets from work and life, with links."
+    />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:site" content="burkh4rt" />
+    <meta name="twitter:creator" content="burkh4rt" />
+    <meta name="twitter:dnt" content="on" />
+    <link rel="me" href="https://twitter.com/burkh4rt" />
+    <link rel="me" href="https://mathstodon.xyz/@burkh4rt" />
+    <meta
+      name="google-site-verification"
+      content="RBomW7izIX8odL5WjXJS01CR5JonJ1lcE3EsTAbVDPk"
+    />
+    <LinkedData />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link
+      rel="preload"
+      as="image"
+      href={ProfileJpg.src}
+      imagesrcset={ProfileWebp}
+    />
+    <link
+      rel="preload"
+      as="font"
+      href={GillSansBook}
+      type="font/woff2"
+      crossorigin
+    />
+  </head>
+  <body>
+    <PrimerCoat>
+      <Home pathname={pathname} />
+    </PrimerCoat>
+  </body>
+</html>

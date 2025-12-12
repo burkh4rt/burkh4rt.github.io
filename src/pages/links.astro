@@ -1,9 +1,17 @@
+---
+import PrimerCoat from "../components/primer";
+import GillSansBook from "../fonts/GillSansNova-Book.woff2";
+import LinksLayout from "../layouts/links";
+
+const pathname = Astro.url.pathname;
+---
+
 <!doctype html>
 <html lang="en">
   <head>
-    <title>publications</title>
+    <title>links</title>
     <meta charset="utf-8" />
-    <link rel="canonical" href="https://burkh4rt.github.io/pubs" />
+    <link rel="canonical" href="https://burkh4rt.github.io/links" />
     <link rel="icon" href="favicon.ico" sizes="any" />
     <link rel="apple-touch-icon" href="icon-192.png" />
     <meta
@@ -18,9 +26,17 @@
     />
     <meta name="theme-color" content="#80000" />
     <meta name="background-color" content="#80000" />
+    <link
+      rel="preload"
+      as="font"
+      href={GillSansBook}
+      type="font/woff2"
+      crossorigin
+    />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="./src/pages/pubs.jsx"></script>
+    <PrimerCoat>
+      <LinksLayout pathname={pathname} />
+    </PrimerCoat>
   </body>
 </html>

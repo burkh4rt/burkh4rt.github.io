@@ -7,9 +7,5 @@
   "telemetry.feedback.enabled": false,
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.enableImages": true,
-  "terminal.integrated.smoothScrolling": true,
-  "search.exclude": {
-    "**/.yarn": true,
-    "**/.pnp.*": true
-  }
+  "terminal.integrated.smoothScrolling": true
 }

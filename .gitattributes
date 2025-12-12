@@ -1,3 +1,6 @@
+# idiosyncratic
+package-lock.json text linguist-generated=true
+
 # Copyright (c) HTML5 Boilerplate
 
 ## AUTO-DETECT
@@ -10,7 +13,7 @@
 ## SOURCE CODE
 *.bat      text eol=crlf
 *.coffee   text
-*.css      text linguist-generated=true
+*.css      text
 *.htm      text
 *.html     text
 *.inc      text
