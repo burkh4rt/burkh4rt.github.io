@@ -39,7 +39,7 @@ export default function PubsLayout({ pathname }) {
               M. Burkhart, B. Ramadan, L. Solo, W. Parker, &amp; B.
               Beaulieu-Jones,{" "}
               <Link
-                href="https://doi.org/10.48550/arXiv.2507.22798"
+                href="https://doi.org/10.1142/9789819824755_0013"
                 target="_blank"
                 rel="noopener noreferrer"
                 inline={true}
@@ -76,7 +76,7 @@ export default function PubsLayout({ pathname }) {
               S. Sethi, D. Chen, M. Burkhart, N. Bhandari, B. Ramadan, &amp; B.
               Beaulieu-Jones,{" "}
               <Link
-                href="https://doi.org/10.48550/arXiv.2508.01521"
+                href="https://doi.org/10.1142/9789819824755_0049"
                 target="_blank"
                 rel="noopener noreferrer"
                 inline={true}
