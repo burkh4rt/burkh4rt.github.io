@@ -101,7 +101,7 @@ export default function PubsLayout({ pathname }) {
               B. Ramadan, M.-C. Liu, M. Burkhart, W. Parker, &amp; B.
               Beaulieu-Jones,{" "}
               <Link
-                href="https://doi.org/10.1101/2025.08.09.25333360" // https://doi.org/10.1001/jamanetworkopen.2025.50454
+                href="https://doi.org/10.1001/jamanetworkopen.2025.50454"
                 target="_blank"
                 rel="noopener noreferrer"
                 inline={true}
@@ -109,9 +109,9 @@ export default function PubsLayout({ pathname }) {
                 Diagnostic codes in AI prediction models and label leakage of
                 same-admission clinical outcomes
               </Link>
-              , JAMA Network Open 8 (in press)&ensp;&ensp;
+              , JAMA Network Open 8 (2025)&ensp;&ensp;
               <Link
-                href="pubs/Ramadan-Liu-et-al-2025-medRxiv.pdf"
+                href="pubs/Ramadan-Liu-et-al-2025-JAMA-Netw-Open.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 inline={true}
