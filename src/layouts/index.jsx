@@ -25,7 +25,8 @@ export default function Home({ pathname }) {
         sticky={false}
         padding="normal"
         style={{
-          minWidth: "calc(min(100vw,400px))",
+          minWidth: "calc(min(100vw,350px))",
+          width: "400px",
           overflow: "hidden",
         }}
       >
@@ -49,7 +50,8 @@ export default function Home({ pathname }) {
             style={{
               width: "calc(min(75vw,350px))",
               overflow: "hidden",
-              paddingTop: { narrow: "0pt", regular: "10pt" },
+              paddingTop: 0,
+              paddingBottom: "3pt",
             }}
             className="normal-weight"
           >
