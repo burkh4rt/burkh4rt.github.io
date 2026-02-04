@@ -764,6 +764,31 @@ export default function PubsLayout({ pathname }) {
         <Text>
           <ul className="pubslist">
             <li>
+              L. Solo, M. McDermott, W. Parker, B. Ramadan, M. Burkhart, &amp;
+              B. Beaulieu-Jones,{" "}
+              <Link
+                href="https://doi.org/10.48550/arXiv.2602.03730"
+                target="_blank"
+                rel="noopener noreferrer"
+                inline={true}
+              >
+                Efficient varianced-reduced estimation from generative EHR
+                models: the SCOPE and REACH estimators
+              </Link>
+              , arXiv:2602.03730&ensp;&ensp;
+              <Link
+                href="pubs/Solo-et-al-2026-arXiv.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                inline={true}
+                className="nowrap"
+              >
+                pdf&thinsp;
+                <LinkExternalIcon verticalAlign="middle" />
+              </Link>
+            </li>
+
+            <li>
               N. Hahn, E. Stein, BrainGate Consortium (128 named members
               including M. Burkhart, D. Brandman, E. Brown, & M. Harrison), J.
               Donoghue, J. Simeral, L. Hochberg, & F. Willett,{" "}

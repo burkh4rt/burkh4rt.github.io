@@ -28,6 +28,7 @@ export default function Home({ pathname }) {
           minWidth: "calc(min(100vw,350px))",
           width: "400px",
           overflow: "hidden",
+          marginLeft: "clamp(0px, 50vw - 1000px, 100px)",
         }}
       >
         <div>

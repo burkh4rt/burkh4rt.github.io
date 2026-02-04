@@ -160,20 +160,6 @@ export default function TLine() {
           develop machine learning-based approaches for the early diagnosis of
           neurodegenerative disease{" "}
           <Text className="nowrap">
-            (
-            <Link
-              href="https://doi.org/10.1002/alz.062434"
-              target="_blank"
-              rel="noopener noreferrer"
-              inline={true}
-              className="nowrap"
-            >
-              abstract&thinsp;
-              <LinkExternalIcon verticalAlign="middle" />
-            </Link>
-            ,
-          </Text>{" "}
-          <Text className="nowrap">
             <Link
               href="https://www.c2d3.cam.ac.uk/sites/www.c2d3.cam.ac.uk/files/attachments/2023-01/michael_burkhart_-_trustworthy_ai_workshop_-_updated.pdf"
               target="_blank"
