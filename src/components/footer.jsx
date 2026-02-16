@@ -42,7 +42,7 @@ export default function Footer({ pathname }) {
       >
         <LocationIcon size="10" verticalAlign="middle" /> Plainfield, Indiana
         &copy;&thinsp;
-        {new Date().getUTCFullYear()}
+        {new Date().getFullYear()}
       </Text>
     </SplitPageLayout.Footer>
   );

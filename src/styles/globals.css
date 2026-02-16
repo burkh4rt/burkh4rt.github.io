@@ -124,6 +124,19 @@
   min-height: 100vh;
 }
 
+.content-wrapper {
+  display: contents;
+}
+
+@media (min-width: 1000px) {
+  .content-wrapper {
+    display: flex;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .spaced {
   display: flex;
   flex-direction: row;

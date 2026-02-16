@@ -18,61 +18,66 @@ export default function Home({ pathname }) {
       }}
       className="page"
     >
-      <SplitPageLayout.Pane
-        className="pl-med"
-        position="start"
-        divider="none"
-        sticky={false}
-        padding="normal"
-        style={{
-          minWidth: "calc(min(100vw,350px))",
-          width: "400px",
-          overflow: "hidden",
-          marginLeft: "clamp(0px, 50vw - 1000px, 100px)",
-        }}
-      >
-        <div>
-          <picture>
-            <source srcSet={ProfileWebp} type="image/webp" />
-            <img
-              src={ProfileJpg}
-              alt="Michael C. Burkhart"
-              width={300}
-              height={300}
-              fetchPriority="high"
+      <div className="content-wrapper">
+        <SplitPageLayout.Pane
+          className="pl-med"
+          position="start"
+          divider="none"
+          sticky={false}
+          padding="normal"
+          style={{
+            minWidth: "calc(min(100vw,350px))",
+            width: "400px",
+            overflow: "hidden",
+          }}
+        >
+          <div>
+            <picture>
+              <source srcSet={ProfileWebp} type="image/webp" />
+              <img
+                src={ProfileJpg}
+                alt="Michael C. Burkhart"
+                width={300}
+                height={300}
+                fetchPriority="high"
+                style={{
+                  borderRadius: "50%",
+                  objectFit: "cover",
+                }}
+              />
+            </picture>
+            <Heading
+              as="h1"
               style={{
-                borderRadius: "50%",
-                objectFit: "cover",
+                width: "calc(min(75vw,350px))",
+                overflow: "hidden",
+                paddingTop: 0,
+                paddingBottom: "3pt",
               }}
-            />
-          </picture>
-          <Heading
-            as="h1"
-            style={{
-              width: "calc(min(75vw,350px))",
-              overflow: "hidden",
-              paddingTop: 0,
-              paddingBottom: "3pt",
-            }}
+              className="normal-weight"
+            >
+              Michael C. Burkhart
+            </Heading>
+            <HNav />
+          </div>
+        </SplitPageLayout.Pane>
+
+        <SplitPageLayout.Content
+          divider="none"
+          style={{ minWidth: "calc(min(75vw,350px))", paddingTop: 0 }}
+          padding="normal"
+        >
+          <PageHeader
+            as="h3"
+            style={{ paddingTop: 0 }}
             className="normal-weight"
           >
-            Michael C. Burkhart
-          </Heading>
-          <HNav />
-        </div>
-      </SplitPageLayout.Pane>
+            About Me
+          </PageHeader>
 
-      <SplitPageLayout.Content
-        divider="none"
-        style={{ minWidth: "calc(min(75vw,350px))", paddingTop: 0 }}
-        padding="normal"
-      >
-        <PageHeader as="h3" style={{ paddingTop: 0 }} className="normal-weight">
-          About Me
-        </PageHeader>
-
-        <TLine />
-      </SplitPageLayout.Content>
+          <TLine />
+        </SplitPageLayout.Content>
+      </div>
       <Footer pathname={pathname} />
     </SplitPageLayout>
   );
