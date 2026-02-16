@@ -1,40 +1,8 @@
 ---
-import PrimerCoat from "../components/primer";
-import GillSansBook from "../fonts/GillSansNova-Book.woff2";
 import Err404 from "../layouts/404";
+import BaseLayout from "../layouts/base.astro";
 ---
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <title>Michael's 404</title>
-    <meta charset="utf-8" />
-    <link rel="canonical" href="https://burkh4rt.github.io/404" />
-    <link rel="icon" href="favicon.ico" sizes="any" />
-    <link rel="apple-touch-icon" href="icon-192.png" />
-    <meta
-      name="viewport"
-      content="width=device-width, height=device-height, initial-scale=1"
-    />
-    <meta name="author" content="Michael C. Burkhart" />
-    <meta
-      property="og:image"
-      name="image"
-      content="https://burkh4rt.github.io/m.svg"
-    />
-    <meta name="theme-color" content="#800000" />
-    <meta name="background-color" content="#800000" />
-    <link
-      rel="preload"
-      as="font"
-      href={GillSansBook}
-      type="font/woff2"
-      crossorigin
-    />
-  </head>
-  <body>
-    <PrimerCoat>
-      <Err404 />
-    </PrimerCoat>
-  </body>
-</html>
+<BaseLayout title="Michael's 404" canonicalUrl="https://burkh4rt.github.io/404">
+  <Err404 />
+</BaseLayout>

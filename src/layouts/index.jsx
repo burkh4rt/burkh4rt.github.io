@@ -26,7 +26,7 @@ export default function Home({ pathname }) {
           sticky={false}
           padding="normal"
           style={{
-            minWidth: "calc(min(100vw,350px))",
+            minWidth: "calc(min(100vw,325px))",
             width: "400px",
             overflow: "hidden",
           }}
@@ -49,7 +49,7 @@ export default function Home({ pathname }) {
             <Heading
               as="h1"
               style={{
-                width: "calc(min(75vw,350px))",
+                width: "calc(min(75vw,325px))",
                 overflow: "hidden",
                 paddingTop: 0,
                 paddingBottom: "3pt",

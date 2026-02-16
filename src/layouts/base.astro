@@ -1,0 +1,42 @@
+---
+import PrimerCoat from "../components/primer";
+import GillSansBook from "../fonts/GillSansNova-Book.woff2";
+
+const { title, canonicalUrl } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>{title}</title>
+    <meta charset="utf-8" />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="icon" href="favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="icon-192.png" />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1"
+    />
+    <meta name="author" content="Michael C. Burkhart" />
+    <meta
+      property="og:image"
+      name="image"
+      content="https://burkh4rt.github.io/m.svg"
+    />
+    <meta name="theme-color" content="#800000" />
+    <meta name="background-color" content="#800000" />
+    <link
+      rel="preload"
+      as="font"
+      href={GillSansBook}
+      type="font/woff2"
+      crossorigin
+    />
+    <slot name="head" />
+  </head>
+  <body>
+    <PrimerCoat>
+      <slot />
+    </PrimerCoat>
+  </body>
+</html>

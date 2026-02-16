@@ -1,35 +1,19 @@
 ---
 import LinkedData from "../components/linked-data.astro";
-import PrimerCoat from "../components/primer";
-import GillSansBook from "../fonts/GillSansNova-Book.woff2";
 import ProfileJpg from "../images/profile_img.jpg";
 // @ts-ignore
 import ProfileWebp from "../images/profile_img.jpg?format=webp&quality=100&as=srcset";
+import BaseLayout from "../layouts/base.astro";
 import Home from "../layouts/index";
 
 const pathname = Astro.url.pathname;
 ---
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <title>Michael C. Burkhart's website</title>
-    <meta charset="utf-8" />
-    <link rel="canonical" href="https://burkh4rt.github.io" />
-    <link rel="icon" href="favicon.ico" sizes="any" />
-    <link rel="apple-touch-icon" href="icon-192.png" />
-    <meta
-      name="viewport"
-      content="width=device-width, height=device-height, initial-scale=1"
-    />
-    <meta name="author" content="Michael C. Burkhart" />
-    <meta
-      property="og:image"
-      name="image"
-      content="https://burkh4rt.github.io/m.svg"
-    />
-    <meta name="theme-color" content="#800000" />
-    <meta name="background-color" content="#800000" />
+<BaseLayout
+  title="Michael C. Burkhart's website"
+  canonicalUrl="https://burkh4rt.github.io"
+>
+  <Fragment slot="head">
     <meta
       name="description"
       content="Michael Burkhart's homepage. Snippets from work and life, with links."
@@ -59,17 +43,6 @@ const pathname = Astro.url.pathname;
       href={ProfileJpg.src}
       imagesrcset={ProfileWebp}
     />
-    <link
-      rel="preload"
-      as="font"
-      href={GillSansBook}
-      type="font/woff2"
-      crossorigin
-    />
-  </head>
-  <body>
-    <PrimerCoat>
-      <Home pathname={pathname} />
-    </PrimerCoat>
-  </body>
-</html>
+  </Fragment>
+  <Home pathname={pathname} />
+</BaseLayout>

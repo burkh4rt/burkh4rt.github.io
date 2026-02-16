@@ -33,7 +33,7 @@ export default function TLine() {
             dissertation&thinsp;
             <LinkExternalIcon verticalAlign="middle" />
           </Link>
-          &nbsp;I derived a novel approach to Bayesian filtering, the
+          ,&nbsp;I derived a novel approach to Bayesian filtering, the
           Discriminative Kalman Filter, motivated by and developed with my
           advisor M. Harrison and collaborators D. Brandman and L. Hochberg. We
           validated and successfully implemented this filter as part of the{" "}
@@ -121,7 +121,6 @@ export default function TLine() {
               patent pending&thinsp;
               <LinkExternalIcon verticalAlign="middle" />
             </Link>
-            ,
           </Text>
           ).
         </Timeline.Body>
