@@ -79,7 +79,7 @@ export default defineConfig({
   },
   vite: {
     plugins: [svgr(), imagetools()],
-    ssr: {
+    resolve: {
       noExternal: ["@primer/react"],
     },
   },

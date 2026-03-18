@@ -1,4 +1,4 @@
-import { Heading, PageHeader, SplitPageLayout } from "@primer/react";
+import { Heading, PageHeader, SplitPageLayout, Stack } from "@primer/react";
 
 import Footer from "../components/footer";
 import HNav from "../components/header-nav";
@@ -26,12 +26,12 @@ export default function Home({ pathname }) {
           sticky={false}
           padding="normal"
           style={{
-            minWidth: "calc(min(100vw,325px))",
-            width: "400px",
+            minWidth: "calc(min(100vw, 325px))",
+            width: "350px",
             overflow: "hidden",
           }}
         >
-          <div>
+          <Stack direction="vertical" padding="none" gap="none" align="start">
             <picture>
               <source srcSet={ProfileWebp} type="image/webp" />
               <img
@@ -48,18 +48,16 @@ export default function Home({ pathname }) {
             </picture>
             <Heading
               as="h1"
-              style={{
-                width: "calc(min(75vw,325px))",
-                overflow: "hidden",
-                paddingTop: 0,
-                paddingBottom: "3pt",
-              }}
               className="normal-weight"
+              style={{
+                maxWidth: "calc(min(75vw, 325px))",
+                overflow: "hidden",
+              }}
             >
               Michael C. Burkhart
             </Heading>
             <HNav />
-          </div>
+          </Stack>
         </SplitPageLayout.Pane>
 
         <SplitPageLayout.Content
@@ -67,11 +65,7 @@ export default function Home({ pathname }) {
           style={{ minWidth: "calc(min(75vw,350px))", paddingTop: 0 }}
           padding="normal"
         >
-          <PageHeader
-            as="h3"
-            style={{ paddingTop: 0 }}
-            className="normal-weight"
-          >
+          <PageHeader as="h3" style={{ paddingTop: 0 }}>
             About Me
           </PageHeader>
 

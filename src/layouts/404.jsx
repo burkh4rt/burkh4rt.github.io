@@ -27,9 +27,7 @@ export default function Err404() {
       </SplitPageLayout.Header>
 
       <SplitPageLayout.Content>
-        <PageHeader as="h3" style={{ paddingTop: 0, fontWeight: "normal" }}>
-          Michael's 404
-        </PageHeader>
+        <PageHeader as="h3">Michael's 404</PageHeader>
         <Text>
           You appear to be lost. This happens from time to time. Shall we head{" "}
           <Link href="/">home</Link>?
