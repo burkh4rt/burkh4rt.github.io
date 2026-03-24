@@ -50,17 +50,6 @@ export default function PubsLayout({ pathname }) {
               </Link>
               , Pacific Symposium on Biocomputing 31 (2026)&ensp;&ensp;
               <Link
-                href="https://github.com/burkh4rt/Quantifying-Surprise-EHRs"
-                target="_blank"
-                rel="noopener noreferrer"
-                inline={true}
-                className="nowrap"
-              >
-                code&thinsp;
-                <LinkExternalIcon verticalAlign="middle" />
-              </Link>
-              &ensp;&ensp;
-              <Link
                 href="pubs/Burkhart-et-al-2026-Pac-Symp-Biocomput.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -255,17 +244,6 @@ export default function PubsLayout({ pathname }) {
               </Link>
               , Scientific Reports 14 (2024)&ensp;&ensp;
               <Link
-                href="https://github.com/burkh4rt/Multimodal-Trajectory-Modeling"
-                target="_blank"
-                rel="noopener noreferrer"
-                inline={true}
-                className="nowrap"
-              >
-                code&thinsp;
-                <LinkExternalIcon verticalAlign="middle" />
-              </Link>
-              &ensp;&ensp;
-              <Link
                 href="pubs/Burkhart-et-al-2024-Sci-Rep.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -316,17 +294,6 @@ export default function PubsLayout({ pathname }) {
               </Link>
               , Journal of Computational Science 71 (2023)&ensp;&ensp;
               <Link
-                href="https://github.com/burkh4rt/Learning-Representations-Causal-Inference"
-                target="_blank"
-                rel="noopener noreferrer"
-                inline={true}
-                className="nowrap"
-              >
-                code&thinsp;
-                <LinkExternalIcon verticalAlign="middle" />
-              </Link>
-              &ensp;&ensp;
-              <Link
                 href="pubs/Burkhart-Ruiz-2023-J-Comput-Sci.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -358,17 +325,6 @@ export default function PubsLayout({ pathname }) {
                 className="nowrap"
               >
                 MR4557438&thinsp;
-                <LinkExternalIcon verticalAlign="middle" />
-              </Link>
-              &ensp;&ensp;
-              <Link
-                href="https://github.com/burkh4rt/Filtered-Stochastic-Newton"
-                target="_blank"
-                rel="noopener noreferrer"
-                inline={true}
-                className="nowrap"
-              >
-                code&thinsp;
                 <LinkExternalIcon verticalAlign="middle" />
               </Link>
               &ensp;&ensp;
@@ -586,17 +542,6 @@ export default function PubsLayout({ pathname }) {
                 className="nowrap"
               >
                 MR4101168&thinsp;
-                <LinkExternalIcon verticalAlign="middle" />
-              </Link>
-              &ensp;&ensp;
-              <Link
-                href="https://github.com/burkh4rt/Discriminative-Kalman-Filter"
-                target="_blank"
-                rel="noopener noreferrer"
-                inline={true}
-                className="nowrap"
-              >
-                code&thinsp;
                 <LinkExternalIcon verticalAlign="middle" />
               </Link>
               &ensp;&ensp;
@@ -827,17 +772,6 @@ export default function PubsLayout({ pathname }) {
                 dynamics and transferability
               </Link>
               , arXiv:2504.10422&ensp;&ensp;
-              <Link
-                href="https://github.com/burkh4rt/FMs-EHRs-Rep-Dynamics-and-Transfer"
-                target="_blank"
-                rel="noopener noreferrer"
-                inline={true}
-                className="nowrap"
-              >
-                code&thinsp;
-                <LinkExternalIcon verticalAlign="middle" />
-              </Link>
-              &ensp;&ensp;
               <Link
                 href="pubs/Burkhart-et-al-2025-arXiv.pdf"
                 target="_blank"

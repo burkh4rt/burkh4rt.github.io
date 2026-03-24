@@ -7,7 +7,15 @@ export default function Footer({ pathname }) {
       <UnderlineNav aria-label="navigation">
         <UnderlineNav.Item
           href="/"
-          aria-current={pathname === "/" ? "page" : undefined}
+          aria-current={
+            pathname === "/" ||
+            pathname === "" ||
+            pathname.startsWith("/index") ||
+            pathname === "/home" ||
+            pathname === undefined
+              ? "page"
+              : undefined
+          }
         >
           home
         </UnderlineNav.Item>

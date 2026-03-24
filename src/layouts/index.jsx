@@ -26,8 +26,8 @@ export default function Home({ pathname }) {
           sticky={false}
           padding="normal"
           style={{
-            minWidth: "calc(min(100vw, 325px))",
-            width: "350px",
+            minWidth: "calc(min(100vw,325px))",
+            width: "375px",
             overflow: "hidden",
           }}
         >
@@ -50,7 +50,7 @@ export default function Home({ pathname }) {
               as="h1"
               className="normal-weight"
               style={{
-                maxWidth: "calc(min(75vw, 325px))",
+                maxWidth: "calc(min(75vw,325px))",
                 overflow: "hidden",
               }}
             >
@@ -65,7 +65,11 @@ export default function Home({ pathname }) {
           style={{ minWidth: "calc(min(75vw,350px))", paddingTop: 0 }}
           padding="normal"
         >
-          <PageHeader as="h3" style={{ paddingTop: 0 }}>
+          <PageHeader
+            as="h3"
+            className="normal-weight"
+            style={{ paddingTop: 0 }}
+          >
             About Me
           </PageHeader>
 
