@@ -31,7 +31,16 @@ export default function Home({ pathname }) {
             overflow: "hidden",
           }}
         >
-          <Stack direction="vertical" padding="none" gap="none" align="start">
+          <Stack
+            direction="vertical"
+            padding={{
+              narrow: "condensed",
+              regular: "normal",
+              wide: "normal",
+            }}
+            gap="none" // alt: "condensed"
+            align="start"
+          >
             <picture>
               <source srcSet={ProfileWebp} type="image/webp" />
               <img
@@ -62,14 +71,11 @@ export default function Home({ pathname }) {
 
         <SplitPageLayout.Content
           divider="none"
-          style={{ minWidth: "calc(min(75vw,350px))", paddingTop: 0 }}
+          style={{ minWidth: "calc(min(75vw,350px))" }}
           padding="normal"
+          className="content"
         >
-          <PageHeader
-            as="h3"
-            className="normal-weight"
-            style={{ paddingTop: 0 }}
-          >
+          <PageHeader as="h3" className="normal-weight" id="about-me">
             About Me
           </PageHeader>
 

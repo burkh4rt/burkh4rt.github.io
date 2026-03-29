@@ -8,7 +8,7 @@ import OrcIDLogo from "../logos/orcid-logo.svg?react";
 
 export default function HNav() {
   return (
-    <SubNav aria-label="Main" sx={{ paddingTop: "5pt", paddingBottom: "10pt" }}>
+    <SubNav aria-label="Main">
       <SubNav.Links>
         <SubNav.Link
           href="https://www.linkedin.com/in/burkh4rt/"

@@ -16,14 +16,7 @@ import "../styles/globals.css";
 
 export default function LinksLayout({ pathname }) {
   return (
-    <SplitPageLayout
-      padding={{
-        narrow: "condensed",
-        regular: "normal",
-        wide: "normal",
-      }}
-      className="page"
-    >
+    <SplitPageLayout className="page">
       <SplitPageLayout.Header>
         <Breadcrumbs>
           <Breadcrumbs.Item href="/">home</Breadcrumbs.Item>

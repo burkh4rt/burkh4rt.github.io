@@ -38,10 +38,9 @@ export default function Err404() {
         <Text
           as="p"
           align="end"
+          padding="normal"
           style={{
             fontSize: "10pt",
-            padding: 0,
-            margin: 0,
             textAlign: "right",
           }}
         >

@@ -39,11 +39,9 @@ export default function Footer({ pathname }) {
       <Text
         as="p"
         align="end"
+        padding="normal"
         style={{
           fontSize: "10pt",
-          padding: 0,
-          paddingTop: "20pt",
-          margin: 0,
           textAlign: "right",
         }}
         suppressHydrationWarning={true}
