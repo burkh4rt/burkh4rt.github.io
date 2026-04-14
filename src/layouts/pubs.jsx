@@ -878,23 +878,22 @@ export default function PubsLayout({ pathname }) {
           </ul>
 
           <PageHeader as="h3" id="patents" className="normal-weight">
-            Patents &amp; Pending
+            Patents
           </PageHeader>
           <ul className="pubslist">
             <li>
               M. Burkhart &amp; G. Ruiz,{" "}
               <Link
-                href="https://patents.google.com/patent/US20230376776A1"
+                href="https://patents.google.com/patent/US12602589B2"
                 target="_blank"
                 rel="noopener noreferrer"
                 inline={true}
               >
                 Causal inference via neuroevolutionary selection
               </Link>
-              , U.S. Patent Application #17/748,891 filed 2022, published
-              2023&ensp;&ensp;
+              , U.S. Patent 12,602,589 filed 2022, granted 2026&ensp;&ensp;
               <Link
-                href="pubs/Burkhart-Ruiz-US20230376776A1.pdf"
+                href="pubs/Burkhart-Ruiz-US12602589B2.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 inline={true}

@@ -113,12 +113,12 @@ export default function TLine() {
           </Text>{" "}
           <Text className="nowrap">
             <Link
-              href="https://patents.google.com/patent/US20230376776A1"
+              href="https://patents.google.com/patent/US12602589B2"
               target="_blank"
               rel="noopener noreferrer"
               inline={true}
             >
-              patent pending&thinsp;
+              patent&thinsp;
               <LinkExternalIcon verticalAlign="middle" />
             </Link>
           </Text>

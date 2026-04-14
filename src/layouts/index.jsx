@@ -16,6 +16,10 @@ export default function Home({ pathname }) {
         regular: "normal",
         wide: "normal",
       }}
+      sx={{
+        display: ["block", "grid"],
+        alignItems: "start",
+      }}
       className="page"
     >
       <div className="content-wrapper">
