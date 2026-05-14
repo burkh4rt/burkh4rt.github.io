@@ -709,6 +709,31 @@ export default function PubsLayout({ pathname }) {
         <Text>
           <ul className="pubslist">
             <li>
+              I. Lee, L. Solo, M. Burkhart, B. Ramadan, W. Parker, &amp; B.
+              Beaulieu-Jones,{" "}
+              <Link
+                href="https://doi.org/10.48550/arXiv.2604.16775"
+                target="_blank"
+                rel="noopener noreferrer"
+                inline={true}
+              >
+                Representation before training: a fixed-budget benchmark for
+                generative medical event models
+              </Link>
+              , arXiv:2604.16775&ensp;&ensp;
+              <Link
+                href="pubs/Lee-et-al-2026-arXiv.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                inline={true}
+                className="nowrap"
+              >
+                pdf&thinsp;
+                <LinkExternalIcon verticalAlign="middle" />
+              </Link>
+            </li>
+
+            <li>
               L. Solo, M. McDermott, W. Parker, B. Ramadan, M. Burkhart, &amp;
               B. Beaulieu-Jones,{" "}
               <Link
@@ -717,8 +742,8 @@ export default function PubsLayout({ pathname }) {
                 rel="noopener noreferrer"
                 inline={true}
               >
-                Efficient varianced-reduced estimation from generative EHR
-                models: the SCOPE and REACH estimators
+                Efficient generative prediction for EHR foundation models: the
+                SCOPE and REACH estimators
               </Link>
               , arXiv:2602.03730&ensp;&ensp;
               <Link
