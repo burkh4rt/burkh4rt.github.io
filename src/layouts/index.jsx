@@ -4,6 +4,7 @@ import Footer from "../components/footer";
 import HNav from "../components/header-nav";
 import TLine from "../components/timeline";
 import ProfileJpg from "../images/profile_img.jpg";
+import ProfileAvif from "../images/profile_img.jpg?format=avif&quality=95&as=srcset";
 import ProfileWebp from "../images/profile_img.jpg?format=webp&quality=100&as=srcset";
 
 import "../styles/globals.css";
@@ -46,6 +47,7 @@ export default function Home({ pathname }) {
             align="start"
           >
             <picture>
+              <source srcSet={ProfileAvif} type="image/avif" />
               <source srcSet={ProfileWebp} type="image/webp" />
               <img
                 src={ProfileJpg}
