@@ -39,4 +39,9 @@ const { title, canonicalUrl } = Astro.props;
       <slot />
     </PrimerCoat>
   </body>
+  <script>
+    import { registerSW } from "virtual:pwa-register";
+
+    registerSW({ immediate: true });
+  </script>
 </html>
