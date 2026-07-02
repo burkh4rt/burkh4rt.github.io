@@ -2,7 +2,6 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
-import playformCompress from "@playform/compress";
 import AstroPWA from "@vite-pwa/astro";
 import { defineConfig } from "astro/config";
 import fg from "fast-glob";
@@ -15,7 +14,6 @@ export default defineConfig({
   build: { format: "file" },
   compressHTML: true,
   integrations: [
-    playformCompress({ Image: false }),
     react(),
     AstroPWA({
       manifest: {
@@ -49,6 +47,10 @@ export default defineConfig({
         ],
       },
       registerType: "autoUpdate",
+      workbox: {
+        globPatterns: ["**/*.{js,css,html,ico,png,svg,woff2}", "cv.pdf"],
+        navigateFallbackDenylist: [/\.pdf$/],
+      },
       devOptions: {
         enabled: true,
       },
