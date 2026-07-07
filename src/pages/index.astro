@@ -1,8 +1,5 @@
 ---
 import LinkedData from "../components/linked-data.astro";
-import ProfileJpg from "../images/profile_img.jpg";
-// @ts-ignore
-import ProfileWebp from "../images/profile_img.jpg?format=webp&quality=100&as=srcset";
 import BaseLayout from "../layouts/base.astro";
 import Home from "../layouts/index";
 
@@ -37,12 +34,6 @@ const pathname = Astro.url.pathname;
     />
     <LinkedData />
     <link rel="sitemap" href="/sitemap-index.xml" />
-    <link
-      rel="preload"
-      as="image"
-      href={ProfileJpg.src}
-      imagesrcset={ProfileWebp}
-    />
   </Fragment>
   <Home pathname={pathname} />
 </BaseLayout>

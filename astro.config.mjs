@@ -49,7 +49,7 @@ export default defineConfig({
       registerType: "autoUpdate",
       workbox: {
         globPatterns: ["**/*.{js,css,html,ico,png,svg,woff2,avif}", "cv.pdf"],
-        navigateFallbackDenylist: [/\.pdf$/],
+        navigateFallback: null,
         maximumFileSizeToCacheInBytes: 3000000,
       },
       devOptions: {

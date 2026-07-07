@@ -3,9 +3,9 @@ import { Heading, PageHeader, SplitPageLayout, Stack } from "@primer/react";
 import Footer from "../components/footer";
 import HNav from "../components/header-nav";
 import TLine from "../components/timeline";
-import ProfileJpg from "../images/profile_img.jpg";
-import ProfileAvif from "../images/profile_img.jpg?format=avif&quality=95&as=srcset";
-import ProfileWebp from "../images/profile_img.jpg?format=webp&quality=100&as=srcset";
+import ProfileAvif from "../images/profile_img.jpg?format=avif&quality=100&as=srcset&w=600&h=600";
+import ProfileWebp from "../images/profile_img.jpg?format=webp&quality=100&as=srcset&w=600&h=600";
+import ProfileJpg from "../images/profile_img.jpg?w=600&h=600";
 
 import "../styles/globals.css";
 
