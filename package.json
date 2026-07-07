@@ -17,7 +17,7 @@
     "@astrojs/sitemap": "^3.7.3",
     "@primer/octicons-react": "^19.29.1",
     "@primer/primitives": "^11.9.0",
-    "@primer/react": "^38.30.0",
+    "@primer/react": "^38.31.0",
     "astro": "^7.0.6",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
@@ -46,5 +46,5 @@
     "type": "git",
     "url": "ssh://git@github.com:burkh4rt/burkh4rt.github.io.git"
   },
-  "version": "5.1.0"
+  "version": "5.1.1"
 }
