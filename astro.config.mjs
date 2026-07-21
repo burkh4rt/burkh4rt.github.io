@@ -84,6 +84,7 @@ export default defineConfig({
     "/cv": "https://burkh4rt.github.io/cv.pdf",
   },
   vite: {
+    build: { cssMinify: "esbuild" },
     plugins: [svgr(), imagetools()],
     resolve: {
       noExternal: ["@primer/react"],

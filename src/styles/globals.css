@@ -162,3 +162,7 @@ h3 {
     padding-top: 0;
   }
 }
+
+.footer-nav [role="list"] {
+  justify-content: flex-end;
+}

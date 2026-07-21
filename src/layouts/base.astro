@@ -41,6 +41,7 @@ const { title, canonicalUrl } = Astro.props;
     </PrimerCoat>
   </body>
   <script>
+    // @ts-expect-error virtual module is injected by the PWA plugin.
     import { registerSW } from "virtual:pwa-register";
 
     registerSW({ immediate: true });

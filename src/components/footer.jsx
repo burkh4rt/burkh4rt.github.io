@@ -4,7 +4,7 @@ import { SplitPageLayout, Text, UnderlineNav } from "@primer/react";
 export default function Footer({ pathname }) {
   return (
     <SplitPageLayout.Footer divider="none">
-      <UnderlineNav aria-label="navigation">
+      <UnderlineNav aria-label="navigation" className="footer-nav">
         <UnderlineNav.Item
           href="/"
           aria-current={

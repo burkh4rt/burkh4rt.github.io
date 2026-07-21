@@ -927,6 +927,17 @@ export default function PubsLayout({ pathname }) {
                 pdf&thinsp;
                 <LinkExternalIcon verticalAlign="middle" />
               </Link>
+              &ensp;Continued 2026 with application 19/542,459&ensp;&ensp;
+              <Link
+                href="pubs/Burkhart-Ruiz-US20260187462A1.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                inline={true}
+                className="nowrap"
+              >
+                pdf&thinsp;
+                <LinkExternalIcon verticalAlign="middle" />
+              </Link>
             </li>
 
             <li>
