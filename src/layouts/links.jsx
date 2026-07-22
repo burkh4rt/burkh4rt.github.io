@@ -1,5 +1,5 @@
-import { LinkExternalIcon } from "@primer/octicons-react";
-import { Breadcrumbs, Link, PageHeader, SplitPageLayout } from "@primer/react";
+import { Breadcrumbs, PageHeader, SplitPageLayout } from "@primer/react";
+import { Tiles } from "@primer/react-brand";
 
 import Footer from "../components/footer";
 import AMSLogo from "../logos/ams-logo.svg?react";
@@ -34,121 +34,66 @@ export default function LinksLayout({ pathname }) {
           Online Presence
         </PageHeader>
 
-        <div className="columnar spaced">
-          <Link
+        <Tiles variant="gridlines">
+          <Tiles.Item
+            name="LinkedIn"
             href="https://www.linkedin.com/in/burkh4rt/"
-            target="_blank"
-            className="nowrap"
           >
-            <LinkedInLogo className="three-fourths" />
-            &nbsp;LinkedIn&thinsp;
-            <LinkExternalIcon verticalAlign="middle" />
-          </Link>
-          <Link
-            href="https://github.com/burkh4rt/"
-            target="_blank"
-            className="nowrap"
-          >
-            <GithubLogo className="three-fourths" />
-            &nbsp;Github&thinsp;
-            <LinkExternalIcon verticalAlign="middle" />
-          </Link>
-          <Link
+            <LinkedInLogo />
+          </Tiles.Item>
+          <Tiles.Item name="Github" href="https://github.com/burkh4rt/">
+            <GithubLogo />
+          </Tiles.Item>
+          <Tiles.Item
+            name="Google Scholar"
             href="https://scholar.google.com/citations?user=OcFnA0UAAAAJ"
-            target="_blank"
-            className="nowrap"
           >
-            <GoogleScholarLogo className="three-fourths" />
-            &nbsp;Google Scholar&thinsp;
-            <LinkExternalIcon verticalAlign="middle" />
-          </Link>
-          <Link
-            href="https://orcid.org/0000-0002-2772-5840"
-            target="_blank"
-            className="nowrap"
-          >
-            <OrcIDLogo className="three-fourths" />
-            &nbsp;OrcID&thinsp;
-            <LinkExternalIcon verticalAlign="middle" />
-          </Link>
-          <Link
+            <GoogleScholarLogo />
+          </Tiles.Item>
+          <Tiles.Item name="OrcID" href="https://orcid.org/0000-0002-2772-5840">
+            <OrcIDLogo />
+          </Tiles.Item>
+          <Tiles.Item
+            name="MathSciNet"
             href="https://mathscinet.ams.org/mathscinet/MRAuthorID/1296691"
-            target="_blank"
-            className="nowrap"
           >
-            <AMSLogo className="three-fourths" />
-            &nbsp;MathSciNet&thinsp;
-            <LinkExternalIcon verticalAlign="middle" />
-          </Link>
-          <Link
+            <AMSLogo />
+          </Tiles.Item>
+          <Tiles.Item
+            name="zbMath"
             href="https://zbmath.org/authors/burkhart.michael-c"
-            target="_blank"
-            className="nowrap"
           >
-            <ZBMathLogo className="three-fourths" />
-            &nbsp;zbMath&thinsp;
-            <LinkExternalIcon verticalAlign="middle" />
-          </Link>
-          <Link
+            <ZBMathLogo />
+          </Tiles.Item>
+          <Tiles.Item
+            name="MGP"
             href="https://www.genealogy.math.ndsu.nodak.edu/id.php?id=246430"
-            target="_blank"
-            className="nowrap"
-          >
-            MGP&thinsp;
-            <LinkExternalIcon verticalAlign="middle" />
-          </Link>
-          <Link
-            href="https://arxiv.org/a/burkhart_m_2.html"
-            target="_blank"
-            className="nowrap"
-          >
-            <ArXivLogo className="three-fourths" />
-            &nbsp;arXiv&thinsp;
-            <LinkExternalIcon verticalAlign="middle" />
-          </Link>
-          <Link
+          />
+          <Tiles.Item name="arXiv" href="https://arxiv.org/a/burkhart_m_2.html">
+            <ArXivLogo />
+          </Tiles.Item>
+          <Tiles.Item
+            name="iNaturalist"
             href="https://www.inaturalist.org/people/burkh4rt"
-            target="_blank"
-            className="nowrap"
           >
-            <INaturalistLogo className="three-fourths" />
-            &nbsp;iNaturalist&thinsp;
-            <LinkExternalIcon verticalAlign="middle" />
-          </Link>
-          <Link
+            <INaturalistLogo />
+          </Tiles.Item>
+          <Tiles.Item
+            name="eBird"
             href="https://ebird.org/profile/NDYwNzg1MA/"
-            target="_blank"
-            className="nowrap"
-          >
-            eBird&thinsp;
-            <LinkExternalIcon verticalAlign="middle" />
-          </Link>
-          <Link
-            href="https://burkh4rt.tumblr.com"
-            target="_blank"
-            className="nowrap"
-          >
-            tumblr&thinsp;
-            <LinkExternalIcon verticalAlign="middle" />
-          </Link>
-          <Link
+          />
+          <Tiles.Item name="tumblr" href="https://burkh4rt.tumblr.com" />
+          <Tiles.Item
+            name="Instagram"
             href="https://www.instagram.com/burkh4rt/"
-            target="_blank"
-            className="nowrap"
           >
-            <InstagramLogo className="three-fourths" />
-            &nbsp;Instagram&thinsp;
-            <LinkExternalIcon verticalAlign="middle" />
-          </Link>
-          <Link
+            <InstagramLogo />
+          </Tiles.Item>
+          <Tiles.Item
+            name="Felixity"
             href="https://www.instagram.com/felixity_the_cat/"
-            target="_blank"
-            className="nowrap"
-          >
-            Felixity&thinsp;
-            <LinkExternalIcon verticalAlign="middle" />
-          </Link>
-        </div>
+          />
+        </Tiles>
       </SplitPageLayout.Content>
 
       <Footer pathname={pathname} />

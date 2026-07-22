@@ -67,6 +67,151 @@
   justify-content: flex-end !important;
 }
 
+/* @primer/react-brand <Tiles> ships no CSS through its UMD entry (package
+   "exports" resolves to lib/index.js, which has no CSS side-effects), so the
+   rendered markup is otherwise unstyled. These rules re-create the Tiles CSS,
+   matched on the stable CSS-module name fragments (the ___hash suffix varies
+   per build, so we key on [class*=]) and using product @primer/react tokens so
+   light/dark track the site's existing color mode. */
+[class*="Tiles-module__Tiles___"] {
+  --tile-highlight: #08872b; /* GitHub green accent; swap for e.g. var(--fgColor-accent) */
+  width: 100%;
+  color: var(--fgColor-default);
+}
+@media (prefers-color-scheme: dark) {
+  [class*="Tiles-module__Tiles___"] {
+    --tile-highlight: #5fed83;
+  }
+}
+
+[class*="Tiles-module__Tiles-grid___"] {
+  --tiles-columns: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+@media (min-width: 34rem) {
+  [class*="Tiles-module__Tiles-grid___"] {
+    --tiles-columns: 3;
+  }
+}
+@media (min-width: 48rem) {
+  [class*="Tiles-module__Tiles-grid___"] {
+    --tiles-columns: 4;
+  }
+}
+@media (min-width: 63.25rem) {
+  [class*="Tiles-module__Tiles-grid___"] {
+    --tiles-columns: 6;
+  }
+}
+
+/* gridlines variant: leave room for the edge tiles' box-shadow lines. The
+   full-height left/right edge pseudo-lines were removed — they descended past a
+   partial last row (centered tiles) with nothing beside them; each tile's own
+   border + box-shadow draws the grid outline instead. */
+[class*="Tiles-module__Tiles--variant-gridlines___"]
+  [class*="Tiles-module__Tiles-grid___"] {
+  padding-right: var(--borderWidth-thin);
+  padding-bottom: var(--borderWidth-thin);
+}
+
+[class*="Tiles-module__Tiles-item___"] {
+  --tiles-inset-shadow: inset 0 0 0 transparent;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / var(--tiles-columns));
+  box-sizing: border-box;
+  background-color: var(--bgColor-muted);
+  border-top: var(--borderWidth-thin) solid var(--borderColor-muted);
+  border-left: var(--borderWidth-thin) solid var(--borderColor-muted);
+  box-shadow:
+    var(--borderWidth-thin) 0 0 0 var(--borderColor-muted),
+    0 var(--borderWidth-thin) 0 0 var(--borderColor-muted),
+    var(--tiles-inset-shadow);
+  transition:
+    background-color 0.2s cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+[class*="Tiles-module__Tiles-item___"]:has(
+    [class*="Tiles-module__Tiles-item-link___"]
+  ):hover,
+[class*="Tiles-module__Tiles-item___"]:has(
+    [class*="Tiles-module__Tiles-item-link___"]
+  ):focus-within {
+  --tiles-inset-shadow: inset 0 var(--base-size-2) 0 var(--tile-highlight);
+  background-color: var(--control-bgColor-hover);
+}
+
+[class*="Tiles-module__Tiles-item-link___"] {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+[class*="Tiles-module__Tiles-item-link___"]:focus-visible {
+  outline: var(--base-size-4) solid var(--focus-outline-color);
+  outline-offset: calc(-1 * var(--base-size-4));
+  border-radius: var(--base-size-4);
+}
+
+[class*="Tiles-module__Tiles-item-content___"] {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 2; /* 2:1 landscape → tiles are half as tall as they are wide */
+}
+
+[class*="Tiles-module__Tiles-item-media___"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(calc(-1 * var(--base-size-8))); /* nudge icon up, clear of the label */
+}
+[class*="Tiles-module__Tiles-item-media___"] svg,
+[class*="Tiles-module__Tiles-item-media___"] img {
+  width: auto;
+  height: var(--base-size-24);
+  max-width: 100%;
+}
+
+[class*="Tiles-module__Tiles-item-label___"] {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--base-size-4);
+  padding: var(--base-size-12) var(--base-size-16);
+}
+
+[class*="Tiles-module__Tiles-item-name___"] {
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+[class*="Tiles-module__Tiles-item-icon___"] {
+  flex-shrink: 0;
+  color: var(--fgColor-default);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="Tiles-module__Tiles-item___"] {
+    transition: none;
+  }
+}
+
 @keyframes unfaded {
   from {
     opacity: 0;

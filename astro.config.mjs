@@ -87,7 +87,7 @@ export default defineConfig({
     build: { cssMinify: "esbuild" },
     plugins: [svgr(), imagetools()],
     resolve: {
-      noExternal: ["@primer/react"],
+      noExternal: ["@primer/react", "@primer/react-brand"],
     },
   },
 });
