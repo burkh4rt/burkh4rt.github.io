@@ -166,3 +166,57 @@ h3 {
 .footer-nav [role="list"] {
   justify-content: flex-end;
 }
+
+/* Online Presence card grid: experimental @primer/react Card laid out in a
+   hand-rolled CSS grid (v38 has no Grid/Box). Product tokens only, so it
+   dark-modes with zero JS. Each card is made whole-clickable + new-tab via an
+   overlay on the heading link. */
+.link-card-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  max-width: calc(min(max(50%, 640px), 90vw));
+}
+
+.link-card-grid > li {
+  margin: 0;
+}
+
+.link-card {
+  position: relative;
+  transition: background-color 80ms ease-in-out;
+}
+
+.link-card:hover {
+  background-color: var(--bgColor-muted);
+}
+
+.link-card-overlay {
+  color: var(--fgColor-default);
+}
+
+.link-card-overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+}
+
+/* focus ring on the card, since the real focus target is the covered link */
+.link-card:focus-within {
+  outline: 2px solid var(--fgColor-accent);
+  outline-offset: 2px;
+}
+
+.link-card-overlay:focus {
+  outline: none;
+}
+
+/* size the logo SVGs sitting in the compact card's icon slot */
+.link-card-icon svg {
+  height: 1.25rem;
+  width: auto;
+}

@@ -1,5 +1,6 @@
 import { LinkExternalIcon } from "@primer/octicons-react";
 import { Breadcrumbs, Link, PageHeader, SplitPageLayout } from "@primer/react";
+import { Card } from "@primer/react/experimental";
 
 import Footer from "../components/footer";
 import AMSLogo from "../logos/ams-logo.svg?react";
@@ -13,6 +14,70 @@ import OrcIDLogo from "../logos/orcid-logo.svg?react";
 import ZBMathLogo from "../logos/zbmath-logo.svg?react";
 
 import "../styles/globals.css";
+
+const links = [
+  {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/in/burkh4rt/",
+    logo: LinkedInLogo,
+  },
+  {
+    name: "Github",
+    href: "https://github.com/burkh4rt/",
+    logo: GithubLogo,
+  },
+  {
+    name: "Google Scholar",
+    href: "https://scholar.google.com/citations?user=OcFnA0UAAAAJ",
+    logo: GoogleScholarLogo,
+  },
+  {
+    name: "OrcID",
+    href: "https://orcid.org/0000-0002-2772-5840",
+    logo: OrcIDLogo,
+  },
+  {
+    name: "MathSciNet",
+    href: "https://mathscinet.ams.org/mathscinet/MRAuthorID/1296691",
+    logo: AMSLogo,
+  },
+  {
+    name: "zbMath",
+    href: "https://zbmath.org/authors/burkhart.michael-c",
+    logo: ZBMathLogo,
+  },
+  {
+    name: "MGP",
+    href: "https://www.genealogy.math.ndsu.nodak.edu/id.php?id=246430",
+  },
+  {
+    name: "arXiv",
+    href: "https://arxiv.org/a/burkhart_m_2.html",
+    logo: ArXivLogo,
+  },
+  {
+    name: "iNaturalist",
+    href: "https://www.inaturalist.org/people/burkh4rt",
+    logo: INaturalistLogo,
+  },
+  {
+    name: "eBird",
+    href: "https://ebird.org/profile/NDYwNzg1MA/",
+  },
+  {
+    name: "tumblr",
+    href: "https://burkh4rt.tumblr.com",
+  },
+  {
+    name: "Instagram",
+    href: "https://www.instagram.com/burkh4rt/",
+    logo: InstagramLogo,
+  },
+  {
+    name: "Felixity",
+    href: "https://www.instagram.com/felixity_the_cat/",
+  },
+];
 
 export default function LinksLayout({ pathname }) {
   return (
@@ -34,121 +99,35 @@ export default function LinksLayout({ pathname }) {
           Online Presence
         </PageHeader>
 
-        <div className="columnar spaced">
-          <Link
-            href="https://www.linkedin.com/in/burkh4rt/"
-            target="_blank"
-            className="nowrap"
-          >
-            <LinkedInLogo className="three-fourths" />
-            &nbsp;LinkedIn&thinsp;
-            <LinkExternalIcon verticalAlign="middle" />
-          </Link>
-          <Link
-            href="https://github.com/burkh4rt/"
-            target="_blank"
-            className="nowrap"
-          >
-            <GithubLogo className="three-fourths" />
-            &nbsp;Github&thinsp;
-            <LinkExternalIcon verticalAlign="middle" />
-          </Link>
-          <Link
-            href="https://scholar.google.com/citations?user=OcFnA0UAAAAJ"
-            target="_blank"
-            className="nowrap"
-          >
-            <GoogleScholarLogo className="three-fourths" />
-            &nbsp;Google Scholar&thinsp;
-            <LinkExternalIcon verticalAlign="middle" />
-          </Link>
-          <Link
-            href="https://orcid.org/0000-0002-2772-5840"
-            target="_blank"
-            className="nowrap"
-          >
-            <OrcIDLogo className="three-fourths" />
-            &nbsp;OrcID&thinsp;
-            <LinkExternalIcon verticalAlign="middle" />
-          </Link>
-          <Link
-            href="https://mathscinet.ams.org/mathscinet/MRAuthorID/1296691"
-            target="_blank"
-            className="nowrap"
-          >
-            <AMSLogo className="three-fourths" />
-            &nbsp;MathSciNet&thinsp;
-            <LinkExternalIcon verticalAlign="middle" />
-          </Link>
-          <Link
-            href="https://zbmath.org/authors/burkhart.michael-c"
-            target="_blank"
-            className="nowrap"
-          >
-            <ZBMathLogo className="three-fourths" />
-            &nbsp;zbMath&thinsp;
-            <LinkExternalIcon verticalAlign="middle" />
-          </Link>
-          <Link
-            href="https://www.genealogy.math.ndsu.nodak.edu/id.php?id=246430"
-            target="_blank"
-            className="nowrap"
-          >
-            MGP&thinsp;
-            <LinkExternalIcon verticalAlign="middle" />
-          </Link>
-          <Link
-            href="https://arxiv.org/a/burkhart_m_2.html"
-            target="_blank"
-            className="nowrap"
-          >
-            <ArXivLogo className="three-fourths" />
-            &nbsp;arXiv&thinsp;
-            <LinkExternalIcon verticalAlign="middle" />
-          </Link>
-          <Link
-            href="https://www.inaturalist.org/people/burkh4rt"
-            target="_blank"
-            className="nowrap"
-          >
-            <INaturalistLogo className="three-fourths" />
-            &nbsp;iNaturalist&thinsp;
-            <LinkExternalIcon verticalAlign="middle" />
-          </Link>
-          <Link
-            href="https://ebird.org/profile/NDYwNzg1MA/"
-            target="_blank"
-            className="nowrap"
-          >
-            eBird&thinsp;
-            <LinkExternalIcon verticalAlign="middle" />
-          </Link>
-          <Link
-            href="https://burkh4rt.tumblr.com"
-            target="_blank"
-            className="nowrap"
-          >
-            tumblr&thinsp;
-            <LinkExternalIcon verticalAlign="middle" />
-          </Link>
-          <Link
-            href="https://www.instagram.com/burkh4rt/"
-            target="_blank"
-            className="nowrap"
-          >
-            <InstagramLogo className="three-fourths" />
-            &nbsp;Instagram&thinsp;
-            <LinkExternalIcon verticalAlign="middle" />
-          </Link>
-          <Link
-            href="https://www.instagram.com/felixity_the_cat/"
-            target="_blank"
-            className="nowrap"
-          >
-            Felixity&thinsp;
-            <LinkExternalIcon verticalAlign="middle" />
-          </Link>
-        </div>
+        <ul className="link-card-grid">
+          {links.map(({ name, href, logo: Logo }) => (
+            <li key={href}>
+              <Card
+                layout="compact"
+                borderRadius="medium"
+                className="link-card"
+              >
+                {Logo ? (
+                  <Card.Icon icon={Logo} className="link-card-icon" />
+                ) : null}
+                <Card.Heading as="h4">
+                  <Link
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link-card-overlay nowrap"
+                  >
+                    {name}&thinsp;
+                    <LinkExternalIcon
+                      verticalAlign="middle"
+                      aria-hidden="true"
+                    />
+                  </Link>
+                </Card.Heading>
+              </Card>
+            </li>
+          ))}
+        </ul>
       </SplitPageLayout.Content>
 
       <Footer pathname={pathname} />
