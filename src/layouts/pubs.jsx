@@ -123,8 +123,8 @@ export default function PubsLayout({ pathname }) {
                 ProtoECGNet: case-based interpretable deep learning for
                 multi-label ECG classification with contrastive learning
               </Link>
-              , Proceedings of the 10th Machine Learning for Healthcare
-              Conference, PMLR 298 (2025)&ensp;&ensp;
+              , Proceedings of the 10<sup>th</sup> Machine Learning for
+              Healthcare Conference, PMLR 298 (2025)&ensp;&ensp;
               <Link
                 href="pubs/Sethi-et-al-2025-Mach-Learn-Healthcare-Conf.pdf"
                 target="_blank"
