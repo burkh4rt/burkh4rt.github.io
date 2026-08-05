@@ -709,6 +709,31 @@ export default function PubsLayout({ pathname }) {
         <Text>
           <ul className="pubslist">
             <li>
+              M. Burkhart, L. Solo, I. Lee, S. Charles, Z. Liao, K. Chhikara, D.
+              Therese, W.-T. Liao, C. Gao, W. Parker, and B. Beaulieu-Jones,{" "}
+              <Link
+                href="https://doi.org/10.48550/arXiv.2608.02939"
+                target="_blank"
+                rel="noopener noreferrer"
+                inline={true}
+              >
+                Federated generative event models for tokenized electronic
+                health records
+              </Link>
+              , arXiv:2608.02939&ensp;&ensp;
+              <Link
+                href="pubs/Burkhart-et-al-2026-arXiv.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                inline={true}
+                className="nowrap"
+              >
+                pdf&thinsp;
+                <LinkExternalIcon verticalAlign="middle" />
+              </Link>
+            </li>
+
+            <li>
               I. Lee, L. Solo, M. Burkhart, B. Ramadan, W. Parker, &amp; B.
               Beaulieu-Jones,{" "}
               <Link

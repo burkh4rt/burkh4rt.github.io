@@ -15,14 +15,14 @@
     "@astrojs/check": "^0.9.10",
     "@astrojs/react": "^6.0.2",
     "@astrojs/sitemap": "^3.7.3",
-    "@primer/octicons-react": "^19.32.0",
+    "@primer/octicons-react": "^19.33.0",
     "@primer/primitives": "^11.10.0",
-    "@primer/react": "^38.34.0",
+    "@primer/react": "^38.35.0",
     "astro": "^7.1.6",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "react-is": "^19.2.8",
-    "styled-components": "^6.4.4",
+    "styled-components": "^6.5.0",
     "typescript": "^7.0.2"
   },
   "devDependencies": {
