@@ -1,1 +1,31 @@
-{"name":"Michael Burkhart's Site","short_name":"burkh4rt's homepage","description":"Snippets from work and life, with links","start_url":"/","display":"standalone","background_color":"#800000","theme_color":"#800000","lang":"en","scope":"/","icons":[{"purpose":"any maskable","src":"m.svg","sizes":"any","type":"image/svg+xml"},{"purpose":"any","src":"icon-192.png","sizes":"192x192","type":"image/png"},{"purpose":"any","src":"icon-512.png","sizes":"512x512","type":"image/png"}]}
+{
+  "name": "Michael Burkhart's Site",
+  "short_name": "burkh4rt's homepage",
+  "description": "Snippets from work and life, with links",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#800000",
+  "theme_color": "#800000",
+  "lang": "en",
+  "scope": "/",
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "src": "m.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "purpose": "any",
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
