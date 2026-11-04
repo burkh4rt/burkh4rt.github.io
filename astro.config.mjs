@@ -2,7 +2,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
-import AstroPWA from "@vite-pwa/astro";
+import { AstroPWAIntegration } from "@vite-pwa/astro";
 import { defineConfig } from "astro/config";
 import fg from "fast-glob";
 import { imagetools } from "vite-imagetools";
@@ -15,7 +15,7 @@ export default defineConfig({
   compressHTML: true,
   integrations: [
     react(),
-    AstroPWA({
+    AstroPWAIntegration({
       manifest: {
         name: "Michael Burkhart's Site",
         short_name: "burkh4rt's homepage",
@@ -47,10 +47,25 @@ export default defineConfig({
         ],
       },
       registerType: "autoUpdate",
-      workbox: {
+      // globPatterns already precaches the icons; v2 re-adds them with bad
+      // (utf-8-hashed) revisions that make the service worker fail to install
+      includeManifestIcons: false,
+      maximumFileSizeToCacheInBytes: 3000000,
+      generateSW: {
         globPatterns: ["**/*.{js,css,html,ico,png,svg,woff2,avif}", "cv.pdf"],
         navigateFallback: null,
-        maximumFileSizeToCacheInBytes: 3000000,
+        runtimeCaching: [
+          {
+            // papers: cached on first open, then served from the cache while it
+            // refreshes in the background (PDFs get replaced under the same name)
+            urlPattern: ({ sameOrigin, url }) =>
+              sameOrigin &&
+              url.pathname.startsWith("/pubs/") &&
+              url.pathname.endsWith(".pdf"),
+            handler: "StaleWhileRevalidate",
+            options: { cacheName: "pubs-pdfs" },
+          },
+        ],
       },
       devOptions: {
         enabled: true,
@@ -85,7 +100,7 @@ export default defineConfig({
     "/cv": "https://burkh4rt.github.io/cv.pdf",
   },
   vite: {
-    build: { cssMinify: "esbuild" },
+    css: { lightningcss: { drafts: { customMedia: true } } },
     plugins: [svgr(), imagetools()],
     resolve: {
       noExternal: ["@primer/react"],

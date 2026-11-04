@@ -709,6 +709,52 @@ export default function PubsLayout({ pathname }) {
         <Text>
           <ul className="pubslist">
             <li>
+              M. Burkhart,{" "}
+              <Link
+                href="https://doi.org/10.48550/arXiv.2611.05060"
+                target="_blank"
+                rel="noopener noreferrer"
+                inline={true}
+              >
+                Odd-ordered Cayley graphs satisfy Erdős–Gyárfás
+              </Link>
+              , arXiv:2611.05060&ensp;&ensp;
+              <Link
+                href="pubs/Burkhart-2026-arXiv-2.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                inline={true}
+                className="nowrap"
+              >
+                pdf&thinsp;
+                <LinkExternalIcon verticalAlign="middle" />
+              </Link>
+            </li>
+
+            <li>
+              M. Burkhart,{" "}
+              <Link
+                href="https://doi.org/10.48550/arXiv.2609.37678"
+                target="_blank"
+                rel="noopener noreferrer"
+                inline={true}
+              >
+                Local conjugacy in prosolvable groups
+              </Link>
+              , arXiv:2609.37678&ensp;&ensp;
+              <Link
+                href="pubs/Burkhart-2026-arXiv.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                inline={true}
+                className="nowrap"
+              >
+                pdf&thinsp;
+                <LinkExternalIcon verticalAlign="middle" />
+              </Link>
+            </li>
+
+            <li>
               M. Burkhart, L. Solo, I. Lee, S. Charles, Z. Liao, K. Chhikara, D.
               Therese, W.-T. Liao, C. Gao, W. Parker, and B. Beaulieu-Jones,{" "}
               <Link
