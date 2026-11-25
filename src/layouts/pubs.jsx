@@ -13,14 +13,7 @@ import "../styles/globals.css";
 
 export default function PubsLayout({ pathname }) {
   return (
-    <SplitPageLayout
-      padding={{
-        narrow: "condensed",
-        regular: "normal",
-        wide: "normal",
-      }}
-      className="page"
-    >
+    <SplitPageLayout padding="none" className="page">
       <SplitPageLayout.Header>
         <Breadcrumbs>
           <Breadcrumbs.Item href="/">home</Breadcrumbs.Item>
@@ -36,8 +29,8 @@ export default function PubsLayout({ pathname }) {
         <Text>
           <ul className="pubslist">
             <li>
-              M. Burkhart, B. Ramadan, L. Solo, W. Parker, &amp; B.
-              Beaulieu-Jones,{" "}
+              M.&nbsp;Burkhart, B.&nbsp;Ramadan, L.&nbsp;Solo, W.&nbsp;Parker,
+              &amp; B.&nbsp;Beaulieu-Jones,{" "}
               <Link
                 href="https://doi.org/10.1142/9789819824755_0013"
                 target="_blank"
@@ -62,8 +55,8 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              S. Sethi, D. Chen, M. Burkhart, N. Bhandari, B. Ramadan, &amp; B.
-              Beaulieu-Jones,{" "}
+              S.&nbsp;Sethi, D.&nbsp;Chen, M.&nbsp;Burkhart, N.&nbsp;Bhandari,
+              B.&nbsp;Ramadan, &amp; B.&nbsp;Beaulieu-Jones,{" "}
               <Link
                 href="https://doi.org/10.1142/9789819824755_0049"
                 target="_blank"
@@ -87,8 +80,8 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              B. Ramadan, M.-C. Liu, M. Burkhart, W. Parker, &amp; B.
-              Beaulieu-Jones,{" "}
+              B.&nbsp;Ramadan, M.-C.&nbsp;Liu, M.&nbsp;Burkhart, W.&nbsp;Parker,
+              &amp; B.&nbsp;Beaulieu-Jones,{" "}
               <Link
                 href="https://doi.org/10.1001/jamanetworkopen.2025.50454"
                 target="_blank"
@@ -112,8 +105,8 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              S. Sethi, D. Chen, T. Statchen, M. Burkhart, N. Bhandari, B.
-              Ramadan, &amp; B. Beaulieu-Jones,{" "}
+              S.&nbsp;Sethi, D.&nbsp;Chen, T.&nbsp;Statchen, M.&nbsp;Burkhart,
+              N.&nbsp;Bhandari, B.&nbsp;Ramadan, &amp; B.&nbsp;Beaulieu-Jones,{" "}
               <Link
                 href="https://proceedings.mlr.press/v298/sethi25a.html"
                 target="_blank"
@@ -138,7 +131,7 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              M. Burkhart,{" "}
+              M.&nbsp;Burkhart,{" "}
               <Link
                 href="https://doi.org/10.1017/S0017089524000363"
                 target="_blank"
@@ -172,7 +165,7 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              M. Burkhart,{" "}
+              M.&nbsp;Burkhart,{" "}
               <Link
                 href="https://doi.org/10.1017/prm.2023.96"
                 target="_blank"
@@ -207,7 +200,8 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              E. G. Woo, M. Burkhart, E. Alsentzer, &amp; B. Beaulieu-Jones,{" "}
+              E.&nbsp;G.&nbsp;Woo, M.&nbsp;Burkhart, E.&nbsp;Alsentzer, &amp;
+              B.&nbsp;Beaulieu-Jones,{" "}
               <Link
                 href="https://doi.org/10.1038/s41746-025-01681-4"
                 target="_blank"
@@ -231,8 +225,8 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              M. Burkhart, L. Lee, D. Vaghari, A. Toh, E. Chong, C. Chen, P.
-              Tiňo, &amp; Z. Kourtzi,{" "}
+              M.&nbsp;Burkhart, L.&nbsp;Lee, D.&nbsp;Vaghari, A.&nbsp;Toh,
+              E.&nbsp;Chong, C.&nbsp;Chen, P.&nbsp;Tiňo, &amp; Z.&nbsp;Kourtzi,{" "}
               <Link
                 href="https://doi.org/10.1038/s41598-024-60914-w"
                 target="_blank"
@@ -256,9 +250,10 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              L. Lee, D. Vaghari, M. Burkhart, P. Tiňo, M. Montagnese, Z. Li, K.
-              Zühlsdorff, J. Giorgio, G. Williams, E. Chong, C. Chen, B.
-              Underwood, T. Rittman, &amp; Z. Kourtzi,{" "}
+              L.&nbsp;Lee, D.&nbsp;Vaghari, M.&nbsp;Burkhart, P.&nbsp;Tiňo,
+              M.&nbsp;Montagnese, Z.&nbsp;Li, K.&nbsp;Zühlsdorff,
+              J.&nbsp;Giorgio, G.&nbsp;Williams, E.&nbsp;Chong, C.&nbsp;Chen,
+              B.&nbsp;Underwood, T.&nbsp;Rittman, &amp; Z.&nbsp;Kourtzi,{" "}
               <Link
                 href="https://doi.org/10.1016/j.eclinm.2024.102725"
                 target="_blank"
@@ -282,7 +277,7 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              M. Burkhart &amp; G. Ruiz,{" "}
+              M.&nbsp;Burkhart &amp; G.&nbsp;Ruiz,{" "}
               <Link
                 href="https://doi.org/10.1016/j.jocs.2023.102054"
                 target="_blank"
@@ -306,7 +301,7 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              M. Burkhart,{" "}
+              M.&nbsp;Burkhart,{" "}
               <Link
                 href="https://doi.org/10.1007/s11590-022-01895-5"
                 target="_blank"
@@ -341,8 +336,9 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              R. Li, E. Harshfield, S. Bell, M. Burkhart, A. Tuladhar, &hellip;,
-              C. Chen, Z. Kourtzi, &amp; H. Markus,{" "}
+              R.&nbsp;Li, E.&nbsp;Harshfield, S.&nbsp;Bell, M.&nbsp;Burkhart,
+              A.&nbsp;Tuladhar, &hellip;, C.&nbsp;Chen, Z.&nbsp;Kourtzi, &amp;
+              H.&nbsp;Markus,{" "}
               <Link
                 href="https://doi.org/10.1016/j.cccb.2023.100179"
                 target="_blank"
@@ -368,9 +364,10 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              R. Borchert, T. Azevedo, A. Badhwar, J. Bernal, M. Betts, R.
-              Bruffaerts, M. Burkhart, I. Dewachter, &hellip;, D. Llewellyn, M.
-              Veldsman, &amp; T. Rittman,{" "}
+              R.&nbsp;Borchert, T.&nbsp;Azevedo, A.&nbsp;Badhwar,
+              J.&nbsp;Bernal, M.&nbsp;Betts, R.&nbsp;Bruffaerts,
+              M.&nbsp;Burkhart, I.&nbsp;Dewachter, &hellip;, D.&nbsp;Llewellyn,
+              M.&nbsp;Veldsman, &amp; T.&nbsp;Rittman,{" "}
               <Link
                 href="https://doi.org/10.1002/alz.13412"
                 target="_blank"
@@ -394,7 +391,7 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              M. Burkhart,{" "}
+              M.&nbsp;Burkhart,{" "}
               <Link
                 href="https://doi.org/10.1017/S0013091522000499"
                 target="_blank"
@@ -430,7 +427,7 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              M. Burkhart &amp; G. Ruiz,{" "}
+              M.&nbsp;Burkhart &amp; G.&nbsp;Ruiz,{" "}
               <Link
                 href="https://doi.org/10.1007/978-3-031-08754-7_1"
                 target="_blank"
@@ -453,7 +450,7 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              M. Burkhart,{" "}
+              M.&nbsp;Burkhart,{" "}
               <Link
                 href="https://doi.org/10.1007/978-3-030-77964-1_22"
                 target="_blank"
@@ -488,7 +485,7 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              M. Burkhart &amp; K. Shan,{" "}
+              M.&nbsp;Burkhart &amp; K.&nbsp;Shan,{" "}
               <Link
                 href="https://doi.org/10.1007/978-3-030-50420-5_22"
                 target="_blank"
@@ -522,8 +519,8 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              M. Burkhart, D. Brandman, B. Franco, L. Hochberg, &amp; M.
-              Harrison,{" "}
+              M.&nbsp;Burkhart, D.&nbsp;Brandman, B.&nbsp;Franco,
+              L.&nbsp;Hochberg, &amp; M.&nbsp;Harrison,{" "}
               <Link
                 href="https://doi.org/10.1162/neco_a_01275"
                 target="_blank"
@@ -558,7 +555,7 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              M. Burkhart &amp; K. Modarresi,{" "}
+              M.&nbsp;Burkhart &amp; K.&nbsp;Modarresi,{" "}
               <Link
                 href="https://doi.org/10.1007/978-3-030-22741-8_42"
                 target="_blank"
@@ -582,7 +579,7 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              M. Burkhart &amp; K. Modarresi,{" "}
+              M.&nbsp;Burkhart &amp; K.&nbsp;Modarresi,{" "}
               <Link
                 href="https://doi.org/10.1007/978-3-030-22741-8_43"
                 target="_blank"
@@ -617,8 +614,8 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              D. Brandman, M. Burkhart, J. Kelemen, B. Franco, M. Harrison,
-              &amp; L. Hochberg,{" "}
+              D.&nbsp;Brandman, M.&nbsp;Burkhart, J.&nbsp;Kelemen,
+              B.&nbsp;Franco, M.&nbsp;Harrison, &amp; L.&nbsp;Hochberg,{" "}
               <Link
                 href="https://doi.org/10.1162/neco_a_01129"
                 target="_blank"
@@ -653,15 +650,16 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              D. Brandman, T. Hosman, J. Saab, M. Burkhart, B. Shanahan, J.
-              Ciancibello, &hellip;, M. Harrison, J. Simeral, &amp; L. Hochberg,{" "}
+              D.&nbsp;Brandman, T.&nbsp;Hosman, J.&nbsp;Saab, M.&nbsp;Burkhart,
+              B.&nbsp;Shanahan, J.&nbsp;Ciancibello, &hellip;, M.&nbsp;Harrison,
+              J.&nbsp;Simeral, &amp; L.&nbsp;Hochberg,{" "}
               <Link
                 href="https://doi.org/10.1088/1741-2552/aa9ee7"
                 target="_blank"
                 rel="noopener noreferrer"
                 inline={true}
               >
-                Rapid calibration of an intracortical brain computer interface
+                Rapid calibration of an intracortical brain–computer interface
                 for people with tetraplegia
               </Link>
               , Journal of Neural Engineering 15 (2018)&ensp;&ensp;
@@ -678,7 +676,7 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              M. Burkhart, Y. Heo, &amp; V. Zavala,{" "}
+              M.&nbsp;Burkhart, Y.&nbsp;Heo, &amp; V.&nbsp;Zavala,{" "}
               <Link
                 href="https://doi.org/10.1016/j.enbuild.2014.01.048"
                 target="_blank"
@@ -709,7 +707,7 @@ export default function PubsLayout({ pathname }) {
         <Text>
           <ul className="pubslist">
             <li>
-              M. Burkhart,{" "}
+              M.&nbsp;Burkhart,{" "}
               <Link
                 href="https://doi.org/10.48550/arXiv.2611.05060"
                 target="_blank"
@@ -732,7 +730,7 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              M. Burkhart,{" "}
+              M.&nbsp;Burkhart,{" "}
               <Link
                 href="https://doi.org/10.48550/arXiv.2609.37678"
                 target="_blank"
@@ -755,8 +753,9 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              M. Burkhart, L. Solo, I. Lee, S. Charles, Z. Liao, K. Chhikara, D.
-              Therese, W.-T. Liao, C. Gao, W. Parker, and B. Beaulieu-Jones,{" "}
+              M.&nbsp;Burkhart, L.&nbsp;Solo, I.&nbsp;Lee, S.&nbsp;Charles,
+              Z.&nbsp;Liao, K.&nbsp;Chhikara, D.&nbsp;Therese, W.-T.&nbsp;Liao,
+              C.&nbsp;Gao, W.&nbsp;Parker, &amp; B.&nbsp;Beaulieu-Jones,{" "}
               <Link
                 href="https://doi.org/10.48550/arXiv.2608.02939"
                 target="_blank"
@@ -780,8 +779,8 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              I. Lee, L. Solo, M. Burkhart, B. Ramadan, W. Parker, &amp; B.
-              Beaulieu-Jones,{" "}
+              I.&nbsp;Lee, L.&nbsp;Solo, M.&nbsp;Burkhart, B.&nbsp;Ramadan,
+              W.&nbsp;Parker, &amp; B.&nbsp;Beaulieu-Jones,{" "}
               <Link
                 href="https://doi.org/10.48550/arXiv.2604.16775"
                 target="_blank"
@@ -805,8 +804,8 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              L. Solo, M. McDermott, W. Parker, B. Ramadan, M. Burkhart, &amp;
-              B. Beaulieu-Jones,{" "}
+              L.&nbsp;Solo, M.&nbsp;McDermott, W.&nbsp;Parker, B.&nbsp;Ramadan,
+              M.&nbsp;Burkhart, &amp; B.&nbsp;Beaulieu-Jones,{" "}
               <Link
                 href="https://doi.org/10.48550/arXiv.2602.03730"
                 target="_blank"
@@ -830,9 +829,10 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              N. Hahn, E. Stein, BrainGate Consortium (128 named members
-              including M. Burkhart, D. Brandman, E. Brown, & M. Harrison), J.
-              Donoghue, J. Simeral, L. Hochberg, & F. Willett,{" "}
+              N.&nbsp;Hahn, E.&nbsp;Stein, BrainGate Consortium (128 named
+              members including M.&nbsp;Burkhart, D.&nbsp;Brandman,
+              E.&nbsp;Brown, & M.&nbsp;Harrison), J.&nbsp;Donoghue,
+              J.&nbsp;Simeral, L.&nbsp;Hochberg, & F.&nbsp;Willett,{" "}
               <Link
                 href="https://doi.org/10.1101/2025.07.02.25330310"
                 target="_blank"
@@ -856,8 +856,8 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              M. Burkhart, B. Ramadan, Z. Liao, K. Chhikara, J. Rojas, W.
-              Parker, &amp; B. Beaulieu-Jones,{" "}
+              M.&nbsp;Burkhart, B.&nbsp;Ramadan, Z.&nbsp;Liao, K.&nbsp;Chhikara,
+              J.&nbsp;Rojas, W.&nbsp;Parker, &amp; B.&nbsp;Beaulieu-Jones,{" "}
               <Link
                 href="https://doi.org/10.48550/arXiv.2504.10422"
                 target="_blank"
@@ -881,8 +881,10 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              M. Abroshan, M. Burkhart, O. Giles, S. Greenbury, Z. Kourtzi, J.
-              Roberts, M. van der Schaar, J. Steyn, A. Wilson, &amp; M. Yong,{" "}
+              M.&nbsp;Abroshan, M.&nbsp;Burkhart, O.&nbsp;Giles,
+              S.&nbsp;Greenbury, Z.&nbsp;Kourtzi, J.&nbsp;Roberts,
+              M.&nbsp;van&nbsp;der&nbsp;Schaar, J.&nbsp;Steyn, A.&nbsp;Wilson,
+              &amp; M.&nbsp;Yong,{" "}
               <Link
                 href="https://doi.org/10.48550/arXiv.2303.01513"
                 target="_blank"
@@ -906,7 +908,7 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              M. Burkhart,{" "}
+              M.&nbsp;Burkhart,{" "}
               <Link
                 href="https://doi.org/10.48550/arXiv.1209.3357"
                 target="_blank"
@@ -937,7 +939,7 @@ export default function PubsLayout({ pathname }) {
         <Text>
           <ul className="pubslist">
             <li>
-              M. Burkhart,{" "}
+              M.&nbsp;Burkhart,{" "}
               <Link
                 href="https://doi.org/10.26300/nhfp-xv22"
                 target="_blank"
@@ -978,7 +980,7 @@ export default function PubsLayout({ pathname }) {
           </PageHeader>
           <ul className="pubslist">
             <li>
-              M. Burkhart &amp; G. Ruiz,{" "}
+              M.&nbsp;Burkhart &amp; G.&nbsp;Ruiz,{" "}
               <Link
                 href="https://patents.google.com/patent/US12602589B2"
                 target="_blank"
@@ -1012,7 +1014,7 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              M. Burkhart &amp; K. Shan,{" "}
+              M.&nbsp;Burkhart &amp; K.&nbsp;Shan,{" "}
               <Link
                 href="https://patents.google.com/patent/US11455518B2"
                 target="_blank"
@@ -1036,7 +1038,7 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              M. Burkhart &amp; K. Modarresi,{" "}
+              M.&nbsp;Burkhart &amp; K.&nbsp;Modarresi,{" "}
               <Link
                 href="https://patents.google.com/patent/US11816562B2"
                 target="_blank"

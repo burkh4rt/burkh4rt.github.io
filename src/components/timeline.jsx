@@ -35,8 +35,9 @@ export default function TLine() {
           </Link>
           ,&nbsp;I derived a novel approach to Bayesian filtering, the
           Discriminative Kalman Filter, motivated by and developed with my
-          advisor M. Harrison and collaborators D. Brandman and L. Hochberg. We
-          validated and successfully implemented this filter as part of the{" "}
+          advisor M.&nbsp;Harrison and collaborators D.&nbsp;Brandman and
+          L.&nbsp;Hochberg. We validated and successfully implemented this
+          filter as part of the{" "}
           <Link
             href="https://www.braingate.org"
             target="_blank"

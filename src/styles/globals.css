@@ -11,6 +11,12 @@
 @import "@primer/primitives/dist/css/functional/themes/light.css";
 @import "@primer/primitives/dist/css/functional/themes/dark-dimmed.css";
 
+/* the theme tokens above only apply inside Primer's ThemeProvider wrapper;
+   this lets the page's own scrollbar and overscroll area go dark too */
+:root {
+  color-scheme: light dark;
+}
+
 @font-face {
   font-family: "Gill Sans Nova";
   src:
@@ -102,6 +108,13 @@
   text-indent: -2em;
   padding-bottom: 0.75em;
   max-width: calc(max(75%, 500px));
+}
+
+@media (max-width: 48rem) {
+  /* on phones, drop the browser's default list indent (keep the hanging one) */
+  .pubslist {
+    padding-left: 0;
+  }
 }
 
 .columnar {

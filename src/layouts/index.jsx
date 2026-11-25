@@ -11,18 +11,7 @@ import "../styles/globals.css";
 
 export default function Home({ pathname }) {
   return (
-    <SplitPageLayout
-      padding={{
-        narrow: "condensed",
-        regular: "normal",
-        wide: "normal",
-      }}
-      sx={{
-        display: ["block", "grid"],
-        alignItems: "start",
-      }}
-      className="page"
-    >
+    <SplitPageLayout padding="none" className="page">
       <div className="content-wrapper">
         <SplitPageLayout.Pane
           className="pl-med"
