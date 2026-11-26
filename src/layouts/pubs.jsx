@@ -829,33 +829,6 @@ export default function PubsLayout({ pathname }) {
             </li>
 
             <li>
-              N.&nbsp;Hahn, E.&nbsp;Stein, BrainGate Consortium (128 named
-              members including M.&nbsp;Burkhart, D.&nbsp;Brandman,
-              E.&nbsp;Brown, & M.&nbsp;Harrison), J.&nbsp;Donoghue,
-              J.&nbsp;Simeral, L.&nbsp;Hochberg, & F.&nbsp;Willett,{" "}
-              <Link
-                href="https://doi.org/10.1101/2025.07.02.25330310"
-                target="_blank"
-                rel="noopener noreferrer"
-                inline={true}
-              >
-                Long-term performance of intracortical microelectrode arrays in
-                14 BrainGate clinical trial participants
-              </Link>
-              , medRxiv:2025.07.02.25330310&ensp;&ensp;
-              <Link
-                href="pubs/Hahn-et-al-2025-medRxiv.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                inline={true}
-                className="nowrap"
-              >
-                pdf&thinsp;
-                <LinkExternalIcon verticalAlign="middle" />
-              </Link>
-            </li>
-
-            <li>
               M.&nbsp;Burkhart, B.&nbsp;Ramadan, Z.&nbsp;Liao, K.&nbsp;Chhikara,
               J.&nbsp;Rojas, W.&nbsp;Parker, &amp; B.&nbsp;Beaulieu-Jones,{" "}
               <Link
@@ -1051,6 +1024,40 @@ export default function PubsLayout({ pathname }) {
               , U.S. Patent 11,816,562 filed 2019, granted 2023&ensp;&ensp;
               <Link
                 href="pubs/Burkhart-Modarresi-US11816562B2.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                inline={true}
+                className="nowrap"
+              >
+                pdf&thinsp;
+                <LinkExternalIcon verticalAlign="middle" />
+              </Link>
+            </li>
+          </ul>
+        </Text>
+
+        <PageHeader as="h3" id="preprints" className="normal-weight">
+          Consortium Authorship
+        </PageHeader>
+        <Text>
+          <ul className="pubslist">
+            <li>
+              N.&nbsp;Hahn, E.&nbsp;Stein, BrainGate Consortium (128 named
+              members including M.&nbsp;Burkhart, D.&nbsp;Brandman,
+              E.&nbsp;Brown, & M.&nbsp;Harrison), J.&nbsp;Donoghue,
+              J.&nbsp;Simeral, L.&nbsp;Hochberg, & F.&nbsp;Willett,{" "}
+              <Link
+                href="https://doi.org/10.1038/s41591-026-04530-3"
+                target="_blank"
+                rel="noopener noreferrer"
+                inline={true}
+              >
+                Performance of intracortical microelectrode arrays in people
+                with implanted brain–computer interfaces over a 20-year period
+              </Link>
+              , Nature Medicine (2026)&ensp;&ensp;
+              <Link
+                href="pubs/Hahn-et-al-2026-Nat-Med.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 inline={true}
